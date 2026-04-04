@@ -10,7 +10,7 @@ venue_types:
   - all
 vef_alignment:
   - strategy-and-effective-change-leadership
-node_count: 2
+node_count: 3
 tags:
   - domain
   - venue-ops

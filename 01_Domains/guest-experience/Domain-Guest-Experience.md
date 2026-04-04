@@ -10,7 +10,7 @@ venue_types:
   - all
 vef_alignment:
   - guest-experience
-node_count: 1
+node_count: 2
 tags:
   - domain
   - venue-ops

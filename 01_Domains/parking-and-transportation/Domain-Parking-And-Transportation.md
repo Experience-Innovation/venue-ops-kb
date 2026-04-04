@@ -11,7 +11,7 @@ venue_types:
 vef_alignment:
   - guest-experience
   - operational-efficiency-productivity-creativity
-node_count: 0
+node_count: 10
 tags:
   - domain
   - venue-ops

@@ -10,9 +10,9 @@
   "total_input_files": 31,
   "processable_files": 28,
   "excluded_files": 3,
-  "notes_created": 95,
-  "notes_enriched": 11,
-  "sources_created": 90,
+  "notes_created": 115,
+  "notes_enriched": 15,
+  "sources_created": 120,
   "validation_errors": 0,
 
   "excluded": [
@@ -148,7 +148,7 @@
     {
       "id": "batch-04-event-ops-av",
       "description": "Event Operations, AV & Production, Logistics",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Event-Ops-Show-Management-Services.md",
         "DR-Event-Ops-Changeovers-Show-Management.md",
@@ -158,8 +158,11 @@
       "primary_domains": ["event-operations", "av-and-production", "logistics-and-warehouse"],
       "secondary_domains": ["technology-and-digital", "people-and-culture"],
       "notes_target": "20-30",
-      "session": null,
-      "notes": "Event day operations, changeovers, show management, exhibitor services, AV/production, broadcast, rigging, cybersecurity."
+      "notes_created": 20,
+      "sources_created": 30,
+      "session": "13",
+      "completed_date": "2026-04-04",
+      "notes": "20 concept notes (8 event-ops, 9 AV, 2 technology, 1 accessibility) + 30 source notes. Event-ops and AV at working depth."
     },
     {
       "id": "batch-05-commercial-premium",

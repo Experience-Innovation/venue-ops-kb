@@ -1,7 +1,7 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00 through batch-03 complete. Next: batch-04-event-ops-av.
+batch-00 through batch-04 complete. Next: batch-05-commercial-premium.
 
 ## Session History
 
@@ -27,9 +27,17 @@ batch-00 through batch-03 complete. Next: batch-04-event-ops-av.
 - [x] Full QA/QC: PASS — 0 issues across 53 files (terminology, schema, wikilinks, link integrity, orphans, vocabulary)
 - [x] Validation report: batch-03 PASS
 
+**batch-04-event-ops-av completed:**
+- [x] Read 4 DR files via parallel subagent extraction
+- [x] Created 30 source notes (Source-0091 through Source-0120)
+- [x] Created 20 concept notes: 8 event-ops, 9 AV, 2 technology, 1 accessibility
+- [x] Updated 4 domain overview node counts
+- [x] QA/QC: resolved 5 broken links + 2 orphans
+- [x] Validation: PASS — 0 issues after remediation
+
 **Not completed:**
-- [ ] batch-04-event-ops-av (next session)
-- [ ] Remaining 8 batches per pipeline-state.json
+- [ ] batch-05-commercial-premium (next session)
+- [ ] Remaining 7 batches per pipeline-state.json
 
 **Failed Approaches:**
 - (None this session)
@@ -119,14 +127,14 @@ batch-00 through batch-03 complete. Next: batch-04-event-ops-av.
 | 1 | guest-experience | Scaffolded | 0 | batch-05, batch-07 |
 | 2 | people-and-culture | Scaffolded | 2 | batch-03, batch-06, batch-09 |
 | 3 | food-and-beverage | **Working depth** | 12 | batch-03 |
-| 4 | event-operations | Scaffolded | 0 | batch-04 |
+| 4 | event-operations | **Working depth** | 8 | batch-04 |
 | 5 | facilities-and-building-systems | **Working depth** | 14 | batch-02 |
 | 6 | safety-and-risk | **Working depth** | 12 | batch-01 |
 | 7 | security | Minimum viable | 6 | batch-01 |
 | 8 | crowd-management | Minimum viable | 4 | batch-01 |
 | 9 | sustainability-and-environmental | Minimum viable | 7 | batch-02, batch-07 |
-| 10 | technology-and-digital | Scaffolded | 2 | batch-04, batch-09 |
-| 11 | av-and-production | Scaffolded | 0 | batch-04 |
+| 10 | technology-and-digital | Minimum viable | 4 | batch-04, batch-09 |
+| 11 | av-and-production | **Working depth** | 9 | batch-04 |
 | 12 | data-and-analytics | Scaffolded | 0 | batch-09 |
 | 13 | financial-operations | Scaffolded | 0 | batch-06 |
 | 14 | commercial-and-revenue | Scaffolded | 0 | batch-05 |
@@ -138,7 +146,7 @@ batch-00 through batch-03 complete. Next: batch-04-event-ops-av.
 | 20 | marketing-and-communications | Scaffolded | 0 | batch-05, batch-06 |
 | 21 | premium-and-vip | Scaffolded | 0 | batch-05 |
 | 22 | legal-compliance-and-licensing | Scaffolded | 2 | batch-01, batch-03, batch-06 |
-| 23 | inclusivity-and-accessibility | Scaffolded | 0 | batch-06 |
+| 23 | inclusivity-and-accessibility | Scaffolded | 1 | batch-06 |
 | 24 | strategy-and-governance | Scaffolded | 0 | batch-07, batch-09 |
 | 25 | quality-and-continuous-improvement | Scaffolded | 0 | batch-07, batch-09 |
 | 26 | tenant-and-partner-relations | Scaffolded | 0 | batch-05 |
@@ -157,24 +165,24 @@ batch-00 through batch-03 complete. Next: batch-04-event-ops-av.
 | Processable files | 28 |
 | Excluded files | 3 |
 | Domain overview notes | 26 / 26 |
-| Concept notes | 68 |
-| Source notes | 90 |
+| Concept notes | 88 |
+| Source notes | 120 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
 | MOC notes | 1 |
-| Validation reports | 4 |
-| Git commits | 4 |
+| Validation reports | 5 |
+| Git commits | 5 |
 
 ---
 
 ## Next Session Priority
 
-1. **batch-04-event-ops-av** — Process 4 DR files covering event operations, AV/production
-2. **batch-05-commercial-premium** — Process 2 DR files covering commercial, premium, marketing, parking
+1. **batch-05-commercial-premium** — Process 2 DR files covering commercial, premium, marketing, parking
+2. **batch-06-legal-insurance-accessibility** — Process 2 DR files covering legal, insurance, accessibility
 3. Continue processing in batch order per pipeline-state.json
 
 ---
 
-*Updated: 2026-04-04 — Session 13 (batch-02 + batch-03 complete)*
+*Updated: 2026-04-04 — Session 13 (batch-02 + batch-03 + batch-04 complete)*

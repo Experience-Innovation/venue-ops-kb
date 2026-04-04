@@ -10,7 +10,7 @@ venue_types:
   - all
 vef_alignment:
   - systems-processes-clarity-of-roles
-node_count: 2
+node_count: 7
 tags:
   - domain
   - venue-ops

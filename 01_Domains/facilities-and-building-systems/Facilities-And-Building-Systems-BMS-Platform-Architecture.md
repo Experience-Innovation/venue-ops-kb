@@ -28,6 +28,8 @@ related_to:
   - "[[Facilities-And-Building-Systems-Event-Driven-HVAC-Control]]"
   - "[[Facilities-And-Building-Systems-BIM-Digital-Twin]]"
   - "[[Facilities-And-Building-Systems-Predictive-Condition-Based-Maintenance]]"
+  - "[[Facilities-And-Building-Systems-Critical-System-Redundancy]]"
+  - "[[Technology-And-Digital-IoT-Smart-Building]]"
 key_metrics:
   - "System uptime percentage"
   - "Energy consumption per event"

@@ -26,6 +26,7 @@ related_to:
   - "[[Sustainability-And-Environmental-LEED-Green-Building]]"
   - "[[Sustainability-And-Environmental-Carbon-Tracking-ESG]]"
   - "[[Facilities-And-Building-Systems-Ice-Arena-Refrigeration]]"
+  - "[[Technology-And-Digital-EV-Charging-Infrastructure]]"
 key_metrics:
   - "Scope 1+2 emissions (tCO2e)"
   - "Renewable energy percentage"

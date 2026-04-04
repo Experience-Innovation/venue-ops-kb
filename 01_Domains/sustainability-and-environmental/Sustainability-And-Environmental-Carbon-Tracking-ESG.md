@@ -24,6 +24,7 @@ child_of: "[[Domain-Sustainability-And-Environmental]]"
 related_to:
   - "[[Sustainability-And-Environmental-Renewable-Energy-Decarbonization]]"
   - "[[Sustainability-And-Environmental-LEED-Green-Building]]"
+  - "[[Sustainability-And-Environmental-Net-Zero-Carbon-Events]]"
 key_metrics:
   - "Total Scope 1+2 emissions (tCO2e/year)"
   - "Scope 3 per-event estimate"

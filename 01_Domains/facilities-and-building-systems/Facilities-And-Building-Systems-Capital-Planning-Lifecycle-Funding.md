@@ -20,6 +20,7 @@ child_of: "[[Domain-Facilities-And-Building-Systems]]"
 related_to:
   - "[[Facilities-And-Building-Systems-CMMS-Preventive-Maintenance]]"
   - "[[Facilities-And-Building-Systems-BIM-Digital-Twin]]"
+  - "[[Facilities-And-Building-Systems-Sports-Field-Turf-Management]]"
 key_metrics:
   - "Capital reserve as % of replacement value (2-4%)"
   - "Facility Condition Index (FCI)"

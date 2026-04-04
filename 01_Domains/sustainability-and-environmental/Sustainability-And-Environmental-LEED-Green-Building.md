@@ -27,6 +27,7 @@ related_to:
   - "[[Sustainability-And-Environmental-Renewable-Energy-Decarbonization]]"
   - "[[Sustainability-And-Environmental-Water-Conservation]]"
   - "[[Sustainability-And-Environmental-Zero-Waste-TRUE-Certification]]"
+  - "[[Sustainability-And-Environmental-Venue-Benchmarking]]"
 key_metrics:
   - "LEED certification level (Certified/Silver/Gold/Platinum)"
   - "ENERGY STAR score"

@@ -10,9 +10,9 @@
   "total_input_files": 31,
   "processable_files": 28,
   "excluded_files": 3,
-  "notes_created": 115,
+  "notes_created": 153,
   "notes_enriched": 15,
-  "sources_created": 120,
+  "sources_created": 180,
   "validation_errors": 0,
 
   "excluded": [
@@ -167,7 +167,7 @@
     {
       "id": "batch-05-commercial-premium",
       "description": "Commercial, Premium/VIP, Marketing, Parking, Ticketing, Booking",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Premium-Hospitality-Marketing-Access.md",
         "DR-Parking-Premium-Marketing-Compliance.md"
@@ -175,13 +175,16 @@
       "primary_domains": ["commercial-and-revenue", "premium-and-vip", "marketing-and-communications", "parking-and-transportation", "ticketing-and-box-office", "booking-and-sales"],
       "secondary_domains": ["guest-experience"],
       "notes_target": "15-25",
-      "session": null,
-      "notes": "Revenue-facing domains. Premium hospitality, marketing compliance, parking operations, access management."
+      "notes_created": 22,
+      "sources_created": 30,
+      "session": "14",
+      "completed_date": "2026-04-04",
+      "notes": "22 concept notes (5 premium, 10 parking, 5 marketing, 1 commercial, 1 guest-experience) + 30 source notes. Parking at working depth (10). Premium and marketing at minimum viable (5 each)."
     },
     {
       "id": "batch-06-legal-insurance-accessibility",
       "description": "Legal & Compliance, Insurance, Accessibility, Community Impact",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Insurance-Labor-Accessibility-Compliance.md",
         "DR-Community-Impact-Accessibility-Inclusivity.md"
@@ -189,8 +192,11 @@
       "primary_domains": ["legal-compliance-and-licensing", "inclusivity-and-accessibility"],
       "secondary_domains": ["people-and-culture", "strategy-and-governance"],
       "notes_target": "10-20",
-      "session": null,
-      "notes": "Regulatory compliance, insurance, labor law, ADA/AODA, universal design, community impact, social responsibility."
+      "notes_created": 16,
+      "sources_created": 30,
+      "session": "14",
+      "completed_date": "2026-04-04",
+      "notes": "16 concept notes (5 legal, 6 accessibility, 3 people-and-culture, 2 strategy) + 30 source notes. Legal and accessibility at minimum viable (7 each). People-and-culture at minimum viable (5)."
     },
     {
       "id": "batch-07-awards-ecosystem",

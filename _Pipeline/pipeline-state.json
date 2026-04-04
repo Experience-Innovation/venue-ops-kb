@@ -2,17 +2,17 @@
   "project": "venue-ops-kb",
   "version": "2.0",
   "created": "2026-04-03",
-  "updated": "2026-04-03",
+  "updated": "2026-04-04",
   "methodology": "VEP-KB-Data-Science-Methodology_v1.0.md",
   "taxonomy_version": "26-domain (Decision #30)",
   "relationship_types": 7,
-  "phase": "discovery-complete",
+  "phase": "batch-processing",
   "total_input_files": 31,
   "processable_files": 28,
   "excluded_files": 3,
-  "notes_created": 0,
-  "notes_enriched": 0,
-  "sources_created": 0,
+  "notes_created": 49,
+  "notes_enriched": 3,
+  "sources_created": 30,
   "validation_errors": 0,
 
   "excluded": [
@@ -78,17 +78,19 @@
     {
       "id": "batch-00-scaffold",
       "description": "Create 26 domain overview notes + master ecosystem MOC + _sessions infrastructure",
-      "status": "pending",
+      "status": "complete",
       "input_files": [],
       "primary_domains": "all",
       "notes_target": 27,
-      "session": null,
-      "notes": "Uses domain list from VOCABULARY.yaml. Creates skeleton domain notes in 01_Domains/{slug}/ and Map-Venue-Operations-Ecosystem.md in 07_MOCs/. No research files needed."
+      "notes_created": 27,
+      "session": "12",
+      "completed_date": "2026-04-04",
+      "notes": "26 domain overview notes in 01_Domains/{slug}/ + Map-Venue-Operations-Ecosystem.md in 07_MOCs/. All pass schema validation."
     },
     {
       "id": "batch-01-safety-emergency",
       "description": "Safety, Risk, Security, Crowd Management, Emergency Management",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Emergency-Management-Life-Safety-Security-v1.md",
         "DR-Emergency-Management-Life-Safety-Security-v2.md",
@@ -99,8 +101,11 @@
       "primary_domains": ["safety-and-risk", "security", "crowd-management"],
       "secondary_domains": ["legal-compliance-and-licensing", "facilities-and-building-systems"],
       "notes_target": "25-40",
-      "session": null,
-      "notes": "4 dedicated DR files + building codes. Highest volume of research. Process emergency management, crowd safety, fire/life safety codes, security operations, insurance/risk."
+      "notes_created": 22,
+      "sources_created": 30,
+      "session": "12",
+      "completed_date": "2026-04-04",
+      "notes": "22 concept notes (12 safety, 6 security, 4 crowd-management) + 30 source notes. Safety-and-risk at working depth."
     },
     {
       "id": "batch-02-facilities-sustainability",

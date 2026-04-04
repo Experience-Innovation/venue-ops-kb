@@ -1,9 +1,48 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-Discovery complete. Workspace setup complete. Ready for batch-00-scaffold (domain overview creation).
+batch-00-scaffold and batch-01-safety-emergency complete. Next: batch-02-facilities-sustainability.
 
 ## Session History
+
+### Session 12 — 2026-04-04 (Batch Processing Begins)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-12/batch-processing (git worktree)
+**Focus:** batch-00-scaffold + batch-01 processing
+
+**Completed:**
+- [x] Pre-flight checklist (all 7 items verified)
+- [x] PR #1 merged (confirmed via git fetch)
+- [x] Main synced, worktree created
+- [x] Created 26 domain subdirectories in 01_Domains/
+- [x] Created 26 domain overview notes with full frontmatter, scope, key functions, cross-domain links
+- [x] Created master MOC: Map-Venue-Operations-Ecosystem.md with VEF alignment mapping
+- [x] Created missing vault directories (02_Standards through 07_MOCs)
+- [x] Terminology scan: zero violations (no forbidden terms)
+- [x] Schema validation: all 27 notes pass
+- [x] Updated pipeline-state.json: batch-00-scaffold → complete
+- [x] Updated progress.md
+
+**batch-01-safety-emergency completed:**
+- [x] Read 5 DR files via parallel subagents (4 agents processing simultaneously)
+- [x] Extracted concepts, standards, technologies, organizations, people, source URLs from all 5 files
+- [x] Created 30 source notes in 06_Sources/ for key cited sources
+- [x] Created 22 concept notes: 12 safety-and-risk, 6 security, 4 crowd-management
+- [x] Cross-linked all concept notes (child_of, related_to, governed_by, supported_by)
+- [x] Updated domain node counts (safety:12, security:6, crowd:4)
+- [x] Terminology scan: zero violations
+- [x] Validation report written: batch-01 PASS
+
+**Not completed:**
+- [ ] batch-02-facilities-sustainability (next session)
+- [ ] Remaining 10 batches per pipeline-state.json
+
+**Failed Approaches:**
+- (None this session)
+
+**Decisions Made:**
+- (None — executing per established plan)
+
 
 ### Session 11 — 2026-04-04 (Discovery & Workspace Setup)
 **Machine:** MacBook Air (bubblegumpshrimpco)
@@ -45,32 +84,32 @@ Discovery complete. Workspace setup complete. Ready for batch-00-scaffold (domai
 
 | # | Domain | Status | Concept Count | Batch |
 |---|--------|--------|--------------|-------|
-| 1 | guest-experience | Not started | 0 | batch-05, batch-07 |
-| 2 | people-and-culture | Not started | 0 | batch-03, batch-06, batch-09 |
-| 3 | food-and-beverage | Not started | 0 | batch-03 |
-| 4 | event-operations | Not started | 0 | batch-04 |
-| 5 | facilities-and-building-systems | Not started | 0 | batch-02 |
-| 6 | safety-and-risk | Not started | 0 | batch-01 |
-| 7 | security | Not started | 0 | batch-01 |
-| 8 | crowd-management | Not started | 0 | batch-01 |
-| 9 | sustainability-and-environmental | Not started | 0 | batch-02, batch-07 |
-| 10 | technology-and-digital | Not started | 0 | batch-04, batch-09 |
-| 11 | av-and-production | Not started | 0 | batch-04 |
-| 12 | data-and-analytics | Not started | 0 | batch-09 |
-| 13 | financial-operations | Not started | 0 | batch-06 |
-| 14 | commercial-and-revenue | Not started | 0 | batch-05 |
-| 15 | ticketing-and-box-office | Not started | 0 | batch-05 |
-| 16 | booking-and-sales | Not started | 0 | batch-05 |
-| 17 | supply-chain-and-procurement | Not started | 0 | batch-03 |
-| 18 | logistics-and-warehouse | Not started | 0 | batch-03, batch-04 |
-| 19 | parking-and-transportation | Not started | 0 | batch-05 |
-| 20 | marketing-and-communications | Not started | 0 | batch-05, batch-06 |
-| 21 | premium-and-vip | Not started | 0 | batch-05 |
-| 22 | legal-compliance-and-licensing | Not started | 0 | batch-01, batch-03, batch-06 |
-| 23 | inclusivity-and-accessibility | Not started | 0 | batch-06 |
-| 24 | strategy-and-governance | Not started | 0 | batch-07, batch-09 |
-| 25 | quality-and-continuous-improvement | Not started | 0 | batch-07, batch-09 |
-| 26 | tenant-and-partner-relations | Not started | 0 | batch-05 |
+| 1 | guest-experience | Scaffolded | 0 | batch-05, batch-07 |
+| 2 | people-and-culture | Scaffolded | 0 | batch-03, batch-06, batch-09 |
+| 3 | food-and-beverage | Scaffolded | 0 | batch-03 |
+| 4 | event-operations | Scaffolded | 0 | batch-04 |
+| 5 | facilities-and-building-systems | Scaffolded | 0 | batch-02 |
+| 6 | safety-and-risk | **Working depth** | 12 | batch-01 |
+| 7 | security | Minimum viable | 6 | batch-01 |
+| 8 | crowd-management | Minimum viable | 4 | batch-01 |
+| 9 | sustainability-and-environmental | Scaffolded | 0 | batch-02, batch-07 |
+| 10 | technology-and-digital | Scaffolded | 0 | batch-04, batch-09 |
+| 11 | av-and-production | Scaffolded | 0 | batch-04 |
+| 12 | data-and-analytics | Scaffolded | 0 | batch-09 |
+| 13 | financial-operations | Scaffolded | 0 | batch-06 |
+| 14 | commercial-and-revenue | Scaffolded | 0 | batch-05 |
+| 15 | ticketing-and-box-office | Scaffolded | 0 | batch-05 |
+| 16 | booking-and-sales | Scaffolded | 0 | batch-05 |
+| 17 | supply-chain-and-procurement | Scaffolded | 0 | batch-03 |
+| 18 | logistics-and-warehouse | Scaffolded | 0 | batch-03, batch-04 |
+| 19 | parking-and-transportation | Scaffolded | 0 | batch-05 |
+| 20 | marketing-and-communications | Scaffolded | 0 | batch-05, batch-06 |
+| 21 | premium-and-vip | Scaffolded | 0 | batch-05 |
+| 22 | legal-compliance-and-licensing | Scaffolded | 0 | batch-01, batch-03, batch-06 |
+| 23 | inclusivity-and-accessibility | Scaffolded | 0 | batch-06 |
+| 24 | strategy-and-governance | Scaffolded | 0 | batch-07, batch-09 |
+| 25 | quality-and-continuous-improvement | Scaffolded | 0 | batch-07, batch-09 |
+| 26 | tenant-and-partner-relations | Scaffolded | 0 | batch-05 |
 
 ## Next Session Priority
 
@@ -85,17 +124,25 @@ Discovery complete. Workspace setup complete. Ready for batch-00-scaffold (domai
 | Total input files | 31 |
 | Processable files | 28 |
 | Excluded files | 3 |
-| Domain overview notes | 0 / 26 |
-| Concept notes | 0 |
-| Source notes | 0 |
+| Domain overview notes | 26 / 26 |
+| Concept notes | 22 |
+| Source notes | 30 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
-| MOC notes | 0 |
-| Validation reports | 0 |
-| Git commits | 1 |
+| MOC notes | 1 |
+| Validation reports | 2 |
+| Git commits | 2 |
 
 ---
 
-*Updated: 2026-04-04 — Session 11 (Discovery & Workspace Setup)*
+## Next Session Priority
+
+1. **batch-02-facilities-sustainability** — Process 4 DR files covering facilities, building systems, sustainability
+2. **batch-03-fb-supplychain** — Process 4 DR files covering F&B, supply chain, procurement, logistics
+3. Continue processing in batch order per pipeline-state.json
+
+---
+
+*Updated: 2026-04-04 — Session 12 (batch-00 + batch-01 complete)*

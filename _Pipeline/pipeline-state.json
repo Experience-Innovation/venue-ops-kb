@@ -10,9 +10,9 @@
   "total_input_files": 31,
   "processable_files": 28,
   "excluded_files": 3,
-  "notes_created": 72,
-  "notes_enriched": 6,
-  "sources_created": 60,
+  "notes_created": 95,
+  "notes_enriched": 11,
+  "sources_created": 90,
   "validation_errors": 0,
 
   "excluded": [
@@ -129,7 +129,7 @@
     {
       "id": "batch-03-fb-supplychain",
       "description": "Food & Beverage, Supply Chain, Procurement, Logistics",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-FB-Operations-SupplyChain-Ecosystem.md",
         "DR-FB-Compliance-Health-Safety-SupplyChain.md",
@@ -139,8 +139,11 @@
       "primary_domains": ["food-and-beverage", "supply-chain-and-procurement", "logistics-and-warehouse"],
       "secondary_domains": ["legal-compliance-and-licensing", "people-and-culture"],
       "notes_target": "25-35",
-      "session": null,
-      "notes": "F&B is 30-40% of non-ticket venue revenue — treat with proportional depth. 4 dedicated DR files covering operations, compliance, regulatory, and awards."
+      "notes_created": 23,
+      "sources_created": 30,
+      "session": "13",
+      "completed_date": "2026-04-04",
+      "notes": "23 concept notes (12 F&B, 4 supply chain, 3 logistics, 2 legal, 2 people) + 30 source notes. F&B at working depth (12). Supply chain and logistics at minimum viable."
     },
     {
       "id": "batch-04-event-ops-av",

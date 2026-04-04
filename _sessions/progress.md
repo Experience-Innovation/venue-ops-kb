@@ -1,30 +1,35 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00 through batch-02 complete. Next: batch-03-fb-supplychain.
+batch-00 through batch-03 complete. Next: batch-04-event-ops-av.
 
 ## Session History
 
-### Session 13 — 2026-04-04 (batch-02 Facilities & Sustainability)
+### Session 13 — 2026-04-04 (batch-02 + batch-03)
 **Machine:** MacBook Air (bubblegumpshrimpco)
 **Branch:** session-13/batch-processing (git worktree)
-**Focus:** batch-02-facilities-sustainability processing
+**Focus:** batch-02-facilities-sustainability + batch-03-fb-supplychain
 
-**Completed:**
+**batch-02-facilities-sustainability completed:**
 - [x] Pre-flight checklist verified (PR #2 merged, main pulled, worktree created)
 - [x] Read 3 facilities DR files via parallel subagent extraction
 - [x] Reused building codes extraction data from Session 12
 - [x] Created 30 source notes (Source-0031 through Source-0060)
 - [x] Created 23 concept notes: 14 facilities, 7 sustainability, 2 technology
-- [x] Cross-linked all notes (child_of, related_to, governed_by, supported_by)
-- [x] Updated 3 domain overview node counts (facilities:14, sustainability:7, technology:2)
-- [x] Terminology scan: zero violations across 53 files
-- [x] Schema validation: all 53 files pass
-- [x] Validation report: batch-02 PASS
+- [x] QA/QC: resolved 6 orphan notes (added inbound related_to links)
+- [x] Validation: PASS — 0 issues across 53 files
+
+**batch-03-fb-supplychain completed:**
+- [x] Read 4 F&B DR files via parallel subagent extraction
+- [x] Created 30 source notes (Source-0061 through Source-0090)
+- [x] Created 23 concept notes: 12 F&B, 4 supply chain, 3 logistics, 2 legal, 2 people
+- [x] Updated 5 domain overview node counts
+- [x] Full QA/QC: PASS — 0 issues across 53 files (terminology, schema, wikilinks, link integrity, orphans, vocabulary)
+- [x] Validation report: batch-03 PASS
 
 **Not completed:**
-- [ ] batch-03-fb-supplychain (next action)
-- [ ] Remaining 9 batches per pipeline-state.json
+- [ ] batch-04-event-ops-av (next session)
+- [ ] Remaining 8 batches per pipeline-state.json
 
 **Failed Approaches:**
 - (None this session)
@@ -112,8 +117,8 @@ batch-00 through batch-02 complete. Next: batch-03-fb-supplychain.
 | # | Domain | Status | Concept Count | Batch |
 |---|--------|--------|--------------|-------|
 | 1 | guest-experience | Scaffolded | 0 | batch-05, batch-07 |
-| 2 | people-and-culture | Scaffolded | 0 | batch-03, batch-06, batch-09 |
-| 3 | food-and-beverage | Scaffolded | 0 | batch-03 |
+| 2 | people-and-culture | Scaffolded | 2 | batch-03, batch-06, batch-09 |
+| 3 | food-and-beverage | **Working depth** | 12 | batch-03 |
 | 4 | event-operations | Scaffolded | 0 | batch-04 |
 | 5 | facilities-and-building-systems | **Working depth** | 14 | batch-02 |
 | 6 | safety-and-risk | **Working depth** | 12 | batch-01 |
@@ -127,12 +132,12 @@ batch-00 through batch-02 complete. Next: batch-03-fb-supplychain.
 | 14 | commercial-and-revenue | Scaffolded | 0 | batch-05 |
 | 15 | ticketing-and-box-office | Scaffolded | 0 | batch-05 |
 | 16 | booking-and-sales | Scaffolded | 0 | batch-05 |
-| 17 | supply-chain-and-procurement | Scaffolded | 0 | batch-03 |
-| 18 | logistics-and-warehouse | Scaffolded | 0 | batch-03, batch-04 |
+| 17 | supply-chain-and-procurement | Minimum viable | 4 | batch-03 |
+| 18 | logistics-and-warehouse | Minimum viable | 3 | batch-03, batch-04 |
 | 19 | parking-and-transportation | Scaffolded | 0 | batch-05 |
 | 20 | marketing-and-communications | Scaffolded | 0 | batch-05, batch-06 |
 | 21 | premium-and-vip | Scaffolded | 0 | batch-05 |
-| 22 | legal-compliance-and-licensing | Scaffolded | 0 | batch-01, batch-03, batch-06 |
+| 22 | legal-compliance-and-licensing | Scaffolded | 2 | batch-01, batch-03, batch-06 |
 | 23 | inclusivity-and-accessibility | Scaffolded | 0 | batch-06 |
 | 24 | strategy-and-governance | Scaffolded | 0 | batch-07, batch-09 |
 | 25 | quality-and-continuous-improvement | Scaffolded | 0 | batch-07, batch-09 |
@@ -152,24 +157,24 @@ batch-00 through batch-02 complete. Next: batch-03-fb-supplychain.
 | Processable files | 28 |
 | Excluded files | 3 |
 | Domain overview notes | 26 / 26 |
-| Concept notes | 45 |
-| Source notes | 60 |
+| Concept notes | 68 |
+| Source notes | 90 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
 | MOC notes | 1 |
-| Validation reports | 3 |
-| Git commits | 3 |
+| Validation reports | 4 |
+| Git commits | 4 |
 
 ---
 
 ## Next Session Priority
 
-1. **batch-03-fb-supplychain** — Process 4 DR files covering F&B, supply chain, procurement, logistics
-2. **batch-04-event-ops-av** — Process 4 DR files covering event operations, AV/production
+1. **batch-04-event-ops-av** — Process 4 DR files covering event operations, AV/production
+2. **batch-05-commercial-premium** — Process 2 DR files covering commercial, premium, marketing, parking
 3. Continue processing in batch order per pipeline-state.json
 
 ---
 
-*Updated: 2026-04-04 — Session 13 (batch-02 complete)*
+*Updated: 2026-04-04 — Session 13 (batch-02 + batch-03 complete)*

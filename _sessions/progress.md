@@ -1,7 +1,7 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00-scaffold complete (27 notes). Processing batch-01-safety-emergency.
+batch-00-scaffold and batch-01-safety-emergency complete. Next: batch-02-facilities-sustainability.
 
 ## Session History
 
@@ -23,8 +23,19 @@ batch-00-scaffold complete (27 notes). Processing batch-01-safety-emergency.
 - [x] Updated pipeline-state.json: batch-00-scaffold → complete
 - [x] Updated progress.md
 
+**batch-01-safety-emergency completed:**
+- [x] Read 5 DR files via parallel subagents (4 agents processing simultaneously)
+- [x] Extracted concepts, standards, technologies, organizations, people, source URLs from all 5 files
+- [x] Created 30 source notes in 06_Sources/ for key cited sources
+- [x] Created 22 concept notes: 12 safety-and-risk, 6 security, 4 crowd-management
+- [x] Cross-linked all concept notes (child_of, related_to, governed_by, supported_by)
+- [x] Updated domain node counts (safety:12, security:6, crowd:4)
+- [x] Terminology scan: zero violations
+- [x] Validation report written: batch-01 PASS
+
 **Not completed:**
-- [ ] batch-01-safety-emergency (in progress)
+- [ ] batch-02-facilities-sustainability (next session)
+- [ ] Remaining 10 batches per pipeline-state.json
 
 **Failed Approaches:**
 - (None this session)
@@ -78,9 +89,9 @@ batch-00-scaffold complete (27 notes). Processing batch-01-safety-emergency.
 | 3 | food-and-beverage | Scaffolded | 0 | batch-03 |
 | 4 | event-operations | Scaffolded | 0 | batch-04 |
 | 5 | facilities-and-building-systems | Scaffolded | 0 | batch-02 |
-| 6 | safety-and-risk | Scaffolded | 0 | batch-01 |
-| 7 | security | Scaffolded | 0 | batch-01 |
-| 8 | crowd-management | Scaffolded | 0 | batch-01 |
+| 6 | safety-and-risk | **Working depth** | 12 | batch-01 |
+| 7 | security | Minimum viable | 6 | batch-01 |
+| 8 | crowd-management | Minimum viable | 4 | batch-01 |
 | 9 | sustainability-and-environmental | Scaffolded | 0 | batch-02, batch-07 |
 | 10 | technology-and-digital | Scaffolded | 0 | batch-04, batch-09 |
 | 11 | av-and-production | Scaffolded | 0 | batch-04 |
@@ -114,16 +125,24 @@ batch-00-scaffold complete (27 notes). Processing batch-01-safety-emergency.
 | Processable files | 28 |
 | Excluded files | 3 |
 | Domain overview notes | 26 / 26 |
-| Concept notes | 0 |
-| Source notes | 0 |
+| Concept notes | 22 |
+| Source notes | 30 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
 | MOC notes | 1 |
-| Validation reports | 0 |
-| Git commits | 1 |
+| Validation reports | 2 |
+| Git commits | 2 |
 
 ---
 
-*Updated: 2026-04-04 — Session 12 (Batch Processing Begins)*
+## Next Session Priority
+
+1. **batch-02-facilities-sustainability** — Process 4 DR files covering facilities, building systems, sustainability
+2. **batch-03-fb-supplychain** — Process 4 DR files covering F&B, supply chain, procurement, logistics
+3. Continue processing in batch order per pipeline-state.json
+
+---
+
+*Updated: 2026-04-04 — Session 12 (batch-00 + batch-01 complete)*

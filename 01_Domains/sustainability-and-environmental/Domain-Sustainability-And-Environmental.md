@@ -10,7 +10,7 @@ venue_types:
   - all
 vef_alignment:
   - innovation-and-continuous-improvement
-node_count: 0
+node_count: 7
 tags:
   - domain
   - venue-ops

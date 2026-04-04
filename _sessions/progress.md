@@ -1,9 +1,36 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00-scaffold and batch-01-safety-emergency complete. Next: batch-02-facilities-sustainability.
+batch-00 through batch-02 complete. Next: batch-03-fb-supplychain.
 
 ## Session History
+
+### Session 13 — 2026-04-04 (batch-02 Facilities & Sustainability)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-13/batch-processing (git worktree)
+**Focus:** batch-02-facilities-sustainability processing
+
+**Completed:**
+- [x] Pre-flight checklist verified (PR #2 merged, main pulled, worktree created)
+- [x] Read 3 facilities DR files via parallel subagent extraction
+- [x] Reused building codes extraction data from Session 12
+- [x] Created 30 source notes (Source-0031 through Source-0060)
+- [x] Created 23 concept notes: 14 facilities, 7 sustainability, 2 technology
+- [x] Cross-linked all notes (child_of, related_to, governed_by, supported_by)
+- [x] Updated 3 domain overview node counts (facilities:14, sustainability:7, technology:2)
+- [x] Terminology scan: zero violations across 53 files
+- [x] Schema validation: all 53 files pass
+- [x] Validation report: batch-02 PASS
+
+**Not completed:**
+- [ ] batch-03-fb-supplychain (next action)
+- [ ] Remaining 9 batches per pipeline-state.json
+
+**Failed Approaches:**
+- (None this session)
+
+**Decisions Made:**
+- (None — executing per established plan)
 
 ### Session 12 — 2026-04-04 (Batch Processing Begins)
 **Machine:** MacBook Air (bubblegumpshrimpco)
@@ -88,12 +115,12 @@ batch-00-scaffold and batch-01-safety-emergency complete. Next: batch-02-facilit
 | 2 | people-and-culture | Scaffolded | 0 | batch-03, batch-06, batch-09 |
 | 3 | food-and-beverage | Scaffolded | 0 | batch-03 |
 | 4 | event-operations | Scaffolded | 0 | batch-04 |
-| 5 | facilities-and-building-systems | Scaffolded | 0 | batch-02 |
+| 5 | facilities-and-building-systems | **Working depth** | 14 | batch-02 |
 | 6 | safety-and-risk | **Working depth** | 12 | batch-01 |
 | 7 | security | Minimum viable | 6 | batch-01 |
 | 8 | crowd-management | Minimum viable | 4 | batch-01 |
-| 9 | sustainability-and-environmental | Scaffolded | 0 | batch-02, batch-07 |
-| 10 | technology-and-digital | Scaffolded | 0 | batch-04, batch-09 |
+| 9 | sustainability-and-environmental | Minimum viable | 7 | batch-02, batch-07 |
+| 10 | technology-and-digital | Scaffolded | 2 | batch-04, batch-09 |
 | 11 | av-and-production | Scaffolded | 0 | batch-04 |
 | 12 | data-and-analytics | Scaffolded | 0 | batch-09 |
 | 13 | financial-operations | Scaffolded | 0 | batch-06 |
@@ -125,24 +152,24 @@ batch-00-scaffold and batch-01-safety-emergency complete. Next: batch-02-facilit
 | Processable files | 28 |
 | Excluded files | 3 |
 | Domain overview notes | 26 / 26 |
-| Concept notes | 22 |
-| Source notes | 30 |
+| Concept notes | 45 |
+| Source notes | 60 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
 | MOC notes | 1 |
-| Validation reports | 2 |
-| Git commits | 2 |
+| Validation reports | 3 |
+| Git commits | 3 |
 
 ---
 
 ## Next Session Priority
 
-1. **batch-02-facilities-sustainability** — Process 4 DR files covering facilities, building systems, sustainability
-2. **batch-03-fb-supplychain** — Process 4 DR files covering F&B, supply chain, procurement, logistics
+1. **batch-03-fb-supplychain** — Process 4 DR files covering F&B, supply chain, procurement, logistics
+2. **batch-04-event-ops-av** — Process 4 DR files covering event operations, AV/production
 3. Continue processing in batch order per pipeline-state.json
 
 ---
 
-*Updated: 2026-04-04 — Session 12 (batch-00 + batch-01 complete)*
+*Updated: 2026-04-04 — Session 13 (batch-02 complete)*

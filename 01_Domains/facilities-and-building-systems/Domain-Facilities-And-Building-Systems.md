@@ -11,7 +11,7 @@ venue_types:
 vef_alignment:
   - operational-efficiency-productivity-creativity
   - systems-processes-clarity-of-roles
-node_count: 0
+node_count: 14
 tags:
   - domain
   - venue-ops

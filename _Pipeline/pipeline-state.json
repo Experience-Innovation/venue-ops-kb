@@ -10,9 +10,9 @@
   "total_input_files": 31,
   "processable_files": 28,
   "excluded_files": 3,
-  "notes_created": 49,
-  "notes_enriched": 3,
-  "sources_created": 30,
+  "notes_created": 72,
+  "notes_enriched": 6,
+  "sources_created": 60,
   "validation_errors": 0,
 
   "excluded": [
@@ -110,7 +110,7 @@
     {
       "id": "batch-02-facilities-sustainability",
       "description": "Facilities, Building Systems, Sustainability & Environmental",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Facilities-Building-Systems-Ecosystem-v1.md",
         "DR-Facilities-Building-Systems-v2.md",
@@ -120,8 +120,11 @@
       "primary_domains": ["facilities-and-building-systems", "sustainability-and-environmental"],
       "secondary_domains": ["technology-and-digital"],
       "notes_target": "20-30",
-      "session": null,
-      "notes": "3 facilities DR files + building codes (shared with batch-01). BMS, HVAC, MEP, cleaning, grounds, capital planning, space management."
+      "notes_created": 23,
+      "sources_created": 30,
+      "session": "13",
+      "completed_date": "2026-04-04",
+      "notes": "23 concept notes (14 facilities, 7 sustainability, 2 technology) + 30 source notes. Facilities at working depth. Sustainability at minimum viable."
     },
     {
       "id": "batch-03-fb-supplychain",

@@ -1,9 +1,49 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00-scaffold and batch-01-safety-emergency complete. Next: batch-02-facilities-sustainability.
+batch-00 through batch-04 complete. Next: batch-05-commercial-premium.
 
 ## Session History
+
+### Session 13 — 2026-04-04 (batch-02 + batch-03)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-13/batch-processing (git worktree)
+**Focus:** batch-02-facilities-sustainability + batch-03-fb-supplychain
+
+**batch-02-facilities-sustainability completed:**
+- [x] Pre-flight checklist verified (PR #2 merged, main pulled, worktree created)
+- [x] Read 3 facilities DR files via parallel subagent extraction
+- [x] Reused building codes extraction data from Session 12
+- [x] Created 30 source notes (Source-0031 through Source-0060)
+- [x] Created 23 concept notes: 14 facilities, 7 sustainability, 2 technology
+- [x] QA/QC: resolved 6 orphan notes (added inbound related_to links)
+- [x] Validation: PASS — 0 issues across 53 files
+
+**batch-03-fb-supplychain completed:**
+- [x] Read 4 F&B DR files via parallel subagent extraction
+- [x] Created 30 source notes (Source-0061 through Source-0090)
+- [x] Created 23 concept notes: 12 F&B, 4 supply chain, 3 logistics, 2 legal, 2 people
+- [x] Updated 5 domain overview node counts
+- [x] Full QA/QC: PASS — 0 issues across 53 files (terminology, schema, wikilinks, link integrity, orphans, vocabulary)
+- [x] Validation report: batch-03 PASS
+
+**batch-04-event-ops-av completed:**
+- [x] Read 4 DR files via parallel subagent extraction
+- [x] Created 30 source notes (Source-0091 through Source-0120)
+- [x] Created 20 concept notes: 8 event-ops, 9 AV, 2 technology, 1 accessibility
+- [x] Updated 4 domain overview node counts
+- [x] QA/QC: resolved 5 broken links + 2 orphans
+- [x] Validation: PASS — 0 issues after remediation
+
+**Not completed:**
+- [ ] batch-05-commercial-premium (next session)
+- [ ] Remaining 7 batches per pipeline-state.json
+
+**Failed Approaches:**
+- (None this session)
+
+**Decisions Made:**
+- (None — executing per established plan)
 
 ### Session 12 — 2026-04-04 (Batch Processing Begins)
 **Machine:** MacBook Air (bubblegumpshrimpco)
@@ -85,28 +125,28 @@ batch-00-scaffold and batch-01-safety-emergency complete. Next: batch-02-facilit
 | # | Domain | Status | Concept Count | Batch |
 |---|--------|--------|--------------|-------|
 | 1 | guest-experience | Scaffolded | 0 | batch-05, batch-07 |
-| 2 | people-and-culture | Scaffolded | 0 | batch-03, batch-06, batch-09 |
-| 3 | food-and-beverage | Scaffolded | 0 | batch-03 |
-| 4 | event-operations | Scaffolded | 0 | batch-04 |
-| 5 | facilities-and-building-systems | Scaffolded | 0 | batch-02 |
+| 2 | people-and-culture | Scaffolded | 2 | batch-03, batch-06, batch-09 |
+| 3 | food-and-beverage | **Working depth** | 12 | batch-03 |
+| 4 | event-operations | **Working depth** | 8 | batch-04 |
+| 5 | facilities-and-building-systems | **Working depth** | 14 | batch-02 |
 | 6 | safety-and-risk | **Working depth** | 12 | batch-01 |
 | 7 | security | Minimum viable | 6 | batch-01 |
 | 8 | crowd-management | Minimum viable | 4 | batch-01 |
-| 9 | sustainability-and-environmental | Scaffolded | 0 | batch-02, batch-07 |
-| 10 | technology-and-digital | Scaffolded | 0 | batch-04, batch-09 |
-| 11 | av-and-production | Scaffolded | 0 | batch-04 |
+| 9 | sustainability-and-environmental | Minimum viable | 7 | batch-02, batch-07 |
+| 10 | technology-and-digital | Minimum viable | 4 | batch-04, batch-09 |
+| 11 | av-and-production | **Working depth** | 9 | batch-04 |
 | 12 | data-and-analytics | Scaffolded | 0 | batch-09 |
 | 13 | financial-operations | Scaffolded | 0 | batch-06 |
 | 14 | commercial-and-revenue | Scaffolded | 0 | batch-05 |
 | 15 | ticketing-and-box-office | Scaffolded | 0 | batch-05 |
 | 16 | booking-and-sales | Scaffolded | 0 | batch-05 |
-| 17 | supply-chain-and-procurement | Scaffolded | 0 | batch-03 |
-| 18 | logistics-and-warehouse | Scaffolded | 0 | batch-03, batch-04 |
+| 17 | supply-chain-and-procurement | Minimum viable | 4 | batch-03 |
+| 18 | logistics-and-warehouse | Minimum viable | 3 | batch-03, batch-04 |
 | 19 | parking-and-transportation | Scaffolded | 0 | batch-05 |
 | 20 | marketing-and-communications | Scaffolded | 0 | batch-05, batch-06 |
 | 21 | premium-and-vip | Scaffolded | 0 | batch-05 |
-| 22 | legal-compliance-and-licensing | Scaffolded | 0 | batch-01, batch-03, batch-06 |
-| 23 | inclusivity-and-accessibility | Scaffolded | 0 | batch-06 |
+| 22 | legal-compliance-and-licensing | Scaffolded | 2 | batch-01, batch-03, batch-06 |
+| 23 | inclusivity-and-accessibility | Scaffolded | 1 | batch-06 |
 | 24 | strategy-and-governance | Scaffolded | 0 | batch-07, batch-09 |
 | 25 | quality-and-continuous-improvement | Scaffolded | 0 | batch-07, batch-09 |
 | 26 | tenant-and-partner-relations | Scaffolded | 0 | batch-05 |
@@ -125,24 +165,24 @@ batch-00-scaffold and batch-01-safety-emergency complete. Next: batch-02-facilit
 | Processable files | 28 |
 | Excluded files | 3 |
 | Domain overview notes | 26 / 26 |
-| Concept notes | 22 |
-| Source notes | 30 |
+| Concept notes | 88 |
+| Source notes | 120 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
 | MOC notes | 1 |
-| Validation reports | 2 |
-| Git commits | 2 |
+| Validation reports | 5 |
+| Git commits | 5 |
 
 ---
 
 ## Next Session Priority
 
-1. **batch-02-facilities-sustainability** — Process 4 DR files covering facilities, building systems, sustainability
-2. **batch-03-fb-supplychain** — Process 4 DR files covering F&B, supply chain, procurement, logistics
+1. **batch-05-commercial-premium** — Process 2 DR files covering commercial, premium, marketing, parking
+2. **batch-06-legal-insurance-accessibility** — Process 2 DR files covering legal, insurance, accessibility
 3. Continue processing in batch order per pipeline-state.json
 
 ---
 
-*Updated: 2026-04-04 — Session 12 (batch-00 + batch-01 complete)*
+*Updated: 2026-04-04 — Session 13 (batch-02 + batch-03 + batch-04 complete)*

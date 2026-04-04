@@ -10,9 +10,9 @@
   "total_input_files": 31,
   "processable_files": 28,
   "excluded_files": 3,
-  "notes_created": 49,
-  "notes_enriched": 3,
-  "sources_created": 30,
+  "notes_created": 115,
+  "notes_enriched": 15,
+  "sources_created": 120,
   "validation_errors": 0,
 
   "excluded": [
@@ -110,7 +110,7 @@
     {
       "id": "batch-02-facilities-sustainability",
       "description": "Facilities, Building Systems, Sustainability & Environmental",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Facilities-Building-Systems-Ecosystem-v1.md",
         "DR-Facilities-Building-Systems-v2.md",
@@ -120,13 +120,16 @@
       "primary_domains": ["facilities-and-building-systems", "sustainability-and-environmental"],
       "secondary_domains": ["technology-and-digital"],
       "notes_target": "20-30",
-      "session": null,
-      "notes": "3 facilities DR files + building codes (shared with batch-01). BMS, HVAC, MEP, cleaning, grounds, capital planning, space management."
+      "notes_created": 23,
+      "sources_created": 30,
+      "session": "13",
+      "completed_date": "2026-04-04",
+      "notes": "23 concept notes (14 facilities, 7 sustainability, 2 technology) + 30 source notes. Facilities at working depth. Sustainability at minimum viable."
     },
     {
       "id": "batch-03-fb-supplychain",
       "description": "Food & Beverage, Supply Chain, Procurement, Logistics",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-FB-Operations-SupplyChain-Ecosystem.md",
         "DR-FB-Compliance-Health-Safety-SupplyChain.md",
@@ -136,13 +139,16 @@
       "primary_domains": ["food-and-beverage", "supply-chain-and-procurement", "logistics-and-warehouse"],
       "secondary_domains": ["legal-compliance-and-licensing", "people-and-culture"],
       "notes_target": "25-35",
-      "session": null,
-      "notes": "F&B is 30-40% of non-ticket venue revenue — treat with proportional depth. 4 dedicated DR files covering operations, compliance, regulatory, and awards."
+      "notes_created": 23,
+      "sources_created": 30,
+      "session": "13",
+      "completed_date": "2026-04-04",
+      "notes": "23 concept notes (12 F&B, 4 supply chain, 3 logistics, 2 legal, 2 people) + 30 source notes. F&B at working depth (12). Supply chain and logistics at minimum viable."
     },
     {
       "id": "batch-04-event-ops-av",
       "description": "Event Operations, AV & Production, Logistics",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Event-Ops-Show-Management-Services.md",
         "DR-Event-Ops-Changeovers-Show-Management.md",
@@ -152,8 +158,11 @@
       "primary_domains": ["event-operations", "av-and-production", "logistics-and-warehouse"],
       "secondary_domains": ["technology-and-digital", "people-and-culture"],
       "notes_target": "20-30",
-      "session": null,
-      "notes": "Event day operations, changeovers, show management, exhibitor services, AV/production, broadcast, rigging, cybersecurity."
+      "notes_created": 20,
+      "sources_created": 30,
+      "session": "13",
+      "completed_date": "2026-04-04",
+      "notes": "20 concept notes (8 event-ops, 9 AV, 2 technology, 1 accessibility) + 30 source notes. Event-ops and AV at working depth."
     },
     {
       "id": "batch-05-commercial-premium",

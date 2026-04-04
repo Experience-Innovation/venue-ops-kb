@@ -10,7 +10,7 @@ venue_types:
   - all
 vef_alignment:
   - ai-and-digital-transformation
-node_count: 0
+node_count: 4
 tags:
   - domain
   - venue-ops

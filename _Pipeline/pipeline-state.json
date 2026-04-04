@@ -1,0 +1,253 @@
+{
+  "project": "venue-ops-kb",
+  "version": "2.0",
+  "created": "2026-04-03",
+  "updated": "2026-04-03",
+  "methodology": "VEP-KB-Data-Science-Methodology_v1.0.md",
+  "taxonomy_version": "26-domain (Decision #30)",
+  "relationship_types": 7,
+  "phase": "discovery-complete",
+  "total_input_files": 31,
+  "processable_files": 28,
+  "excluded_files": 3,
+  "notes_created": 0,
+  "notes_enriched": 0,
+  "sources_created": 0,
+  "validation_errors": 0,
+
+  "excluded": [
+    {
+      "file": "DR-Awards-BMO-Strategy-CS-ONLY.md",
+      "reason": "CS-specific content — NOT KB input per Decision #28. Tag cs_exemplar only.",
+      "source_dir": "Venues Ecosystem Taxonomy & Ontology research"
+    },
+    {
+      "file": "DR-Awards-BMO-Strategy-RAW-CS-ONLY.md",
+      "reason": "Duplicate of above from Raw Materials. CS-specific — NOT KB input.",
+      "source_dir": "Raw Materials"
+    },
+    {
+      "file": "DR-Awards-Ecosystem-Comprehensive-RAW.md",
+      "reason": "Duplicate of DR-Awards-Recognition-Ecosystem-Comprehensive.md (same file, different source directory). Process the taxonomy version.",
+      "source_dir": "Raw Materials"
+    }
+  ],
+
+  "duplicate_pairs": [
+    {
+      "note": "Awards ecosystem comprehensive",
+      "files": ["DR-Awards-Recognition-Ecosystem-Comprehensive.md", "DR-Awards-Ecosystem-Comprehensive-RAW.md"],
+      "action": "Process DR-Awards-Recognition-Ecosystem-Comprehensive.md only. Both are 63,772 bytes — identical."
+    },
+    {
+      "note": "F&B Awards ecosystem",
+      "files": ["DR-FB-Awards-Certifications-Standards.md", "DR-FB-Awards-Ecosystem-RAW.md"],
+      "action": "Process DR-FB-Awards-Certifications-Standards.md only. Both are 78,661 bytes — identical."
+    }
+  ],
+
+  "version_pairs": [
+    {
+      "topic": "Emergency Management, Life Safety & Security Operations",
+      "files": ["DR-Emergency-Management-Life-Safety-Security-v1.md", "DR-Emergency-Management-Life-Safety-Security-v2.md"],
+      "action": "Process both — different research outputs on same topic. Enrich notes across both."
+    },
+    {
+      "topic": "Life Safety, Security & Emergency Management Requirements",
+      "files": ["DR-Life-Safety-Security-Emergency-Requirements-v1.md", "DR-Life-Safety-Security-Emergency-Requirements-v2.md"],
+      "action": "Process both — different research outputs, requirements/compliance focus."
+    },
+    {
+      "topic": "Facilities Management & Building Systems",
+      "files": ["DR-Facilities-Building-Systems-Ecosystem-v1.md", "DR-Facilities-Building-Systems-v2.md", "DR-Facilities-Building-Systems-v3.md"],
+      "action": "Process all three — different research runs on same topic. Enrich notes across all."
+    },
+    {
+      "topic": "Event Operations & Show Management",
+      "files": ["DR-Event-Ops-Show-Management-Services.md", "DR-Event-Ops-Changeovers-Show-Management.md"],
+      "action": "Process both — complementary coverage of event operations."
+    },
+    {
+      "topic": "F&B Operations & Compliance",
+      "files": ["DR-FB-Operations-SupplyChain-Ecosystem.md", "DR-FB-Compliance-Health-Safety-SupplyChain.md", "DR-FB-Regulatory-Framework-US-Canada.md"],
+      "action": "Process all three — ops ecosystem, compliance, and regulatory framework are complementary."
+    }
+  ],
+
+  "batches": [
+    {
+      "id": "batch-00-scaffold",
+      "description": "Create 26 domain overview notes + master ecosystem MOC + _sessions infrastructure",
+      "status": "pending",
+      "input_files": [],
+      "primary_domains": "all",
+      "notes_target": 27,
+      "session": null,
+      "notes": "Uses domain list from VOCABULARY.yaml. Creates skeleton domain notes in 01_Domains/{slug}/ and Map-Venue-Operations-Ecosystem.md in 07_MOCs/. No research files needed."
+    },
+    {
+      "id": "batch-01-safety-emergency",
+      "description": "Safety, Risk, Security, Crowd Management, Emergency Management",
+      "status": "pending",
+      "input_files": [
+        "DR-Emergency-Management-Life-Safety-Security-v1.md",
+        "DR-Emergency-Management-Life-Safety-Security-v2.md",
+        "DR-Life-Safety-Security-Emergency-Requirements-v1.md",
+        "DR-Life-Safety-Security-Emergency-Requirements-v2.md",
+        "DR-Building-Codes-Environmental-Sustainability.md"
+      ],
+      "primary_domains": ["safety-and-risk", "security", "crowd-management"],
+      "secondary_domains": ["legal-compliance-and-licensing", "facilities-and-building-systems"],
+      "notes_target": "25-40",
+      "session": null,
+      "notes": "4 dedicated DR files + building codes. Highest volume of research. Process emergency management, crowd safety, fire/life safety codes, security operations, insurance/risk."
+    },
+    {
+      "id": "batch-02-facilities-sustainability",
+      "description": "Facilities, Building Systems, Sustainability & Environmental",
+      "status": "pending",
+      "input_files": [
+        "DR-Facilities-Building-Systems-Ecosystem-v1.md",
+        "DR-Facilities-Building-Systems-v2.md",
+        "DR-Facilities-Building-Systems-v3.md",
+        "DR-Building-Codes-Environmental-Sustainability.md"
+      ],
+      "primary_domains": ["facilities-and-building-systems", "sustainability-and-environmental"],
+      "secondary_domains": ["technology-and-digital"],
+      "notes_target": "20-30",
+      "session": null,
+      "notes": "3 facilities DR files + building codes (shared with batch-01). BMS, HVAC, MEP, cleaning, grounds, capital planning, space management."
+    },
+    {
+      "id": "batch-03-fb-supplychain",
+      "description": "Food & Beverage, Supply Chain, Procurement, Logistics",
+      "status": "pending",
+      "input_files": [
+        "DR-FB-Operations-SupplyChain-Ecosystem.md",
+        "DR-FB-Compliance-Health-Safety-SupplyChain.md",
+        "DR-FB-Regulatory-Framework-US-Canada.md",
+        "DR-FB-Awards-Certifications-Standards.md"
+      ],
+      "primary_domains": ["food-and-beverage", "supply-chain-and-procurement", "logistics-and-warehouse"],
+      "secondary_domains": ["legal-compliance-and-licensing", "people-and-culture"],
+      "notes_target": "25-35",
+      "session": null,
+      "notes": "F&B is 30-40% of non-ticket venue revenue — treat with proportional depth. 4 dedicated DR files covering operations, compliance, regulatory, and awards."
+    },
+    {
+      "id": "batch-04-event-ops-av",
+      "description": "Event Operations, AV & Production, Logistics",
+      "status": "pending",
+      "input_files": [
+        "DR-Event-Ops-Show-Management-Services.md",
+        "DR-Event-Ops-Changeovers-Show-Management.md",
+        "DR-AV-Production-Broadcast-Infrastructure.md",
+        "DR-AV-Infrastructure-Cybersecurity-Standards.md"
+      ],
+      "primary_domains": ["event-operations", "av-and-production", "logistics-and-warehouse"],
+      "secondary_domains": ["technology-and-digital", "people-and-culture"],
+      "notes_target": "20-30",
+      "session": null,
+      "notes": "Event day operations, changeovers, show management, exhibitor services, AV/production, broadcast, rigging, cybersecurity."
+    },
+    {
+      "id": "batch-05-commercial-premium",
+      "description": "Commercial, Premium/VIP, Marketing, Parking, Ticketing, Booking",
+      "status": "pending",
+      "input_files": [
+        "DR-Premium-Hospitality-Marketing-Access.md",
+        "DR-Parking-Premium-Marketing-Compliance.md"
+      ],
+      "primary_domains": ["commercial-and-revenue", "premium-and-vip", "marketing-and-communications", "parking-and-transportation", "ticketing-and-box-office", "booking-and-sales"],
+      "secondary_domains": ["guest-experience"],
+      "notes_target": "15-25",
+      "session": null,
+      "notes": "Revenue-facing domains. Premium hospitality, marketing compliance, parking operations, access management."
+    },
+    {
+      "id": "batch-06-legal-insurance-accessibility",
+      "description": "Legal & Compliance, Insurance, Accessibility, Community Impact",
+      "status": "pending",
+      "input_files": [
+        "DR-Insurance-Labor-Accessibility-Compliance.md",
+        "DR-Community-Impact-Accessibility-Inclusivity.md"
+      ],
+      "primary_domains": ["legal-compliance-and-licensing", "inclusivity-and-accessibility"],
+      "secondary_domains": ["people-and-culture", "strategy-and-governance"],
+      "notes_target": "10-20",
+      "session": null,
+      "notes": "Regulatory compliance, insurance, labor law, ADA/AODA, universal design, community impact, social responsibility."
+    },
+    {
+      "id": "batch-07-awards-ecosystem",
+      "description": "Awards & Recognition Ecosystem (cross-domain)",
+      "status": "pending",
+      "input_files": [
+        "DR-Awards-Recognition-Ecosystem-Comprehensive.md"
+      ],
+      "primary_domains": ["quality-and-continuous-improvement", "strategy-and-governance"],
+      "secondary_domains": ["guest-experience", "people-and-culture", "sustainability-and-environmental", "food-and-beverage"],
+      "notes_target": "10-15",
+      "session": null,
+      "notes": "Cross-domain awards ecosystem. Enriches existing domain notes with recognition programs and certification standards."
+    },
+    {
+      "id": "batch-08-venue-type-functions",
+      "description": "Operationally Distinct Functions by Venue Type (cross-domain enrichment)",
+      "status": "pending",
+      "input_files": [
+        "DR-Operationally-Distinct-Functions-By-VenueType.md"
+      ],
+      "primary_domains": "all",
+      "notes_target": "5-15",
+      "session": null,
+      "notes": "Cross-domain enrichment pass. Adds venue_type variations and delivery_model details to existing notes. May create new venue-type-specific concept notes."
+    },
+    {
+      "id": "batch-09-existing-dr",
+      "description": "Extract venue ops intelligence from original 5 DR reports",
+      "status": "pending",
+      "input_files": [
+        "DR-AI-Change-Management-Transformation.md",
+        "DR-B2B-Podcast-Behavior-Venue-Mgmt.md",
+        "DR-B2B-Podcast-Launch-Strategy.md",
+        "DR-OpEx-CI-Major-Venues.md",
+        "DR-Competitive-Positioning-GTM.md"
+      ],
+      "primary_domains": ["quality-and-continuous-improvement", "technology-and-digital", "data-and-analytics", "strategy-and-governance", "people-and-culture"],
+      "notes_target": "10-20",
+      "session": null,
+      "notes": "These reports contain venue ops intelligence embedded within podcast strategy content. Extract ONLY the venue operations facts. AI/change management, CI methodology, operational transformation, workforce, data architecture. Enriches existing notes."
+    },
+    {
+      "id": "batch-10-cross-linking",
+      "description": "Cross-domain linking, orphan detection, relationship density audit",
+      "status": "pending",
+      "input_files": [],
+      "primary_domains": "all",
+      "notes_target": 0,
+      "session": null,
+      "notes": "No new research. Process: (1) Run orphan detection across all folders, (2) Add missing cross-domain related_to links, (3) Validate relationship density targets, (4) Flag domains below minimum viable threshold."
+    },
+    {
+      "id": "batch-11-mocs",
+      "description": "Generate Maps of Content for all 26 domains + master ecosystem map",
+      "status": "pending",
+      "input_files": [],
+      "primary_domains": "all",
+      "notes_target": "27",
+      "session": null,
+      "notes": "Create 07_MOCs/ notes. One per domain + master Map-Venue-Operations-Ecosystem. Generate Dataview dashboard data."
+    },
+    {
+      "id": "batch-12-final-validation",
+      "description": "Full vault validation, statistics, and completion report",
+      "status": "pending",
+      "input_files": [],
+      "primary_domains": "all",
+      "notes_target": 0,
+      "session": null,
+      "notes": "Final pass: (1) Validate every note against schema, (2) Generate vault statistics, (3) Write completion report, (4) Update all domain node_counts, (5) Confirm GLRC provenance chain complete."
+    }
+  ]
+}

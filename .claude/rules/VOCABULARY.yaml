@@ -1,0 +1,180 @@
+# Venue Operations KB — Controlled Vocabulary
+# Version: 2.0 (updated Session 10 — 26-domain taxonomy, Q3-Q5 alignment, GLRC transparency)
+# All notes MUST use values from these lists for controlled fields.
+# Claude Code: validate against this file before writing any note.
+# Reference: VEP-KB-Data-Science-Methodology_v1.0.md
+
+note_type:
+  - domain          # Domain overview (26 total — Decision #30)
+  - concept         # Operational concept within a domain
+  - standard        # Regulatory standard, code, or certification
+  - technology      # Platform, tool, or system
+  - organization    # Industry body or association
+  - person          # Industry practitioner or thought leader
+  - source          # Citation/reference note
+  - map             # MOC or ecosystem overview
+
+status:
+  # Progressive deepening model (Q4): draft → reviewed → canonical
+  - draft           # Initial extraction from research (minimum viable)
+  - reviewed        # Human-verified, working depth achieved
+  - canonical       # Authoritative reference, full provenance chain
+  - archived        # Superseded or deprecated
+
+confidence:
+  # Quantification tiers (Q3) — no "unverified" tier; use status: draft + confidence: low
+  - high            # Directly stated in DR source with verifiable citation
+  - medium          # Inferred from multiple sources or corroborated across batches
+  - low             # Single source, indirect reference, or expert opinion
+
+priority:
+  - critical        # Core operational function — every venue type
+  - high            # Important operational domain — most venue types
+  - medium          # Supporting function — venue-type dependent
+  - low             # Peripheral or niche — specialist venues only
+
+# ============================================================
+# 26-DOMAIN TAXONOMY (Decision #30, locked Session 9)
+# Expanded from 17 via 3 critique rounds against Baldrige, EFQM,
+# AIPC, IAVM, Excellence Canada frameworks (middle-out method)
+# ============================================================
+domain:
+  - guest-experience
+  - people-and-culture
+  - food-and-beverage
+  - event-operations
+  - facilities-and-building-systems
+  - safety-and-risk
+  - security
+  - crowd-management
+  - sustainability-and-environmental
+  - technology-and-digital
+  - av-and-production
+  - data-and-analytics
+  - financial-operations
+  - commercial-and-revenue
+  - ticketing-and-box-office
+  - booking-and-sales
+  - supply-chain-and-procurement
+  - logistics-and-warehouse
+  - parking-and-transportation
+  - marketing-and-communications
+  - premium-and-vip
+  - legal-compliance-and-licensing
+  - inclusivity-and-accessibility
+  - strategy-and-governance
+  - quality-and-continuous-improvement
+  - tenant-and-partner-relations
+
+# ============================================================
+# 7-TYPE RELATIONSHIP TAXONOMY (Decision #31, locked Session 9)
+# Directional pairs where indicated. Stored in frontmatter as
+# underscore-separated keys with link-valued arrays.
+# ============================================================
+relationship_type:
+  - parent_of       # Hierarchical containment (directed, pair: child_of)
+  - child_of        # Inverse of parent_of
+  - implements      # Concept realizes a standard/framework (directed)
+  - governed_by     # Regulatory or policy constraint (directed)
+  - supported_by    # Enabling technology or system (directed)
+  - related_to      # Meaningful operational connection (undirected)
+  - varies_by       # Dimension-dependent variation (directed)
+  - scales_with     # Changes proportionally with a factor (directed)
+
+# ============================================================
+# CROSS-CUTTING DIMENSIONS (Decision #35, locked Session 10)
+# Applied to every knowledge note where relevant
+# ============================================================
+venue_type:
+  - convention-centre
+  - arena
+  - stadium
+  - performing-arts-centre
+  - integrated-resort
+  - theme-park
+  - major-attraction
+  - amphitheatre
+  - fairground-exhibition
+  - university-venue
+  - all
+
+venue_scale:
+  - small           # < 50K sq ft or < 5K capacity
+  - medium          # 50K-250K sq ft or 5K-20K capacity
+  - large           # 250K-500K sq ft or 20K-50K capacity
+  - mega            # 500K+ sq ft or 50K+ capacity
+
+delivery_model:
+  - in-house        # Operated by venue staff
+  - outsourced      # Contracted to third party
+  - hybrid          # Mixed model
+
+jurisdiction:
+  - us-federal
+  - us-state
+  - canada-federal
+  - canada-provincial
+  - international
+
+source_type:
+  - deep-research       # Perplexity/Gemini DR output
+  - industry-publication
+  - regulatory-document
+  - academic-paper
+  - trade-association
+  - vendor-documentation
+  - news-article
+  - conference-proceedings
+
+# ============================================================
+# RESEARCH BATCHES — v2.0 (13 prompts, Decision #29)
+# Maps to VEP-KB-Research-Plan_v2.0.md execution sequence
+# ============================================================
+research_batch:
+  # v2.0 prompts (26-domain coverage)
+  - v2-prompt-01-event-ops       # Event Operations + Crowd Management
+  - v2-prompt-02-facilities      # Facilities + Building Systems + Sustainability
+  - v2-prompt-03-safety-crowd    # Safety/Risk + Emergency Management + Crowd Safety
+  - v2-prompt-04-security        # Security (physical, cyber, executive protection)
+  - v2-prompt-05-tech-digital    # Technology + Digital Infrastructure + Cybersecurity
+  - v2-prompt-06-av-production   # AV + Production + Broadcast + Rigging
+  - v2-prompt-07-data-analytics  # Data Architecture + BI + Predictive Analytics
+  - v2-prompt-08-fb-supply       # F&B + Supply Chain + Procurement + Logistics
+  - v2-prompt-09-financial       # Financial Ops + Legal + Insurance + Licensing
+  - v2-prompt-10-commercial      # Commercial + Revenue + Ticketing + Booking
+  - v2-prompt-11-premium-guest   # Premium/VIP + Guest Experience + Accessibility
+  - v2-prompt-12-people-culture  # People + Culture + Training + Volunteer
+  - v2-prompt-13-strategy-gov    # Strategy + Governance + Quality/CI + Marketing + Tenant
+  # v1.0 existing research (pre-taxonomy)
+  - existing-dr-1           # B2B Podcast Behavior in Venue Mgmt
+  - existing-dr-2           # OpEx & CI in Major Venues
+  - existing-dr-3           # B2B Podcast Launch Strategy
+  - existing-dr-4           # AI & Change Mgmt in Venue Ops
+  - existing-dr-5           # Competitive Positioning & GTM
+  # Supplementary research
+  - supp-fb-awards          # F&B Awards & Certifications (Session 9)
+  - supp-awards-ecosystem   # Venue Awards Ecosystem (Session 9)
+
+vef_alignment:
+  # Core Outcomes
+  - guest-experience
+  - employee-experience
+  - operational-efficiency-productivity-creativity
+  # Foundation Layers
+  - strategy-and-effective-change-leadership
+  - innovation-and-continuous-improvement
+  - ai-and-digital-transformation
+  - data-management-and-architecture
+  - knowledge-management
+  - systems-processes-clarity-of-roles
+
+# ============================================================
+# GLRC TRANSPARENCY (Q5, EU AI Act aligned)
+# Fields supporting provenance chain and governance
+# ============================================================
+extraction_model:
+  - claude-opus-4-6
+  - claude-sonnet-4-6
+  - perplexity-pro-dr
+  - gemini-3-pro-dr
+  - human-authored

@@ -1,0 +1,175 @@
+# Venue Operations KB — Frontmatter Schema
+# Version: 2.0 (updated Session 10 — 26 domains, relationship types, cross-cutting dimensions, GLRC transparency)
+# Defines required and optional properties per note_type.
+# Claude Code: validate every note against this schema before writing.
+# Reference: VEP-KB-Data-Science-Methodology_v1.0.md, VOCABULARY.yaml
+
+# ============================================================
+# UNIVERSAL (all note types)
+# ============================================================
+universal:
+  required:
+    - title           # text
+    - note_type       # text (from VOCABULARY.yaml)
+    - status          # text: draft | reviewed | canonical | archived
+    - created         # date (YYYY-MM-DD)
+    - updated         # date (YYYY-MM-DD)
+    - tags            # list
+    - ai_disclosure   # text — which AI model processed this note (GLRC Q5)
+  optional:
+    - aliases         # list — alternative names
+    - related_to      # list of wikilinks — undirected relationships (Decision #31)
+    - confidence      # text: high | medium | low (Q3 tiers)
+    - extraction_model # text (from VOCABULARY.yaml) — specific model used (GLRC Q5)
+    - human_reviewer  # text — who reviewed this note (GLRC Q5)
+    - review_date     # date — when human review occurred (GLRC Q5)
+
+# ============================================================
+# DOMAIN — Overview of an operational domain (26 total, Decision #30)
+# ============================================================
+domain:
+  required:
+    - domain          # text (from VOCABULARY.yaml domain list)
+    - description     # text — 2-3 sentence summary
+    - venue_types     # list (from VOCABULARY.yaml venue_type list)
+    - vef_alignment   # list (from VOCABULARY.yaml vef_alignment list)
+    - node_count      # number — how many concept notes exist under this domain
+  optional:
+    - parent_of       # list of wikilinks — child concept notes (Decision #31)
+    - child_of        # wikilink — parent domain if subdomain
+    - cross_domain    # list of wikilinks to related domains
+    - key_standards   # list of wikilinks to relevant standards
+    - key_orgs        # list of wikilinks to relevant organizations
+    - sources         # list of wikilinks to source notes
+    - venue_scale     # list (from VOCABULARY.yaml) — which scales this applies to
+    - delivery_model  # list (from VOCABULARY.yaml) — common delivery models
+    - jurisdiction    # list (from VOCABULARY.yaml) — regulatory jurisdictions
+
+# ============================================================
+# CONCEPT — Individual operational concept within a domain
+# ============================================================
+concept:
+  required:
+    - domain          # text (from VOCABULARY.yaml domain list)
+    - description     # text — 1-2 sentence summary
+    - venue_types     # list — which venue types this applies to
+    - vef_alignment   # list — which VEF elements this connects to
+    - sources         # list of wikilinks to source notes
+    - research_batch  # text — which research batch this was extracted from (Q5 provenance)
+  optional:
+    - child_of        # wikilink to parent domain overview (Decision #31)
+    - subdomain       # text — finer categorization within domain
+    - implements      # list of wikilinks — standards/frameworks this realizes
+    - governed_by     # list of wikilinks — regulatory constraints
+    - supported_by    # list of wikilinks — enabling technologies
+    - varies_by       # list of wikilinks — dimension-dependent variations
+    - scales_with     # list of wikilinks — proportional relationships
+    - standards       # list of wikilinks to relevant standards
+    - technologies    # list of wikilinks to relevant tech
+    - organizations   # list of wikilinks to relevant orgs
+    - confidence      # text: high | medium | low (Q3)
+    - venue_scale     # list — size-dependent variation
+    - delivery_model  # list — how this is typically staffed
+    - jurisdiction    # list — regulatory geography
+    - key_metrics     # list — KPIs or measurements
+    - staffing_models # list — staffing patterns
+    - best_practices  # list — documented best practices
+    - common_challenges # list — known pain points
+
+# ============================================================
+# STANDARD — Regulatory standard, code, or certification
+# ============================================================
+standard:
+  required:
+    - issuing_body    # text — organization that issues/maintains
+    - standard_id     # text — official ID (e.g., "NFPA 101")
+    - description     # text
+    - domains         # list (from VOCABULARY.yaml domain list)
+    - venue_types     # list
+    - sources         # list of wikilinks
+  optional:
+    - url             # text — link to official standard
+    - version         # text — current version/year
+    - jurisdiction    # list — where it applies
+    - compliance_type # text — mandatory, voluntary, best-practice
+    - certification_body # text
+    - governed_by     # list of wikilinks — regulatory hierarchy
+
+# ============================================================
+# TECHNOLOGY — Platform, tool, or system
+# ============================================================
+technology:
+  required:
+    - vendor          # text — company that makes it
+    - category        # text — what type of technology
+    - domains         # list — which operational domains it serves
+    - description     # text
+    - sources         # list of wikilinks
+  optional:
+    - url             # text — vendor website
+    - venue_types     # list
+    - maturity        # text — established, emerging, experimental
+    - integrations    # list — what it connects to
+    - supports        # list of wikilinks — concepts this enables (inverse of supported_by)
+    - pricing_model   # text — if publicly known
+
+# ============================================================
+# ORGANIZATION — Industry body or association
+# ============================================================
+organization:
+  required:
+    - org_type        # text — association, regulatory, educational, vendor
+    - description     # text
+    - domains         # list — which domains they're relevant to
+    - sources         # list of wikilinks
+  optional:
+    - url             # text
+    - headquarters    # text
+    - membership_size # text — approximate
+    - key_programs    # list — certifications, events, publications
+    - venue_types     # list
+
+# ============================================================
+# PERSON — Industry practitioner or thought leader
+# ============================================================
+person:
+  required:
+    - role            # text — current title
+    - organization    # text — current employer/affiliation
+    - relevance       # text — why they matter to venue ops
+    - sources         # list of wikilinks
+  optional:
+    - domains         # list
+    - credentials     # list — certifications, designations
+    - publications    # list — books, articles
+    - url             # text — LinkedIn, personal site
+    - verified        # boolean — has affiliation been verified against source
+
+# ============================================================
+# SOURCE — Citation/reference note
+# ============================================================
+source:
+  required:
+    - source_type     # text (from VOCABULARY.yaml source_type list)
+    - url             # text — original source URL (if available)
+    - accessed        # date — when this was accessed/cited
+    - description     # text — what this source covers
+  optional:
+    - author          # text or list
+    - publication     # text — journal, magazine, organization
+    - publish_date    # date
+    - citation_count  # number — how many notes cite this source
+    - domains         # list — which domains this source covers
+    - research_batch  # text — which batch brought this source in
+
+# ============================================================
+# MAP — MOC or ecosystem overview
+# ============================================================
+map:
+  required:
+    - scope           # text — what this map covers
+    - description     # text
+    - children        # list of wikilinks — notes this MOC links to
+  optional:
+    - domains         # list
+    - visualization   # text — description of intended visual

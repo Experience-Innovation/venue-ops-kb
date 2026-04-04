@@ -224,6 +224,7 @@ When context compacts, always preserve: current batch ID, notes created this ses
 | 10 | Greg Newton = featured guest, not co-host (S4) | If Greg appears in any content, verify terminology. |
 | 11 | F&B is 30-40% of non-ticket revenue (S9) | Never treat F&B as a sub-domain. Check depth against operational weight. |
 | 12 | No premature deletion (S11) | Never delete or archive research files. Log issues, skip if needed. |
+| 13 | Validate target architecture before committing (S11) | Define the structure (repo layout, folder convention, firewall boundaries) BEFORE populating it with content. A premature commit into the wrong structure creates rework. Extends Lesson #5 (methodology before pipeline). |
 
 ---
 

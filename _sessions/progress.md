@@ -1,9 +1,37 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-Discovery complete. Workspace setup complete. Ready for batch-00-scaffold (domain overview creation).
+batch-00-scaffold complete (27 notes). Processing batch-01-safety-emergency.
 
 ## Session History
+
+### Session 12 — 2026-04-04 (Batch Processing Begins)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-12/batch-processing (git worktree)
+**Focus:** batch-00-scaffold + batch-01 processing
+
+**Completed:**
+- [x] Pre-flight checklist (all 7 items verified)
+- [x] PR #1 merged (confirmed via git fetch)
+- [x] Main synced, worktree created
+- [x] Created 26 domain subdirectories in 01_Domains/
+- [x] Created 26 domain overview notes with full frontmatter, scope, key functions, cross-domain links
+- [x] Created master MOC: Map-Venue-Operations-Ecosystem.md with VEF alignment mapping
+- [x] Created missing vault directories (02_Standards through 07_MOCs)
+- [x] Terminology scan: zero violations (no forbidden terms)
+- [x] Schema validation: all 27 notes pass
+- [x] Updated pipeline-state.json: batch-00-scaffold → complete
+- [x] Updated progress.md
+
+**Not completed:**
+- [ ] batch-01-safety-emergency (in progress)
+
+**Failed Approaches:**
+- (None this session)
+
+**Decisions Made:**
+- (None — executing per established plan)
+
 
 ### Session 11 — 2026-04-04 (Discovery & Workspace Setup)
 **Machine:** MacBook Air (bubblegumpshrimpco)
@@ -45,32 +73,32 @@ Discovery complete. Workspace setup complete. Ready for batch-00-scaffold (domai
 
 | # | Domain | Status | Concept Count | Batch |
 |---|--------|--------|--------------|-------|
-| 1 | guest-experience | Not started | 0 | batch-05, batch-07 |
-| 2 | people-and-culture | Not started | 0 | batch-03, batch-06, batch-09 |
-| 3 | food-and-beverage | Not started | 0 | batch-03 |
-| 4 | event-operations | Not started | 0 | batch-04 |
-| 5 | facilities-and-building-systems | Not started | 0 | batch-02 |
-| 6 | safety-and-risk | Not started | 0 | batch-01 |
-| 7 | security | Not started | 0 | batch-01 |
-| 8 | crowd-management | Not started | 0 | batch-01 |
-| 9 | sustainability-and-environmental | Not started | 0 | batch-02, batch-07 |
-| 10 | technology-and-digital | Not started | 0 | batch-04, batch-09 |
-| 11 | av-and-production | Not started | 0 | batch-04 |
-| 12 | data-and-analytics | Not started | 0 | batch-09 |
-| 13 | financial-operations | Not started | 0 | batch-06 |
-| 14 | commercial-and-revenue | Not started | 0 | batch-05 |
-| 15 | ticketing-and-box-office | Not started | 0 | batch-05 |
-| 16 | booking-and-sales | Not started | 0 | batch-05 |
-| 17 | supply-chain-and-procurement | Not started | 0 | batch-03 |
-| 18 | logistics-and-warehouse | Not started | 0 | batch-03, batch-04 |
-| 19 | parking-and-transportation | Not started | 0 | batch-05 |
-| 20 | marketing-and-communications | Not started | 0 | batch-05, batch-06 |
-| 21 | premium-and-vip | Not started | 0 | batch-05 |
-| 22 | legal-compliance-and-licensing | Not started | 0 | batch-01, batch-03, batch-06 |
-| 23 | inclusivity-and-accessibility | Not started | 0 | batch-06 |
-| 24 | strategy-and-governance | Not started | 0 | batch-07, batch-09 |
-| 25 | quality-and-continuous-improvement | Not started | 0 | batch-07, batch-09 |
-| 26 | tenant-and-partner-relations | Not started | 0 | batch-05 |
+| 1 | guest-experience | Scaffolded | 0 | batch-05, batch-07 |
+| 2 | people-and-culture | Scaffolded | 0 | batch-03, batch-06, batch-09 |
+| 3 | food-and-beverage | Scaffolded | 0 | batch-03 |
+| 4 | event-operations | Scaffolded | 0 | batch-04 |
+| 5 | facilities-and-building-systems | Scaffolded | 0 | batch-02 |
+| 6 | safety-and-risk | Scaffolded | 0 | batch-01 |
+| 7 | security | Scaffolded | 0 | batch-01 |
+| 8 | crowd-management | Scaffolded | 0 | batch-01 |
+| 9 | sustainability-and-environmental | Scaffolded | 0 | batch-02, batch-07 |
+| 10 | technology-and-digital | Scaffolded | 0 | batch-04, batch-09 |
+| 11 | av-and-production | Scaffolded | 0 | batch-04 |
+| 12 | data-and-analytics | Scaffolded | 0 | batch-09 |
+| 13 | financial-operations | Scaffolded | 0 | batch-06 |
+| 14 | commercial-and-revenue | Scaffolded | 0 | batch-05 |
+| 15 | ticketing-and-box-office | Scaffolded | 0 | batch-05 |
+| 16 | booking-and-sales | Scaffolded | 0 | batch-05 |
+| 17 | supply-chain-and-procurement | Scaffolded | 0 | batch-03 |
+| 18 | logistics-and-warehouse | Scaffolded | 0 | batch-03, batch-04 |
+| 19 | parking-and-transportation | Scaffolded | 0 | batch-05 |
+| 20 | marketing-and-communications | Scaffolded | 0 | batch-05, batch-06 |
+| 21 | premium-and-vip | Scaffolded | 0 | batch-05 |
+| 22 | legal-compliance-and-licensing | Scaffolded | 0 | batch-01, batch-03, batch-06 |
+| 23 | inclusivity-and-accessibility | Scaffolded | 0 | batch-06 |
+| 24 | strategy-and-governance | Scaffolded | 0 | batch-07, batch-09 |
+| 25 | quality-and-continuous-improvement | Scaffolded | 0 | batch-07, batch-09 |
+| 26 | tenant-and-partner-relations | Scaffolded | 0 | batch-05 |
 
 ## Next Session Priority
 
@@ -85,17 +113,17 @@ Discovery complete. Workspace setup complete. Ready for batch-00-scaffold (domai
 | Total input files | 31 |
 | Processable files | 28 |
 | Excluded files | 3 |
-| Domain overview notes | 0 / 26 |
+| Domain overview notes | 26 / 26 |
 | Concept notes | 0 |
 | Source notes | 0 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
-| MOC notes | 0 |
+| MOC notes | 1 |
 | Validation reports | 0 |
 | Git commits | 1 |
 
 ---
 
-*Updated: 2026-04-04 — Session 11 (Discovery & Workspace Setup)*
+*Updated: 2026-04-04 — Session 12 (Batch Processing Begins)*

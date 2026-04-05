@@ -17,10 +17,22 @@ Mid-to-senior venue operations professionals — general managers, VPs of operat
 This is an [Obsidian](https://obsidian.md) vault. Open it as a vault in Obsidian to get full navigation, search, graph visualization, and interactive queries.
 
 **Start here:**
-- `07_MOCs/Map-Venue-Operations-Ecosystem.md` — the master overview
-- `01_Domains/` — browse by operational domain
-- Use Obsidian's graph view for relationship visualization
-- Use Obsidian's search for keyword lookup
+- `07_MOCs/Map-Venue-Operations-Ecosystem.md` — the master map of all 26 domains
+- `07_MOCs/Map-{Domain-Slug}.md` — curated navigation for each of 26 domains (concept clusters, cross-domain connections, reading paths for different practitioner roles)
+- `01_Domains/Domain-{Slug}.md` — scope definition and key functions for each domain
+- `01_Domains/{domain-slug}/` — concept notes within each domain
+- `METHODOLOGY.md` — how this KB was built, what AI did, what humans did, limitations, how to trace any claim
+
+**Two entry points per domain:**
+1. **Domain overview** (`Domain-{Slug}`) — *what the domain is* (scope, functions, cross-references)
+2. **Domain MOC** (`Map-{Slug}`) — *how to find content fast* (concept clusters, reading paths)
+
+Use them together.
+
+**Graph-based exploration:**
+- Obsidian graph view visualizes relationships across all 26 domains
+- Dataview queries surface real-time coverage dashboards
+- Cross-domain wikilinks let you jump between related concepts
 
 ## Structure
 
@@ -74,12 +86,37 @@ This knowledge base was built through Human/AI collaboration using Claude (Anthr
 5. **Validation** — Every note validated against 34 pre-write checks (schema, vocabulary, terminology, content, link integrity). Three-layer provenance chain maintained.
 6. **Linking** — Cross-domain relationships mapped using 7 relationship types. Orphan detection. Maps of Content generated. Progressive deepening across multiple sessions.
 
-Full methodology: `Reference/VEP-KB-Data-Science-Methodology_v1.0.md`
+Full methodology (public statement): `METHODOLOGY.md` at vault root.
+Internal methodology: `Reference/VEP-KB-Data-Science-Methodology_v1.0.md`.
 Pipeline documentation: `_Pipeline/` folder.
+
+## Current Status
+
+**Build state (as of Session 16, 2026-04-05):**
+
+| Metric | Value |
+|---|:-:|
+| Total notes | 482 |
+| Domain overviews | 26 / 26 (100%) |
+| Concept notes | 169 |
+| Source notes | 260 |
+| Domain MOCs (navigation layer) | 27 |
+| Validation reports | 15+ |
+| Domains at minimum viable (3+ concepts) or deeper | 21 / 26 (81%) |
+
+**Academic Rigor Initiative (Phase B.5) in progress** — Sessions S16-S20. Goal: v1.0 release with peer-reviewable academic-publishing standard. Audit reports filed in `_Pipeline/Validation/`. Delta register (backlog) in `_Pipeline/delta-register.yaml`.
+
+**Known gaps:**
+- 3 domains at 0 concepts pending fresh DR research (data-and-analytics, booking-and-sales, tenant-and-partner-relations)
+- Non-concept note types (Standards, Technology, Organizations, People) at 0 — enrichment scheduled post-v1.0
+- All notes at `status: draft` — human review passes scheduled
+- Optional bibliographic metadata enrichment on source notes scheduled for S18
+
+See `METHODOLOGY.md` for the full limitations disclosure.
 
 ## AI Disclosure
 
-This knowledge base was developed through Human/AI collaboration using Claude (Anthropic). All content has been reviewed, validated, and approved by Alex Jackson, Principal at Experience Innovation Inc. Human accountability for accuracy and completeness.
+This knowledge base was developed through Human/AI collaboration using Claude (Anthropic, Opus 4.6). The methodology (EU AI Act aligned transparency), confidence distribution, limitations, and reproducibility guidance are published in `METHODOLOGY.md`. Alex Jackson (Principal, Experience Innovation Inc.) holds human accountability for all content, methodology decisions, and strategic direction.
 
 ## Recommended Obsidian Plugins
 

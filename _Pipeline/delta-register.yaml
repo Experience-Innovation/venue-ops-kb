@@ -76,30 +76,102 @@ category_definitions:
 # Sequential ID assignment: next_id = max(existing_id) + 1
 # Audit phases in S16 will populate this section.
 
-next_id: 1
-entries: []
+next_id: 5
+entries:
+  - id: DELTA-001
+    category: vocabulary
+    severity: low
+    status: accepted
+    discovered_session: S16
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "_sessions/vep-kb-initiative-roadmap.md"
+    affected_count: 1
+    finding: "Uses status: active — not in VOCABULARY.yaml status list (draft/reviewed/canonical/archived)"
+    detection_method: automated_scan
+    resolution_path: "accepted — governance artifact convention; status vocabulary applies to note_type-classified content only. Field rename (status → lifecycle) candidate for S19 design decision."
+    target_session: S19
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Roadmap is type: initiative-roadmap, not a note_type-classified note. 'active' is semantically meaningful. Academic-rigor convention question — not a vault content violation."
+
+  - id: DELTA-002
+    category: vocabulary
+    severity: low
+    status: accepted
+    discovered_session: S16
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "_sessions/session-16-operational-plan.md"
+    affected_count: 1
+    finding: "Uses status: active — not in VOCABULARY.yaml status list"
+    detection_method: automated_scan
+    resolution_path: "accepted — governance artifact convention; same rationale as DELTA-001"
+    target_session: S19
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Operational plan artifact — not a note_type-classified vault content note."
+
+  - id: DELTA-003
+    category: vocabulary
+    severity: low
+    status: accepted
+    discovered_session: S16
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "_Pipeline/Validation/audit-A01-provenance-completeness.md"
+      - "_Pipeline/Validation/audit-A02-vocabulary-enforcement.md"
+    affected_count: 2
+    finding: "Uses status: PASS (audit outcome) — field naming conflict with VOCABULARY.yaml status list"
+    detection_method: automated_scan
+    resolution_path: "accepted — audit reports carry outcome as status. Consider renaming to audit_outcome: PASS in S19 governance cleanup."
+    target_session: S19
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Audit report artifacts use status semantically as outcome marker. Candidate for field rename in S19."
+
+  - id: DELTA-004
+    category: citation
+    severity: medium
+    status: deferred
+    discovered_session: S16
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "06_Sources/*.md (all 260 source notes)"
+    affected_count: 260
+    finding: "Optional bibliographic metadata fields (author, publication, publish_date) absent across all 260 source notes — 0% coverage. Schema-optional but required by academic-publishing bar per CLAUDE.md v2.1 §3 Academic Rigor Outcomes."
+    detection_method: automated_scan
+    resolution_path: "scheduled-fix — dedicated bibliographic enrichment sub-pass in S18 (Phase B.5 Session 3). Extract author/publication from description and URL metadata; populate publish_date where available. Batch by domain for efficiency."
+    target_session: S18
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Estimated 50K-80K tokens to enrich all 260 notes. Approach: group by source URL domain, extract from description + URL structure, populate where inferable."
 
 # ============================================================
 # SUMMARY METRICS (auto-update at session close)
 # ============================================================
 metrics:
-  total_entries: 0
+  total_entries: 4
   by_status:
     open: 0
     in-progress: 0
     resolved-inline: 0
     resolved-batch: 0
-    deferred: 0
-    accepted: 0
+    deferred: 1
+    accepted: 3
   by_severity:
     critical: 0
     high: 0
-    medium: 0
-    low: 0
+    medium: 1
+    low: 3
   by_category:
     provenance: 0
-    vocabulary: 0
-    citation: 0
+    vocabulary: 3
+    citation: 1
     consistency: 0
     obsidian: 0
     traceability: 0

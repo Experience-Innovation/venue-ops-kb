@@ -24,13 +24,13 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 
 | Metric | Count |
 |---|:-:|
-| Total entries | 0 |
+| Total entries | 4 |
 | Open | 0 |
 | In progress | 0 |
 | Resolved (inline) | 0 |
 | Resolved (batch) | 0 |
-| Deferred | 0 |
-| Accepted | 0 |
+| Deferred | 1 |
+| Accepted | 3 |
 
 ## By Severity
 
@@ -38,16 +38,16 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 |---|:-:|
 | Critical | 0 |
 | High | 0 |
-| Medium | 0 |
-| Low | 0 |
+| Medium | 1 |
+| Low | 3 |
 
 ## By Category
 
 | Category | Count | Definition |
 |---|:-:|---|
 | Provenance | 0 | GLRC chain completeness (ai_disclosure, extraction_model, research_batch, sources) |
-| Vocabulary | 0 | Controlled vocabulary drift vs VOCABULARY.yaml |
-| Citation | 0 | Source note bibliographic metadata gaps |
+| Vocabulary | 3 | Controlled vocabulary drift vs VOCABULARY.yaml |
+| Citation | 1 | Source note bibliographic metadata gaps |
 | Consistency | 0 | Editorial/structural consistency within domains |
 | Obsidian | 0 | Vault mountability, broken links, graph integrity |
 | Traceability | 0 | Claim-to-source traceability in concept bodies |
@@ -58,11 +58,18 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 
 | Session | Date | Scope | Opened | Resolved | Deferred |
 |---|---|---|:-:|:-:|:-:|
-| S16 | 2026-04-05 | Consolidation Pass (B.5 Phase 1) | 0 | 0 | 0 |
+| S16 | 2026-04-05 | Consolidation Pass (B.5 Phase 1) | 4 | 3 (accepted) | 1 → S18 |
 
 ## Entries
 
-*No entries yet. S16 audit phases (A-01 provenance, A-02 vocabulary, A-03 citation) will populate this section.*
+| ID | Category | Severity | Status | Finding | Target |
+|---|---|:-:|:-:|---|:-:|
+| DELTA-001 | vocabulary | low | accepted | `status: active` in roadmap — not in VOCABULARY.yaml status list | S19 |
+| DELTA-002 | vocabulary | low | accepted | `status: active` in operational plan — not in VOCABULARY.yaml status list | S19 |
+| DELTA-003 | vocabulary | low | accepted | `status: PASS` in audit reports — field naming conflict | S19 |
+| DELTA-004 | citation | medium | deferred | 260 source notes missing author/publication/publish_date optional bibliographic fields | S18 |
+
+*Entries 001-003: governance-artifact frontmatter conventions (not vault content violations). Candidates for S19 field rename design decision. Entry 004: academic-rigor bar enrichment deferred to dedicated S18 sub-pass.*
 
 ## How to Add an Entry
 

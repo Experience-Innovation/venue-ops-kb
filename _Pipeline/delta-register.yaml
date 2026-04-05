@@ -1,0 +1,119 @@
+# Venue Operations KB — Delta Register
+# Authority: YAML (this file) | Derived: delta-register.md (human-scannable index)
+# Purpose: Machine-readable backlog for Academic Rigor Initiative (Phase B.5, S16-S20)
+# Discipline: Every audit finding, action, and deferral is captured here.
+#             Zero-open gate at v1.0 release.
+# Reference: venue-ops-kb/CLAUDE.md v2.1 §1 "Delta Register Discipline"
+#            _sessions/vep-kb-initiative-roadmap.md §3b "Phase B.5"
+
+version: "1.0"
+created: 2026-04-05
+updated: 2026-04-05
+initialized_session: S16
+
+# ============================================================
+# SCHEMA
+# ============================================================
+schema:
+  id: "DELTA-NNN (sequential, zero-padded)"
+  category: "provenance | vocabulary | citation | consistency | obsidian | traceability | confidence | other"
+  severity: "critical | high | medium | low"
+  status: "open | in-progress | resolved-inline | resolved-batch | deferred | accepted"
+  discovered_session: "S-NN"
+  discovered_date: "YYYY-MM-DD"
+  affected_notes: "list of file paths or wikilinks"
+  affected_count: "integer (for scans covering many notes)"
+  finding: "brief description of the issue"
+  detection_method: "automated_scan | manual_audit | validation_report | user_report"
+  resolution_path: "description of how this will be / was fixed"
+  target_session: "S-NN (when deferred)"
+  resolved_session: "S-NN (when resolved)"
+  resolved_date: "YYYY-MM-DD (when resolved)"
+  resolution_evidence: "commit hash | validation report path | file paths modified"
+  notes: "additional context"
+
+# ============================================================
+# ACCEPTED RESOLUTION PATHS
+# ============================================================
+resolution_paths:
+  - id: "inline-fix"
+    description: "Fixed in-session during the audit phase that discovered it. Deterministic rule-based fix."
+  - id: "batch-fix"
+    description: "Fixed in a dedicated remediation phase later in the same session. Grouped with similar findings."
+  - id: "scheduled-fix"
+    description: "Deferred to a specific future session (target_session field populated)."
+  - id: "escalated"
+    description: "Surfaced to Alex for scope/policy decision. Awaiting direction."
+  - id: "accepted"
+    description: "Alex accepted the finding as out-of-scope or wont-fix with documented rationale."
+
+# ============================================================
+# SEVERITY DEFINITIONS
+# ============================================================
+severity_definitions:
+  critical: "Blocks Obsidian mountability OR publishes false/fabricated information. Must fix same session."
+  high: "Violates a CLAUDE.md Hard Rule OR breaks provenance chain OR breaks claim-to-source traceability. Fix within current initiative."
+  medium: "Editorial/consistency issue affecting academic rigor. Fix within initiative scope."
+  low: "Polish item. May defer to Phase E if scope pressure."
+
+# ============================================================
+# CATEGORY DEFINITIONS
+# ============================================================
+category_definitions:
+  provenance: "GLRC provenance chain completeness (ai_disclosure, extraction_model, research_batch, sources)"
+  vocabulary: "Controlled vocabulary drift or violation vs VOCABULARY.yaml"
+  citation: "Source note bibliographic metadata gaps or inconsistencies"
+  consistency: "Editorial / structural consistency across notes within a domain"
+  obsidian: "Vault mountability, broken links, graph integrity, Dataview query errors"
+  traceability: "Claim-to-source traceability gaps in concept body text"
+  confidence: "Confidence tier assignment defensibility"
+  other: "Anything not matching above categories"
+
+# ============================================================
+# ENTRIES
+# ============================================================
+# Entries are appended as audits surface findings.
+# Sequential ID assignment: next_id = max(existing_id) + 1
+# Audit phases in S16 will populate this section.
+
+next_id: 1
+entries: []
+
+# ============================================================
+# SUMMARY METRICS (auto-update at session close)
+# ============================================================
+metrics:
+  total_entries: 0
+  by_status:
+    open: 0
+    in-progress: 0
+    resolved-inline: 0
+    resolved-batch: 0
+    deferred: 0
+    accepted: 0
+  by_severity:
+    critical: 0
+    high: 0
+    medium: 0
+    low: 0
+  by_category:
+    provenance: 0
+    vocabulary: 0
+    citation: 0
+    consistency: 0
+    obsidian: 0
+    traceability: 0
+    confidence: 0
+    other: 0
+
+# ============================================================
+# SESSION-LEVEL LOG
+# ============================================================
+sessions:
+  - session: S16
+    date: 2026-04-05
+    scope: "Consolidation Pass (B.5 Phase 1): MOC generation + audits A-01/02/03 + METHODOLOGY + README + Obsidian mount"
+    entries_opened: 0  # populated at session close
+    entries_resolved: 0  # populated at session close
+    entries_deferred: 0  # populated at session close
+    notes: "Delta register initialized S16."

@@ -23,6 +23,7 @@ related_to:
   - "[[Quality-And-Continuous-Improvement-EFQM-Model]]"
   - "[[Quality-And-Continuous-Improvement-Excellence-Canada]]"
   - "[[Quality-And-Continuous-Improvement-Shingo-Prize]]"
+  - "[[Strategy-And-Governance-MTCC-Beyond-Convention]]"
 tags:
   - concept
   - venue-ops

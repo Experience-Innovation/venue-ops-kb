@@ -26,6 +26,7 @@ child_of: "[[Domain-Food-And-Beverage]]"
 related_to:
   - "[[Food-And-Beverage-Concessions-Management]]"
   - "[[Supply-Chain-And-Procurement-GPO-Purchasing]]"
+  - "[[Food-And-Beverage-FOOD-TRAK-Inventory-System]]"
 supported_by:
   - "[[Source-0087-Oracle-Simphony-POS]]"
   - "[[Source-0088-Toast-POS-Platform]]"

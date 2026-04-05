@@ -21,6 +21,7 @@ child_of: "[[Domain-Event-Operations]]"
 related_to:
   - "[[Event-Operations-Changeover-Operations]]"
   - "[[Av-And-Production-Scoreboard-Game-Presentation]]"
+  - "[[Event-Operations-Wardrobe-Costume-Operations]]"
 governed_by:
   - "[[Source-0215-NHL-Locker-Room-Equipment-Protocol]]"
 venue_scale:

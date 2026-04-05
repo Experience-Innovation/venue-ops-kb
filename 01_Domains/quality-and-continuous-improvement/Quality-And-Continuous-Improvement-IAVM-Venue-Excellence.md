@@ -46,7 +46,7 @@ The Venue Excellence Award (VEA) is administered by the International Associatio
 
 Applications are scored against four criteria with unequal weighting:
 
-- **Operational Efficiency** (40%) — NOTE: IAVM labels this criterion "Operational Excellence" in their official framework materials; the KB references this as a direct citation. The KB's equivalent term is "Operational Efficiency, Productivity & Creativity." This criterion evaluates process effectiveness, resource management, and innovation in operations.
+- **Operational Excellence** (40%) — process effectiveness, resource management, and innovation in operations
 - **Team Building and Professional Development** (20%) — workforce development programs, training initiatives, employee engagement, and succession planning
 - **Safety and Security** (20%) — emergency preparedness, risk management programs, safety protocols, and security infrastructure
 - **Service to the Community** (20%) — community engagement, social responsibility, economic impact, and civic partnerships

@@ -24,6 +24,7 @@ child_of: "[[Domain-Sustainability-And-Environmental]]"
 related_to:
   - "[[Sustainability-And-Environmental-LEED-Green-Building]]"
   - "[[Sustainability-And-Environmental-Carbon-Tracking-ESG]]"
+  - "[[Sustainability-And-Environmental-VCC-Double-LEED-Platinum]]"
 key_metrics:
   - "ENERGY STAR score (1-100)"
   - "Energy use intensity (kBtu/sq ft)"

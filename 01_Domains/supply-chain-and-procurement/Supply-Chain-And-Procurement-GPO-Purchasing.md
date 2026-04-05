@@ -25,6 +25,7 @@ related_to:
   - "[[Supply-Chain-And-Procurement-Supplier-Qualification]]"
   - "[[Food-And-Beverage-Contract-Catering-Market]]"
   - "[[Food-And-Beverage-In-House-vs-Contracted-Decision]]"
+  - "[[Food-And-Beverage-FOOD-TRAK-Inventory-System]]"
 tags:
   - concept
   - venue-ops

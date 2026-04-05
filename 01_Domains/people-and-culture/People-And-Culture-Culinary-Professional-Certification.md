@@ -26,6 +26,7 @@ related_to:
   - "[[Food-And-Beverage-Safety-Training-Certification]]"
   - "[[People-And-Culture-FB-Labor-Relations]]"
   - "[[Food-And-Beverage-Premium-Dining-Suite-Service]]"
+  - "[[People-And-Culture-Ritz-Carlton-Leadership-Center]]"
 tags:
   - concept
   - venue-ops

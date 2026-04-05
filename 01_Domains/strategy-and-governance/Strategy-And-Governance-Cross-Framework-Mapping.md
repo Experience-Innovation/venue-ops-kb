@@ -24,6 +24,8 @@ related_to:
   - "[[Quality-And-Continuous-Improvement-EFQM-Model]]"
   - "[[Quality-And-Continuous-Improvement-AIPC-Quality-Standards]]"
   - "[[Strategy-And-Governance-ESG-CSR-Platforms]]"
+  - "[[Strategy-And-Governance-MGM-2020-Organizational-Efficiency]]"
+  - "[[Strategy-And-Governance-MTCC-Beyond-Convention]]"
 tags:
   - concept
   - venue-ops

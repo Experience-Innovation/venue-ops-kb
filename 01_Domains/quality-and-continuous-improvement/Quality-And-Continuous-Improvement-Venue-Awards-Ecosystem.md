@@ -22,6 +22,7 @@ related_to:
   - "[[Quality-And-Continuous-Improvement-Baldrige-Framework]]"
   - "[[Quality-And-Continuous-Improvement-AIPC-Quality-Standards]]"
   - "[[Commercial-And-Revenue-Venue-Industry-Awards]]"
+  - "[[Strategy-And-Governance-Cross-Framework-Mapping]]"
 tags:
   - concept
   - venue-ops

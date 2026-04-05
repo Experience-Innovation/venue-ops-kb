@@ -21,6 +21,8 @@ related_to:
   - "[[Guest-Experience-Wayfinding-Signage]]"
   - "[[Inclusivity-And-Accessibility-Sensory-Inclusive-Programs]]"
   - "[[Ticketing-And-Box-Office-Subscription-Season-Management]]"
+  - "[[Guest-Experience-Tailgating-Fan-Zones]]"
+  - "[[Quality-And-Continuous-Improvement-Disney-SSDG-Framework]]"
 staffing_models:
   - "FOH manager"
   - "Paid ushers"

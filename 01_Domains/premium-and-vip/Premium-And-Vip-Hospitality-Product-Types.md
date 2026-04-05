@@ -23,6 +23,7 @@ child_of: "[[Domain-Premium-And-Vip]]"
 related_to:
   - "[[Premium-And-Vip-Revenue-Models-And-Pricing]]"
   - "[[Premium-And-Vip-VIP-Staffing-Models]]"
+  - "[[Premium-And-Vip-Suite-Operations]]"
 tags:
   - concept
   - venue-ops

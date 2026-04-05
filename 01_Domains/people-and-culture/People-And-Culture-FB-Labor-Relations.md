@@ -26,6 +26,7 @@ related_to:
   - "[[Food-And-Beverage-Contract-Catering-Market]]"
   - "[[Legal-Compliance-And-Licensing-Responsible-Beverage-Service]]"
   - "[[People-And-Culture-Culinary-Professional-Certification]]"
+  - "[[Strategy-And-Governance-AI-Augmentation-Unionized-Venues]]"
 tags:
   - concept
   - venue-ops

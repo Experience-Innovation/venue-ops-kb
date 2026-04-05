@@ -25,6 +25,7 @@ related_to:
   - "[[Facilities-And-Building-Systems-BMS-Platform-Architecture]]"
   - "[[Facilities-And-Building-Systems-Predictive-Condition-Based-Maintenance]]"
   - "[[Facilities-And-Building-Systems-Space-Management-Scheduling]]"
+  - "[[Facilities-And-Building-Systems-Live-Nation-Blueprint-Studio]]"
 supported_by:
   - "[[Source-0051-Autodesk-Tandem-Digital-Twin]]"
 key_metrics:

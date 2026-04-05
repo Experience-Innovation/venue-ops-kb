@@ -25,6 +25,8 @@ related_to:
   - "[[Facilities-And-Building-Systems-Event-Driven-HVAC-Control]]"
   - "[[Facilities-And-Building-Systems-BIM-Digital-Twin]]"
   - "[[Facilities-And-Building-Systems-Venue-Cleaning-Environmental-Services]]"
+  - "[[Technology-And-Digital-EliteOps-Integrated-Platform]]"
+  - "[[Facilities-And-Building-Systems-Live-Nation-Blueprint-Studio]]"
 supported_by:
   - "[[Source-0038-Momentus-Technologies-Venue-Software]]"
 key_metrics:

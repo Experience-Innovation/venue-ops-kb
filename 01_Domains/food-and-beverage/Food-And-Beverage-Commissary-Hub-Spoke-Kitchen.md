@@ -25,6 +25,7 @@ child_of: "[[Domain-Food-And-Beverage]]"
 related_to:
   - "[[Food-And-Beverage-Concessions-Management]]"
   - "[[Logistics-And-Warehouse-Inventory-Storage]]"
+  - "[[Food-And-Beverage-FOOD-TRAK-Inventory-System]]"
 tags:
   - concept
   - venue-ops

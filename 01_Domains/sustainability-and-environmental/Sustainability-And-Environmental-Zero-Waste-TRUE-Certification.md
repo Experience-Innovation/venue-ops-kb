@@ -23,6 +23,8 @@ child_of: "[[Domain-Sustainability-And-Environmental]]"
 related_to:
   - "[[Sustainability-And-Environmental-LEED-Green-Building]]"
   - "[[Facilities-And-Building-Systems-Venue-Cleaning-Environmental-Services]]"
+  - "[[Sustainability-And-Environmental-ASM-Global-Acts]]"
+  - "[[Sustainability-And-Environmental-TRUE-Platinum-Climate-Pledge]]"
 key_metrics:
   - "Diversion rate (%)"
   - "Waste per attendee (lbs)"

@@ -23,6 +23,7 @@ child_of: "[[Domain-Sustainability-And-Environmental]]"
 related_to:
   - "[[Sustainability-And-Environmental-Carbon-Tracking-ESG]]"
   - "[[Sustainability-And-Environmental-Renewable-Energy-Decarbonization]]"
+  - "[[Sustainability-And-Environmental-TRUE-Platinum-Climate-Pledge]]"
 key_metrics:
   - "Signatory count (200+)"
   - "Baseline year emissions"

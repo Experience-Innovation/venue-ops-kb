@@ -19,6 +19,8 @@ research_batch: supp-awards-ecosystem
 child_of: "[[Domain-Quality-And-Continuous-Improvement]]"
 related_to:
   - "[[Quality-And-Continuous-Improvement-Baldrige-Framework]]"
+  - "[[Quality-And-Continuous-Improvement-Caesars-Kaizen-Events]]"
+  - "[[Financial-Operations-LEAN-Driven-Cost-Savings]]"
 tags:
   - concept
   - venue-ops

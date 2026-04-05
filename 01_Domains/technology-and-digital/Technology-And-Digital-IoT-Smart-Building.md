@@ -26,6 +26,7 @@ related_to:
   - "[[Facilities-And-Building-Systems-BMS-Platform-Architecture]]"
   - "[[Facilities-And-Building-Systems-Predictive-Condition-Based-Maintenance]]"
   - "[[Facilities-And-Building-Systems-BIM-Digital-Twin]]"
+  - "[[Technology-And-Digital-EliteOps-Integrated-Platform]]"
 key_metrics:
   - "Sensor density per sq ft"
   - "Data latency (edge to cloud)"

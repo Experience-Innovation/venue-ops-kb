@@ -23,6 +23,7 @@ child_of: "[[Domain-Sustainability-And-Environmental]]"
 related_to:
   - "[[Sustainability-And-Environmental-LEED-Green-Building]]"
   - "[[Facilities-And-Building-Systems-Plumbing-Water-Systems]]"
+  - "[[Sustainability-And-Environmental-VCC-Double-LEED-Platinum]]"
 key_metrics:
   - "Water use intensity (gallons/sq ft/year)"
   - "Cooling tower cycles of concentration"

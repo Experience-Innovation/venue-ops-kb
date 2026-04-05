@@ -11,7 +11,7 @@ venue_types:
 vef_alignment:
   - guest-experience
   - employee-experience
-node_count: 1
+node_count: 7
 tags:
   - domain
   - venue-ops

@@ -1,9 +1,54 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00 through batch-04 complete. Next: batch-05-commercial-premium.
+batch-00 through batch-08 complete. Next: batch-09-existing-dr.
 
 ## Session History
+
+### Session 14 — 2026-04-04 (batch-05 + batch-06)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-14/batch-processing (git worktree)
+**Focus:** batch-05-commercial-premium + batch-06-legal-insurance-accessibility
+
+**batch-05-commercial-premium completed:**
+- [x] Pre-flight checklist verified (PR #3 merged, main pulled, worktree created)
+- [x] Read 2 DR files via parallel subagent extraction
+- [x] Created 30 source notes (Source-0121 through Source-0150)
+- [x] Created 22 concept notes: 5 premium, 10 parking, 5 marketing, 1 commercial, 1 guest-experience
+- [x] Updated 5 domain overview node counts
+- [x] QA/QC: 1 orphan resolved; final gate GREEN
+- [x] Validation: PASS — 0 issues across 52 files
+
+**batch-06-legal-insurance-accessibility completed:**
+- [x] Read 2 DR files via parallel subagent extraction
+- [x] Created 30 source notes (Source-0151 through Source-0180)
+- [x] Created 16 concept notes: 5 legal, 6 accessibility, 3 people-and-culture, 2 strategy
+- [x] Updated 4 domain overview node counts
+- [x] QA/QC: 3 orphans resolved; final gate GREEN
+- [x] Validation: PASS — 0 issues across 46 files
+
+**batch-07-awards-ecosystem completed:**
+- [x] Read 1 DR file (awards/recognition ecosystem)
+- [x] Created 30 source notes (Source-0181 through Source-0210)
+- [x] Created 12 concept notes: 7 quality/CI, 1 commercial, 1 guest-experience, 1 sustainability, 1 safety, 1 strategy
+- [x] Updated 6 domain overview node counts
+- [x] QA/QC: 1 orphan resolved; final gate GREEN
+
+**batch-08-venue-type-functions completed:**
+- [x] Read 1 DR file (operationally distinct functions by venue type)
+- [x] Created 20 source notes (Source-0211 through Source-0230)
+- [x] Created 14 concept notes: 4 AV, 4 event-ops, 3 guest-experience, 1 premium, 1 safety, 1 ticketing
+- [x] Updated 6 domain overview node counts
+- [x] QA/QC: 0 orphans; final gate GREEN
+
+**Not completed:**
+- [ ] batch-09 through batch-12 (future sessions)
+
+**Failed Approaches:**
+- (None this session)
+
+**Decisions Made:**
+- (None — executing per established plan)
 
 ### Session 13 — 2026-04-04 (batch-02 + batch-03)
 **Machine:** MacBook Air (bubblegumpshrimpco)
@@ -124,32 +169,32 @@ batch-00 through batch-04 complete. Next: batch-05-commercial-premium.
 
 | # | Domain | Status | Concept Count | Batch |
 |---|--------|--------|--------------|-------|
-| 1 | guest-experience | Scaffolded | 0 | batch-05, batch-07 |
-| 2 | people-and-culture | Scaffolded | 2 | batch-03, batch-06, batch-09 |
+| 1 | guest-experience | Minimum viable | 5 | batch-05, batch-07, batch-08 |
+| 2 | people-and-culture | Minimum viable | 5 | batch-03, batch-06, batch-09 |
 | 3 | food-and-beverage | **Working depth** | 12 | batch-03 |
-| 4 | event-operations | **Working depth** | 8 | batch-04 |
-| 5 | facilities-and-building-systems | **Working depth** | 14 | batch-02 |
-| 6 | safety-and-risk | **Working depth** | 12 | batch-01 |
+| 4 | event-operations | **Authoritative** | 12 | batch-04, batch-08 |
+| 5 | facilities-and-building-systems | **Authoritative** | 14 | batch-02 |
+| 6 | safety-and-risk | **Authoritative** | 14 | batch-01, batch-07, batch-08 |
 | 7 | security | Minimum viable | 6 | batch-01 |
 | 8 | crowd-management | Minimum viable | 4 | batch-01 |
-| 9 | sustainability-and-environmental | Minimum viable | 7 | batch-02, batch-07 |
+| 9 | sustainability-and-environmental | **Working depth** | 8 | batch-02, batch-07 |
 | 10 | technology-and-digital | Minimum viable | 4 | batch-04, batch-09 |
-| 11 | av-and-production | **Working depth** | 9 | batch-04 |
+| 11 | av-and-production | **Authoritative** | 13 | batch-04, batch-08 |
 | 12 | data-and-analytics | Scaffolded | 0 | batch-09 |
-| 13 | financial-operations | Scaffolded | 0 | batch-06 |
-| 14 | commercial-and-revenue | Scaffolded | 0 | batch-05 |
-| 15 | ticketing-and-box-office | Scaffolded | 0 | batch-05 |
-| 16 | booking-and-sales | Scaffolded | 0 | batch-05 |
+| 13 | financial-operations | Scaffolded | 0 | batch-09 |
+| 14 | commercial-and-revenue | Scaffolded | 2 | batch-05, batch-07 |
+| 15 | ticketing-and-box-office | Scaffolded | 1 | batch-08 |
+| 16 | booking-and-sales | Scaffolded | 0 | batch-09 |
 | 17 | supply-chain-and-procurement | Minimum viable | 4 | batch-03 |
 | 18 | logistics-and-warehouse | Minimum viable | 3 | batch-03, batch-04 |
-| 19 | parking-and-transportation | Scaffolded | 0 | batch-05 |
-| 20 | marketing-and-communications | Scaffolded | 0 | batch-05, batch-06 |
-| 21 | premium-and-vip | Scaffolded | 0 | batch-05 |
-| 22 | legal-compliance-and-licensing | Scaffolded | 2 | batch-01, batch-03, batch-06 |
-| 23 | inclusivity-and-accessibility | Scaffolded | 1 | batch-06 |
-| 24 | strategy-and-governance | Scaffolded | 0 | batch-07, batch-09 |
-| 25 | quality-and-continuous-improvement | Scaffolded | 0 | batch-07, batch-09 |
-| 26 | tenant-and-partner-relations | Scaffolded | 0 | batch-05 |
+| 19 | parking-and-transportation | **Working depth** | 10 | batch-05 |
+| 20 | marketing-and-communications | Minimum viable | 5 | batch-05 |
+| 21 | premium-and-vip | Minimum viable | 6 | batch-05, batch-08 |
+| 22 | legal-compliance-and-licensing | Minimum viable | 7 | batch-01, batch-03, batch-06 |
+| 23 | inclusivity-and-accessibility | Minimum viable | 7 | batch-04, batch-06 |
+| 24 | strategy-and-governance | Minimum viable | 3 | batch-06, batch-07 |
+| 25 | quality-and-continuous-improvement | Minimum viable | 7 | batch-07 |
+| 26 | tenant-and-partner-relations | Scaffolded | 0 | batch-09 |
 
 ## Next Session Priority
 
@@ -165,24 +210,24 @@ batch-00 through batch-04 complete. Next: batch-05-commercial-premium.
 | Processable files | 28 |
 | Excluded files | 3 |
 | Domain overview notes | 26 / 26 |
-| Concept notes | 88 |
-| Source notes | 120 |
+| Concept notes | 152 |
+| Source notes | 230 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
 | MOC notes | 1 |
-| Validation reports | 5 |
-| Git commits | 5 |
+| Validation reports | 9 |
+| Git commits | 11 |
 
 ---
 
 ## Next Session Priority
 
-1. **batch-05-commercial-premium** — Process 2 DR files covering commercial, premium, marketing, parking
-2. **batch-06-legal-insurance-accessibility** — Process 2 DR files covering legal, insurance, accessibility
+1. **batch-09-existing-dr** — Extract venue ops intelligence from 5 original DR reports (AI/change mgmt, podcast strategy, competitive positioning, OpEx/CI)
+2. **batch-10-cross-linking** — Cross-domain relationship audit, orphan detection, density pass
 3. Continue processing in batch order per pipeline-state.json
 
 ---
 
-*Updated: 2026-04-04 — Session 13 (batch-02 + batch-03 + batch-04 complete)*
+*Updated: 2026-04-04 — Session 14 (batch-05 + batch-06 complete)*

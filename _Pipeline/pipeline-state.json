@@ -10,9 +10,9 @@
   "total_input_files": 31,
   "processable_files": 28,
   "excluded_files": 3,
-  "notes_created": 115,
+  "notes_created": 179,
   "notes_enriched": 15,
-  "sources_created": 120,
+  "sources_created": 230,
   "validation_errors": 0,
 
   "excluded": [
@@ -167,7 +167,7 @@
     {
       "id": "batch-05-commercial-premium",
       "description": "Commercial, Premium/VIP, Marketing, Parking, Ticketing, Booking",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Premium-Hospitality-Marketing-Access.md",
         "DR-Parking-Premium-Marketing-Compliance.md"
@@ -175,13 +175,16 @@
       "primary_domains": ["commercial-and-revenue", "premium-and-vip", "marketing-and-communications", "parking-and-transportation", "ticketing-and-box-office", "booking-and-sales"],
       "secondary_domains": ["guest-experience"],
       "notes_target": "15-25",
-      "session": null,
-      "notes": "Revenue-facing domains. Premium hospitality, marketing compliance, parking operations, access management."
+      "notes_created": 22,
+      "sources_created": 30,
+      "session": "14",
+      "completed_date": "2026-04-04",
+      "notes": "22 concept notes (5 premium, 10 parking, 5 marketing, 1 commercial, 1 guest-experience) + 30 source notes. Parking at working depth (10). Premium and marketing at minimum viable (5 each)."
     },
     {
       "id": "batch-06-legal-insurance-accessibility",
       "description": "Legal & Compliance, Insurance, Accessibility, Community Impact",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Insurance-Labor-Accessibility-Compliance.md",
         "DR-Community-Impact-Accessibility-Inclusivity.md"
@@ -189,33 +192,42 @@
       "primary_domains": ["legal-compliance-and-licensing", "inclusivity-and-accessibility"],
       "secondary_domains": ["people-and-culture", "strategy-and-governance"],
       "notes_target": "10-20",
-      "session": null,
-      "notes": "Regulatory compliance, insurance, labor law, ADA/AODA, universal design, community impact, social responsibility."
+      "notes_created": 16,
+      "sources_created": 30,
+      "session": "14",
+      "completed_date": "2026-04-04",
+      "notes": "16 concept notes (5 legal, 6 accessibility, 3 people-and-culture, 2 strategy) + 30 source notes. Legal and accessibility at minimum viable (7 each). People-and-culture at minimum viable (5)."
     },
     {
       "id": "batch-07-awards-ecosystem",
       "description": "Awards & Recognition Ecosystem (cross-domain)",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Awards-Recognition-Ecosystem-Comprehensive.md"
       ],
       "primary_domains": ["quality-and-continuous-improvement", "strategy-and-governance"],
       "secondary_domains": ["guest-experience", "people-and-culture", "sustainability-and-environmental", "food-and-beverage"],
       "notes_target": "10-15",
-      "session": null,
-      "notes": "Cross-domain awards ecosystem. Enriches existing domain notes with recognition programs and certification standards."
+      "notes_created": 12,
+      "sources_created": 30,
+      "session": "14",
+      "completed_date": "2026-04-04",
+      "notes": "12 concept notes (7 quality/CI, 1 commercial, 1 guest-experience, 1 sustainability, 1 safety, 1 strategy) + 30 source notes. Quality-and-continuous-improvement reaches minimum viable (7)."
     },
     {
       "id": "batch-08-venue-type-functions",
       "description": "Operationally Distinct Functions by Venue Type (cross-domain enrichment)",
-      "status": "pending",
+      "status": "complete",
       "input_files": [
         "DR-Operationally-Distinct-Functions-By-VenueType.md"
       ],
       "primary_domains": "all",
       "notes_target": "5-15",
-      "session": null,
-      "notes": "Cross-domain enrichment pass. Adds venue_type variations and delivery_model details to existing notes. May create new venue-type-specific concept notes."
+      "notes_created": 14,
+      "sources_created": 20,
+      "session": "14",
+      "completed_date": "2026-04-04",
+      "notes": "14 venue-type-specific concept notes (4 AV, 4 event-ops, 3 guest-experience, 1 premium, 1 safety, 1 ticketing) + 20 source notes. Cross-domain enrichment with stadium/arena, PAC, theme-park, and fairground-specific operations."
     },
     {
       "id": "batch-09-existing-dr",

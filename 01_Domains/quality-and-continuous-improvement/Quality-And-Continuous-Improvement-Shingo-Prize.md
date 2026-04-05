@@ -1,5 +1,5 @@
 ---
-title: "Shingo Prize for Continuous Improvement"
+title: "Shingo Prize for Operational Excellence"
 note_type: concept
 domain: "quality-and-continuous-improvement"
 status: draft
@@ -28,15 +28,13 @@ extraction_model: claude-opus-4-6
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 
-# Shingo Prize for Continuous Improvement
+# Shingo Prize for Operational Excellence
 
 A 10-principle, 4-dimension framework focusing on cultural transformation and behavioral alignment, using a 1,000-point scoring system with Bronze (575-674), Silver (675-774), and Prize (775+) tiers.
 
 ## Overview
 
 The Shingo Prize, administered by the Shingo Institute at Utah State University, is named after Japanese industrial engineer Shigeo Shingo. Unlike frameworks that emphasize process measurement and results reporting, the Shingo Model focuses on cultural transformation — the degree to which guiding principles drive ideal behaviors throughout an organization.
-
-NOTE: The award's formal name uses the phrase "Operational Excellence" as a proper noun within the Shingo Institute's branding. The KB's approved equivalent term for this concept domain is "Operational Efficiency, Productivity & Creativity."
 
 ## Four Dimensions
 

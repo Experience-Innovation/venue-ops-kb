@@ -110,7 +110,7 @@ A structured, validated, fully-sourced knowledge base with:
 ## 4. Hard Rules — Non-Negotiable
 
 1. **NEVER fabricate data.** Every fact must trace to a source file. If it's not in the research, don't write it. Flag unknowns with `confidence: low`.
-2. **NEVER use "Operational Excellence"** — Calgary Stampede owns this term. Use "Operational Efficiency, Productivity & Creativity."
+2. **"Operational Excellence" is valid industry terminology** and may be used freely in KB notes when referencing industry frameworks, awards, or general venue operations concepts. The restriction applies ONLY within Calgary Stampede/BMO Centre engagement context (VEP-Client repo), where CS uses the term as a proprietary brand element. This KB is an open-source venue operations resource — standard industry language applies. (Decision #45, Session 14.)
 3. **NEVER reference Vivid Array** in any note content. Completely separate business.
 4. **NEVER reference Calgary Stampede/BMO Centre** as anything other than an exemplar. Tag with `cs_exemplar: true` and flag for Greg Newton approval.
 5. **NEVER modify governance documents** outside the vault (project CLAUDE.md, SOT, GLRC, Charter, Summary, Tracker). Read-only.
@@ -214,7 +214,7 @@ When context compacts, always preserve: current batch ID, notes created this ses
 |---|--------|-----------|
 | 1 | No fabrication (S4 — 3 fabricated guest names) | Never generate names, URLs, or data. Flag unknowns with confidence: low. |
 | 2 | Vivid Array wall (S4 — pricing leaked into VEP) | Scan before every commit. Block if found. |
-| 3 | "Operational Excellence" forbidden (S4) | Use "Operational Efficiency, Productivity & Creativity." Search-and-replace check. |
+| 3 | "Operational Excellence" scope clarified (S4→S14) | Valid industry term — use freely in KB. Restriction applies ONLY in CS/BMO Centre engagement context (VEP-Client repo). Decision #45. |
 | 4 | CS exemplar-only policy (S4) | Tag CS content with cs_exemplar: true. Flag for Greg approval. |
 | 5 | Methodology before pipeline (S9) | Read methodology doc before processing. Do not skip. |
 | 6 | Verify access before processing (S10) | Pre-flight check on every file. If access fails, log and skip. Don't retry. |

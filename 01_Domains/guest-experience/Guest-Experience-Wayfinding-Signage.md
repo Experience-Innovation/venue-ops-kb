@@ -22,6 +22,7 @@ child_of: "[[Domain-Guest-Experience]]"
 related_to:
   - "[[Marketing-And-Communications-Digital-Signage-Regulations]]"
   - "[[Parking-And-Transportation-Event-Traffic-Management]]"
+  - "[[Guest-Experience-Hospitality-Quality-Ratings]]"
 supported_by:
   - "[[Source-0125-YinzCam-UBS-Arena]]"
 tags:

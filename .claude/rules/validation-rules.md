@@ -41,7 +41,7 @@
 28. `ai_disclosure` field is present and non-empty (GLRC Q5 requirement)
 
 ### Terminology Check (Hook-Enforced)
-29. No occurrence of "Operational Excellence" (CS-owned term — use "Operational Efficiency, Productivity & Creativity")
+29. "Operational Excellence" is permitted as standard industry terminology (Decision #45, Session 14). The restriction applies ONLY in CS/BMO Centre engagement context (VEP-Client repo). No scan required in this KB.
 30. No occurrence of "Vivid Array" or Vivid-related terms
 31. No occurrence of old domain slugs (core-operations, emergency-management-and-life-safety, it-and-av-infrastructure, premium-and-vip-operations, data-systems-intelligence, supply-chain-logistics)
 

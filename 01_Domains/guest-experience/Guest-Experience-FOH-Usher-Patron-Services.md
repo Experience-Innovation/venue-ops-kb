@@ -21,6 +21,7 @@ related_to:
   - "[[Guest-Experience-Wayfinding-Signage]]"
   - "[[Inclusivity-And-Accessibility-Sensory-Inclusive-Programs]]"
   - "[[Ticketing-And-Box-Office-Subscription-Season-Management]]"
+  - "[[Guest-Experience-Tailgating-Fan-Zones]]"
 staffing_models:
   - "FOH manager"
   - "Paid ushers"

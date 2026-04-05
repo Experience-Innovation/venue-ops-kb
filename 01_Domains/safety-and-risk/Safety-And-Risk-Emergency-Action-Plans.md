@@ -22,6 +22,8 @@ related_to:
   - "[[Safety-And-Risk-Incident-Command-System]]"
   - "[[Safety-And-Risk-Tabletop-Exercises]]"
   - "[[Safety-And-Risk-Crisis-Communication-Protocols]]"
+  - "[[Safety-And-Risk-Business-Continuity-Planning]]"
+  - "[[Safety-And-Risk-GBAC-STAR-Accreditation]]"
 governed_by:
   - "[[Source-0003-NFPA-101-Life-Safety-Code-2024]]"
 tags:

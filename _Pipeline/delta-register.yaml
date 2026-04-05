@@ -76,7 +76,7 @@ category_definitions:
 # Sequential ID assignment: next_id = max(existing_id) + 1
 # Audit phases in S16 will populate this section.
 
-next_id: 6
+next_id: 14
 entries:
   - id: DELTA-001
     category: vocabulary
@@ -168,30 +168,176 @@ entries:
     resolution_evidence: "26 domain overview files modified with framework anchor sources[] (commit pending). Baseline established; incremental domain-specific enrichment can continue in S18."
     notes: "Initial framework-anchor set applied uniformly to all 26 domains. This establishes baseline academic-rigor citation for domain overview nodes. Domain-specific additions (e.g., NFPA codes for safety-and-risk, FSMA for supply-chain) tracked as optional S18 enrichment, not blocker."
 
+  - id: DELTA-006
+    category: obsidian
+    severity: medium
+    status: resolved-inline
+    discovered_session: S17
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "01_Domains/legal-compliance-and-licensing/Legal-Compliance-And-Licensing-Performance-Licensing.md"
+      - "01_Domains/legal-compliance-and-licensing/Legal-Compliance-And-Licensing-Terrorism-Risk-Insurance.md"
+      - "01_Domains/legal-compliance-and-licensing/Legal-Compliance-And-Licensing-Venue-Insurance-Requirements.md"
+    affected_count: 3
+    finding: "3 broken wikilinks incidentally surfaced during A-04 audit: Source-0164-SESAC-Performance-License (correct: Public-Performance-License), Source-0167-III-TRIA (correct: III-TRIA-Report), Financial-Operations-Insurance-Coverage (target file does not exist)"
+    detection_method: manual_audit
+    resolution_path: "Fixed inline during S17 audit. First two: renamed wikilinks to match actual source filenames. Third: removed broken related_to link (no replacement target exists; Terrorism-Risk-Insurance link retained in same field)."
+    target_session: S17
+    resolved_session: S17
+    resolved_date: 2026-04-05
+    resolution_evidence: "Inline wikilink renames in 3 legal-compliance concept notes (commit pending)"
+    notes: "These 3 findings suggest a vault-wide wikilink integrity scan (FI-01 from S16 future improvements) is warranted. Similar broken links likely exist across vault. Scheduled for Phase D / S18 if budget permits."
+
+  - id: DELTA-007
+    category: traceability
+    severity: high
+    status: deferred
+    discovered_session: S17
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "01_Domains/inclusivity-and-accessibility/Inclusivity-And-Accessibility-Gender-Inclusive-Facilities.md"
+    affected_count: 1
+    finding: "Single-source concept makes multiple specific claims unsupported by the single source: International Plumbing Code (IPC)/Uniform Plumbing Code (UPC) amendments, Canadian federal/provincial human rights gender identity protections, BMO Field Toronto example. Only source is 2010-ADA-Standards which covers none of these claims."
+    detection_method: manual_audit
+    resolution_path: "Add supplementary sources for IPC/UPC amendments + Canadian human rights legislation + venue example (or remove BMO Field reference if not substantiable). Bundle with S18 citation enrichment."
+    target_session: S18
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Structural gap — body text extends well beyond single-source coverage. BMO Field reference should be checked for CS exemplar policy (Toronto venue, unrelated to Calgary Stampede BMO Centre — likely OK but worth confirming)."
+
+  - id: DELTA-008
+    category: traceability
+    severity: high
+    status: deferred
+    discovered_session: S17
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "01_Domains/inclusivity-and-accessibility/Inclusivity-And-Accessibility-Indigenous-Cultural-Programming.md"
+    affected_count: 1
+    finding: "Single-source concept makes specific claims about Truth and Reconciliation Commission (TRC), 94 Calls to Action (2015), and Call to Action #87 — none clearly sourced. Only source is TicketFairy-Community-Impact."
+    detection_method: manual_audit
+    resolution_path: "Add TRC Calls to Action primary source (Government of Canada document). S18 citation enrichment."
+    target_session: S18
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "TRC document is government-published and freely available — should be a direct source citation, not secondary via TicketFairy."
+
+  - id: DELTA-009
+    category: traceability
+    severity: high
+    status: deferred
+    discovered_session: S17
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "01_Domains/legal-compliance-and-licensing/Legal-Compliance-And-Licensing-Liquor-Licensing-Venues.md"
+    affected_count: 1
+    finding: "Sources topically misaligned with concept subject matter. Concept covers liquor licensing (state/provincial alcohol regulation) but sources are FDA Food Code, SFCR (Canada food safety), and DOL FLSA Tip Regulations — none are liquor-licensing specific."
+    detection_method: manual_audit
+    resolution_path: "Replace sources with liquor-licensing-specific references (state liquor authority documentation, NABCA resources, provincial liquor board materials). S18 or dedicated re-sourcing."
+    target_session: S18
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Most severe source-topic misalignment found in S17 audit. This concept needs fundamental source re-extraction, not supplementary additions."
+
+  - id: DELTA-010
+    category: traceability
+    severity: high
+    status: deferred
+    discovered_session: S17
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "01_Domains/legal-compliance-and-licensing/Legal-Compliance-And-Licensing-Responsible-Beverage-Service.md"
+    affected_count: 1
+    finding: "Sources cover 1 of 6+ named RBS programs (ServSafe only). Body names Smart Serve (Ontario), Serving It Right (BC), ProServe (Alberta), TIPS, California RBS, AGLC — none directly sourced."
+    detection_method: manual_audit
+    resolution_path: "Add jurisdiction-specific sources for each named RBS program, OR consolidate concept to only cover sourced programs, OR add single multi-jurisdictional RBS survey source. S18."
+    target_session: S18
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Multi-jurisdictional claim pattern — concept lists programs across 5 jurisdictions but sources cover only 1 program."
+
+  - id: DELTA-011
+    category: traceability
+    severity: high
+    status: deferred
+    discovered_session: S17
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "01_Domains/legal-compliance-and-licensing/Legal-Compliance-And-Licensing-Naming-Rights.md"
+    affected_count: 1
+    finding: "Source is Source-0166-17-USC-106-Copyright (Copyright law, 17 USC) but concept is about Trademark/Naming Rights governed by Lanham Act (15 USC 1051 et seq.). Sources topically misaligned with concept focus."
+    detection_method: manual_audit
+    resolution_path: "Replace or supplement with Lanham Act / USPTO / trademark-licensing source. S18."
+    target_session: S18
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Single-source concept with wrong-statute-family source. Copyright (17 USC) and Trademark (15 USC) are different legal frameworks."
+
+  - id: DELTA-012
+    category: traceability
+    severity: medium
+    status: deferred
+    discovered_session: S17
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "11 concepts across A-L domains with MED-severity traceability gaps (see audit report per-concept breakdown)"
+    affected_count: 11
+    finding: "11 concepts have MEDIUM-severity traceability gaps: specific claims (statistics, regulatory sections, named entities) that are topically adjacent to sources[] but not directly verified as covered. Most are inline-fixable by adding supplementary wikilinks to existing source notes."
+    detection_method: manual_audit
+    resolution_path: "Scheduled for S18-S19 incremental resolution as part of bibliographic enrichment pass. Each MED gap requires 1-3 additional source wikilinks from existing 06_Sources/ corpus. Audit report contains full per-concept list."
+    target_session: S18
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Aggregate entry. Full per-concept list in _Pipeline/Validation/audit-A04-claim-traceability-p1.md. Representative concepts: Wayfinding (ADA measurements), ADA-Title-III (DOJ 2022 guidance), Accessible-Ticketing (2010 ADA Standards), Assistive-Listening (ADA Section 219), Acoustic-Treatment (RT60 values), BIM-Digital-Twin (alternative platforms), Sports-Field-Turf (ASTM F355), Performance-Licensing (ASCAP stats), Venue-Insurance (CGL thresholds), Community-Funding (Barclays/MLB examples), Crowd-Manager-Staffing (jurisdictional variations)."
+
+  - id: DELTA-013
+    category: traceability
+    severity: low
+    status: deferred
+    discovered_session: S17
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "13 concepts across A-L domains with LOW-severity citation-strengthening opportunities (see audit report)"
+    affected_count: 13
+    finding: "13 concepts have LOW-severity citation-strengthening opportunities: minor claims (specific product/vendor mentions, secondary framework references) where adding 1 supplementary source would strengthen traceability but current state is not a structural gap."
+    detection_method: manual_audit
+    resolution_path: "Bundle with S18-S20 citation enrichment passes. Polish items — not blocker for v1.0 release."
+    target_session: S18
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Aggregate entry. Concepts include: Flow-Management-Crush-Prevention, Radio-Communication (DMR/P25 standards), Midway-Operations (named companies), Acoustic-Treatment (RT60), LED-Display (NDI), Hybrid-Streaming (RTMP/SRT), Event-Driven-HVAC (energy savings stats), CMMS (mid-market platforms), Predictive-Maintenance (sensor specifics), Ice-Arena-Refrigeration (IIAR-2), Space-Management (alternative platforms), Venue-Cleaning (ABM/Pritchard/Tennant), Safety-Training-Certification (Canadian provincial programs), Sensory-Inclusive (Disney DAS)."
+
 # ============================================================
 # SUMMARY METRICS (auto-update at session close)
 # ============================================================
 metrics:
-  total_entries: 5
+  total_entries: 13
   by_status:
     open: 0
     in-progress: 0
-    resolved-inline: 4
+    resolved-inline: 5
     resolved-batch: 0
-    deferred: 1
+    deferred: 8
     accepted: 0
   by_severity:
     critical: 0
-    high: 0
-    medium: 1
-    low: 4
+    high: 5
+    medium: 3
+    low: 5
   by_category:
     provenance: 0
     vocabulary: 3
     citation: 2
     consistency: 0
-    obsidian: 0
-    traceability: 0
+    obsidian: 1
+    traceability: 7
     confidence: 0
     other: 0
 

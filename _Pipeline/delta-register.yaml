@@ -76,7 +76,7 @@ category_definitions:
 # Sequential ID assignment: next_id = max(existing_id) + 1
 # Audit phases in S16 will populate this section.
 
-next_id: 5
+next_id: 6
 entries:
   - id: DELTA-001
     category: vocabulary
@@ -149,29 +149,47 @@ entries:
     resolved_session: null
     resolved_date: null
     resolution_evidence: null
-    notes: "Estimated 50K-80K tokens to enrich all 260 notes. Approach: group by source URL domain, extract from description + URL structure, populate where inferable."
+    notes: "Estimated 50K-80K tokens to enrich all 260 notes. Approach: group by source URL domain, extract from description + URL structure, populate where inferable. author = original content author (person or corporate/organization author at URL), NOT the DR researcher (Perplexity/Gemini). Where unknown, leave null — do not fabricate."
+
+  - id: DELTA-005
+    category: citation
+    severity: low
+    status: deferred
+    discovered_session: S16
+    discovered_date: 2026-04-05
+    affected_notes:
+      - "01_Domains/*/Domain-*.md (all 26 domain overviews)"
+    affected_count: 26
+    finding: "All 26 domain overview notes have empty sources[] field. SCHEMA-optional for domain type, but academic-rigor opportunity: domain overviews should cite the foundational frameworks they anchor in (Baldrige, EFQM, AIPC, IAVM, Excellence Canada + domain-specific seminal sources)."
+    detection_method: manual_audit
+    resolution_path: "scheduled-fix — bundle with DELTA-004 citation enrichment in S18. For each domain overview, add sources[] referencing the industry framework anchors already cited in its key_orgs/key_standards patterns. Sources already exist in 06_Sources/ (e.g., Source-0181-NIST-Baldrige-Framework, Source-0184-EFQM-Model-Overview, Source-0177-Excellence-Canada-Standard, Source-0178-AIPC-Quality-Standards, Source-0230-IAVM-Public-Assembly-Venue-Management-Textbook)."
+    target_session: S18
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Discovered during S16 system-wide QA/QC pass. Not an A-01/A-02/A-03 gap (those covered concept + source note provenance). Low-cost fix once source notes are inventoried per domain — estimated 5-8 sources per domain overview × 26 = ~130-208 wikilink additions."
 
 # ============================================================
 # SUMMARY METRICS (auto-update at session close)
 # ============================================================
 metrics:
-  total_entries: 4
+  total_entries: 5
   by_status:
     open: 0
     in-progress: 0
     resolved-inline: 0
     resolved-batch: 0
-    deferred: 1
+    deferred: 2
     accepted: 3
   by_severity:
     critical: 0
     high: 0
     medium: 1
-    low: 3
+    low: 4
   by_category:
     provenance: 0
     vocabulary: 3
-    citation: 1
+    citation: 2
     consistency: 0
     obsidian: 0
     traceability: 0

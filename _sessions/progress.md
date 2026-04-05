@@ -1,9 +1,69 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00 through batch-10 complete. Next: batch-11-mocs.
+batch-00 through batch-11 complete. Next: Phase B.5 continuation (S17 audit A-04 claim-to-source traceability).
 
 ## Session History
+
+### Session 16 — 2026-04-05 (Academic Rigor Initiative Phase B.5 Session 1)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-16/b2-moc-generation (git worktree)
+**Focus:** Consolidation Pass — MOC generation (batch-11) + 3 audits + publishing artifacts + Obsidian mountability + persona expansion
+
+**Scope shift (Alex directive, 2026-04-05):** With no new DR available for 3 empty domains, S16 pivoted from extraction to foundational consolidation + academic-rigor priming. S16 became Session 1 of new multi-session Phase B.5 Academic Rigor Initiative (S16-S20) inserted between B2/B3 and v1.0 release.
+
+**Phase 1 — Pre-flight governance foundation:**
+- [x] Persisted vep-kb-initiative-roadmap.md v1.1 (from S128 KitchenSync worktree, with S16 scope correction + Phase B.5 insertion)
+- [x] CLAUDE.md v2.0 → v2.1: 4 new §1 persona sections (Scholarly Publishing & Editorial Rigor, Terminological Precision & Lexicon Stewardship, Information Architecture & Discoverability, Delta Register Discipline), §2 Publishing Vision subsection, §3 Academic Rigor Outcomes subsection
+- [x] Initialized _Pipeline/delta-register.yaml (machine-readable audit backlog) + .md derived index
+- [x] Wrote session-16-operational-plan.md v1.0 (8-section gold-standard)
+
+**Phase 2 — MOC generation (batch-11):**
+- [x] Generated 26 enriched domain MOCs in 07_MOCs/ (all domains, not tiered — per Alex directive)
+- [x] Updated Map-Venue-Operations-Ecosystem.md master MOC: children[] expanded 26 → 52 (Domain + Map), new "How to Navigate This KB" + "Domain MOCs — Navigation Layer" sections
+- [x] Scaffold MOCs for 3 empty domains (data-and-analytics, booking-and-sales, tenant-and-partner-relations) — reserve navigation structure for future concept extraction
+- [x] Validation report: PASS (zero schema/vocab/terminology/GLRC violations)
+
+**Phase 3-5 — Audits A-01/A-02/A-03:**
+- [x] A-01 Provenance chain completeness: PASS — 100% coverage across all 482 notes (ai_disclosure, extraction_model, research_batch)
+- [x] A-02 Vocabulary strict enforcement: PASS for vault content (0 old-slug violations) + 3 LOW findings on governance-artifact status conventions
+- [x] A-03 Citation format: PASS (required fields 100%) / DEFERRED (optional bibliographic enrichment author/publication/publish_date → S18)
+
+**Phase 6 — METHODOLOGY.md publication:**
+- [x] New public-facing methodology statement at vault root (12 sections, peer-review-grade transparency, EU AI Act aligned)
+
+**Phase 7 — README.md update:**
+- [x] Added dual-entry-point navigation (Domain + MOC), METHODOLOGY pointer, S16 vault statistics, known gaps, Academic Rigor Initiative status
+
+**Phase 8 — Obsidian mountability verification:**
+- [x] Created minimal .obsidian/ config (community-plugins.json w/ dataview, app.json, appearance.json)
+- [x] Spot-checked 7 wikilinks from MOCs — 7/7 resolve
+- [x] Result: vault mountable in Obsidian Desktop today (requires user Dataview install on first open)
+
+**Delta register state at S16 close:**
+- 4 entries total
+- 3 accepted (governance-artifact status conventions, S19 candidate for field rename)
+- 1 deferred (S18 source note bibliographic enrichment, 260 notes)
+- By severity: 3 low, 1 medium, 0 high, 0 critical
+
+**Vault state after S16:**
+- 482 total notes (+28 new: 26 MOCs + METHODOLOGY + audit reports)
+- 169 concepts · 260 sources · 26 domain overviews · 27 MOCs (26 new + 1 updated master)
+- Academic Rigor Outcomes: 100% provenance, 100% vocabulary compliance (vault content), 100% citation required fields
+
+**Decisions Made:**
+- CLAUDE.md persona expansion committed v2.1 with academic-publishing bar codified
+- All 26 MOCs get enriched treatment (not tiered) per Alex directive
+- Master MOC children[] includes both Domain overviews AND Map MOCs (dual entry points)
+- Scaffold MOCs created for 3 empty domains
+- 3 audit findings accepted as governance-artifact conventions (S19 field rename candidate)
+- 1 audit finding deferred to S18 (bibliographic enrichment pass)
+- Delta register established as authoritative Academic Rigor Initiative backlog
+
+**Failed Approaches:**
+- None this session
+
+### Session 15 — 2026-04-05 (batch-09 + batch-10 + S14 remediation)
 
 ### Session 15 — 2026-04-05 (batch-09 + batch-10 + S14 remediation)
 **Machine:** MacBook Air (bubblegumpshrimpco)

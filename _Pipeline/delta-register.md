@@ -24,12 +24,12 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 
 | Metric | Count |
 |---|:-:|
-| Total entries | 4 |
+| Total entries | 5 |
 | Open | 0 |
 | In progress | 0 |
 | Resolved (inline) | 0 |
 | Resolved (batch) | 0 |
-| Deferred | 1 |
+| Deferred | 2 |
 | Accepted | 3 |
 
 ## By Severity
@@ -39,7 +39,7 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 | Critical | 0 |
 | High | 0 |
 | Medium | 1 |
-| Low | 3 |
+| Low | 4 |
 
 ## By Category
 
@@ -47,7 +47,7 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 |---|:-:|---|
 | Provenance | 0 | GLRC chain completeness (ai_disclosure, extraction_model, research_batch, sources) |
 | Vocabulary | 3 | Controlled vocabulary drift vs VOCABULARY.yaml |
-| Citation | 1 | Source note bibliographic metadata gaps |
+| Citation | 2 | Source note bibliographic metadata gaps |
 | Consistency | 0 | Editorial/structural consistency within domains |
 | Obsidian | 0 | Vault mountability, broken links, graph integrity |
 | Traceability | 0 | Claim-to-source traceability in concept bodies |
@@ -58,7 +58,7 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 
 | Session | Date | Scope | Opened | Resolved | Deferred |
 |---|---|---|:-:|:-:|:-:|
-| S16 | 2026-04-05 | Consolidation Pass (B.5 Phase 1) | 4 | 3 (accepted) | 1 → S18 |
+| S16 | 2026-04-05 | Consolidation Pass (B.5 Phase 1) | 5 | 3 (accepted) | 2 → S18/S19 |
 
 ## Entries
 
@@ -68,8 +68,9 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 | DELTA-002 | vocabulary | low | accepted | `status: active` in operational plan — not in VOCABULARY.yaml status list | S19 |
 | DELTA-003 | vocabulary | low | accepted | `status: PASS` in audit reports — field naming conflict | S19 |
 | DELTA-004 | citation | medium | deferred | 260 source notes missing author/publication/publish_date optional bibliographic fields | S18 |
+| DELTA-005 | citation | low | deferred | 26 domain overviews have empty sources[] — should cite foundational industry frameworks | S18 |
 
-*Entries 001-003: governance-artifact frontmatter conventions (not vault content violations). Candidates for S19 field rename design decision. Entry 004: academic-rigor bar enrichment deferred to dedicated S18 sub-pass.*
+*Entries 001-003: governance-artifact conventions. Entry 004: source note bibliographic enrichment. Entry 005: domain overview framework citations (bundled with 004 in S18).*
 
 ## How to Add an Entry
 

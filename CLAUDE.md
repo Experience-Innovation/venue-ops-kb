@@ -86,7 +86,7 @@ A structured, validated, fully-sourced knowledge base with:
 
 ### Quality Outcomes
 - **Zero fabrication** — every factual claim traces to a source file
-- **Zero forbidden terminology** — no "Operational Excellence," no Vivid Array, no co-host references
+- **Zero forbidden terminology** — no Vivid Array, no co-host references. "Operational Excellence" is permitted as standard industry terminology per Decision #45.
 - **100% schema compliance** — every note passes all 34 pre-write validation checks
 - **Full provenance** — ai_disclosure, extraction_model, research_batch, and sources on every note
 - **Relationship integrity** — every wikilink resolves, every relationship uses a valid type from Decision #31

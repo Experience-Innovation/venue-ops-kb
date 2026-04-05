@@ -196,12 +196,6 @@ batch-00 through batch-08 complete. Next: batch-09-existing-dr.
 | 25 | quality-and-continuous-improvement | Minimum viable | 7 | batch-07 |
 | 26 | tenant-and-partner-relations | Scaffolded | 0 | batch-09 |
 
-## Next Session Priority
-
-1. **batch-00-scaffold** — Create 26 domain overview notes (one per domain in 01_Domains/{slug}/) + master ecosystem MOC in 07_MOCs/
-2. **batch-01-safety-emergency** — Highest volume research, process 5 DR files covering safety, security, crowd management
-3. Continue processing in batch order per discovery manifest
-
 ## Vault Statistics
 
 | Metric | Value |
@@ -217,7 +211,7 @@ batch-00 through batch-08 complete. Next: batch-09-existing-dr.
 | Organization notes | 0 |
 | Person notes | 0 |
 | MOC notes | 1 |
-| Validation reports | 9 |
+| Validation reports | 9 |  <!-- 7 from S14 + 2 backfilled S15 (batch-07, batch-08) -->
 | Git commits | 11 |
 
 ---

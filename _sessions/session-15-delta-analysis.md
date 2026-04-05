@@ -1,183 +1,214 @@
-# Session 15 — Delta Analysis (Pre-Work Audit)
-**Date:** 2026-04-04
+# Session 15 — Delta Analysis (Full)
+**Date:** 2026-04-05
 **Machine:** MacBook Air (bubblegumpshrimpco)
 **Branch:** session-15/batch-processing
-**Predecessor:** Session 14 (PR #4 merged)
-**Purpose:** Full audit of Session 14 deliverables against pass-forward claims before any Session 15 work begins
-
----
-
-## Root Cause Finding
-
-**Session 14's close-out commit (dcb9aba) was pushed to the remote branch AFTER PR #4 was merged.** This caused:
-- D#45 governance updates missing from main
-- Session artifacts (handoff.md, delta-analysis.md) missing from main
-- 7 orphan fixes missing from main
-- Terminology remediation missing from main
-
-**Resolution:** Cherry-picked dcb9aba into session-15/batch-processing as commit 5ee694f. All S14 close-out work now in the working branch.
+**Base commit:** b39367d (main @ PR #4 merge)
+**Focus:** S14 remediation + batch-09-existing-dr + batch-10-cross-linking
 
 ---
 
 ## Delta Table (Machine-Readable)
 
 ```yaml
-audit:
-  session: 15
-  date: 2026-04-04
-  auditor: Claude (ESC)
-  scope: Session 14 deliverables vs pass-forward claims
+session: 15
+date: 2026-04-05
+machine: bubblegumpshrimpco
+branch: session-15/batch-processing
+base_commit: b39367d
+head_commit: <TBD after session close>
+predecessor_session: 14
 
-recovered_from_cherry_pick:
-  commit: 5ee694f
-  source: dcb9aba (origin/session-14/batch-processing)
-  files_recovered: 12
-  items:
-    - artifact: session-14-handoff.md
-      status: RECOVERED
-    - artifact: session-14-delta-analysis.md
-      status: RECOVERED
-    - artifact: CLAUDE.md Hard Rule #2 (D#45)
-      status: RECOVERED
-    - artifact: CLAUDE.md Encoded Lesson #3 (D#45)
-      status: RECOVERED
-    - artifact: validation-rules.md Rule #29 (D#45)
-      status: RECOVERED
-    - artifact: 7 orphan fixes (cross-batch linking)
-      status: RECOVERED
+phase_0_s14_remediation:
+  cherry_pick:
+    source_commit: dcb9aba
+    session_commit: 5ee694f
+    files_recovered: 12
+    recoveries:
+      - session-14-handoff.md (132 lines)
+      - session-14-delta-analysis.md (348 lines)
+      - CLAUDE.md D#45 (Hard Rule #2, Encoded Lesson #3)
+      - validation-rules.md Rule #29 (D#45)
+      - 7 orphan fixes (cross-batch linking)
+  
+  remediation_commit: 5556d0c
+  delta_findings_resolved:
+    DELTA-S15-001: RESOLVED (CLAUDE.md §3 Quality Outcomes aligned with D#45)
+    DELTA-S15-002: RESOLVED (batch-07-awards-ecosystem-validation.md written)
+    DELTA-S15-003: RESOLVED (batch-08-venue-type-functions-validation.md written)
+    DELTA-S15-004: RESOLVED (progress.md validation count corrected)
+    DELTA-S15-005: RESOLVED (stale S12 priority block removed)
+    DELTA-S15-006: DEFERRED to this close-out (git commit count — now updated)
 
-remaining_findings:
-  - id: DELTA-S15-001
-    category: governance
-    severity: MEDIUM
-    description: "CLAUDE.md line 89 Quality Outcomes still lists 'Operational Excellence' as forbidden terminology"
-    detail: "D#45 updated Hard Rule #2 and Encoded Lesson #3 but missed the Quality Outcomes section (§3)"
-    status: OPEN
-    remediation: "Update line 89 to align with D#45 scoping"
-    owner: ESC
-    
-  - id: DELTA-S15-002
-    category: documentation
-    severity: MEDIUM
-    description: "batch-07-validation.md missing from _Pipeline/Validation/"
-    detail: "S14 OIR item #5 — QA was performed but validation report not written to standard format"
-    status: OPEN
-    remediation: "Write per validation-rules.md template using S14 delta-analysis data"
-    owner: ESC
-    
-  - id: DELTA-S15-003
-    category: documentation
-    severity: MEDIUM
-    description: "batch-08-validation.md missing from _Pipeline/Validation/"
-    detail: "S14 OIR item #5 — QA was performed but validation report not written to standard format"
-    status: OPEN
-    remediation: "Write per validation-rules.md template using S14 delta-analysis data"
-    owner: ESC
+batches_completed:
+  - id: batch-09-existing-dr
+    concepts_created: 17
+    sources_created: 30
+    orphans_at_qa: 17
+    orphans_resolved: 0 (deferred to batch-10)
+    url_fabrication_incidents: 1 (Recon manifest v1 rejected at Ready gate)
+    recon_retries: 1
+    files_yielding_concepts: 2 of 5 (DR-OpEx-CI: 14, DR-AI-Change: 3)
+    files_zero_yield: 3 (DR-Podcast-Behavior, DR-Podcast-Launch, DR-Competitive-GTM)
+    gate_status_after_batch: CONDITIONAL_PASS
+    gate_status_after_batch_10: GREEN
 
-  - id: DELTA-S15-004
-    category: data-integrity
-    severity: LOW
-    description: "progress.md reports 'Validation reports | 9' but actual count is 7"
-    detail: "S14 handoff correctly states 7. progress.md Vault Statistics inflated."
-    status: OPEN
-    remediation: "Correct to 7 (will become 9 after DELTA-S15-002 and -003 are resolved)"
-    owner: ESC
+  - id: batch-10-cross-linking
+    concepts_created: 0
+    concepts_modified: 39
+    orphans_resolved: 17
+    related_to_links_added: 52 (bidirectional undirected edges)
+    average_inbound_links_per_orphan: 2.9
+    target_files_verified: 18 of 18
+    gate_status: GREEN
 
-  - id: DELTA-S15-005
-    category: data-integrity
-    severity: LOW
-    description: "progress.md contains stale 'Next Session Priority' block at line 199-203"
-    detail: "References batch-00/batch-01 from Session 12. Duplicates the current priority block at lines 225-229."
-    status: OPEN
-    remediation: "Remove stale block, keep current"
-    owner: ESC
+vault_delta:
+  concept_notes:
+    before: 152
+    after: 169
+    delta: +17
+    pct_change: +11.2%
+  source_notes:
+    before: 230
+    after: 260
+    delta: +30
+    pct_change: +13.0%
+  validation_reports:
+    before: 7
+    after: 11
+    delta: +4 (batch-07, batch-08, batch-09, batch-10)
+  domains_with_concepts:
+    before: 22
+    after: 23 (financial-operations established)
+    delta: +1
+  domains_at_authoritative:
+    before: 4
+    after: 4
+    delta: 0 (sustainability moved 8→11 but was already counted; facilities stayed)
+  domains_at_working_depth:
+    before: 3
+    after: 6 (quality-CI, strategy-gov, sustainability, food-bev, parking, facilities)
+    delta: +3
+  domains_scaffolded:
+    before: 4
+    after: 2 (financial-ops new; commercial, ticketing remain; data/booking/tenant still zero)
+    delta: -2
+  domains_at_zero:
+    before: 4
+    after: 3 (financial-ops established)
+    delta: -1
 
-  - id: DELTA-S15-006
-    category: data-integrity
-    severity: LOW
-    description: "progress.md Git commits count says 11, actual is higher after S14 close-out cherry-pick"
-    detail: "Minor — will be corrected during session close-out"
-    status: OPEN
-    remediation: "Update at session close-out"
-    owner: ESC
+domain_coverage_delta:
+  - domain: quality-and-continuous-improvement
+    before: 7
+    after: 10
+    delta: +3
+    threshold_before: minimum-viable
+    threshold_after: working-depth
+  - domain: strategy-and-governance
+    before: 3
+    after: 8
+    delta: +5
+    threshold_before: minimum-viable
+    threshold_after: working-depth
+  - domain: people-and-culture
+    before: 5
+    after: 7
+    delta: +2
+    threshold_before: minimum-viable
+    threshold_after: minimum-viable
+  - domain: sustainability-and-environmental
+    before: 8
+    after: 11
+    delta: +3
+    threshold_before: working-depth
+    threshold_after: authoritative
+  - domain: technology-and-digital
+    before: 4
+    after: 5
+    delta: +1
+    threshold_before: minimum-viable
+    threshold_after: minimum-viable
+  - domain: financial-operations
+    before: 0
+    after: 1
+    delta: +1
+    threshold_before: scaffolded (zero)
+    threshold_after: scaffolded (established)
+  - domain: food-and-beverage
+    before: 12
+    after: 13
+    delta: +1
+    threshold_before: working-depth
+    threshold_after: working-depth
+  - domain: facilities-and-building-systems
+    before: 14
+    after: 15
+    delta: +1
+    threshold_before: authoritative
+    threshold_after: authoritative
 
-batch_deliverable_verification:
-  batch-05-commercial-premium:
-    concept_notes_claimed: 22
-    concept_notes_verified: 22
-    source_notes_claimed: 30
-    source_notes_verified: 30
-    pipeline_state: PASS
-    domain_node_counts: PASS
-    validation_report: PASS (batch-05-validation.md exists)
-    overall: PASS
+cs_exemplar_flags_this_session:
+  - source: DR-OpEx-CI-Major-Venues.md
+    content: BMO Centre 2023 AIPC Innovation Award Overall winner (Concierge Program)
+    in_body_text: false
+    batch: batch-09
+    status: flagged (not included in any concept body)
 
-  batch-06-legal-insurance-accessibility:
-    concept_notes_claimed: 16
-    concept_notes_verified: 16
-    source_notes_claimed: 30
-    source_notes_verified: 30
-    pipeline_state: PASS
-    domain_node_counts: PASS
-    validation_report: PASS (batch-06-validation.md exists)
-    overall: PASS
+terminology_compliance:
+  vivid_array_references: 0
+  old_domain_slugs: 0
+  cs_bmo_in_body_text: 0
+  d45_compliance: verified
+  
+glrc_compliance:
+  governance:
+    ai_disclosure_present: all 47 new notes
+    human_reviewer_noted: Alex Jackson
+    extraction_model_recorded: claude-opus-4-6 on all
+  lineage:
+    research_batch_tagged: all 47 new notes
+    source_provenance_chain: complete
+    urls_verbatim_from_dr: verified (grep-checked)
+  reconciliation:
+    domain_node_counts_match_file_counts: verified (8 updated)
+    pipeline_state_matches_progress: verified
+    source_numbering_sequential: Source-0001 through Source-0260 (no gaps)
+  compliance:
+    terminology_scan: pass
+    schema_validation: pass (all 34 pre-write checks)
+    forbidden_content: none
+    vocabulary_values: all from controlled lists
 
-  batch-07-awards-ecosystem:
-    concept_notes_claimed: 12
-    concept_notes_verified: 12
-    source_notes_claimed: 30
-    source_notes_verified: 30
-    pipeline_state: PASS
-    domain_node_counts: PASS
-    validation_report: FAIL (batch-07-validation.md MISSING — DELTA-S15-002)
-    overall: PARTIAL
+risk_items:
+  - id: RISK-S15-001
+    description: "Data-and-analytics, booking-and-sales, tenant-and-partner-relations remain at 0 concepts"
+    mitigation: DR corpus exhausted for these domains. Requires fresh DR research.
+    severity: medium
+    status: open
+  - id: RISK-S15-002
+    description: Standard/Technology/Organization/Person note types still at 0 count
+    mitigation: Dedicated enrichment pass planned (S13 + S14 OIR carryover)
+    severity: low
+    status: deferred
+  - id: RISK-S15-003
+    description: "Recon agents have demonstrated URL fabrication capability if not constrained"
+    mitigation: Future Recon dispatches must include verbatim-quote requirement and URL grep verification warning
+    severity: medium
+    status: mitigated (failed-approach logged in progress.md)
 
-  batch-08-venue-type-functions:
-    concept_notes_claimed: 14
-    concept_notes_verified: 14
-    source_notes_claimed: 20
-    source_notes_verified: 20
-    pipeline_state: PASS
-    domain_node_counts: PASS
-    validation_report: FAIL (batch-08-validation.md MISSING — DELTA-S15-003)
-    overall: PARTIAL
-
-vault_state_verified:
-  concept_notes: 152
-  source_notes: 230
-  domain_overviews: 26
-  moc_notes: 1
-  validation_reports: 7
-  domains_with_concepts: 22
-  domains_at_zero: 4 (data-and-analytics, financial-operations, booking-and-sales, tenant-and-partner-relations)
-  domains_authoritative: 4 (av-and-production, event-operations, facilities, safety-and-risk)
-  domains_working_depth: 3 (food-and-beverage, parking-and-transportation, sustainability)
-  domains_minimum_viable: 15
-  domains_scaffolded: 4
-
-git_state:
-  main_head: b39367d
-  session_branch: session-15/batch-processing
-  session_head: 5ee694f (includes cherry-picked S14 close-out)
-  stale_worktrees: 0
-  remote_branches_stale: 
-    - origin/session-11/workspace-setup-closeout (merged PR #1)
-    - origin/session-14/batch-processing (merged PR #4, close-out cherry-picked)
+session_commits:
+  - hash: 5ee694f
+    message: VEP KB Session 14 close-out (cherry-picked from dcb9aba)
+  - hash: 5556d0c
+    message: VEP KB Session 15 pre-work — delta audit, S14 remediation, ops plan
+  - hash: <TBD>
+    message: VEP KB batch-09-existing-dr — 17 concepts + 30 sources
+  - hash: <TBD>
+    message: VEP KB batch-10-cross-linking — 17 orphans resolved, 52 bidirectional links
+  - hash: <TBD>
+    message: VEP KB Session 15 close-out — handoff, progress, domain counts
 ```
 
 ---
 
-## Remediation Checklist
-
-| ID | Finding | Severity | Action | Status |
-|----|---------|----------|--------|--------|
-| DELTA-S15-001 | CLAUDE.md §3 Quality Outcomes stale | MEDIUM | Update line 89 to align with D#45 | [x] RESOLVED |
-| DELTA-S15-002 | batch-07-validation.md missing | MEDIUM | Write to standard format | [x] RESOLVED — batch-07-awards-ecosystem-validation.md |
-| DELTA-S15-003 | batch-08-validation.md missing | MEDIUM | Write to standard format | [x] RESOLVED — batch-08-venue-type-functions-validation.md |
-| DELTA-S15-004 | progress.md validation count wrong | LOW | Count now 9 (7 existing + 2 backfilled) | [x] RESOLVED |
-| DELTA-S15-005 | progress.md stale priority block | LOW | Removed duplicate S12 block | [x] RESOLVED |
-| DELTA-S15-006 | progress.md git commit count stale | LOW | Update at close-out | [ ] DEFERRED to close-out |
-
----
-
-*Session 15 Delta Analysis | 2026-04-04 | Experience Innovation Inc.*
+*Session 15 Delta Analysis | 2026-04-05 | Experience Innovation Inc.*

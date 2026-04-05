@@ -1,15 +1,15 @@
 ---
 type: initiative-roadmap
 domain: [venue-ops-kb, kb-v1.0, ci, post-v1.0-planning, academic-rigor]
-version: "1.1"
+version: "1.2"
 trust_tier: internal
-status: active
+lifecycle: active
 created: 2026-04-05
 updated: 2026-04-05
 source_session: S128 (KitchenSync harness — v1.0-DRAFT); S16 persistence + Phase B.5 insert (v1.1)
 target_repo: venue-ops-kb
 target_location: _sessions/vep-kb-initiative-roadmap.md
-change_summary: "v1.1 — persisted from S128, corrected S16 scope (no new DR available → Consolidation Pass), inserted Phase B.5 Academic Rigor initiative (S17-S20) per Alex 2026-04-05 directive"
+change_summary: "v1.2 — S16 close-out update. 4/5 delta entries resolved inline. Inserted dedicated S18 CI / Enrichment Cycle session (DELTA-004 bibliographic enrichment centerpiece) per Alex directive. B.5 extended to 6 sessions (S16-S21)."
 ---
 
 # VEP KB Initiative Roadmap
@@ -110,11 +110,14 @@ Phase B (B1+B2) → Phase B.5 (Academic Rigor) → Phase C (v1.0 Release)
 
 | Session | Focus | Est. Budget | Deliverables |
 |---|---|:-:|---|
-| **S16 (CURRENT)** | Consolidation Pass: MOC generation (batch-11) + Audit A-01/02/03 (provenance, vocabulary, citation) + METHODOLOGY.md + README + Obsidian mountability + persona expansion (CLAUDE.md v2.1) + delta register init | ~545K | 27 MOCs, 3 audit reports, METHODOLOGY.md, updated README, mounted vault, CLAUDE.md v2.1, delta-register.yaml |
+| **S16 (DONE)** | Consolidation Pass: MOC generation (batch-11) + Audit A-01/02/03 (provenance, vocabulary, citation) + METHODOLOGY.md + README + Obsidian mountability + persona expansion (CLAUDE.md v2.1) + delta register init + 4/5 delta entries resolved inline | ~680K actual | 27 MOCs, 3 audit reports, METHODOLOGY.md, updated README, mounted vault, CLAUDE.md v2.1, delta-register.yaml (5 entries, 4 resolved-inline, 1 deferred DELTA-004) |
 | **S17** | Audit A-04 Claim-to-source traceability (concept notes, domains 1-13) + delta register continuation | ~600K | 13 domain audit reports + delta register updates |
-| **S18** | Audit A-04 continued (domains 14-26) + A-05 peer-review-style consistency pass | ~600K | 13 domain audit reports + consistency audit + delta register updates |
-| **S19** | Audit A-06 confidence tier audit + delta register sweep (resolve all deferred items) | ~600K | Confidence audit + delta register zero-open |
-| **S20** | A-07 batch-12 final validation + v1.0 tag | ~400K | Final validation report + v1.0.0 tag + release notes |
+| **S18 — CI / Enrichment Cycle** | **Continuous Improvement / Enrichment Cycle (centerpiece: DELTA-004 source note bibliographic enrichment).** 260 source notes × author + publication + publish_date field additions. Author = original content author at URL (NOT DR researcher; null if unknown — do not fabricate). Plus selected FI-01 tooling (wikilink integrity scanner) if budget permits. | ~650K | 260 source notes enriched with bibliographic metadata + optional wikilink integrity scanner tooling + delta-register.yaml DELTA-004 resolved |
+| **S19** | Audit A-04 Part 2 (concept traceability domains 14-26) + A-05 peer-review-style consistency pass | ~650K | 13 domain audit reports + consistency audit + delta register updates |
+| **S20** | Audit A-06 confidence tier audit + delta register sweep (zero-open gate verification) | ~600K | Confidence audit + delta register zero-open |
+| **S21** | A-07 batch-12 final validation + v1.0 tag | ~400K | Final validation report + v1.0.0 tag + release notes |
+
+**Note:** Session count increased from 5 to 6 (S16-S21) to accommodate dedicated S18 CI / Enrichment Cycle per Alex directive 2026-04-05. DELTA-004 (260 source notes × 3 fields = ~780 field additions) warrants session-scale focus rather than bundling into A-04 traceability work.
 
 ### B.5 Audit Thread Catalogue
 
@@ -243,16 +246,17 @@ Phase C (v1.0 Release) → Phase D (CI Initiative COMPLETE) → Phase E (Enrichm
 
 | Session | Focus | Est. Budget | Prereq | Status |
 |---|---|:-:|---|:-:|
-| **S16** (current) | Consolidation Pass (B2 MOCs + A-01/02/03 + METHODOLOGY + README + Obsidian mount + CLAUDE.md v2.1) | ~545K | None | IN PROGRESS |
+| **S16** | Consolidation Pass (batch-11 MOCs + A-01/02/03 + METHODOLOGY + README + Obsidian mount + CLAUDE.md v2.1 + 4/5 delta entries resolved inline) | ~680K actual | None | ✅ COMPLETE 2026-04-05 |
 | **S17** | Academic Rigor A-04 (traceability, domains 1-13) | ~600K | S16 close | Scheduled |
-| **S18** | Academic Rigor A-04 (domains 14-26) + A-05 consistency | ~600K | S17 close | Planned |
-| **S19** | Academic Rigor A-06 (confidence) + delta register sweep | ~600K | S18 close | Planned |
-| **S20** | A-07 batch-12 final validation + v1.0 tag | ~400K | All B.5 items complete | Planned |
-| **S21** | Fresh DR research prompts for 3 empty domains (Alex-led) | — | — | Awaiting DR availability |
-| **S22** | B1 extraction session | ~650K | S21 DR output | Awaiting DR availability |
-| **S23+** | Phase D CI-dedicated sessions (D1-D4) | 2M total | v1.0 released | Gated |
+| **S18** | **CI / Enrichment Cycle** — DELTA-004 bibliographic enrichment (260 source notes × author/publication/publish_date) + optional FI-01 wikilink scanner tooling | ~650K | S17 close | Scheduled |
+| **S19** | Academic Rigor A-04 Part 2 (domains 14-26) + A-05 peer-review consistency | ~650K | S18 close | Planned |
+| **S20** | Academic Rigor A-06 (confidence) + delta register zero-open sweep | ~600K | S19 close | Planned |
+| **S21** | A-07 batch-12 final validation + v1.0 tag | ~400K | All B.5 items complete | Planned |
+| **S22+** | Fresh DR research prompts for 3 empty domains (Alex-led) | — | — | Awaiting DR availability |
+| **S23+** | B1 extraction session | ~650K | S22 DR output | Awaiting DR availability |
+| **S24+** | Phase D CI-dedicated sessions (D1-D4) | ~2M total | v1.0 released | Gated |
 
-**Note:** B1 (filling 3 empty domains) can be interleaved anywhere in the B.5 sequence once fresh DR is available. B.5 audit work does NOT block on B1.
+**Note:** B1 (filling 3 empty domains) can be interleaved anywhere in the B.5 sequence once fresh DR is available. B.5 audit work does NOT block on B1. S18 CI / Enrichment Cycle was inserted per Alex directive 2026-04-05.
 
 ---
 
@@ -295,6 +299,7 @@ Phase C (v1.0 Release) → Phase D (CI Initiative COMPLETE) → Phase E (Enrichm
 |---|---|---|---|
 | 1.0-DRAFT | 2026-04-05 | S128 (KitchenSync, drafted for S16 persistence) | Initial roadmap — worklog + Phase B path to v1.0 + Phase D post-v1.0 CI + Phase E backlog |
 | 1.1 | 2026-04-05 | S16 (persistence + scope correction) | Persisted to venue-ops-kb. Corrected S16 scope (no new DR → Consolidation Pass, not B1 extraction). Inserted Phase B.5 Academic Rigor initiative (S17-S20). Updated risk register. Updated sequencing. Added delta register as authoritative backlog mechanism. |
+| 1.2 | 2026-04-05 | S16 (close-out update) | Marked S16 complete with actual scope (4/5 delta entries resolved inline). Inserted dedicated S18 CI / Enrichment Cycle session (DELTA-004 centerpiece: 260 source notes × bibliographic metadata enrichment) per Alex directive. Shifted A-04 Part 2 to S19, extending Phase B.5 from 5 sessions to 6 (S16-S21). Updated §3b B.5 sequencing and §8 recommended next sessions. |
 
 ---
 

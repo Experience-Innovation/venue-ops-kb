@@ -81,7 +81,7 @@ entries:
   - id: DELTA-001
     category: vocabulary
     severity: low
-    status: accepted
+    status: resolved-inline
     discovered_session: S16
     discovered_date: 2026-04-05
     affected_notes:
@@ -89,17 +89,17 @@ entries:
     affected_count: 1
     finding: "Uses status: active — not in VOCABULARY.yaml status list (draft/reviewed/canonical/archived)"
     detection_method: automated_scan
-    resolution_path: "accepted — governance artifact convention; status vocabulary applies to note_type-classified content only. Field rename (status → lifecycle) candidate for S19 design decision."
-    target_session: S19
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Roadmap is type: initiative-roadmap, not a note_type-classified note. 'active' is semantically meaningful. Academic-rigor convention question — not a vault content violation."
+    resolution_path: "Renamed status: active → lifecycle: active. Convention documented in CLAUDE.md v2.1 §1 Frontmatter Field Conventions (per Alex directive 2026-04-05 to fix inline rather than defer)."
+    target_session: S16
+    resolved_session: S16
+    resolved_date: 2026-04-05
+    resolution_evidence: "Inline field rename + CLAUDE.md v2.1 convention documentation (commit pending)"
+    notes: "Field-naming collision resolved by distinguishing status: (content notes, from VOCABULARY.yaml) from lifecycle: (governance artifacts). Academic-rigor convention formalized."
 
   - id: DELTA-002
     category: vocabulary
     severity: low
-    status: accepted
+    status: resolved-inline
     discovered_session: S16
     discovered_date: 2026-04-05
     affected_notes:
@@ -107,31 +107,30 @@ entries:
     affected_count: 1
     finding: "Uses status: active — not in VOCABULARY.yaml status list"
     detection_method: automated_scan
-    resolution_path: "accepted — governance artifact convention; same rationale as DELTA-001"
-    target_session: S19
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Operational plan artifact — not a note_type-classified vault content note."
+    resolution_path: "Renamed status: active → lifecycle: active. Same convention as DELTA-001."
+    target_session: S16
+    resolved_session: S16
+    resolved_date: 2026-04-05
+    resolution_evidence: "Inline field rename (commit pending)"
+    notes: "Operational plan artifact — uses lifecycle: per governance-artifact convention."
 
   - id: DELTA-003
     category: vocabulary
     severity: low
-    status: accepted
+    status: resolved-inline
     discovered_session: S16
     discovered_date: 2026-04-05
     affected_notes:
       - "_Pipeline/Validation/audit-A01-provenance-completeness.md"
-      - "_Pipeline/Validation/audit-A02-vocabulary-enforcement.md"
-    affected_count: 2
+    affected_count: 1
     finding: "Uses status: PASS (audit outcome) — field naming conflict with VOCABULARY.yaml status list"
     detection_method: automated_scan
-    resolution_path: "accepted — audit reports carry outcome as status. Consider renaming to audit_outcome: PASS in S19 governance cleanup."
-    target_session: S19
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Audit report artifacts use status semantically as outcome marker. Candidate for field rename in S19."
+    resolution_path: "Renamed status: PASS → audit_outcome: PASS in audit-A01. (A-02, A-03, Phase8 audit reports already used audit_outcome: field at write-time during S16.) Convention documented in CLAUDE.md v2.1 §1 Frontmatter Field Conventions."
+    target_session: S16
+    resolved_session: S16
+    resolved_date: 2026-04-05
+    resolution_evidence: "Inline field rename on audit-A01 + CLAUDE.md v2.1 convention documentation (commit pending)"
+    notes: "Field-naming collision resolved: audit reports use audit_outcome: (PASS/FAIL/CONDITIONAL/DEFERRED). Distinct from status: (content notes) and lifecycle: (governance artifacts)."
 
   - id: DELTA-004
     category: citation
@@ -154,20 +153,20 @@ entries:
   - id: DELTA-005
     category: citation
     severity: low
-    status: deferred
+    status: resolved-inline
     discovered_session: S16
     discovered_date: 2026-04-05
     affected_notes:
       - "01_Domains/*/Domain-*.md (all 26 domain overviews)"
     affected_count: 26
-    finding: "All 26 domain overview notes have empty sources[] field. SCHEMA-optional for domain type, but academic-rigor opportunity: domain overviews should cite the foundational frameworks they anchor in (Baldrige, EFQM, AIPC, IAVM, Excellence Canada + domain-specific seminal sources)."
+    finding: "All 26 domain overview notes have empty sources[] field. SCHEMA-optional for domain type, but academic-rigor opportunity: domain overviews should cite the foundational frameworks they anchor in."
     detection_method: manual_audit
-    resolution_path: "scheduled-fix — bundle with DELTA-004 citation enrichment in S18. For each domain overview, add sources[] referencing the industry framework anchors already cited in its key_orgs/key_standards patterns. Sources already exist in 06_Sources/ (e.g., Source-0181-NIST-Baldrige-Framework, Source-0184-EFQM-Model-Overview, Source-0177-Excellence-Canada-Standard, Source-0178-AIPC-Quality-Standards, Source-0230-IAVM-Public-Assembly-Venue-Management-Textbook)."
-    target_session: S18
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Discovered during S16 system-wide QA/QC pass. Not an A-01/A-02/A-03 gap (those covered concept + source note provenance). Low-cost fix once source notes are inventoried per domain — estimated 5-8 sources per domain overview × 26 = ~130-208 wikilink additions."
+    resolution_path: "Resolved inline S16 per Alex directive 2026-04-05. Added 5 framework anchor sources to each of 26 domain overview sources[] field: Source-0181-NIST-Baldrige-Framework, Source-0184-EFQM-Model-Overview, Source-0177-Excellence-Canada-Standard, Source-0178-AIPC-Quality-Standards, Source-0230-IAVM-Public-Assembly-Venue-Management-Textbook. Domain-specific source additions (venue operations concepts beyond core frameworks) can be added incrementally during S18 CI cycle."
+    target_session: S16
+    resolved_session: S16
+    resolved_date: 2026-04-05
+    resolution_evidence: "26 domain overview files modified with framework anchor sources[] (commit pending). Baseline established; incremental domain-specific enrichment can continue in S18."
+    notes: "Initial framework-anchor set applied uniformly to all 26 domains. This establishes baseline academic-rigor citation for domain overview nodes. Domain-specific additions (e.g., NFPA codes for safety-and-risk, FSMA for supply-chain) tracked as optional S18 enrichment, not blocker."
 
 # ============================================================
 # SUMMARY METRICS (auto-update at session close)
@@ -177,10 +176,10 @@ metrics:
   by_status:
     open: 0
     in-progress: 0
-    resolved-inline: 0
+    resolved-inline: 4
     resolved-batch: 0
-    deferred: 2
-    accepted: 3
+    deferred: 1
+    accepted: 0
   by_severity:
     critical: 0
     high: 0

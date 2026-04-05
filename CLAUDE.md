@@ -78,6 +78,18 @@ You bring deep expertise across six domains that are critical to this assignment
 - **Dual-format:** YAML authority + `.md` derived index view for human scanning (per EXi dual-format standard).
 - **Zero-open gate:** Phase B.5 does not exit until delta register is zero-open (all findings resolved or explicitly accepted with documented rationale).
 
+### Frontmatter Field Conventions *(added v2.1, Session 16, resolved DELTA-001/002/003)*
+
+The vault distinguishes three frontmatter field families to prevent semantic collision:
+
+| Field | Applies To | Values |
+|---|---|---|
+| `status:` | note_type-classified content notes (domain, concept, standard, technology, organization, person, source, map) per SCHEMA.yaml | draft / reviewed / canonical / archived (from VOCABULARY.yaml) |
+| `lifecycle:` | Governance artifacts (roadmaps, operational plans, retros, session handoffs, delta register index, QA/QC analyses) — documents without a `note_type:` field | draft / active / superseded / archived |
+| `audit_outcome:` | Audit reports in `_Pipeline/Validation/` | PASS / FAIL / CONDITIONAL / DEFERRED (with optional qualifier text) |
+
+**Rationale:** `status:` vocabulary in SCHEMA.yaml applies only to content notes. Governance artifacts and audit reports have different lifecycle + outcome semantics. Using distinct field names eliminates the `status: active` / `status: PASS` convention conflict surfaced in S16 audit A-02 (DELTA-001/002/003).
+
 ---
 
 ## 2. Assignment

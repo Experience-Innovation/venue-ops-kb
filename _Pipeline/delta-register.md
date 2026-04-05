@@ -1,7 +1,6 @@
 ---
 title: "Delta Register (derived view)"
-note_type: index
-status: draft
+lifecycle: active
 created: 2026-04-05
 updated: 2026-04-05
 authority: "_Pipeline/delta-register.yaml"
@@ -27,10 +26,10 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 | Total entries | 5 |
 | Open | 0 |
 | In progress | 0 |
-| Resolved (inline) | 0 |
+| Resolved (inline) | 4 |
 | Resolved (batch) | 0 |
-| Deferred | 2 |
-| Accepted | 3 |
+| Deferred | 1 |
+| Accepted | 0 |
 
 ## By Severity
 
@@ -58,19 +57,19 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 
 | Session | Date | Scope | Opened | Resolved | Deferred |
 |---|---|---|:-:|:-:|:-:|
-| S16 | 2026-04-05 | Consolidation Pass (B.5 Phase 1) | 5 | 3 (accepted) | 2 → S18/S19 |
+| S16 | 2026-04-05 | Consolidation Pass (B.5 Phase 1) | 5 | 4 (resolved-inline) | 1 → S18 CI cycle (DELTA-004) |
 
 ## Entries
 
-| ID | Category | Severity | Status | Finding | Target |
+| ID | Category | Severity | Status | Finding | Resolved / Target |
 |---|---|:-:|:-:|---|:-:|
-| DELTA-001 | vocabulary | low | accepted | `status: active` in roadmap — not in VOCABULARY.yaml status list | S19 |
-| DELTA-002 | vocabulary | low | accepted | `status: active` in operational plan — not in VOCABULARY.yaml status list | S19 |
-| DELTA-003 | vocabulary | low | accepted | `status: PASS` in audit reports — field naming conflict | S19 |
-| DELTA-004 | citation | medium | deferred | 260 source notes missing author/publication/publish_date optional bibliographic fields | S18 |
-| DELTA-005 | citation | low | deferred | 26 domain overviews have empty sources[] — should cite foundational industry frameworks | S18 |
+| DELTA-001 | vocabulary | low | resolved-inline | `status: active` in roadmap → renamed `lifecycle: active` | ✅ S16 |
+| DELTA-002 | vocabulary | low | resolved-inline | `status: active` in operational plan → renamed `lifecycle: active` | ✅ S16 |
+| DELTA-003 | vocabulary | low | resolved-inline | `status: PASS` in audit-A01 → renamed `audit_outcome: PASS` (other audit reports already used convention) | ✅ S16 |
+| DELTA-004 | citation | medium | deferred | 260 source notes missing author/publication/publish_date | **S18 CI cycle (centerpiece)** |
+| DELTA-005 | citation | low | resolved-inline | 26 domain overviews → added 5 framework anchor sources each | ✅ S16 |
 
-*Entries 001-003: governance-artifact conventions. Entry 004: source note bibliographic enrichment. Entry 005: domain overview framework citations (bundled with 004 in S18).*
+*Entries 001-003 + 005 resolved in S16 per Alex directive 2026-04-05 to fix inline where scope permits. Entry 004 deferred to S18 — reframed as the Academic Rigor Initiative's first **Continuous Improvement / Enrichment Cycle** session with 260-source bibliographic enrichment as the centerpiece deliverable.*
 
 ## How to Add an Entry
 

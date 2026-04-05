@@ -7,7 +7,7 @@ base_commit: 2e6fa66 (main @ PR #5 merge)
 scope: "Consolidation Pass — Academic Rigor Initiative Phase B.5 Session 1"
 operator: "Claude Opus 4.6 (ESC persona, v2.1 academic-rigor expansion)"
 reviewer: Alex Jackson
-status: active
+lifecycle: active
 token_budget_hard_cap: 750000
 token_budget_soft_target: 600000
 token_budget_projected: 545000

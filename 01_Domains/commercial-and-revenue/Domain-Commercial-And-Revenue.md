@@ -24,7 +24,12 @@ cross_domain:
   - "[[Domain-Financial-Operations]]"
 key_standards: []
 key_orgs: []
-sources: []
+sources:
+  - "[[Source-0181-NIST-Baldrige-Framework]]"
+  - "[[Source-0184-EFQM-Model-Overview]]"
+  - "[[Source-0177-Excellence-Canada-Standard]]"
+  - "[[Source-0178-AIPC-Quality-Standards]]"
+  - "[[Source-0230-IAVM-Public-Assembly-Venue-Management-Textbook]]"
 extraction_model: claude-opus-4-6
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

@@ -1,18 +1,19 @@
 {
   "project": "venue-ops-kb",
-  "version": "2.0",
+  "version": "2.1",
   "created": "2026-04-03",
-  "updated": "2026-04-04",
+  "updated": "2026-04-05",
   "methodology": "VEP-KB-Data-Science-Methodology_v1.0.md",
   "taxonomy_version": "26-domain (Decision #30)",
   "relationship_types": 7,
-  "phase": "batch-processing",
+  "phase": "academic-rigor-initiative-phase-b5",
   "total_input_files": 31,
   "processable_files": 28,
   "excluded_files": 3,
-  "notes_created": 179,
-  "notes_enriched": 15,
-  "sources_created": 230,
+  "notes_created": 206,
+  "notes_enriched": 16,
+  "sources_created": 260,
+  "mocs_created": 27,
   "validation_errors": 0,
 
   "excluded": [
@@ -264,12 +265,15 @@
     {
       "id": "batch-11-mocs",
       "description": "Generate Maps of Content for all 26 domains + master ecosystem map",
-      "status": "pending",
+      "status": "complete",
       "input_files": [],
       "primary_domains": "all",
       "notes_target": "27",
-      "session": null,
-      "notes": "Create 07_MOCs/ notes. One per domain + master Map-Venue-Operations-Ecosystem. Generate Dataview dashboard data."
+      "notes_created": 26,
+      "notes_modified": 1,
+      "session": "16",
+      "completed_date": "2026-04-05",
+      "notes": "26 enriched domain MOCs in 07_MOCs/. Master Map-Venue-Operations-Ecosystem.md updated with dual-entry-point navigation (Domain + Map, 52 children). All MOCs enriched pattern per Alex directive 2026-04-05. Validation report: batch-11-mocs-validation.md — PASS."
     },
     {
       "id": "batch-12-final-validation",

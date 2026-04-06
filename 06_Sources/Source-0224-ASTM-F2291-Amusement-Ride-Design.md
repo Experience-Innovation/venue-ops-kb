@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://ia800607.us.archive.org/34/items/gov.law.astm.f2291.2006/astm.f2291.2006.pdf"
 accessed: 2026-04-04
 description: "ASTM F24 committee standard governing the design and safety requirements for amusement rides and devices, part of the core safety framework for theme park operations."
+author: "ASTM International"
 domains:
   - safety-and-risk
 research_batch: v2-prompt-01-event-ops

@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.ashrae.org/technical-resources/bookstore/standards-62-1-62-2"
 accessed: 2026-04-04
 description: "ASHRAE Standard 62.1 — Ventilation and Acceptable Indoor Air Quality in buildings, including assembly occupancy requirements for demand-controlled ventilation."
+author: "ASHRAE"
+publication: "ASHRAE"
 domains:
   - facilities-and-building-systems
 research_batch: v2-prompt-02-facilities

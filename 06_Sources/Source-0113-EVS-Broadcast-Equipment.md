@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://evs.com/"
 accessed: 2026-04-04
 description: "EVS provides live production and replay systems used in broadcast compounds at arenas and stadiums. EVS XT-VIA and LSM-VIA servers are the industry standard for instant replay, super slow-motion, and VAR (Video Assistant Referee) operations in live sports broadcasting."
+author: "EVS provides live"
 domains:
   - av-and-production
   - technology-and-digital

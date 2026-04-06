@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.excellence.ca/programs-services/organizational-excellence-standard/"
 accessed: 2026-04-04
 description: "Excellence Canada organizational standard framework including leadership, planning, customer, people, process, and partner/community drivers, providing a Canadian continuous improvement certification pathway applicable to venue operations management."
+author: "Excellence Canada"
 domains:
   - strategy-and-governance
   - quality-and-continuous-improvement

@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.ticketfairy.com/blog/grants-community-funding-in-2026-lifelines-for-venue-survival"
 accessed: 2026-04-04
 description: "TicketFairy analysis of grants and community funding mechanisms available to venues in 2026, covering federal and state/provincial grant programs, community fundraising models, and alternative revenue strategies for independent venue sustainability."
+author: "TicketFairy"
 domains:
   - commercial-and-revenue
 research_batch: v2-prompt-10-commercial

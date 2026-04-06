@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.johnsoncontrols.com/industries/sports-and-entertainment"
 accessed: 2026-04-04
 description: "Johnson Controls Metasys platform for sports and entertainment venue building management systems."
+author: "Johnson Controls Metasys"
 domains:
   - facilities-and-building-systems
   - technology-and-digital

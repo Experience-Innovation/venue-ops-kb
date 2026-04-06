@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.ticketfairy.com/blog/crush-proofing-your-venue-in-2026-preventing-crowd-surges-and-ensuring-fan-safety"
 accessed: 2026-03-15
 description: "Comprehensive article on crush prevention for venues in 2026, covering crowd flow management, barrier design, density monitoring technology, queue management, and crowd psychology."
+author: "TicketFairy"
 domains:
   - crowd-management
   - security

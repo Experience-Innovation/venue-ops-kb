@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.corada.com/documents/nea-ada-tip-sheet/ticketing"
 accessed: 2026-04-04
 description: "National Endowment for the Arts ADA tip sheet on accessible ticketing practices for venues, covering companion seating policies, accessible seat selection in online platforms, and hold-back inventory management for wheelchair and companion locations."
+author: "U.S. Department of Justice"
 domains:
   - inclusivity-and-accessibility
 research_batch: v2-prompt-11-premium-guest

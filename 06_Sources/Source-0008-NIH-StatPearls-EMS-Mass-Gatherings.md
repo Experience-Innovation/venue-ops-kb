@@ -8,6 +8,8 @@ source_type: academic-paper
 url: "https://www.ncbi.nlm.nih.gov/books/NBK597369/"
 accessed: 2026-03-15
 description: "NIH StatPearls reference on EMS Mass Gatherings, providing evidence-based medical staffing ratios, patient presentation rates, and response time benchmarks for mass gathering events."
+author: "National Institutes of Health (NIH)"
+publication: "NIH / StatPearls"
 domains:
   - safety-and-risk
 research_batch: v2-prompt-03-safety-crowd

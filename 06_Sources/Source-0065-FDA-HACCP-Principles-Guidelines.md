@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines"
 accessed: 2026-04-04
 description: "The FDA's comprehensive guide to the seven HACCP principles: hazard analysis, critical control point identification, critical limit establishment, monitoring procedures, corrective actions, verification procedures, and record-keeping. Foundational framework for systematic food safety management."
+author: "U.S. Food and Drug Administration (FDA)"
+publication: "FDA"
 domains:
   - food-and-beverage
   - safety-and-risk

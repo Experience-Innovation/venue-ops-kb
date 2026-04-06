@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://intandem.autodesk.com/"
 accessed: 2026-04-04
 description: "Autodesk Tandem — digital twin platform connecting BIM data with real-time IoT sensor feeds for facilities lifecycle management."
+author: "Autodesk, Inc."
 domains:
   - technology-and-digital
   - facilities-and-building-systems

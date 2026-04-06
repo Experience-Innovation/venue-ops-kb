@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://baldrigefoundation.org/news-resources/press-releases.html/article/2024/02/15/baldrige-foundation-celebrates-launch-of-renewed-baldrige-award-program"
 accessed: 2026-04-04
 description: "Baldrige Foundation press release celebrating the launch of the renewed Baldrige Award program, marking a significant redesign of the award structure and criteria."
+author: "Baldrige Foundation"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

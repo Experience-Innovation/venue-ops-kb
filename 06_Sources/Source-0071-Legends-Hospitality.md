@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.legends.net/hospitality"
 accessed: 2026-04-04
 description: "Legends is a hospitality and entertainment company providing food and beverage, merchandise, and technology solutions for sports and entertainment venues. Co-founded by the ownership groups of the Dallas Cowboys and New York Yankees."
+author: "Legends Hospitality"
 domains:
   - food-and-beverage
   - commercial-and-revenue

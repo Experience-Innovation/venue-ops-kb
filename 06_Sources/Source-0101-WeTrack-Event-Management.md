@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://wetrack.com/"
 accessed: 2026-04-04
 description: "WeTrack provides event project management and planning software used for complex multi-stakeholder event operations, task tracking, and cross-departmental coordination in major venue environments."
+author: "WeTrack"
 domains:
   - event-operations
   - technology-and-digital

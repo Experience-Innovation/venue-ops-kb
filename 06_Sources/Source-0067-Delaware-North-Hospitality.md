@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.delawarenorth.com/"
 accessed: 2026-04-04
 description: "Delaware North is a global hospitality and food service company operating at sports venues, entertainment destinations, airports, and national parks. A privately held company and one of the six major contract food service operators in the North American venue market."
+author: "Delaware North Companies"
 domains:
   - food-and-beverage
   - supply-chain-and-procurement

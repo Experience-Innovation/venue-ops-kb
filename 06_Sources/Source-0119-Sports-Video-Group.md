@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.sportsvideo.org/"
 accessed: 2026-04-04
 description: "Sports Video Group is the industry association for sports production and technology professionals. Publishes technical guidance on broadcast compound design, camera position standards, SMPTE fiber infrastructure, and emerging production technologies for arenas and stadiums."
+author: "Sports Video Group (SVG)"
 domains:
   - av-and-production
 research_batch: v2-prompt-06-av-production

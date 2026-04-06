@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.prism.fm/"
 accessed: 2026-04-04
 description: "Prism.fm provides event settlement and deal management software for live entertainment venues. Handles financial reconciliation, GBOR/NBOR calculations, promoter profit splits, and ancillary revenue settlement."
+author: "Prism FM"
 domains:
   - event-operations
   - financial-operations

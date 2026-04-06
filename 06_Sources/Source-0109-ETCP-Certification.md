@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://etcp.esta.org/"
 accessed: 2026-04-04
 description: "ETCP provides portable certification for entertainment riggers (Arena and Theatre tracks) and electricians. ANSI-accredited under ISO 17024, ETCP certification is the recognized competency standard for rigging personnel in arenas, convention centres, and theatres."
+author: "Entertainment Technician Certification Program (ETCP)"
 domains:
   - av-and-production
   - safety-and-risk

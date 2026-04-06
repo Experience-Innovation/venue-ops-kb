@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.jdpower.com/business/press-releases/2025-north-america-hotel-guest-satisfaction-index-nagsi-study"
 accessed: 2026-04-04
 description: "JD Power 2025 North America Hotel Guest Satisfaction Index study evaluating 103 hotel brands across seven satisfaction factors for guest experience benchmarking."
+author: "J.D. Power"
 domains:
   - guest-experience
 research_batch: supp-awards-ecosystem

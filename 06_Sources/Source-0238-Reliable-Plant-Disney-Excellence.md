@@ -13,6 +13,7 @@ source_type: industry-publication
 url: https://www.reliableplant.com/Read/27287/Disney-Institute-leadership-excellence
 accessed: 2026-04-05
 description: Disney Institute leadership excellence framework — the Chain of Excellence model (Leadership → Cast → Guest → Results).
+author: "Reliable Plant"
 research_batch: existing-dr-2
 domains:
   - strategy-and-governance

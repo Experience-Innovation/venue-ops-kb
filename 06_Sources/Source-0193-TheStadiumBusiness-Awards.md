@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.stadiumdesignsummit.com/thestadiumbusiness-design-development-awards-terms-conditions/"
 accessed: 2026-04-04
 description: "TheStadiumBusiness Design and Development Awards program recognizing innovation in stadium and arena design, development, and operational excellence across the global sports venue sector."
+author: "TheStadiumBusiness"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

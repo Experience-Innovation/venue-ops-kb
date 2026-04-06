@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.oracle.com/food-beverage/restaurant-pos-systems/"
 accessed: 2026-04-04
 description: "Oracle MICROS Simphony is an enterprise cloud POS platform designed for food and beverage operations, widely deployed in large-scale venues including stadiums, arenas, and convention centres. Supports multi-location management, mobile ordering, kitchen display integration, and real-time analytics."
+author: "Oracle MICROS Simphony is an enterprise cloud POS"
 domains:
   - food-and-beverage
   - technology-and-digital

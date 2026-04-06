@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.ticketfairy.com/blog/mastering-rideshare-and-drop-off-zone-coordination-for-festivals"
 accessed: 2026-04-04
 description: "TicketFairy guide to rideshare and drop-off zone coordination for festivals and large events, covering PUDO zone design, geofenced pickup areas, surge management strategies, and integration with venue transportation planning."
+author: "TicketFairy"
 domains:
   - parking-and-transportation
 research_batch: v2-prompt-10-commercial

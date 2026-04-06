@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.law.cornell.edu/uscode/text/42/12182"
 accessed: 2026-04-04
 description: "Full statutory text of ADA Title III (42 USC 12182) prohibiting disability discrimination in places of public accommodation, establishing the legal foundation for venue accessibility requirements including seating, circulation, and service delivery."
+author: "U.S. Department of Justice"
 domains:
   - inclusivity-and-accessibility
   - legal-compliance-and-licensing

@@ -8,6 +8,7 @@ source_type: academic-paper
 url: "https://news.northeastern.edu/2024/12/06/crowd-behavior-stampede-prevention/"
 accessed: 2026-03-15
 description: "Northeastern University research on physics models for crowd behavior and stampede prevention, including work by Professor Max Bi."
+author: "Northeastern University"
 domains:
   - crowd-management
 research_batch: v2-prompt-03-safety-crowd

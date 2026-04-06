@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://intellisee.com/industries/stadiums-venues/"
 accessed: 2026-03-15
 description: "IntelliSee AI platform for stadium safety — weapon detection, crowd density monitoring, perimeter control, and RapidSOS integration."
+author: "IntelliSee"
 domains:
   - security
   - crowd-management

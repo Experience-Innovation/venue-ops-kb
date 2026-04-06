@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.usitt.org/"
 accessed: 2026-04-04
 description: "USITT advances the knowledge and skills of the entertainment technology industry. Publishes stage management guidelines, technical production standards, and professional development resources for theatrical and live event production."
+author: "United States Institute for Theatre Technology (USITT)"
 domains:
   - event-operations
   - av-and-production

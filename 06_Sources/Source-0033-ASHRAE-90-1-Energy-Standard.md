@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.ashrae.org/technical-resources/bookstore/standard-90-1"
 accessed: 2026-04-04
 description: "ASHRAE Standard 90.1 — Energy Standard for Sites and Buildings Except Low-Rise Residential, governing energy efficiency in commercial venues."
+author: "ASHRAE"
+publication: "ASHRAE"
 domains:
   - facilities-and-building-systems
   - sustainability-and-environmental

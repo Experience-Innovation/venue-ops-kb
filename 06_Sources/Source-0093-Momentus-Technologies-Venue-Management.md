@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://gomomentus.com/venue-management-software"
 accessed: 2026-04-04
 description: "Momentus Technologies (formerly Ungerboeck) provides integrated venue management software covering event booking, scheduling, BEO generation, CRM, and resource management for convention centres and arenas."
+author: "Momentus Technologies"
 domains:
   - event-operations
   - technology-and-digital

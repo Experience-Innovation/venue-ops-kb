@@ -13,6 +13,7 @@ source_type: industry-publication
 url: https://resources.northwoods.church/wp-content/uploads/The_New_Gold_Standard.pdf
 accessed: 2026-04-05
 description: The New Gold Standard — Ritz-Carlton service operations framework with $2,000 employee empowerment and problem-resolution authority.
+author: "Joseph A. Michelli"
 research_batch: existing-dr-2
 domains:
   - quality-and-continuous-improvement

@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.ada.gov/law-and-regs/design-standards/2010-stds/"
 accessed: 2026-04-04
 description: "2010 ADA Standards for Accessible Design establishing technical requirements for accessible construction and alteration of places of public accommodation, including assembly areas, seating, signage, and circulation paths in venues."
+author: "U.S. Department of Justice"
+publication: "U.S. Department of Justice"
 domains:
   - inclusivity-and-accessibility
 research_batch: v2-prompt-11-premium-guest

@@ -13,6 +13,7 @@ source_type: news-article
 url: https://investors.mgmresorts.com/2023-02-08-MGM-RESORTS-INTERNATIONAL-REPORTS-FOURTH-QUARTER-AND-FULL-YEAR-2022-FINANCIAL-AND-OPERATING-RESULTS
 accessed: 2026-04-05
 description: MGM Resorts Q4 2022 results showing regional operations EBITDA margin 882 basis points above Q1 2019 baseline post-2020 Plan implementation.
+author: "MGM Resorts International"
 research_batch: existing-dr-2
 domains:
   - strategy-and-governance

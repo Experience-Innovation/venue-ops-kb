@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.bluecart.com/"
 accessed: 2026-04-04
 description: "BlueCart is a procurement and order management platform for the food service industry, enabling digital ordering between buyers and suppliers. Provides tools for inventory management, order tracking, and supplier communication used by restaurants and food service operations."
+author: "BlueCart is a procurement and order management"
 domains:
   - supply-chain-and-procurement
   - technology-and-digital

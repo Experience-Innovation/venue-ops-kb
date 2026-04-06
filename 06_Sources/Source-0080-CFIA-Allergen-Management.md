@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://inspection.canada.ca/en/food-safety-industry/food-labelling/allergen-labelling"
 accessed: 2026-04-04
 description: "Canadian Food Inspection Agency guidance on Canada's 14 priority food allergens (including mustard, sulphites, and others beyond the US list), precautionary labelling requirements, and allergen management controls for food service establishments under Canadian food safety regulations."
+author: "Canadian Food Inspection Agency (CFIA)"
+publication: "Government of Canada"
 domains:
   - food-and-beverage
   - legal-compliance-and-licensing

@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.ticketfairy.com/blog/greening-the-green-room-in-2026-eco-friendly-artist-hospitality-strategies"
 accessed: 2026-04-04
 description: "TicketFairy analysis of eco-friendly artist hospitality strategies for 2026, reporting that 160+ touring acts now include sustainability riders and covering green room practices that reduce environmental impact."
+author: "TicketFairy"
 domains:
   - sustainability-and-environmental
   - event-operations

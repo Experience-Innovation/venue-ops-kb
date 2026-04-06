@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://iavm.org/venue-excellence-award/"
 accessed: 2026-04-04
 description: "IAVM Venue Excellence Award program details, including scoring across four weighted areas and six value statements that define venue management excellence."
+author: "International Association of Venue Managers (IAVM)"
+publication: "IAVM"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

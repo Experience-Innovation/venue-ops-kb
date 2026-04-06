@@ -13,6 +13,7 @@ source_type: industry-publication
 url: https://www.unleash.ai/artificial-intelligence/organizational-readiness-not-employee-resistance-to-change-is-the-biggest-barrier-to-ai-success/
 accessed: 2026-04-05
 description: Analysis of Qualtrics 34,000-worker research — organizational readiness, not employee resistance, is the primary AI adoption barrier.
+author: "UNLEASH"
 research_batch: existing-dr-4
 domains:
   - strategy-and-governance

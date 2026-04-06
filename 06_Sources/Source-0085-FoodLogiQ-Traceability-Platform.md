@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.foodlogiq.com/"
 accessed: 2026-04-04
 description: "FoodLogiQ (now part of Trustwell) provides a cloud-based food traceability, supplier management, and regulatory compliance platform. Used by food service operators and their suppliers for FSMA 204 traceability compliance, supplier qualification, and recall management."
+author: "FoodLogiQ (Aptean)"
 domains:
   - supply-chain-and-procurement
   - technology-and-digital

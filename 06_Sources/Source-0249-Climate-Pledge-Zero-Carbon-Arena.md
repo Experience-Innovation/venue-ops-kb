@@ -12,6 +12,7 @@ source_type: industry-publication
 url: https://www.theclimatepledge.com/us/en/Stories/climate-pledge-arena-first-zero-carbon-certified-arena
 accessed: 2026-04-05
 description: The Climate Pledge organization's case study on Climate Pledge Arena as first zero-carbon certified arena in world.
+author: "Climate Pledge Arena / Amazon"
 research_batch: existing-dr-2
 domains:
   - sustainability-and-environmental

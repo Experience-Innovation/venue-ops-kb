@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.iso.org/standard/54552.html"
 accessed: 2026-04-04
 description: "ISO 20121 Event Sustainability Management Systems — international standard for integrating sustainability into event management."
+author: "International Organization for Standardization (ISO)"
 domains:
   - sustainability-and-environmental
 research_batch: v2-prompt-02-facilities

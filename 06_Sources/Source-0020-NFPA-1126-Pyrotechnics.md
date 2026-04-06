@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://trfireprevention.com/wp-content/uploads/2024/01/NFPA_1126-11-PDF.pdf"
 accessed: 2026-03-15
 description: "NFPA 1126 Standard for the Use of Pyrotechnics Before a Proximate Audience — governing indoor pyrotechnic safety in venues."
+author: "National Fire Protection Association (NFPA)"
 domains:
   - safety-and-risk
 research_batch: v2-prompt-03-safety-crowd

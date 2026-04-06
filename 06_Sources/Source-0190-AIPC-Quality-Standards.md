@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://aipc.org/aipc-quality-standards-programme-cartagenas-obtains-gold/"
 accessed: 2026-04-04
 description: "AIPC Quality Standards Programme overview, a sector-specific quality standard for convention centres covering 11 operational areas with tiered certification levels."
+author: "International Association of Convention Centres (AIPC)"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

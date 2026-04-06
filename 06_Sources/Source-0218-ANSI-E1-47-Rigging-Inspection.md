@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.mainstage.com/pdf/ANSI_E1-47_Rig-2014-2003r4-2_secure.pdf"
 accessed: 2026-04-04
 description: "ESTA recommended practice promoting proper inspection of entertainment rigging systems including fly systems, counterweight arbors, and overhead rigging in performing arts venues."
+author: "American National Standards Institute (ANSI)"
 domains:
   - av-and-production
   - safety-and-risk

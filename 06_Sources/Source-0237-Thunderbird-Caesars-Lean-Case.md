@@ -13,6 +13,7 @@ source_type: academic-paper
 url: https://thunderbird.asu.edu/thought-leadership/journals-case-series/case-series-listing/implementing-lean-operations-caesars
 accessed: 2026-04-05
 description: Thunderbird School academic case series on Caesars' LEAN operations implementation and financial outcomes.
+author: "Thunderbird School of Global Management"
 research_batch: existing-dr-2
 domains:
   - quality-and-continuous-improvement

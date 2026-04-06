@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.ticketfairy.com/blog/mastering-email-marketing-automation-for-event-promotion-in-2026-personalized-campaigns-that-drive-ticket-sales"
 accessed: 2026-04-04
 description: "TicketFairy guide to email marketing automation for event promotion in 2026, covering ROI benchmarks, personalization strategies, segmentation techniques, and automated campaign workflows that drive ticket sales."
+author: "TicketFairy"
 domains:
   - marketing-and-communications
 research_batch: v2-prompt-10-commercial

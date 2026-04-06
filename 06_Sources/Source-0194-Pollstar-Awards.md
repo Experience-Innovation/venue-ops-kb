@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://news.pollstar.com/2026/03/27/iheartradio-pollstar-announce-nominees-for-fan-favorite-live-performer-of-the-year-award/"
 accessed: 2026-04-04
 description: "Pollstar Awards in their 37th year, the live entertainment industry's primary venue recognition program honoring top-performing venues and live music professionals."
+author: "Pollstar"
 domains:
   - commercial-and-revenue
 research_batch: supp-awards-ecosystem

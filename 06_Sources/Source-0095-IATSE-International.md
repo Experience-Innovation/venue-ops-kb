@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://iatse.net/"
 accessed: 2026-04-04
 description: "IATSE represents over 170,000 technicians, artisans, and craftspersons in the entertainment industry. Governs stagehand labor agreements, crew call structures, and work rules for live event production in venues."
+author: "International Alliance of Theatrical Stage Employees (IATSE)"
 domains:
   - event-operations
   - av-and-production

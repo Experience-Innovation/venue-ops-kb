@@ -12,6 +12,7 @@ source_type: vendor-documentation
 url: https://ritzcarltonleadershipcenter.com/the-ritz-carlton-immersive-experience-presentations-workshops/
 accessed: 2026-04-05
 description: Ritz-Carlton Leadership Center's immersive experience programs — Line-Up observation, employee panel, Gold Standards workshops.
+author: "The Ritz-Carlton Leadership Center"
 research_batch: existing-dr-2
 domains:
   - people-and-culture

@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.realice.com/"
 accessed: 2026-04-04
 description: "REALice water treatment technology — eliminates hot water usage in ice resurfacing, reducing energy consumption and improving ice quality."
+author: "REALice"
 domains:
   - facilities-and-building-systems
   - sustainability-and-environmental

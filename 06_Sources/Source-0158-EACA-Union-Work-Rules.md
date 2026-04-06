@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://eaca.com/wp-content/uploads/2024/07/24-Union-Work-RulesJurisdictions.pdf"
 accessed: 2026-04-04
 description: "Exhibition and Convention Authorities of Canada (EACA) reference document on union work rules and jurisdictions at the Javits Convention Center, detailing trade-specific labor jurisdictions, crew call minimums, and work rule compliance for convention centre operations."
+author: "Exhibition and Arena Contractors Association"
 domains:
   - people-and-culture
 research_batch: v2-prompt-12-people-culture

@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.ticketfairy.com/blog/festival-talent-hospitality-backstage-catering-and-green-room-setup"
 accessed: 2026-04-04
 description: "TicketFairy guide to festival talent hospitality covering backstage catering standards, green room setup requirements, and artist rider fulfillment best practices for event operators."
+author: "TicketFairy"
 domains:
   - event-operations
 research_batch: v2-prompt-10-commercial

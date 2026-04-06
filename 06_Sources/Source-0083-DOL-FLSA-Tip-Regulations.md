@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.dol.gov/agencies/whd/flsa/tips"
 accessed: 2026-04-04
 description: "U.S. Department of Labor guidance on the Fair Labor Standards Act tip credit provisions, tip pooling rules, service charge distribution, and minimum wage requirements for tipped employees. Directly applicable to venue food and beverage service operations."
+author: "U.S. Department of Labor"
+publication: "U.S. Department of Labor"
 domains:
   - people-and-culture
   - legal-compliance-and-licensing

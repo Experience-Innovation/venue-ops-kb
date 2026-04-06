@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.forbestravelguide.com/media-center"
 accessed: 2026-04-04
 description: "Forbes Travel Guide Five-Star rating system overview, applying up to 900 objective criteria to evaluate hospitality service quality and guest experience standards."
+author: "Forbes Travel Guide"
 domains:
   - guest-experience
 research_batch: supp-awards-ecosystem

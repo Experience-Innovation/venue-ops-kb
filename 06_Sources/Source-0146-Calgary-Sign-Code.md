@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.calgary.ca/planning/land-use/online-land-use-bylaw.html?part=3&div=5"
 accessed: 2026-04-04
 description: "City of Calgary Land Use Bylaw Division 5 sign regulations governing exterior signage, digital displays, and electronic message centres at commercial properties including event venues, covering size limits, illumination standards, and permit requirements."
+author: "City of Calgary Land Use Bylaw Division 5 sign"
 domains:
   - marketing-and-communications
 research_batch: v2-prompt-10-commercial

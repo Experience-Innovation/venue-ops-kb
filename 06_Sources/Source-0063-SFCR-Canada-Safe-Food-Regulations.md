@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://laws-lois.justice.gc.ca/eng/regulations/SOR-2018-108/"
 accessed: 2026-04-04
 description: "The Safe Food for Canadians Regulations (SFCR) consolidate multiple Canadian food commodity regulations into a single framework. They establish requirements for licensing, preventive controls (including Preventive Control Plans), and traceability across the Canadian food supply chain."
+author: "Government of Canada"
+publication: "Government of Canada"
 domains:
   - food-and-beverage
   - supply-chain-and-procurement

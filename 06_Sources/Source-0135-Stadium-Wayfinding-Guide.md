@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://dimin.com/insights/stadium-wayfinding-guide"
 accessed: 2026-04-04
 description: "Dimensional Innovations guide to stadium wayfinding covering design principles for signage systems, fan experience optimization, crowd flow management through environmental graphics, and digital wayfinding integration."
+author: "Stadium Wayfinding Guide"
 domains:
   - guest-experience
 research_batch: v2-prompt-11-premium-guest

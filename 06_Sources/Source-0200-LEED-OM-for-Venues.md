@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.guidebook.com/post/achieve-leed-certification-event-venues"
 accessed: 2026-04-04
 description: "Guide to achieving LEED Operations and Maintenance certification for event venues, covering certification requirements, credit categories, and implementation strategies."
+author: "U.S. Green Building Council (USGBC)"
 domains:
   - sustainability-and-environmental
 research_batch: supp-awards-ecosystem

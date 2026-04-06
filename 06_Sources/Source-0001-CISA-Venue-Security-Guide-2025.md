@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://kentonbrothers.com/crowd-control/securing-the-crowd-part-one/"
 accessed: 2026-03-15
 description: "Analysis of the CISA Venue Guide for Security Enhancements (December 2025), covering layered security strategies for stadiums and arenas."
+author: "Cybersecurity and Infrastructure Security Agency (CISA)"
 domains:
   - security
   - safety-and-risk

@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://aipc.org/aipc-innovation-award-2025-share-your-vision-shape-our-future/"
 accessed: 2026-04-04
 description: "AIPC Innovation Award 2025 program for convention centre management, recognizing innovative approaches to venue operations and industry advancement."
+author: "International Association of Convention Centres (AIPC)"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

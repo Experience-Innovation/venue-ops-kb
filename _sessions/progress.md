@@ -1,9 +1,49 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00 through batch-11 complete. A-04 Part 1 (domains A-L) complete. Next: S18 CI/Enrichment Cycle (targeted DR integration for 5 HIGH gaps + DELTA-004 bibliographic enrichment).
+batch-00 through batch-13 complete. S18 CI/Enrichment Cycle complete (Track A: 5 DR remediation files processed, Track B: DELTA-004 bibliographic enrichment). Next: S19 A-04 Part 2 (domains M-T) + A-05 consistency.
 
 ## Session History
+
+### Session 18 — 2026-04-06 (Academic Rigor Initiative Phase B.5 Session 3)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-18/ci-enrichment-cycle (git worktree)
+**Focus:** CI / Enrichment Cycle — DR remediation (Track A) + bibliographic enrichment (Track B)
+
+**Track A — DR Remediation completed:**
+- [x] 5 DR remediation files received, renamed to pipeline convention, registered
+- [x] VOCABULARY.yaml updated: dr-remediation-s18 research_batch added
+- [x] 30 source notes created (Source-0261 through Source-0290)
+- [x] 5 concept notes enriched with new sources[] + body-text inline citations
+- [x] DELTA-007: Gender-Inclusive-Facilities 1→8 sources (IPC, UPC, Bill C-16, SOR/2024-118, OHRC, Edmonton)
+- [x] DELTA-008: Indigenous-Cultural-Programming 1→6 sources (NCTR, RCAANC, AFN, CTA 87-91, PavCo)
+- [x] DELTA-009: Liquor-Licensing 3 misaligned→6 aligned (CA ABC, TX TABC, AGLC, AGCO, BC LCRB, Las Vegas)
+- [x] DELTA-010: Responsible-Beverage-Service 3→9 sources (all 6 programs individually sourced)
+- [x] DELTA-011: Naming-Rights 1 wrong-statute→6 correct (Lanham Act, Canadian TM, naked licensing, venue IP)
+
+**Track B — DELTA-004 Bibliographic Enrichment completed:**
+- [x] 290/290 source notes: author field populated (100%)
+- [x] 71/290 source notes: publication field populated (24%, where inferable from URL)
+- [x] 5/290 source notes: publish_date field populated (2%, where explicitly known)
+- [x] Automated via enrich-bibliographic.py + enrich-bibliographic-pass2.py + 3 manual
+- [x] Zero fabrication — null where not inferable per Hard Rule #1
+
+**Track C — DELTA-012 MED-Severity Resolution:**
+- [ ] Deferred to S19 — budget consumed by Track A + B
+
+**Not completed:**
+- [ ] DELTA-012: 11 MED-severity traceability gaps (deferred to S19)
+- [ ] DELTA-013: 13 LOW-severity citation-strengthening (deferred to S18-S20)
+- [ ] A-04 Part 2 (domains M-T, 87 concepts) — S19 scope
+
+**Failed Approaches:**
+- (None this session)
+
+**Decisions Made:**
+- dr-remediation-s18 added as new research_batch (Alex aligned)
+- Liquor-Licensing sources fully replaced (food/labor sources removed, liquor-specific added)
+- Naming-Rights source fully replaced (Copyright source removed, Trademark/Lanham Act added)
+- Track C deferred to S19 given budget allocation to Track A + B
 
 ### Session 17 — 2026-04-05 (Academic Rigor Initiative Phase B.5 Session 2)
 **Machine:** MacBook Air (bubblegumpshrimpco)
@@ -342,13 +382,13 @@ batch-00 through batch-11 complete. A-04 Part 1 (domains A-L) complete. Next: S1
 | Excluded files | 3 |
 | Domain overview notes | 26 / 26 |
 | Concept notes | 169 |
-| Source notes | 260 |
+| Source notes | 290 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
-| MOC notes | 1 |
-| Validation reports | 11 |
+| MOC notes | 27 |
+| Validation reports | 12 |
 | Domains with concepts | 23 / 26 |
 | Domains at authoritative (15+) | 4 |
 | Domains at working depth (8+) | 6 |
@@ -360,10 +400,11 @@ batch-00 through batch-11 complete. A-04 Part 1 (domains A-L) complete. Next: S1
 
 ## Next Session Priority
 
-1. **Dedicated extraction for zero-concept domains** — data-and-analytics, booking-and-sales, tenant-and-partner-relations need fresh DR research (existing DR corpus exhausted)
-2. **batch-11-mocs** — Generate 26 domain MOCs + master ecosystem map (when coverage stable)
-3. **Standard/Technology/Organization/Person note types** — dedicated enrichment pass (S13 + S14 OIR)
+1. **S19: A-04 Part 2** — claim-to-source traceability audit for domains M-T (87 concepts)
+2. **S19: A-05** — peer-review-style structural consistency pass
+3. **S19: DELTA-012** — resolve 11 MED-severity traceability gaps (deferred from S18)
+4. **Fresh DR research for 3 zero-concept domains** — data-and-analytics, booking-and-sales, tenant-and-partner-relations (Alex action, can interleave with B.5)
 
 ---
 
-*Updated: 2026-04-05 — Session 15 (batch-09 + batch-10 complete)*
+*Updated: 2026-04-06 — Session 18 (CI/Enrichment Cycle complete)*

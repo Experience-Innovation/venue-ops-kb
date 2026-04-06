@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://sdvoe.org/"
 accessed: 2026-04-04
 description: "Software Defined Video over Ethernet (SDVoE) Alliance promotes a standards-based platform for AV signal distribution over 10GbE networks. Provides zero-latency, uncompressed 4K video transport used in venue display systems, digital signage networks, and control room applications."
+author: "SDVoE Alliance"
 domains:
   - av-and-production
   - technology-and-digital

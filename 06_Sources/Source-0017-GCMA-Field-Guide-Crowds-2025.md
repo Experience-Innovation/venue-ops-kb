@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://thegcma.squarespace.com/s/Field-Guide-Second-Edition-APRIL-2025.pdf"
 accessed: 2026-03-15
 description: "Global Crowd Management Alliance Field Guide to Crowds, 2nd edition (April 2025) — comprehensive crowd management reference."
+author: "Global Crowd Management Alliance (GCMA)"
 domains:
   - crowd-management
 research_batch: v2-prompt-03-safety-crowd

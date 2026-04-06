@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.osha.gov/sites/default/files/Heat-NPRM-Final-Reg-Text.pdf"
 accessed: 2026-03-15
 description: "OSHA proposed Heat Injury and Illness Prevention Standard (2025), establishing two-threshold system for heat illness prevention at indoor and outdoor workplaces."
+author: "Occupational Safety and Health Administration (OSHA)"
+publication: "OSHA"
 domains:
   - safety-and-risk
   - legal-compliance-and-licensing

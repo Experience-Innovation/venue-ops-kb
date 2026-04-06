@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://dynafire.com/2024-nfpa-101/"
 accessed: 2026-03-15
 description: "Overview of key changes in the 2024 edition of NFPA 101 Life Safety Code, including assembly occupancy requirements, crowd management, and emergency action plans."
+author: "National Fire Protection Association (NFPA)"
 domains:
   - safety-and-risk
   - crowd-management

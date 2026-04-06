@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://living-future.org/zero-carbon/"
 accessed: 2026-04-04
 description: "International Living Future Institute Zero Carbon certification — building-level carbon neutrality standard."
+author: "International Living Future Institute (ILFI)"
 domains:
   - sustainability-and-environmental
 research_batch: v2-prompt-02-facilities

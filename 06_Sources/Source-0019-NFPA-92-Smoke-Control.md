@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.csemag.com/nfpa-92-guides-smoke-control-system-design/"
 accessed: 2026-03-15
 description: "Overview of NFPA 92 smoke control system design requirements, incorporating former NFPA 92A and 92B into a unified standard for venues."
+author: "National Fire Protection Association (NFPA)"
 domains:
   - safety-and-risk
   - facilities-and-building-systems

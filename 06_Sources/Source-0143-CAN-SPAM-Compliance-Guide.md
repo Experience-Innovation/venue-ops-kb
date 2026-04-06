@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://lashback.com/can-spam-compliance-what-to-know/"
 accessed: 2026-04-04
 description: "LashBack compliance guide covering the seven main CAN-SPAM Act obligations for commercial email, including opt-out requirements, header accuracy, subject line standards, and physical address inclusion relevant to venue email marketing programs."
+author: "Federal Trade Commission (FTC)"
 domains:
   - marketing-and-communications
   - legal-compliance-and-licensing

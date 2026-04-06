@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.bmi.com/creators/royalty_policy"
 accessed: 2026-04-04
 description: "Broadcast Music Inc. licensing and royalty policy for public performance of musical works, detailing the royalty distribution framework and licensing obligations applicable to venues hosting live music, background music, and event entertainment."
+author: "Broadcast Music, Inc. (BMI)"
 domains:
   - legal-compliance-and-licensing
 research_batch: v2-prompt-09-financial

@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.247software.com/"
 accessed: 2026-04-04
 description: "24/7 Software provides real-time venue operations management covering incident tracking, dispatch, inspections, and event-day command center operations for arenas, stadiums, and convention centres."
+author: "24/7 Software"
 domains:
   - event-operations
   - safety-and-risk

@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.wellcertified.com/"
 accessed: 2026-04-04
 description: "WELL Building Standard — performance-based rating system measuring building features impacting human health and well-being."
+author: "International WELL Building Institute (IWBI)"
 domains:
   - facilities-and-building-systems
   - sustainability-and-environmental

@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.sodexolive.com/"
 accessed: 2026-04-04
 description: "Sodexo Live! (formerly Sodexo Sports and Leisure) is the live events and venue hospitality division of Sodexo Group. Provides food and beverage, premium hospitality, and guest services at stadiums, arenas, convention centres, and cultural venues worldwide."
+author: "Sodexo Live!"
 domains:
   - food-and-beverage
   - guest-experience

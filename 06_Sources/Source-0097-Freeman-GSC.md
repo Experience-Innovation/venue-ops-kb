@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.freeman.com/"
 accessed: 2026-04-04
 description: "Freeman is a leading general service contractor (GSC) for conventions, exhibitions, and corporate events. Provides drayage, material handling, booth installation, audio-visual, and event technology services across North American convention centres."
+author: "Freeman Company"
 domains:
   - event-operations
   - logistics-and-warehouse

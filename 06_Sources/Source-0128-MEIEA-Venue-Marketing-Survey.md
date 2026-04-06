@@ -8,6 +8,7 @@ source_type: academic-paper
 url: "https://www.meiea.org/Journal/Vol19/Rothschild"
 accessed: 2026-04-04
 description: "Music and Entertainment Industry Educators Association peer-reviewed survey of venue marketing professionals examining social media platform usage, content strategies, and effectiveness metrics across live entertainment venues."
+author: "Music & Entertainment Industry Educators Association (MEIEA)"
 domains:
   - marketing-and-communications
 research_batch: v2-prompt-10-commercial

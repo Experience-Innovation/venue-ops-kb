@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.events2hvac.com/"
 accessed: 2026-04-04
 description: "Events2HVAC — middleware platform that integrates venue event scheduling systems with BMS/HVAC controls for automated climate management."
+author: "Events2HVAC"
 domains:
   - facilities-and-building-systems
   - technology-and-digital

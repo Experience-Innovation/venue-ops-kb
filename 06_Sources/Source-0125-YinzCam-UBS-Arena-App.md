@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.sportsbusinessjournal.com/Articles/2024/05/30/islanders-yinzcam/"
 accessed: 2026-04-04
 description: "Sports Business Journal coverage of the NY Islanders and YinzCam joint mobile app deployment at UBS Arena, featuring in-seat ordering, wayfinding, and integrated digital fan experience capabilities."
+author: "YinzCam, Inc."
 domains:
   - technology-and-digital
   - guest-experience

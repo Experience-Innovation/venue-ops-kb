@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.ziprecruiter.com/e/What-are-the-typical-responsibilities-and-work-environment-for-a-Scoreboard-Operator"
 accessed: 2026-04-04
 description: "Job profile detailing scoreboard operator responsibilities including real-time score updates, statistics display, coordination with referees and announcers, and operation of venue display systems."
+author: "ZipRecruiter"
 domains:
   - av-and-production
   - event-operations

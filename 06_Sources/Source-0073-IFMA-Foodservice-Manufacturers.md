@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.ifmaworld.com/"
 accessed: 2026-04-04
 description: "IFMA represents food and beverage manufacturers serving the away-from-home foodservice market. Publishes industry research, operator trends, and supply chain intelligence relevant to commercial foodservice including venue and institutional segments."
+author: "International Facility Management Association (IFMA)"
 domains:
   - food-and-beverage
   - supply-chain-and-procurement

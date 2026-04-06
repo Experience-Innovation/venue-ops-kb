@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.aramark.com/industries/sports-entertainment"
 accessed: 2026-04-04
 description: "Aramark's Sports and Entertainment division provides food service, hospitality, and facilities management for stadiums, arenas, convention centres, and entertainment venues across North America. One of the six major contract catering operators in the venue sector."
+author: "Aramark Corporation"
 domains:
   - food-and-beverage
   - supply-chain-and-procurement

@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.police.psu.edu/run-hide-fight-surviving-active-attacker"
 accessed: 2026-03-15
 description: "Penn State active attacker response program based on the Run-Hide-Fight framework."
+author: "Penn State University"
 domains:
   - security
 research_batch: v2-prompt-04-security

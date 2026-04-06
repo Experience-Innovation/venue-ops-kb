@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.secondharvest.ca/"
 accessed: 2026-04-04
 description: "Second Harvest is Canada's largest food rescue organization, connecting surplus food from commercial and institutional food service operations with community organizations. Publishes research on food waste reduction in commercial food service, including venue and event catering operations."
+author: "Second Harvest"
 domains:
   - food-and-beverage
   - sustainability-and-environmental

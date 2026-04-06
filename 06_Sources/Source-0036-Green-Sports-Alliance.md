@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://greensportsalliance.org/"
 accessed: 2026-04-04
 description: "Industry coalition of sports teams, venues, and leagues committed to environmental sustainability in sports and entertainment."
+author: "Green Sports Alliance"
 domains:
   - sustainability-and-environmental
 research_batch: v2-prompt-02-facilities

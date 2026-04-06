@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://ticketpeak.com/blog/who-buys-theatre-subscriptions/"
 accessed: 2026-04-04
 description: "Analysis of performing arts subscription buyer demographics, subscription models as recurring revenue drivers, and their role in enabling artistic risk-taking at performing arts centres."
+author: "TicketPeak"
 domains:
   - ticketing-and-box-office
   - commercial-and-revenue

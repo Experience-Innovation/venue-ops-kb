@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://attractions.io/feature-library/virtual-queuing"
 accessed: 2026-04-04
 description: "Platform documentation for mobile-based virtual queue systems allowing theme park guests to reserve ride times, receive notifications, and free-roam while queue position is held."
+author: "Platform"
 domains:
   - guest-experience
   - technology-and-digital

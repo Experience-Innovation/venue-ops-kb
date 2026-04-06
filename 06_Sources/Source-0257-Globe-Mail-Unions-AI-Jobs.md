@@ -13,6 +13,7 @@ source_type: news-article
 url: https://www.theglobeandmail.com/business/article-as-ai-threatens-to-eliminate-jobs-unions-are-drawing-a-line/
 accessed: 2026-04-05
 description: Globe and Mail reporting on Canadian public-sector unions proposing AI language in collective agreements to protect staffing.
+author: "The Globe and Mail"
 research_batch: existing-dr-4
 domains:
   - legal-compliance-and-licensing

@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://media.nhl.com/site/asset/public/ext/2020-21/2020-21LockerRoomEquipment.pdf"
 accessed: 2026-04-04
 description: "NHL protocol document governing locker room attendant staffing, visiting club equipment procedures, and home club obligations for team services during games."
+author: "National Hockey League (NHL)"
 domains:
   - event-operations
 research_batch: v2-prompt-01-event-ops

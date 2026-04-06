@@ -13,6 +13,7 @@ source_type: industry-publication
 url: https://www.mtccc.com/wp-content/uploads/2025/11/MTCC-Business-and-Strategic-Plan-2025-2028.pdf
 accessed: 2026-04-05
 description: Metro Toronto Convention Centre 2025-2028 Business and Strategic Plan documenting three-pillar excellence framework and Beyond Convention initiative.
+author: "Metro Toronto Convention Centre (MTCC)"
 research_batch: existing-dr-2
 domains:
   - strategy-and-governance

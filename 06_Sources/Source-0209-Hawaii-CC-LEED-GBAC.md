@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.meethawaii.com/convention-center/about-hawaii-convention-center/awards/"
 accessed: 2026-04-04
 description: "Hawaii Convention Center awards page documenting its achievement as the first public assembly venue to earn LEED v4 O+M Gold certification alongside GBAC STAR accreditation."
+author: "Hawaii Convention Center"
 domains:
   - sustainability-and-environmental
   - safety-and-risk

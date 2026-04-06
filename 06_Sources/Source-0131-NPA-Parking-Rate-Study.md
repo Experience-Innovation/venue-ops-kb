@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://weareparking.org/page/ratestudy"
 accessed: 2026-04-04
 description: "National Parking Association annual parking rate study providing benchmark pricing data across US and Canadian cities, including event venue parking rates, occupancy patterns, and revenue-per-space metrics."
+author: "National Parking Association (NPA)"
 domains:
   - parking-and-transportation
 research_batch: v2-prompt-10-commercial

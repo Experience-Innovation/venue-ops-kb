@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://adata.org/guide/planning-guide-making-temporary-events-accessible-people-disabilities"
 accessed: 2026-04-04
 description: "ADA National Network planning guide for making temporary events accessible to people with disabilities, covering accessible parking, pathways, seating, signage, communication access, and service animal accommodations for outdoor and indoor event venues."
+author: "U.S. Department of Justice"
 domains:
   - inclusivity-and-accessibility
   - parking-and-transportation

@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.ontario.ca/page/naloxone-workplace"
 accessed: 2026-03-15
 description: "Ontario OHSA mandate requiring naloxone availability in qualifying workplaces, effective June 1, 2023."
+author: "Government of Ontario"
+publication: "Government of Ontario"
 domains:
   - safety-and-risk
   - legal-compliance-and-licensing

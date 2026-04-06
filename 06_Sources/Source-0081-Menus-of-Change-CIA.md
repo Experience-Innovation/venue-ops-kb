@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.menusofchange.org/"
 accessed: 2026-04-04
 description: "Menus of Change is a research initiative by the Culinary Institute of America and Harvard T.H. Chan School of Public Health focused on plant-forward, sustainable menu strategies for food service operations. Publishes annual principles of healthy, sustainable menus for institutional and commercial food service."
+author: "Culinary Institute of America (CIA)"
 domains:
   - food-and-beverage
   - sustainability-and-environmental

@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.iatse118.com/agreements"
 accessed: 2026-04-04
 description: "IATSE Local 118 (Vancouver) collective agreements page listing current contracts governing stagecraft labor including stagehands, wardrobe, and technical crew working in venues and convention centres."
+author: "International Alliance of Theatrical Stage Employees (IATSE)"
 domains:
   - people-and-culture
 research_batch: v2-prompt-12-people-culture

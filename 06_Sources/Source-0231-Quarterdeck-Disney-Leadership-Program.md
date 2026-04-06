@@ -13,6 +13,7 @@ source_type: industry-publication
 url: https://quarterdeck.co.uk/articles/leadership-program-disney/
 accessed: 2026-04-05
 description: Overview of Disney's leadership program and SSDG (Service Theme, Standards, Delivery Systems, Integration) service framework structure.
+author: "Disney Institute / Quarterdeck"
 research_batch: existing-dr-2
 domains:
   - quality-and-continuous-improvement

@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://store.asisonline.org/security-risk-assessment-standard-asis-sra-2024-softcover.html"
 accessed: 2026-03-15
 description: "ASIS Security Risk Assessment Standard SRA-2024, replacing previous ANSI/ASIS/RIMS RA.1-2015 and ASIS GSRA 2003 standards."
+author: "ASIS International"
 domains:
   - security
 research_batch: v2-prompt-04-security

@@ -12,6 +12,7 @@ source_type: vendor-documentation
 url: https://climatepledgearena.com/cpa-achieves-true-certification/
 accessed: 2026-04-05
 description: Climate Pledge Arena's TRUE Platinum Certification announcement — 93% waste diversion, first zero-carbon certified arena globally.
+author: "Climate Pledge Arena / Amazon"
 research_batch: existing-dr-2
 domains:
   - sustainability-and-environmental

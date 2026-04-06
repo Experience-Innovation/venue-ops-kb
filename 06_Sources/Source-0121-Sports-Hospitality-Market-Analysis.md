@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.coherentmarketinsights.com/industry-reports/sports-hospitality-market"
 accessed: 2026-04-04
 description: "Coherent Market Insights analysis of the global sports hospitality market, covering market size, growth projections, premium seating trends, and revenue drivers across stadium and arena hospitality segments."
+author: "Sports Hospitality Market Analysis"
 domains:
   - premium-and-vip
   - commercial-and-revenue

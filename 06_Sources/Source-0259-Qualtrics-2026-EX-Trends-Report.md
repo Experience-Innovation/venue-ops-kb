@@ -12,6 +12,7 @@ source_type: industry-publication
 url: https://community.qualtrics.com/announcements-2/2026-employee-experience-trends-report-33024
 accessed: 2026-04-05
 description: Qualtrics 2026 Employee Experience Trends Report — 34,000 respondents across 24 countries, frontline worker engagement findings.
+author: "Qualtrics"
 research_batch: existing-dr-4
 domains:
   - people-and-culture

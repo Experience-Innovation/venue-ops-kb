@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.eventscouncil.org/"
 accessed: 2026-04-04
 description: "Events Industry Council represents 30+ member organizations across the events sector. Manages the CMP (Certified Meeting Professional) certification and publishes the APEX (Accepted Practices Exchange) industry standards for event management."
+author: "Events Industry Council (EIC)"
 domains:
   - event-operations
   - booking-and-sales

@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.firecodesolutions.ca/blog/crowd-managers-and-drills"
 accessed: 2026-03-15
 description: "Analysis of NFPA 101 crowd manager requirements and drill obligations for Canadian assembly occupancies."
+author: "National Fire Protection Association (NFPA)"
 domains:
   - crowd-management
   - safety-and-risk

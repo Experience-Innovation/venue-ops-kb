@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.listentech.com/"
 accessed: 2026-04-04
 description: "Listen Technologies provides assistive listening systems (ALS) including RF, infrared, hearing loop, and Wi-Fi-based solutions for venues. Products address ADA Section 219 compliance requirements for assembly areas with audio amplification."
+author: "Listen Technologies"
 domains:
   - av-and-production
   - inclusivity-and-accessibility

@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.ibm.com/products/maximo"
 accessed: 2026-04-04
 description: "IBM Maximo Application Suite — enterprise asset management and CMMS platform used by large venues for predictive maintenance and work order management."
+author: "IBM Corporation"
 domains:
   - facilities-and-building-systems
   - technology-and-digital

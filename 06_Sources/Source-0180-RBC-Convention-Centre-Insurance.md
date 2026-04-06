@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.wcc.mb.ca/exhibitors/comprehensive-general-liability-insurance/"
 accessed: 2026-04-04
 description: "RBC Convention Centre Winnipeg exhibitor insurance requirements page, documenting comprehensive general liability insurance thresholds, additional insured endorsement requirements, and certificate of insurance submission procedures as a representative Canadian convention centre example."
+author: "RBC Convention Centre Winnipeg"
 domains:
   - legal-compliance-and-licensing
 research_batch: v2-prompt-09-financial

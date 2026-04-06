@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.galasystems.com/en/solutions/lift-systems-for-stages-orchestra-pits-and-turntables/orchestra-lifts/"
 accessed: 2026-04-04
 description: "Gala Systems product documentation for orchestra pit lift systems, covering configurations for orchestral use, stage extension, and audience seating levels in performing arts venues."
+author: "Gala Systems"
 domains:
   - av-and-production
   - facilities-and-building-systems

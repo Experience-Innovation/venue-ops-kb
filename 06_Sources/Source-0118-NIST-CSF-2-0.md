@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.nist.gov/cyberframework"
 accessed: 2026-04-04
 description: "NIST Cybersecurity Framework 2.0 provides a comprehensive risk-based approach to managing cybersecurity risk across six functions: Govern, Identify, Protect, Detect, Respond, and Recover. Applicable to venue IT/OT networks, AV systems, and building automation cybersecurity."
+author: "National Institute of Standards and Technology (NIST)"
 domains:
   - technology-and-digital
   - security

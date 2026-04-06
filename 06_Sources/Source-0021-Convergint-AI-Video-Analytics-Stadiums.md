@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.convergint.com/iq/company-news/smarter-stadiums-how-ai-video-analytics-is-transforming-security-operations/"
 accessed: 2026-03-15
 description: "Convergint analysis of how AI video analytics is transforming stadium security operations."
+author: "Convergint"
 domains:
   - security
   - technology-and-digital

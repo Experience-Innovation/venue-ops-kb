@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://member.iavm.org/cv5/cgi-bin/msascartdll.dll/ProductInfo?productcd=1_2020_TEXTBOOK_INT"
 accessed: 2026-04-04
 description: "IAVM's comprehensive textbook on public assembly venue management covering functions common to amphitheatres, arenas, convention centres, performing arts centres, stadiums, and fairgrounds."
+author: "International Association of Venue Managers (IAVM)"
+publication: "IAVM"
 domains:
   - event-operations
   - strategy-and-governance

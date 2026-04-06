@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.iso.org/standard/69426.html"
 accessed: 2026-04-04
 description: "ISO 50001:2018 Energy Management Systems — framework for systematic energy performance improvement in large commercial facilities."
+author: "International Organization for Standardization (ISO)"
 domains:
   - sustainability-and-environmental
   - facilities-and-building-systems

@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.nfpa.org/codes-and-standards/nfpa-110-standard-development/110"
 accessed: 2026-04-04
 description: "NFPA 110 Standard for Emergency and Standby Power Systems — governs backup power requirements for assembly occupancies."
+author: "National Fire Protection Association (NFPA)"
+publication: "NFPA"
 domains:
   - facilities-and-building-systems
   - safety-and-risk

@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://shingo.org/challenge/"
 accessed: 2026-04-04
 description: "Shingo Institute Challenge assessment overview, evaluating organizational systems and culture alignment with Shingo Model principles for enterprise excellence."
+author: "Shingo Institute"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

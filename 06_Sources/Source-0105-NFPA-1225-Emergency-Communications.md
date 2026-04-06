@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.nfpa.org/codes-and-standards/nfpa-1225-standard-development/1225"
 accessed: 2026-04-04
 description: "NFPA 1225 provides requirements for Emergency Responder Communication Enhancement Systems (ERCES), including in-building signal boosters and DAS installations required to maintain radio coverage for first responders in large venue structures."
+author: "National Fire Protection Association (NFPA)"
+publication: "NFPA"
 domains:
   - safety-and-risk
   - technology-and-digital

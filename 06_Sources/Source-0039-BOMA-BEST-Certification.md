@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://bomacanada.ca/bomabest/"
 accessed: 2026-04-04
 description: "BOMA BEST (Building Environmental Standards) — Canadian commercial building certification covering energy, water, waste, emissions, and indoor environment."
+author: "Building Owners and Managers Association (BOMA)"
+publication: "Government of Canada"
 domains:
   - sustainability-and-environmental
   - facilities-and-building-systems

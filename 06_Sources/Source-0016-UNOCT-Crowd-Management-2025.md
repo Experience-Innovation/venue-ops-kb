@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.un.org/counterterrorism/sites/default/files/2025-12/Crowd_Management_Paper_UNOCT_Dec_2025.pdf"
 accessed: 2026-03-15
 description: "UN Office of Counter-Terrorism operational guide on crowd management for major sporting events (December 2025)."
+author: "UN Office of Counter-Terrorism operational"
 domains:
   - crowd-management
   - security

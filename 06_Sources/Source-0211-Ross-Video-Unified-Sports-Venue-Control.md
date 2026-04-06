@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.rossvideo.com/industries/sports/sports-venue/"
 accessed: 2026-04-04
 description: "Ross Video product documentation describing unified venue control for game-day operators, integrating production switchers, replay servers, LED processors, and data feeds across stadium displays."
+author: "Ross Video"
 domains:
   - av-and-production
 research_batch: v2-prompt-01-event-ops

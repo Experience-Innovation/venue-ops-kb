@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.datacenterknowledge.com/networking/how-stadium-data-centers-power-fans-operations-and-broadcast"
 accessed: 2026-04-04
 description: "Analysis of dual data center architectures in modern stadiums: one for venue IT (ticketing, Wi-Fi, security) and one dedicated to high-bandwidth broadcast and production workflows."
+author: "Data Center Knowledge"
 domains:
   - technology-and-digital
   - av-and-production

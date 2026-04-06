@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.kennedy-center.org/visit/accessibility/"
 accessed: 2026-04-04
 description: "John F. Kennedy Center for the Performing Arts comprehensive accessibility programs and services page, documenting assistive listening devices, audio description, captioning, sensory-friendly performances, and wheelchair accessibility as a leading venue accessibility exemplar."
+author: "John F. Kennedy Center for the Performing Arts"
 domains:
   - inclusivity-and-accessibility
 research_batch: v2-prompt-11-premium-guest

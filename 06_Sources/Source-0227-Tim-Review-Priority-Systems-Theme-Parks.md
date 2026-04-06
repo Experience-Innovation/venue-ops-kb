@@ -8,6 +8,7 @@ source_type: academic-paper
 url: "https://timreview.ca/article/1034"
 accessed: 2026-04-04
 description: "Academic analysis of theme park priority queuing systems, capacity management strategies, and the operational trade-offs between perceived fairness and throughput optimization."
+author: "Technology Innovation Management Review"
 domains:
   - guest-experience
   - crowd-management

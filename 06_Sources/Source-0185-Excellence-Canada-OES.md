@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://excellence.ca/excellence-canada-announces-new-organizational-excellence-standard/"
 accessed: 2026-04-04
 description: "Excellence Canada announcement of the new Organizational Excellence Standard featuring six drivers for organizational performance and continuous improvement."
+author: "Excellence Canada"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

@@ -8,6 +8,7 @@ source_type: academic-paper
 url: "https://onlinepubs.trb.org/Onlinepubs/hrr/1971/355/355-001.pdf"
 accessed: 2026-03-15
 description: "John Fruin's foundational 1971 paper defining the Level of Service (LOS) framework for pedestrian density — the basis for modern crowd management density monitoring."
+author: "John J. Fruin"
 domains:
   - crowd-management
 research_batch: v2-prompt-03-safety-crowd

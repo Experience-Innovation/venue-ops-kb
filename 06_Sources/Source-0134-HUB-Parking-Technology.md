@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.hubparking.com/news/smart-solutions-for-high-volume-venues/"
 accessed: 2026-04-04
 description: "HUB Parking Technology overview of smart parking solutions for stadiums and high-volume event venues, covering LPR-based access control, real-time occupancy monitoring, and automated revenue management for event parking operations."
+author: "HUB Parking Technology"
 domains:
   - parking-and-transportation
   - technology-and-digital

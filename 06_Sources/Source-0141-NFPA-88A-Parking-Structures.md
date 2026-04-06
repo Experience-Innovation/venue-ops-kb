@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://www.nfpa.org/codes-and-standards/nfpa-88a-standard-development/88a"
 accessed: 2026-04-04
 description: "NFPA 88A standard for the construction and protection of parking structures, covering fire protection requirements, ventilation standards, structural fire resistance, and sprinkler system specifications for venue-adjacent parking facilities."
+author: "National Fire Protection Association (NFPA)"
+publication: "NFPA"
 domains:
   - parking-and-transportation
   - safety-and-risk

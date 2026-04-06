@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.pcisecuritystandards.org/"
 accessed: 2026-04-04
 description: "PCI DSS v4.0.1 establishes security requirements for organizations handling payment card data. Applicable to venue point-of-sale systems, ticketing platforms, network segmentation requirements, and any system processing cardholder data in venue environments."
+author: "PCI DSS v4.0.1 establishes security"
 domains:
   - technology-and-digital
   - security

@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.avidbots.com/"
 accessed: 2026-04-04
 description: "Avidbots Neo — autonomous floor scrubbing robot used in convention centres and large venues for post-event cleaning operations."
+author: "Avidbots Corp."
 domains:
   - facilities-and-building-systems
   - technology-and-digital

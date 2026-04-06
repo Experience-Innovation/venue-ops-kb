@@ -12,6 +12,7 @@ source_type: industry-publication
 url: https://www.sprintzeal.com/blog/ritz-carlton-gold-standard
 accessed: 2026-04-05
 description: Ritz-Carlton Gold Standards framework — Three Steps of Service, Credo, 12 Service Values, Daily Line-Up, Employee Empowerment.
+author: "Sprintzeal (educational content)"
 research_batch: existing-dr-2
 domains:
   - quality-and-continuous-improvement

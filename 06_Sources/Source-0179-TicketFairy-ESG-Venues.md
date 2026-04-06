@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.ticketfairy.com/blog/esg-and-csr-in-venue-operations-2026"
 accessed: 2026-04-04
 description: "TicketFairy analysis of ESG (Environmental, Social, Governance) and CSR frameworks applied to venue operations in 2026, covering sustainability reporting, social impact measurement, governance structures, and stakeholder engagement strategies for venue operators."
+author: "TicketFairy"
 domains:
   - strategy-and-governance
 research_batch: v2-prompt-13-strategy-gov

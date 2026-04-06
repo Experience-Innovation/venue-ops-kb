@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://tsp.esta.org/tsp/documents/published_docs.php"
 accessed: 2026-04-04
 description: "ANSI E1.6-1 establishes design, manufacture, and use requirements for powered chain hoists used in entertainment rigging. Covers load rating, braking systems, safety factors, and inspection protocols for overhead rigging in arenas and theatres."
+author: "American National Standards Institute (ANSI)"
 domains:
   - av-and-production
   - safety-and-risk

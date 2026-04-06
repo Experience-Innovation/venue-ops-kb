@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://ibcces.org/cac/"
 accessed: 2026-04-04
 description: "International Board of Credentialing and Continuing Education Standards Certified Autism Center program, providing venue certification for autism-friendly environments including staff training, sensory accommodations, and operational modifications for neurodiverse guests."
+author: "International Board of Credentialing and Continuing Education Standards (IBCCES)"
 domains:
   - inclusivity-and-accessibility
 research_batch: v2-prompt-11-premium-guest

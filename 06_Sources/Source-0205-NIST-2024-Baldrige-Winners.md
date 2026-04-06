@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.nist.gov/news-events/news/2025/04/congratulations-2024-baldrige-award-recipients"
 accessed: 2026-04-04
 description: "NIST announcement of 2024 Malcolm Baldrige National Quality Award recipients across manufacturing, service, small business, nonprofit, education, and health care sectors."
+author: "National Institute of Standards and Technology (NIST)"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

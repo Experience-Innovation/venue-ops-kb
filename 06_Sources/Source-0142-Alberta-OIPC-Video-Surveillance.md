@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://oipc.ab.ca/resource/video-surveillance/"
 accessed: 2026-04-04
 description: "Office of the Information and Privacy Commissioner of Alberta guidance on video surveillance in the private sector, covering collection limitations, signage requirements, retention policies, and access rights applicable to venue security camera deployments."
+author: "Office of the Information and Privacy Commissioner of Alberta"
 domains:
   - security
 research_batch: v2-prompt-10-commercial

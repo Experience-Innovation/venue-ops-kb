@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.ontario.ca/page/design-public-spaces-standards"
 accessed: 2026-04-04
 description: "Ontario Design of Public Spaces Standards under the AODA, establishing accessibility requirements for recreational trails, outdoor public eating areas, outdoor play spaces, exterior paths of travel, and accessible parking at public facilities including venues."
+author: "Ontario Design of Public Spaces"
+publication: "Government of Ontario"
 domains:
   - inclusivity-and-accessibility
 research_batch: v2-prompt-11-premium-guest

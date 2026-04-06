@@ -15,6 +15,8 @@ confidence: high
 sources:
   - "[[Source-0011-NFPA-101-Crowd-Managers-Drills]]"
   - "[[Source-0003-NFPA-101-Life-Safety-Code-2024]]"
+  - "[[Source-0017-GCMA-Field-Guide-Crowds-2025]]"
+  - "[[Source-0028-Calgary-Indoor-Fire-Requirements]]"
 research_batch: v2-prompt-03-safety-crowd
 child_of: "[[Domain-Crowd-Management]]"
 related_to:

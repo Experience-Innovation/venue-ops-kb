@@ -76,8 +76,8 @@ category_definitions:
 # Sequential ID assignment: next_id = max(existing_id) + 1
 # Audit phases in S16 will populate this section.
 
-next_id: 14
-# S18 session log appended below
+next_id: 18
+# S18/S19 session log appended below
 entries:
   - id: DELTA-001
     category: vocabulary
@@ -282,7 +282,7 @@ entries:
   - id: DELTA-012
     category: traceability
     severity: medium
-    status: deferred
+    status: resolved-batch
     discovered_session: S17
     discovered_date: 2026-04-05
     affected_notes:
@@ -290,12 +290,12 @@ entries:
     affected_count: 11
     finding: "11 concepts have MEDIUM-severity traceability gaps: specific claims (statistics, regulatory sections, named entities) that are topically adjacent to sources[] but not directly verified as covered. Most are inline-fixable by adding supplementary wikilinks to existing source notes."
     detection_method: manual_audit
-    resolution_path: "Scheduled for S18-S19 incremental resolution as part of bibliographic enrichment pass. Each MED gap requires 1-3 additional source wikilinks from existing 06_Sources/ corpus. Audit report contains full per-concept list."
+    resolution_path: "Partially resolved in S19: 7 of 11 concepts enriched with supplementary source wikilinks from existing 06_Sources/ corpus. 4 concepts remain with gaps that require new source notes (no matching sources in corpus): Acoustic-Treatment (RT60 values), BIM-Digital-Twin (Bentley iTwin/Matterport), Sports-Field-Turf (ASTM F355), Performance-Licensing (ASCAP membership stats). Remaining 4 gaps absorbed into DELTA-015."
     target_session: S18
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Aggregate entry. Full per-concept list in _Pipeline/Validation/audit-A04-claim-traceability-p1.md. Representative concepts: Wayfinding (ADA measurements), ADA-Title-III (DOJ 2022 guidance), Accessible-Ticketing (2010 ADA Standards), Assistive-Listening (ADA Section 219), Acoustic-Treatment (RT60 values), BIM-Digital-Twin (alternative platforms), Sports-Field-Turf (ASTM F355), Performance-Licensing (ASCAP stats), Venue-Insurance (CGL thresholds), Community-Funding (Barclays/MLB examples), Crowd-Manager-Staffing (jurisdictional variations)."
+    resolved_session: S19
+    resolved_date: 2026-04-06
+    resolution_evidence: "7 concept notes modified: Wayfinding (+Source-0137, +Source-0149), ADA-Title-III (+Source-0163), Accessible-Ticketing (+Source-0168), Assistive-Listening (+Source-0137), Community-Funding (+Source-0175), Crowd-Manager-Staffing (+Source-0017, +Source-0028), Venue-Insurance (+Source-0151). 4 concepts deferred to DELTA-015 (no existing source match)."
+    notes: "7/11 resolved from existing corpus. 4/11 require new source creation — folded into DELTA-015 MED-severity aggregate. Total source additions: 10 wikilinks across 7 concepts."
 
   - id: DELTA-013
     category: traceability
@@ -315,30 +315,109 @@ entries:
     resolution_evidence: null
     notes: "Aggregate entry. Concepts include: Flow-Management-Crush-Prevention, Radio-Communication (DMR/P25 standards), Midway-Operations (named companies), Acoustic-Treatment (RT60), LED-Display (NDI), Hybrid-Streaming (RTMP/SRT), Event-Driven-HVAC (energy savings stats), CMMS (mid-market platforms), Predictive-Maintenance (sensor specifics), Ice-Arena-Refrigeration (IIAR-2), Space-Management (alternative platforms), Venue-Cleaning (ABM/Pritchard/Tennant), Safety-Training-Certification (Canadian provincial programs), Sensory-Inclusive (Disney DAS)."
 
+  - id: DELTA-014
+    category: traceability
+    severity: high
+    status: deferred
+    discovered_session: S19
+    discovered_date: 2026-04-06
+    affected_notes:
+      - "01_Domains/safety-and-risk/Safety-And-Risk-Emergency-Action-Plans.md"
+      - "01_Domains/safety-and-risk/Safety-And-Risk-Fire-Watch-Protocols.md"
+      - "01_Domains/safety-and-risk/Safety-And-Risk-Heat-Illness-Protocols.md"
+      - "01_Domains/safety-and-risk/Safety-And-Risk-Lightning-Severe-Weather.md"
+      - "01_Domains/safety-and-risk/Safety-And-Risk-Mass-Casualty-Incident-Planning.md"
+      - "01_Domains/safety-and-risk/Safety-And-Risk-Medical-Staffing-Models.md"
+      - "01_Domains/people-and-culture/People-And-Culture-Prevailing-Wage.md"
+      - "01_Domains/people-and-culture/People-And-Culture-Frontline-Engagement-AI-Adoption.md"
+    affected_count: 8
+    finding: "8 concepts with HIGH-severity traceability gaps. 6 in safety-and-risk: Emergency Action Plans (Alberta OHS unsourced), Fire Watch (5 technical thresholds without per-claim attribution), Heat Illness (Taylor Swift concert casualty claim unsourced), Lightning (SINGLE-SOURCE — 6 claims including FEMA P-361 from 1 source), MCI (SINGLE-SOURCE — START triage origin claim, usage claim), Medical Staffing (SINGLE-SOURCE — Saunders et al. not in sources, 95.97% stat, Ryder Cup benchmark). 2 in people-and-culture: Prevailing Wage (SINGLE-SOURCE — 7+ statutory claims from 1 source), Frontline Engagement (effective single-source — 2 wikilinks to same Qualtrics report)."
+    detection_method: manual_audit
+    resolution_path: "Targeted DR research or existing-corpus enrichment. Safety-and-risk concepts may require new source notes for FEMA P-361, NFPA 1026, START triage origin, Saunders et al. citation, Alberta OHS Code. People-and-culture concepts need supplementary regulatory/academic sources."
+    target_session: S20
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Full detail in _Pipeline/Validation/audit-A04-claim-traceability-p2.md §HIGH-Severity Concept Detail. Pattern: regulation-dense domains (safety, people-culture) have highest gap rates. Single-source flag validated as predictor of HIGH-severity risk."
+
+  - id: DELTA-015
+    category: traceability
+    severity: medium
+    status: deferred
+    discovered_session: S19
+    discovered_date: 2026-04-06
+    affected_notes:
+      - "20 concepts across 9 M-T domains with MED-severity traceability gaps (see audit report per-domain tables)"
+    affected_count: 20
+    finding: "20 concepts have MEDIUM-severity traceability gaps: specific claims (statistics, regulatory sections, named entities, product names) that are topically adjacent to sources[] but not directly verified as covered. Most are inline-fixable by adding supplementary wikilinks to existing source notes or adding inline citations to body text."
+    detection_method: manual_audit
+    resolution_path: "Incremental resolution in S20-S21 as part of citation enrichment. Each MED gap requires 1-3 additional source wikilinks from existing 06_Sources/ corpus or inline citation clarification. Audit report contains per-domain breakdown."
+    target_session: S20
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Aggregate entry. Representative concepts by domain: safety-and-risk (AED, BCP, Crisis Comms, GBAC, ICS, Ride Ops), strategy-governance (MTCC, Org-Readiness-AI), people-culture (DEI-Training, Ritz-Carlton-Leadership), premium-vip (Food-Service-Compliance, Liquor-Licensing), parking (Ride-Share, Event-Traffic), quality-CI (Disney-SSDG), security (Access-Control), marketing (FTC-Endorsement), technology (EV-Charging), supply-chain (GPO-Purchasing, Pouring-Rights)."
+
+  - id: DELTA-016
+    category: traceability
+    severity: low
+    status: deferred
+    discovered_session: S19
+    discovered_date: 2026-04-06
+    affected_notes:
+      - "10 concepts across 4 M-T domains with LOW-severity citation-strengthening opportunities (see audit report)"
+    affected_count: 10
+    finding: "10 concepts have LOW-severity citation-strengthening opportunities: minor claims (qualitative operational assertions, specific venue examples, secondary framework references) where adding 1 supplementary source would strengthen traceability but current state is not a structural gap."
+    detection_method: manual_audit
+    resolution_path: "Bundle with S21 final validation pass. Polish items — not blocker for v1.0 release."
+    target_session: S21
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Aggregate entry. Concepts by domain: sustainability (Green-Venue-Certifications), parking (Technology-Systems, Pre-Paid-Reserved, Self-Operated-Vs-Contracted, Transit-Multimodal), quality-CI (IAVM-Venue-Excellence, Shingo-Prize), strategy (Cross-Framework-Mapping, Community-Benefit-Agreements), safety (Tabletop-Exercises)."
+
+  - id: DELTA-017
+    category: consistency
+    severity: medium
+    status: deferred
+    discovered_session: S19
+    discovered_date: 2026-04-06
+    affected_notes:
+      - "8 remediation items across safety-and-risk (4), security (1), sustainability (1), parking (1), vault-wide (1)"
+    affected_count: 8
+    finding: "A-05 structural consistency audit found vault average 85/100 but safety-and-risk at 72/100. Key issues: AED Programs underextracted (~20-line body), 3 orphaned safety concepts (0 relationships), body length 3.5x variance in safety domain, Security Access Control and Sustainability Carbon Tracking orphaned, description length range 18-98 words vault-wide (5.4x ratio)."
+    detection_method: manual_audit
+    resolution_path: "8 remediation items (A-05-001 through A-05-008). HIGH priority: expand AED Programs, add relationships to 3 orphaned safety concepts, supplement single-source safety concepts (overlaps DELTA-014). MED priority: normalize body length, add relationships to Security/Sustainability orphans, establish description length target. LOW: parking secondary sources."
+    target_session: S20
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Full detail in _Pipeline/Validation/audit-A05-structural-consistency.md. Safety-and-risk is the highest-risk domain across both traceability (93% gap rate, A-04) and consistency (72/100, A-05). Combined remediation recommended in S20."
+
 # ============================================================
 # SUMMARY METRICS (auto-update at session close)
 # ============================================================
 metrics:
-  total_entries: 13
+  total_entries: 17
   by_status:
     open: 0
     in-progress: 0
     resolved-inline: 5
-    resolved-batch: 6
-    deferred: 2
+    resolved-batch: 7
+    deferred: 5
     accepted: 0
   by_severity:
     critical: 0
-    high: 5
-    medium: 3
-    low: 5
+    high: 6
+    medium: 5
+    low: 6
   by_category:
     provenance: 0
     vocabulary: 3
     citation: 2
-    consistency: 0
+    consistency: 1
     obsidian: 1
-    traceability: 7
+    traceability: 10
     confidence: 0
     other: 0
 
@@ -367,3 +446,10 @@ sessions:
     entries_resolved: 6
     entries_deferred: 0
     notes: "DELTA-004 resolved-batch (290/290 author populated). DELTA-007 through DELTA-011 resolved-batch (5 concept notes enriched with 30 new source notes). DELTA-012/013 remain deferred. Metrics: 11/13 resolved, 2/13 deferred."
+  - session: S19
+    date: 2026-04-06
+    scope: "A-04 Part 2 claim-to-source traceability (87 concepts, domains M-T) + DELTA-012 resolution"
+    entries_opened: 3
+    entries_resolved: 0
+    entries_deferred: 3
+    notes: "DELTA-014 through DELTA-017 added (8 HIGH traceability, 20 MED traceability, 10 LOW traceability, 8 MED consistency). Single-source flag codified in ingestion-rules.md Stage 4. DELTA-012 resolved-batch (7/11 concepts enriched with 10 supplementary source wikilinks; 4 remaining absorbed into DELTA-015). A-05 consistency audit completed (DELTA-017). Total: 17 entries (12 resolved, 5 deferred)."

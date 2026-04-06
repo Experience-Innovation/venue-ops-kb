@@ -17,6 +17,8 @@ confidence: high
 sources:
   - "[[Source-0135-Stadium-Wayfinding-Guide]]"
   - "[[Source-0125-YinzCam-UBS-Arena]]"
+  - "[[Source-0137-ADA-Standards-Accessible-Design]]"
+  - "[[Source-0149-ADA-National-Network-Event-Planning]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Guest-Experience]]"
 related_to:

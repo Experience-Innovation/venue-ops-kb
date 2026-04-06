@@ -15,6 +15,7 @@ confidence: high
 sources:
   - "[[Source-0161-ADA-Accessible-Ticketing]]"
   - "[[Source-0162-28-CFR-36-302-Modifications]]"
+  - "[[Source-0168-2010-ADA-Standards]]"
 research_batch: v2-prompt-09-financial
 child_of: "[[Domain-Inclusivity-And-Accessibility]]"
 governed_by:

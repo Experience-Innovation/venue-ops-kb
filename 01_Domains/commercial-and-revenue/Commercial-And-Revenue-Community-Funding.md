@@ -14,6 +14,7 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0148-TicketFairy-Community-Funding]]"
+  - "[[Source-0175-TicketFairy-Community-Impact]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Commercial-And-Revenue]]"
 related_to:

@@ -1,5 +1,6 @@
 # Research Ingestion Rules
-**Version:** 2.0 (Session 10 — aligned with 26-domain taxonomy, Q3-Q5 methodology, GLRC transparency)
+**Version:** 2.1 (Session D1 — added Step 5b wikilink integrity check; S19 single-source flag retained from S19 inline edit)
+**Previous:** 2.0 (Session 10 — aligned with 26-domain taxonomy, Q3-Q5 methodology, GLRC transparency)
 **Reference:** VEP-KB-Data-Science-Methodology_v1.0.md, VOCABULARY.yaml, SCHEMA.yaml
 
 ## Five-Stage Intake Pipeline
@@ -70,6 +71,18 @@
 - Check all controlled fields against VOCABULARY.yaml
 - Verify no orphan notes
 - Write validation report to `_Pipeline/Validation/batch-{id}-validation.md`
+
+### Step 5b: Wikilink Integrity Check
+- For every wikilink in frontmatter (sources, child_of, related_to, implements, governed_by, supported_by, varies_by, scales_with, children, cross_domain, key_standards, key_orgs, standards, technologies, organizations):
+  1. Extract the target filename from the wikilink: `"[[Note Name]]"` → `Note Name.md`
+  2. Verify the file exists in the vault at the expected location per note_type routing rules (Step 1)
+  3. If file does not exist AND is not being created in this batch → **FLAG as broken wikilink**
+- For every wikilink in body text (inline `[[references]]`):
+  1. Extract target filename
+  2. Verify file exists OR is in the current batch
+  3. Flag broken links in the validation report
+- **GATE:** Zero broken wikilinks before proceeding to Step 6. Fix or remove broken links before logging.
+- **Root cause context:** S14-S15 extraction produced 31 broken source wikilinks from filename truncation (e.g., `Source-0101-NFPA-Crowd-Mana` instead of `Source-0101-NFPA-Crowd-Management`). These persisted undetected for 7 sessions until A-07 (S21). This step prevents recurrence.
 
 ### Step 6: Log
 - Update progress.md with: notes created, enriched, failed, skipped

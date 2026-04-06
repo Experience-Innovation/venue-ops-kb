@@ -1,9 +1,53 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-**v1.0.0 RELEASED.** All batches complete (batch-00 through batch-18, batch-12-final-validation). Phase B.5 Academic Rigor Initiative complete (7 audit threads, 20 delta entries resolved/accepted). Next: Phase D (CI Initiative, 3-4 sessions) → Phase E (Enrichment + Public Release).
+**Phase D in progress.** D1 CI Audit complete (2026-04-06). 34 findings cataloged (0 CRITICAL, 10 HIGH, 14 MEDIUM, 10 LOW), 4 resolved inline. Next: D2 (technical remediation + publication infrastructure) → D3 (DR prompt design) → D4 (final ingestion + publication-ready).
 
 ## Session History
+
+### Session D1 — 2026-04-06 (Phase D, Session 1 — CI Audit + Gap Analysis)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-d1/ci-audit (git worktree)
+**Focus:** Comprehensive CI audit — technical (templates, pipeline, validation, session artifacts, governance, conventions) + content/data science (domain coverage, confidence, source diversity, publication readiness)
+
+**Phase 1 — CI Audit Sweep:**
+- [x] Template audit: 5 findings (2 HIGH — field name mismatches: children/parent_of, related/related_to)
+- [x] Pipeline rule audit: 3 findings (1 HIGH — missing wikilink validation, RESOLVED inline)
+- [x] Validation pattern audit: 4 findings (1 HIGH — batch reports lack frontmatter, RESOLVED with policy documentation)
+- [x] Session artifact audit: 4 findings (1 HIGH — 19/28 files missing type field)
+- [x] Governance artifact audit: 5 findings (3 HIGH — no LICENSE, phantom folders, no audit template)
+- [x] Convention audit: 13 findings (2 HIGH — children/parent_of divergence, source_session convention)
+
+**Phase 2 — Content/Data Science Sweep:**
+- [x] Domain coverage: 16/26 below working depth, 4 at minimum viable floor (3-4 concepts)
+- [x] Source diversity: 5 lowest domains each single research batch — no cross-batch corroboration
+- [x] Confidence distribution: logistics-and-warehouse at 66% medium+low, parking at 40%
+- [x] Body text quality: 4-note sample ranges from medium to exceptional. All meet working-depth.
+- [x] Publication infrastructure: LICENSE missing, folders 02-05 missing, METHODOLOGY.md stale
+- [x] Optional field adoption: venue_scale 40%, delivery_model 20%, jurisdiction 10%
+
+**D1 Inline Resolutions (4):**
+- [x] CI-GAP-006: Wikilink-filename validation added to ingestion-rules.md v2.1 Step 5b
+- [x] CI-GAP-008: ingestion-rules.md bumped to v2.1
+- [x] CI-GAP-009: Batch vs audit report convention documented in validation-rules.md
+- [x] CI-GAP-011: Consolidated report policy codified in validation-rules.md
+
+**Housekeeping:**
+- [x] DR-R10-Safety-Supplementary.md recovered from S20 worktree before removal
+- [x] S19 worktree removed + branch deleted
+- [x] S20 worktree force-removed + branch deleted
+- [x] 5 stale remote branches pruned (origin/session-16 through origin/session-21)
+
+**Deliverables:**
+- CI audit report: _Pipeline/Validation/ci-audit-d1-report.md (34 findings)
+- Gap register: _Pipeline/ci-gap-register.yaml (34 entries)
+- Improvement register: _Pipeline/ci-improvement-register.md (prioritized D2/D3/D4 backlog)
+- Operational plan: _sessions/session-d1-operational-plan.md
+- Roadmap v1.5: _sessions/vep-kb-initiative-roadmap.md (revised 4-session arc to publication)
+
+**Key Decision for D2:** children: vs parent_of: field name — recommend aligning SCHEMA.yaml to practice (accept children:)
+
+---
 
 ### Session 21 — 2026-04-06 (Academic Rigor Initiative Phase B.5 Session 6 — FINAL)
 **Machine:** MacBook Air (bubblegumpshrimpco)

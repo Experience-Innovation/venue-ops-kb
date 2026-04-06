@@ -19,7 +19,7 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0137-ADA-Standards-Accessible-Design]]"
-  - "[[Source-0149-ADA-Network-Event-Planning]]"
+  - "[[Source-0149-ADA-National-Network-Event-Planning]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Parking-And-Transportation]]"
 governed_by:
@@ -49,7 +49,7 @@ Event-day parking operations frequently reconfigure standard parking layouts to 
 - **Temporary lot reconfiguration rules** — when parking areas are repurposed for VIP, media, or production use, the accessible space count for the remaining public parking must still meet ADA scoping requirements based on the available supply ([[Source-0137-ADA-Standards-Accessible-Design]])
 - **VIP/media zone compliance** — VIP and media parking zones that are open to credentialed members of the public must independently provide accessible spaces; zones restricted to employees may fall under different requirements
 - **Overflow lot requirements** — temporary overflow parking activated for high-demand events must include accessible spaces at the required ratio, with accessible routes to shuttle pickup or venue entrances
-- **Accessible shuttle vehicles** — when shuttle service connects remote parking to the venue, a portion of the shuttle fleet must be wheelchair-accessible with lifts or ramps; the DOJ has clarified that inaccessible shuttles serving accessible parking lots create a compliance gap ([[Source-0149-ADA-Network-Event-Planning]])
+- **Accessible shuttle vehicles** — when shuttle service connects remote parking to the venue, a portion of the shuttle fleet must be wheelchair-accessible with lifts or ramps; the DOJ has clarified that inaccessible shuttles serving accessible parking lots create a compliance gap ([[Source-0149-ADA-National-Network-Event-Planning]])
 - **Event-specific parking plans** — DOJ guidance recommends that venues develop event-specific accessible parking plans documenting how accessible spaces, routes, and shuttle service will be maintained under each event configuration
 - **Proximity to entrances** — accessible spaces must remain on the shortest accessible route to the venue entrance, even when lot configurations change; relocating accessible spaces to remote areas of a lot violates the proximity requirement
 
@@ -67,4 +67,4 @@ Stadiums and arenas with large surface lots face the greatest reconfiguration co
 ## Sources
 
 - [[Source-0137-ADA-Standards-Accessible-Design]]
-- [[Source-0149-ADA-Network-Event-Planning]]
+- [[Source-0149-ADA-National-Network-Event-Planning]]

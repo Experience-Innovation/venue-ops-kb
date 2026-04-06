@@ -15,7 +15,7 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0181-NIST-Baldrige-Framework]]"
-  - "[[Source-0182-Baldrige-Foundation-2024]]"
+  - "[[Source-0182-Baldrige-Foundation-2024-Redesign]]"
   - "[[Source-0206-Baldrige-ADLI-Scoring]]"
 research_batch: supp-awards-ecosystem
 child_of: "[[Domain-Quality-And-Continuous-Improvement]]"
@@ -77,5 +77,5 @@ The Ritz-Carlton Hotel Company remains the only hospitality-sector organization 
 ## Sources
 
 - [[Source-0181-NIST-Baldrige-Framework]]
-- [[Source-0182-Baldrige-Foundation-2024]]
+- [[Source-0182-Baldrige-Foundation-2024-Redesign]]
 - [[Source-0206-Baldrige-ADLI-Scoring]]

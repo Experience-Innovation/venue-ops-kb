@@ -15,7 +15,7 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0122-ALSD-Premium-Seat-Benchmarks]]"
-  - "[[Source-0123-SBJ-Premium-Seating]]"
+  - "[[Source-0123-SBJ-Premium-Seating-Facilities]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Premium-And-Vip]]"
 related_to:
@@ -42,7 +42,7 @@ Premium hospitality revenue models have evolved from simple multi-year suite lea
 
 - **Per-event pricing** — ALSD benchmark data shows 84% of venues now offer per-event premium pricing options, up from predominantly season-long commitments ([[Source-0122-ALSD-Premium-Seat-Benchmarks]])
 - **Party suite F&B bundling** — 68% of party suites include food and beverage in the package price, compared to 41% of traditional suites, reflecting the trend toward all-inclusive models ([[Source-0122-ALSD-Premium-Seat-Benchmarks]])
-- **All-inclusive club programs** — entry-level all-inclusive club seat packages start at approximately $25 per person for food and beverage, providing venues with guaranteed per-capita revenue regardless of individual spending patterns ([[Source-0123-SBJ-Premium-Seating]])
+- **All-inclusive club programs** — entry-level all-inclusive club seat packages start at approximately $25 per person for food and beverage, providing venues with guaranteed per-capita revenue regardless of individual spending patterns ([[Source-0123-SBJ-Premium-Seating-Facilities]])
 - **Multi-year leases** — traditional suite leases of 3-10 years remain a revenue anchor but represent a declining share of total premium revenue as venues diversify their product mix
 - **Partial season packages** — half-season and quarter-season suite packages that reduce buyer commitment while maintaining premium inventory utilization
 - **Guaranteed per-cap revenue** — all-inclusive pricing converts variable concession spending into predictable per-person revenue, simplifying forecasting and reducing service complexity
@@ -58,4 +58,4 @@ Arenas with 40-80 event nights per year can sustain per-event premium pricing mo
 ## Sources
 
 - [[Source-0122-ALSD-Premium-Seat-Benchmarks]]
-- [[Source-0123-SBJ-Premium-Seating]]
+- [[Source-0123-SBJ-Premium-Seating-Facilities]]

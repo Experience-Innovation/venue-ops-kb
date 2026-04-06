@@ -14,15 +14,15 @@ vef_alignment:
   - operational-efficiency-productivity-creativity
 confidence: high
 sources:
-  - "[[Source-0129-TicketFairy-Email-Marketing]]"
-  - "[[Source-0124-Salesforce-Kraft-CRM]]"
+  - "[[Source-0129-TicketFairy-Email-Marketing-2026]]"
+  - "[[Source-0124-Salesforce-Kraft-Sports-CRM]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Marketing-And-Communications]]"
 related_to:
   - "[[Marketing-And-Communications-Social-Media]]"
   - "[[Marketing-And-Communications-Email-Compliance]]"
 supported_by:
-  - "[[Source-0124-Salesforce-Kraft-CRM]]"
+  - "[[Source-0124-Salesforce-Kraft-Sports-CRM]]"
 tags:
   - concept
   - venue-ops
@@ -76,5 +76,5 @@ Venues with diverse programming (arenas, performing arts centres) benefit most f
 
 ## Sources
 
-- [[Source-0129-TicketFairy-Email-Marketing]]
-- [[Source-0124-Salesforce-Kraft-CRM]]
+- [[Source-0129-TicketFairy-Email-Marketing-2026]]
+- [[Source-0124-Salesforce-Kraft-Sports-CRM]]

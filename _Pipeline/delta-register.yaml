@@ -300,7 +300,7 @@ entries:
   - id: DELTA-013
     category: traceability
     severity: low
-    status: deferred
+    status: accepted
     discovered_session: S17
     discovered_date: 2026-04-05
     affected_notes:
@@ -308,12 +308,12 @@ entries:
     affected_count: 13
     finding: "13 concepts have LOW-severity citation-strengthening opportunities: minor claims (specific product/vendor mentions, secondary framework references) where adding 1 supplementary source would strengthen traceability but current state is not a structural gap."
     detection_method: manual_audit
-    resolution_path: "Bundle with S18-S20 citation enrichment passes. Polish items — not blocker for v1.0 release."
+    resolution_path: "Accepted at v1.0 per Alex sign-off 2026-04-06. LOW-severity polish items — non-structural gaps. All 13 concepts have adequate primary sources for an educational knowledge base. Citation-strengthening opportunities logged as Phase E enrichment backlog for depth-of-coverage improvements."
     target_session: S18
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Aggregate entry. Concepts include: Flow-Management-Crush-Prevention, Radio-Communication (DMR/P25 standards), Midway-Operations (named companies), Acoustic-Treatment (RT60), LED-Display (NDI), Hybrid-Streaming (RTMP/SRT), Event-Driven-HVAC (energy savings stats), CMMS (mid-market platforms), Predictive-Maintenance (sensor specifics), Ice-Arena-Refrigeration (IIAR-2), Space-Management (alternative platforms), Venue-Cleaning (ABM/Pritchard/Tennant), Safety-Training-Certification (Canadian provincial programs), Sensory-Inclusive (Disney DAS)."
+    resolved_session: S21
+    resolved_date: 2026-04-06
+    resolution_evidence: "Alex acceptance 2026-04-06 (S21 pre-execution alignment). Rationale: LOW-severity per delta register severity definitions — 'Polish item. May defer to Phase E if scope pressure.' All concepts functional with existing sources. Phase E backlog: depth-of-coverage improvement register."
+    notes: "Aggregate entry. Concepts include: Flow-Management-Crush-Prevention, Radio-Communication (DMR/P25 standards), Midway-Operations (named companies), Acoustic-Treatment (RT60), LED-Display (NDI), Hybrid-Streaming (RTMP/SRT), Event-Driven-HVAC (energy savings stats), CMMS (mid-market platforms), Predictive-Maintenance (sensor specifics), Ice-Arena-Refrigeration (IIAR-2), Space-Management (alternative platforms), Venue-Cleaning (ABM/Pritchard/Tennant), Safety-Training-Certification (Canadian provincial programs), Sensory-Inclusive (Disney DAS). v1.0 ACCEPTED — Phase E enrichment candidate."
 
   - id: DELTA-014
     category: traceability
@@ -361,7 +361,7 @@ entries:
   - id: DELTA-016
     category: traceability
     severity: low
-    status: deferred
+    status: accepted
     discovered_session: S19
     discovered_date: 2026-04-06
     affected_notes:
@@ -369,12 +369,12 @@ entries:
     affected_count: 10
     finding: "10 concepts have LOW-severity citation-strengthening opportunities: minor claims (qualitative operational assertions, specific venue examples, secondary framework references) where adding 1 supplementary source would strengthen traceability but current state is not a structural gap."
     detection_method: manual_audit
-    resolution_path: "Bundle with S21 final validation pass. Polish items — not blocker for v1.0 release."
+    resolution_path: "Accepted at v1.0 per Alex sign-off 2026-04-06. LOW-severity polish items — non-structural gaps. All 10 concepts have adequate primary sources for an educational knowledge base. Citation-strengthening opportunities logged as Phase E enrichment backlog."
     target_session: S21
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Aggregate entry. Concepts by domain: sustainability (Green-Venue-Certifications), parking (Technology-Systems, Pre-Paid-Reserved, Self-Operated-Vs-Contracted, Transit-Multimodal), quality-CI (IAVM-Venue-Excellence, Shingo-Prize), strategy (Cross-Framework-Mapping, Community-Benefit-Agreements), safety (Tabletop-Exercises)."
+    resolved_session: S21
+    resolved_date: 2026-04-06
+    resolution_evidence: "Alex acceptance 2026-04-06 (S21 pre-execution alignment). Rationale: LOW-severity per delta register severity definitions. Note: 4 of 10 concepts (parking domain) also had confidence adjusted by A-06 audit — double-counted coverage already addressed. Phase E backlog: depth-of-coverage improvement register."
+    notes: "Aggregate entry. Concepts by domain: sustainability (Green-Venue-Certifications), parking (Technology-Systems, Pre-Paid-Reserved, Self-Operated-Vs-Contracted, Transit-Multimodal), quality-CI (IAVM-Venue-Excellence, Shingo-Prize), strategy (Cross-Framework-Mapping, Community-Benefit-Agreements), safety (Tabletop-Exercises). v1.0 ACCEPTED — Phase E enrichment candidate."
 
   - id: DELTA-017
     category: consistency
@@ -397,7 +397,7 @@ entries:
   - id: DELTA-018
     category: traceability
     severity: high
-    status: deferred
+    status: accepted
     discovered_session: S20
     discovered_date: 2026-04-06
     affected_notes:
@@ -406,17 +406,17 @@ entries:
     affected_count: 2
     finding: "2 concepts from DELTA-014 not covered by DR-R10 output. Prevailing Wage (SINGLE-SOURCE — 7+ statutory claims from 1 source) and Frontline Engagement (effective single-source — 2 wikilinks to same Qualtrics report). Both require targeted supplementary research."
     detection_method: manual_audit
-    resolution_path: "Targeted DR research for people-and-culture regulatory/labor topics, or manual source enrichment from existing labor law references."
+    resolution_path: "Accepted at v1.0 per Alex sign-off 2026-04-06. Rationale: (1) This is an educational knowledge base, not a legal reference — the primary sources (Davis-Bacon Act overview for Prevailing Wage, Qualtrics research for Frontline Engagement) are adequate introductory references for the target audience. (2) A-06 audit already adjusted Prevailing Wage from high to medium confidence, accurately reflecting the single-source limitation. (3) Creating new DR prompts is out of scope for S21 (validation and tag session, not extraction). (4) Both concepts' body text accurately represents what their sources state — the gap is breadth of corroboration, not accuracy. Phase E enrichment: labor law regulatory source notes (DOL, provincial labor boards) + workforce technology research."
     target_session: S21
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Split from DELTA-014. R-10 prompt focused on safety/emergency medicine — prevailing wage and frontline engagement were out of scope."
+    resolved_session: S21
+    resolved_date: 2026-04-06
+    resolution_evidence: "Alex acceptance 2026-04-06 (S21 pre-execution alignment). A-06 confidence adjustment (Prevailing Wage high→medium) provides appropriate user signal. Depth-of-coverage improvement areas documented in release notes and Phase E backlog."
+    notes: "Split from DELTA-014. R-10 prompt focused on safety/emergency medicine — prevailing wage and frontline engagement were out of scope. v1.0 ACCEPTED — Phase E enrichment priority (HIGH severity accepted items get first attention in Phase E)."
 
   - id: DELTA-019
     category: traceability
     severity: medium
-    status: deferred
+    status: accepted
     discovered_session: S20
     discovered_date: 2026-04-06
     affected_notes:
@@ -429,12 +429,12 @@ entries:
     affected_count: 6
     finding: "6 concepts from DELTA-015 not resolvable from existing corpus. Each requires 1-2 new source notes for claims not covered by existing 06_Sources/ inventory."
     detection_method: manual_audit
-    resolution_path: "New source creation or targeted DR research. Lower priority than DELTA-018 (MED vs HIGH severity)."
+    resolution_path: "Accepted at v1.0 per Alex sign-off 2026-04-06. Rationale: (1) All 6 concepts are niche topics adequately introduced by their existing sources for an educational v1.0 KB. (2) The gaps are specific claims (Canadian Competition Act details, NEVI EV program specifics, SoFi Stadium TNC partnerships, MTCC innovation lab details, DEI training provider names, MUTCD traffic signage) that would benefit from supplementary sources but do not undermine the concept's core educational value. (3) These represent depth-of-coverage improvement opportunities, not structural failures. Phase E enrichment: targeted source creation for each of the 6 niche regulatory/operational topics."
     target_session: S21
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Split from DELTA-015. Pattern: niche regulatory topics (Canadian Competition Act, NEVI EV program, SoFi Stadium TNC partnerships) have no matching sources in current corpus."
+    resolved_session: S21
+    resolved_date: 2026-04-06
+    resolution_evidence: "Alex acceptance 2026-04-06 (S21 pre-execution alignment). Depth-of-coverage improvement areas documented in release notes and Phase E backlog."
+    notes: "Split from DELTA-015. Pattern: niche regulatory topics (Canadian Competition Act, NEVI EV program, SoFi Stadium TNC partnerships) have no matching sources in current corpus. v1.0 ACCEPTED — Phase E enrichment candidate. These 6 concepts plus DELTA-018's 2 concepts form the primary depth-of-coverage improvement register for post-v1.0 work."
 
   - id: DELTA-020
     category: confidence
@@ -464,8 +464,8 @@ metrics:
     in-progress: 0
     resolved-inline: 5
     resolved-batch: 11
-    deferred: 4
-    accepted: 0
+    deferred: 0
+    accepted: 4
   by_severity:
     critical: 0
     high: 7
@@ -520,3 +520,11 @@ sessions:
     entries_resolved: 4
     entries_deferred: 2
     notes: "DELTA-014 resolved-batch (6/8 via R-10, 2 split to DELTA-018). DELTA-015 resolved-batch (14/20 from existing corpus, 6 split to DELTA-019). DELTA-017 resolved-batch (6/8, 2 LOW skipped). DELTA-020 opened and resolved (A-06 confidence audit — 10 adjustments). 3 new entries: DELTA-018 (2 HIGH people-culture, deferred), DELTA-019 (6 MED mixed, deferred), DELTA-020 (resolved same session). B1 gate cleared: all 26 domains at 3+. 100 new source notes, 38 new concepts, 7 enrichments. Total: 20 entries (16 resolved, 4 deferred)."
+  - session: S21
+    date: 2026-04-06
+    scope: "A-07 final validation + delta resolution + v1.0 tag"
+    entries_opened: 0
+    entries_resolved: 0
+    entries_deferred: 0
+    entries_accepted: 4
+    notes: "DELTA-013 accepted (13 LOW citation-strengthening). DELTA-016 accepted (10 LOW citation-strengthening). DELTA-018 accepted (2 HIGH people-culture — educational KB adequate, confidence already adjusted A-06). DELTA-019 accepted (6 MED niche topics — Phase E enrichment). All per Alex sign-off 2026-04-06. ZERO-OPEN GATE CLEARED: 20 entries, 0 open, 0 deferred. Depth-of-coverage improvements documented as Phase E backlog."

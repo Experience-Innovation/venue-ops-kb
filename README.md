@@ -90,29 +90,35 @@ Full methodology (public statement): `METHODOLOGY.md` at vault root.
 Internal methodology: `Reference/VEP-KB-Data-Science-Methodology_v1.0.md`.
 Pipeline documentation: `_Pipeline/` folder.
 
-## Current Status
-
-**Build state (as of Session 16, 2026-04-05):**
+## Current Status — v1.0.0 (2026-04-06)
 
 | Metric | Value |
 |---|:-:|
-| Total notes | 482 |
+| Total notes | 650 |
 | Domain overviews | 26 / 26 (100%) |
-| Concept notes | 169 |
-| Source notes | 260 |
+| Concept notes | 207 |
+| Source notes | 390 |
 | Domain MOCs (navigation layer) | 27 |
-| Validation reports | 15+ |
-| Domains at minimum viable (3+ concepts) or deeper | 21 / 26 (81%) |
+| Audit reports filed | 7 (A-01 through A-07) |
+| Delta register entries | 20 (all resolved or accepted) |
+| Domains at minimum viable (3+ concepts) | 26 / 26 (100%) |
+| Domains at working depth (8+ concepts) | 10 / 26 (38%) |
+| Domains at authoritative (15+ concepts) | 1 / 26 (4%) |
+| Confidence distribution | 88.4% high, 10.6% medium, 1.0% low |
+| Fabrication incidents | 0 across 21 sessions |
+| Processing sessions | 21 (S4-S21, March-April 2026) |
 
-**Academic Rigor Initiative (Phase B.5) in progress** — Sessions S16-S20. Goal: v1.0 release with peer-reviewable academic-publishing standard. Audit reports filed in `_Pipeline/Validation/`. Delta register (backlog) in `_Pipeline/delta-register.yaml`.
+**Academic Rigor Initiative (Phase B.5) complete** — 7 audit threads (provenance, vocabulary, citation, traceability, structural consistency, confidence defensibility, final validation), 20 delta register entries resolved. Reports in `_Pipeline/Validation/`.
 
-**Known gaps:**
-- 3 domains at 0 concepts pending fresh DR research (data-and-analytics, booking-and-sales, tenant-and-partner-relations)
+**Depth-of-coverage improvement areas** (documented for post-v1.0 enrichment):
+- 15 domains at minimum viable depth — candidates for deepening to working depth (8+ concepts)
 - Non-concept note types (Standards, Technology, Organizations, People) at 0 — enrichment scheduled post-v1.0
-- All notes at `status: draft` — human review passes scheduled
-- Optional bibliographic metadata enrichment on source notes scheduled for S18
+- All notes at `status: draft` — human review passes scheduled for draft to reviewed to canonical progression
+- 31 concepts across 4 accepted delta entries identified for supplementary source enrichment
+- Parking-and-transportation has highest medium-confidence concentration (4/10 concepts)
+- Logistics-and-warehouse at minimum viable floor (3 concepts)
 
-See `METHODOLOGY.md` for the full limitations disclosure.
+See `METHODOLOGY.md` for the full limitations disclosure and `RELEASE-v1.0.0.md` for release details.
 
 ## AI Disclosure
 

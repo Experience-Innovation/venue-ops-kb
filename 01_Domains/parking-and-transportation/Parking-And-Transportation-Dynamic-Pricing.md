@@ -16,8 +16,8 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0131-NPA-Parking-Rate-Study]]"
-  - "[[Source-0132-FHWA-Special-Events]]"
-  - "[[Source-0136-Event-Parking-Market]]"
+  - "[[Source-0132-FHWA-Special-Events-Guidance]]"
+  - "[[Source-0136-Event-Parking-Solutions-Market]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Parking-And-Transportation]]"
 related_to:
@@ -38,7 +38,7 @@ Event parking pricing strategies that adjust rates based on demand, time, and in
 
 ## Overview
 
-Dynamic parking pricing applies demand-based rate adjustment to event parking, varying prices by event type, proximity to venue, time of purchase, and remaining inventory. The approach optimizes revenue while serving as a congestion management tool — higher prices for premium-proximity lots encourage use of remote lots and alternative transportation. The global event parking solutions market was valued at approximately $4.8 billion in 2025 and is projected to reach approximately $9.6 billion by 2034, reflecting growing adoption of technology-enabled parking management ([[Source-0136-Event-Parking-Market]]).
+Dynamic parking pricing applies demand-based rate adjustment to event parking, varying prices by event type, proximity to venue, time of purchase, and remaining inventory. The approach optimizes revenue while serving as a congestion management tool — higher prices for premium-proximity lots encourage use of remote lots and alternative transportation. The global event parking solutions market was valued at approximately $4.8 billion in 2025 and is projected to reach approximately $9.6 billion by 2034, reflecting growing adoption of technology-enabled parking management ([[Source-0136-Event-Parking-Solutions-Market]]).
 
 ## Key Components
 
@@ -46,7 +46,7 @@ Dynamic parking pricing applies demand-based rate adjustment to event parking, v
 - **Tiered proximity pricing** — lots closer to the venue entrance are priced higher than remote lots, creating a natural demand distribution that reduces congestion at premium locations
 - **Advance purchase discounts** — pre-event online purchases are offered at lower rates than day-of pricing, incentivizing early commitment and enabling better demand forecasting
 - **NPA rate study data** — the National Parking Association publishes periodic rate studies benchmarking event parking rates by market, venue type, and event category, providing operators with market-rate intelligence ([[Source-0131-NPA-Parking-Rate-Study]])
-- **FHWA guidance** — the Federal Highway Administration's Managing Travel for Planned Special Events handbook includes parking management as a key component of event transportation planning, recommending demand-responsive pricing as a congestion mitigation tool ([[Source-0132-FHWA-Special-Events]])
+- **FHWA guidance** — the Federal Highway Administration's Managing Travel for Planned Special Events handbook includes parking management as a key component of event transportation planning, recommending demand-responsive pricing as a congestion mitigation tool ([[Source-0132-FHWA-Special-Events-Guidance]])
 - **Congestion reduction through pricing signals** — dynamic pricing distributes demand across available inventory, reducing search traffic (vehicles circling for spaces), queue times at lot entrances, and post-event exit congestion
 
 ## Industry Context
@@ -60,5 +60,5 @@ Stadiums with large surface lot inventories and 8-10 high-demand event days per 
 ## Sources
 
 - [[Source-0131-NPA-Parking-Rate-Study]]
-- [[Source-0132-FHWA-Special-Events]]
-- [[Source-0136-Event-Parking-Market]]
+- [[Source-0132-FHWA-Special-Events-Guidance]]
+- [[Source-0136-Event-Parking-Solutions-Market]]

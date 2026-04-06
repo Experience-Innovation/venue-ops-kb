@@ -16,7 +16,7 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0135-Stadium-Wayfinding-Guide]]"
-  - "[[Source-0125-YinzCam-UBS-Arena]]"
+  - "[[Source-0125-YinzCam-UBS-Arena-App]]"
   - "[[Source-0137-ADA-Standards-Accessible-Design]]"
   - "[[Source-0149-ADA-National-Network-Event-Planning]]"
 research_batch: v2-prompt-11-premium-guest
@@ -26,7 +26,7 @@ related_to:
   - "[[Parking-And-Transportation-Event-Traffic-Management]]"
   - "[[Guest-Experience-Hospitality-Quality-Ratings]]"
 supported_by:
-  - "[[Source-0125-YinzCam-UBS-Arena]]"
+  - "[[Source-0125-YinzCam-UBS-Arena-App]]"
 tags:
   - concept
   - venue-ops
@@ -95,4 +95,4 @@ Convention centres require the most complex wayfinding systems due to reconfigur
 ## Sources
 
 - [[Source-0135-Stadium-Wayfinding-Guide]]
-- [[Source-0125-YinzCam-UBS-Arena]]
+- [[Source-0125-YinzCam-UBS-Arena-App]]

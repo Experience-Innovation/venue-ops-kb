@@ -12,12 +12,12 @@ vef_alignment:
   - systems-processes-clarity-of-roles
 confidence: high
 sources:
-  - "[[Source-0143-CAN-SPAM-Compliance]]"
+  - "[[Source-0143-CAN-SPAM-Compliance-Guide]]"
   - "[[Source-0144-CRTC-CASL-Guidance]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Marketing-And-Communications]]"
 governed_by:
-  - "[[Source-0143-CAN-SPAM-Compliance]]"
+  - "[[Source-0143-CAN-SPAM-Compliance-Guide]]"
   - "[[Source-0144-CRTC-CASL-Guidance]]"
 related_to:
   - "[[Marketing-And-Communications-Email-Marketing]]"
@@ -85,5 +85,5 @@ All venue types conducting email marketing face the same regulatory requirements
 
 ## Sources
 
-- [[Source-0143-CAN-SPAM-Compliance]]
+- [[Source-0143-CAN-SPAM-Compliance-Guide]]
 - [[Source-0144-CRTC-CASL-Guidance]]

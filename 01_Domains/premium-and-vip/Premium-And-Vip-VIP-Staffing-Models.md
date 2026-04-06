@@ -17,8 +17,8 @@ vef_alignment:
   - systems-processes-clarity-of-roles
 confidence: high
 sources:
-  - "[[Source-0123-SBJ-Premium-Seating]]"
-  - "[[Source-0124-Salesforce-Kraft-CRM]]"
+  - "[[Source-0123-SBJ-Premium-Seating-Facilities]]"
+  - "[[Source-0124-Salesforce-Kraft-Sports-CRM]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Premium-And-Vip]]"
 related_to:
@@ -47,9 +47,9 @@ Premium hospitality areas require staffing models that deliver service levels co
 - **Suite attendants** — assigned to specific suite blocks (typically 4-6 suites per attendant); responsible for in-suite food and beverage service, restocking, and guest comfort
 - **Housekeeping/turnover staff** — dedicated to suite and club area reset between events and during intermissions; ensures presentation standards are maintained throughout the event
 - **Personal escorts** — assigned to high-value guests for arrival through departure; provide wayfinding, access facilitation, and a single point of contact
-- **Advance communication** — pre-event outreach to suite holders and VIP guests confirming arrangements, gathering special requests, and setting service expectations ([[Source-0124-Salesforce-Kraft-CRM]])
+- **Advance communication** — pre-event outreach to suite holders and VIP guests confirming arrangements, gathering special requests, and setting service expectations ([[Source-0124-Salesforce-Kraft-Sports-CRM]])
 - **Proactive check-ins** — scheduled touchpoints during events (typically at 30-minute intervals) rather than reactive service only
-- **Service recovery logging** — documented process for capturing, escalating, and resolving service failures in premium areas, with follow-up protocols to restore guest confidence ([[Source-0123-SBJ-Premium-Seating]])
+- **Service recovery logging** — documented process for capturing, escalating, and resolving service failures in premium areas, with follow-up protocols to restore guest confidence ([[Source-0123-SBJ-Premium-Seating-Facilities]])
 
 ## Industry Context
 
@@ -61,5 +61,5 @@ Arenas and stadiums deploy the full layered model for game-day and concert opera
 
 ## Sources
 
-- [[Source-0123-SBJ-Premium-Seating]]
-- [[Source-0124-Salesforce-Kraft-CRM]]
+- [[Source-0123-SBJ-Premium-Seating-Facilities]]
+- [[Source-0124-Salesforce-Kraft-Sports-CRM]]

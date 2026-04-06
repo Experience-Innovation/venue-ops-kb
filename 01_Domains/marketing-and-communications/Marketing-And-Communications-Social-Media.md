@@ -13,7 +13,7 @@ vef_alignment:
   - innovation-and-continuous-improvement
 confidence: high
 sources:
-  - "[[Source-0128-MEIEA-Venue-Marketing]]"
+  - "[[Source-0128-MEIEA-Venue-Marketing-Survey]]"
   - "[[Source-0130-Fisher-Phillips-Crisis-Comms]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Marketing-And-Communications]]"
@@ -71,5 +71,5 @@ Social media strategy varies significantly by venue type. Concert venues and are
 
 ## Sources
 
-- [[Source-0128-MEIEA-Venue-Marketing]]
+- [[Source-0128-MEIEA-Venue-Marketing-Survey]]
 - [[Source-0130-Fisher-Phillips-Crisis-Comms]]

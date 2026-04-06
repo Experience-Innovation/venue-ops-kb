@@ -1,0 +1,495 @@
+# Venue Operations KB — CI Gap Register
+# Authority: YAML (this file) | Source: CI Audit D1 Report
+# Purpose: Structured backlog of missing or inconsistent CI items identified in D1 audit
+# Reference: _Pipeline/Validation/ci-audit-d1-report.md
+
+version: "1.0"
+created: 2026-04-06
+initialized_session: D1
+
+schema:
+  id: "CI-GAP-NNN"
+  category: "template | pipeline | validation | session | governance | convention"
+  severity: "critical | high | medium | low"
+  status: "open | in-progress | resolved | deferred | accepted"
+  audit_finding: "Reference to ci-audit-d1-report.md finding ID"
+  description: "What is missing or inconsistent"
+  affected_artifacts: "Files or artifact types affected"
+  evidence: "How this was discovered"
+  resolution_path: "Recommended fix"
+  target_session: "D2 | D3 | D4"
+  effort_estimate: "S (< 30 min) | M (30 min - 2 hr) | L (2-4 hr) | XL (session-scale)"
+
+next_id: 35
+
+entries:
+  # ============================================================
+  # TEMPLATE GAPS
+  # ============================================================
+  - id: CI-GAP-001
+    category: template
+    severity: high
+    status: open
+    audit_finding: T-01
+    description: "Domain template and all 26 domain notes use `children:` but SCHEMA.yaml specifies `parent_of:` for domain type"
+    affected_artifacts: "Template-Domain.md, 26 Domain-*.md files, SCHEMA.yaml"
+    evidence: "Template audit + actual note comparison"
+    resolution_path: "Alex decision: update SCHEMA.yaml to accept `children:` for domain type (aligning schema to practice) OR migrate 26 notes + template to `parent_of:`"
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-002
+    category: template
+    severity: high
+    status: open
+    audit_finding: T-02
+    description: "5 templates (Organization, Person, Map, Standard, Technology) use `related: []` — field not in SCHEMA.yaml. Should be `related_to: []`"
+    affected_artifacts: "Template-Organization.md, Template-Person.md, Template-Map.md, Template-Standard.md, Template-Technology.md"
+    evidence: "Template audit cross-referenced with SCHEMA.yaml"
+    resolution_path: "Replace `related: []` with `related_to: []` in all 5 templates"
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-003
+    category: template
+    severity: medium
+    status: open
+    audit_finding: T-03
+    description: "Template-Map.md has 2 body sections; actual MOCs have 7+ sections (Purpose, Domain Overview, Concept Index, Cross-Domain Connections, Reading Paths, Coverage Status, Related MOCs)"
+    affected_artifacts: "Template-Map.md"
+    evidence: "Template vs Map-Guest-Experience.md comparison"
+    resolution_path: "Expand template with full 7-section MOC scaffolding"
+    target_session: D2
+    effort_estimate: M
+
+  - id: CI-GAP-004
+    category: template
+    severity: medium
+    status: open
+    audit_finding: T-04
+    description: "Template-Source.md includes 3 body sections that no actual source note uses. Source notes are metadata-only."
+    affected_artifacts: "Template-Source.md"
+    evidence: "Template vs Source-0001 and Source-0290 comparison"
+    resolution_path: "Simplify template body to optional single description section"
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-005
+    category: template
+    severity: low
+    status: open
+    audit_finding: T-05
+    description: "Template ai_disclosure default text diverges from CLAUDE.md §10 canonical text"
+    affected_artifacts: "All 8 templates in Templates/"
+    evidence: "Template default vs CLAUDE.md §10"
+    resolution_path: "Align all template ai_disclosure defaults to CLAUDE.md §10 text"
+    target_session: D2
+    effort_estimate: S
+
+  # ============================================================
+  # PIPELINE GAPS
+  # ============================================================
+  - id: CI-GAP-006
+    category: pipeline
+    severity: high
+    status: resolved
+    audit_finding: P-01
+    description: "ingestion-rules.md Stage 5 missing wikilink-filename validation. 31 broken wikilinks persisted 7 sessions (S14-S21)."
+    affected_artifacts: ".claude/rules/ingestion-rules.md"
+    evidence: "S21 retro finding, A-07 audit remediation of 31 broken links"
+    resolution_path: "Add Step 5b: wikilink-filename validation between Validate and Log. Codify in D1."
+    target_session: D1
+    resolved_session: D1
+    resolved_date: 2026-04-06
+    resolution_evidence: "ingestion-rules.md v2.1 — Step 5b added with full wikilink integrity check procedure"
+    effort_estimate: S
+
+  - id: CI-GAP-007
+    category: pipeline
+    severity: medium
+    status: open
+    audit_finding: P-02
+    description: "validation-rules.md lacks explicit field-name validation rule. Rule #3 is semantic but doesn't mechanically enumerate valid field names."
+    affected_artifacts: ".claude/rules/validation-rules.md"
+    evidence: "children/related field name drift went uncaught"
+    resolution_path: "Add validation rule: all frontmatter keys must exist in SCHEMA.yaml for the note's type. Depends on CI-GAP-001 resolution."
+    target_session: D3
+    effort_estimate: S
+
+  - id: CI-GAP-008
+    category: pipeline
+    severity: low
+    status: resolved
+    audit_finding: P-03
+    description: "ingestion-rules.md still at v2.0 (S10) despite S19 single-source flag addition and other S16-S21 refinements"
+    affected_artifacts: ".claude/rules/ingestion-rules.md"
+    evidence: "Version header inspection"
+    resolution_path: "Bump to v2.1 after D1 wikilink validation addition; v3.0 after all D-phase updates"
+    target_session: D1
+    resolved_session: D1
+    resolved_date: 2026-04-06
+    resolution_evidence: "ingestion-rules.md bumped to v2.1"
+    effort_estimate: S
+
+  # ============================================================
+  # VALIDATION PATTERN GAPS
+  # ============================================================
+  - id: CI-GAP-009
+    category: validation
+    severity: high
+    status: resolved
+    audit_finding: V-01
+    description: "12/13 batch validation reports have no YAML frontmatter. Conflicts with CLAUDE.md v2.1 audit_outcome requirement for _Pipeline/Validation/ files."
+    affected_artifacts: "batch-00 through batch-11 validation reports"
+    evidence: "Frontmatter scan of all 24 validation files"
+    resolution_path: "Codify policy: batch reports are exempt from audit_outcome frontmatter requirement (simple extraction pass/fail captured in body). Add documentation to validation-rules.md. Codify in D1."
+    target_session: D1
+    resolved_session: D1
+    resolved_date: 2026-04-06
+    resolution_evidence: "validation-rules.md — 'Validation Report Types and Policies' section added, documenting batch vs audit report conventions and consolidated report policy"
+    effort_estimate: S
+
+  - id: CI-GAP-010
+    category: validation
+    severity: medium
+    status: open
+    audit_finding: V-02
+    description: "Two incompatible audit report frontmatter patterns: A-01–A-05 (8 fields) vs A-06–A-07 (6 fields)"
+    affected_artifacts: "7 audit report files in _Pipeline/Validation/"
+    evidence: "Frontmatter comparison across audit reports"
+    resolution_path: "Establish canonical audit report template. Backfill A-01–A-05 frontmatter to match A-06/A-07 pattern (which aligns with CLAUDE.md v2.1 lifecycle/audit_outcome convention)."
+    target_session: D3
+    effort_estimate: M
+
+  - id: CI-GAP-011
+    category: validation
+    severity: medium
+    status: resolved
+    audit_finding: V-03
+    description: "No documented policy on per-batch vs consolidated validation reports. S20 used consolidated A-06 instead of per-batch reports for 5 DR batches."
+    affected_artifacts: "validation-rules.md"
+    evidence: "S20 OIR-6"
+    resolution_path: "Codify policy: per-batch for extraction sessions, consolidated for audit/validation-only sessions. Document in D1."
+    target_session: D1
+    resolved_session: D1
+    resolved_date: 2026-04-06
+    resolution_evidence: "validation-rules.md — 'Consolidated Reports Policy' subsection documents when per-batch vs consolidated reports are required"
+    effort_estimate: S
+
+  - id: CI-GAP-012
+    category: validation
+    severity: low
+    status: open
+    audit_finding: V-04
+    description: "session-18 validation report uses audit-style frontmatter (8 fields) unlike other batch reports"
+    affected_artifacts: "session-18-ci-enrichment-validation.md"
+    evidence: "Frontmatter scan"
+    resolution_path: "Document as acceptable variance for hybrid CI/enrichment sessions"
+    target_session: D3
+    effort_estimate: S
+
+  # ============================================================
+  # SESSION ARTIFACT GAPS
+  # ============================================================
+  - id: CI-GAP-013
+    category: session
+    severity: high
+    status: open
+    audit_finding: S-01
+    description: "19/28 session files missing `type:` field. Pre-S20 files have no or partial YAML frontmatter."
+    affected_artifacts: "All S12-S19 session governance files (17 files), discovery-manifest.md, progress.md"
+    evidence: "Frontmatter scan of all 28 _sessions/ files"
+    resolution_path: "Backfill minimal frontmatter on S12-S19 files: type, lifecycle (superseded for old sessions, active for current), created, session. Enables Dataview indexing."
+    target_session: D3
+    effort_estimate: L
+
+  - id: CI-GAP-014
+    category: session
+    severity: medium
+    status: open
+    audit_finding: S-02
+    description: "No schema definition for governance artifact frontmatter. SCHEMA.yaml covers only 8 content note_types."
+    affected_artifacts: "SCHEMA.yaml"
+    evidence: "Schema inspection — no governance artifact section"
+    resolution_path: "Add governance artifact schema section to SCHEMA.yaml (or create governance-schema.yaml). Define required/optional fields for each governance type."
+    target_session: D2
+    effort_estimate: M
+
+  - id: CI-GAP-015
+    category: session
+    severity: medium
+    status: open
+    audit_finding: S-03
+    description: "Session governance artifact types (handoff, retrospective, operational-plan, etc.) not in VOCABULARY.yaml"
+    affected_artifacts: "VOCABULARY.yaml"
+    evidence: "Vocabulary inspection — no governance_type list"
+    resolution_path: "Add `governance_type:` controlled vocabulary list to VOCABULARY.yaml"
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-016
+    category: session
+    severity: low
+    status: open
+    audit_finding: S-04
+    description: "progress.md has no frontmatter or structured format. Freeform prose, not Dataview-queryable."
+    affected_artifacts: "progress.md"
+    evidence: "File inspection"
+    resolution_path: "Low priority. Structured indexing served by pipeline-state.json and session artifacts. Consider adding minimal frontmatter (type, lifecycle) for consistency but don't restructure content."
+    target_session: D3
+    effort_estimate: S
+
+  # ============================================================
+  # GOVERNANCE GAPS
+  # ============================================================
+  - id: CI-GAP-017
+    category: governance
+    severity: high
+    status: open
+    audit_finding: G-01
+    description: "No audit report template in .claude/rules/. Two incompatible patterns emerged because no template governed the format."
+    affected_artifacts: ".claude/rules/"
+    evidence: "V-02 finding + absence of template file"
+    resolution_path: "Create audit-report-template.md in .claude/rules/ with canonical frontmatter (A-06/A-07 pattern) + body structure"
+    target_session: D2
+    effort_estimate: M
+
+  - id: CI-GAP-018
+    category: governance
+    severity: medium
+    status: open
+    audit_finding: G-02
+    description: "SCHEMA.yaml still at v2.0 (S10) despite 11 sessions of refinements. lifecycle/audit_outcome conventions, single-source flag, bibliographic field significance not reflected."
+    affected_artifacts: "SCHEMA.yaml"
+    evidence: "Version header inspection + CLAUDE.md v2.1 comparison"
+    resolution_path: "Comprehensive SCHEMA.yaml update to v3.0 incorporating all S16-S21 refinements"
+    target_session: D2
+    effort_estimate: L
+
+  - id: CI-GAP-019
+    category: governance
+    severity: low
+    status: open
+    audit_finding: G-03
+    description: "No governance artifact templates in Templates/ directory. Session operational-plan template exists in _sessions/ but not in Templates/."
+    affected_artifacts: "Templates/ directory"
+    evidence: "Directory listing"
+    resolution_path: "Assess in D2 whether governance templates should live in Templates/, _sessions/, or .claude/rules/"
+    target_session: D2
+    effort_estimate: S
+
+  # ============================================================
+  # CONVENTION GAPS
+  # ============================================================
+  - id: CI-GAP-020
+    category: convention
+    severity: high
+    status: open
+    audit_finding: I-01
+    description: "`children:` field used for both domain and map types in practice, but SCHEMA.yaml specifies `parent_of:` for domain type. Schema-practice divergence on 26 notes."
+    affected_artifacts: "SCHEMA.yaml, 26 domain notes, Template-Domain.md"
+    evidence: "Schema vs actual note comparison"
+    resolution_path: "Same as CI-GAP-001 — Alex decision on canonical field name"
+    target_session: D2
+    effort_estimate: S
+    notes: "Linked to CI-GAP-001. Single resolution covers both."
+
+  - id: CI-GAP-021
+    category: convention
+    severity: high
+    status: open
+    audit_finding: I-02
+    description: "`source_session:` vs `session:` field convention for cross-session artifacts not codified"
+    affected_artifacts: "session-operational-plan-template.md, phase-e-enrichment-backlog.md, vep-kb-initiative-roadmap.md"
+    evidence: "Frontmatter comparison across governance artifacts"
+    resolution_path: "Codify in governance artifact schema: `session:` for single-session artifacts, `source_session:` for multi-session or cross-session artifacts"
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-022
+    category: convention
+    severity: medium
+    status: open
+    audit_finding: I-03
+    description: "Batch numbering convention evolved from pure sequential (batch-00) to descriptive (batch-12-final-validation) to DR-mapped (batch-14/R-06) without documentation"
+    affected_artifacts: "pipeline-state.json, validation reports"
+    evidence: "Batch ID comparison across pipeline-state.json"
+    resolution_path: "Document naming convention in ingestion-rules.md or pipeline documentation"
+    target_session: D3
+    effort_estimate: S
+
+  - id: CI-GAP-023
+    category: convention
+    severity: low
+    status: open
+    audit_finding: I-04
+    description: "DR input file naming has 3 different patterns across 40+ files (DR-Title, DR-Remediation-Topic, DR-RNN-Topic)"
+    affected_artifacts: "_Pipeline/Input/ files"
+    evidence: "File listing"
+    resolution_path: "Document as acceptable historical variance. Standardize for Phase E DR inputs."
+    target_session: D3
+    effort_estimate: S
+
+  # ============================================================
+  # CONTENT / DATA SCIENCE GAPS (D1 comprehensive sweep)
+  # ============================================================
+  - id: CI-GAP-024
+    category: governance
+    severity: high
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "No LICENSE file at vault root. Cannot release as open-source without explicit licensing. README describes it as open-source educational resource."
+    affected_artifacts: "Vault root"
+    evidence: "File listing — no LICENSE file"
+    resolution_path: "Create LICENSE file. Recommended: CC BY-SA 4.0 (Creative Commons Attribution-ShareAlike) — standard for educational open-source content. Alex decision on license type."
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-025
+    category: governance
+    severity: high
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "Folders 02_Standards/, 03_Technology/, 04_Organizations/, 05_People/ do not exist on disk. README, CLAUDE.md vault structure, and System/dashboard Dataview queries all reference them. Phantom architecture."
+    affected_artifacts: "README.md, CLAUDE.md §7, System/dashboard-all-notes.md, vault structure"
+    evidence: "Directory listing — 4 folders missing"
+    resolution_path: "Create empty folders with .gitkeep files so structure matches documentation and Dataview queries don't reference non-existent paths. Populate with notes during ingestion session."
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-026
+    category: convention
+    severity: medium
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "All 207 concept notes at status: draft. Zero notes at reviewed or canonical. README and METHODOLOGY should disclose this — publication of an all-draft corpus requires transparency."
+    affected_artifacts: "All concept notes, README.md, METHODOLOGY.md"
+    evidence: "Frontmatter scan — 100% status: draft"
+    resolution_path: "Update METHODOLOGY.md and README.md to explicitly state: all notes are AI-extracted at draft status pending human review. This is transparent disclosure, not a deficiency — it's the documented progressive deepening model (Q4)."
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-027
+    category: convention
+    severity: medium
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "16 of 26 domains below working depth (8+ concepts). 4 domains at minimum viable floor (3-4 concepts). Publication with this coverage distribution requires transparent depth disclosure per domain."
+    affected_artifacts: "METHODOLOGY.md, README.md, domain overview notes"
+    evidence: "Domain concept count analysis — logistics(3), crowd-mgmt(4), financial-ops(4), supply-chain(4)"
+    resolution_path: "Two-track: (1) METHODOLOGY.md discloses coverage depth per domain with progressive deepening roadmap. (2) DR prompt design session (D3) targets the 6 highest-priority domains for enrichment to working depth."
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-028
+    category: convention
+    severity: medium
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "5 lowest-count domains each depend on a single research batch — no cross-batch corroboration. logistics/crowd/supply-chain from single v2 prompts; booking-sales from single S20 DR."
+    affected_artifacts: "Concept notes in logistics, crowd-management, supply-chain, booking-sales domains"
+    evidence: "Research_batch field analysis — 100% single-batch within each domain"
+    resolution_path: "DR prompt design session (D3) should target cross-batch enrichment for these domains. Each needs at least 1 additional research batch for academic-grade corroboration."
+    target_session: D3
+    effort_estimate: M
+
+  - id: CI-GAP-029
+    category: convention
+    severity: medium
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "Optional cross-cutting dimension fields underutilized: venue_scale (40%), delivery_model (20%), jurisdiction (10%). No guidance on when these should be populated vs. appropriately empty."
+    affected_artifacts: "All concept notes, ingestion-rules.md"
+    evidence: "Random 10-note sample of optional field population rates"
+    resolution_path: "Add annotation guidance to ingestion-rules.md: venue_scale required when concept behavior varies by venue size; delivery_model when staffing model differs; jurisdiction when regulatory. Document 'not applicable' as acceptable empty state."
+    target_session: D2
+    effort_estimate: S
+
+  - id: CI-GAP-030
+    category: convention
+    severity: low
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "logistics-and-warehouse domain at 66% medium+low confidence (2/3 concepts). Highest medium+low concentration in vault. Below defensible publication threshold without supplementary research."
+    affected_artifacts: "3 logistics-and-warehouse concept notes"
+    evidence: "Confidence distribution analysis"
+    resolution_path: "Priority target for DR enrichment in D3 prompt design. Supplementary sources would either elevate confidence to high (justified) or confirm medium (with disclosed rationale)."
+    target_session: D3
+    effort_estimate: M
+
+  - id: CI-GAP-031
+    category: convention
+    severity: low
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "parking-and-transportation at 40% medium+low confidence (4/10 concepts). Second-highest concentration. A-06 audit already adjusted these — documented rationale exists."
+    affected_artifacts: "4 parking-and-transportation concept notes"
+    evidence: "Confidence distribution analysis, A-06 audit report"
+    resolution_path: "DR enrichment candidate in D3. Documented in A-06 as vendor-sourced concentration — supplementary independent sources would strengthen."
+    target_session: D3
+    effort_estimate: M
+
+  - id: CI-GAP-032
+    category: convention
+    severity: low
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "Non-concept note types (standard, technology, organization, person) at 0 count. Phase E backlog estimates 70-120 extractable from existing corpus. Publication without these types leaves the KB structurally incomplete vs. SCHEMA.yaml design."
+    affected_artifacts: "02_Standards/, 03_Technology/, 04_Organizations/, 05_People/"
+    evidence: "Note type count — 0 for all 4 types"
+    resolution_path: "Final ingestion session (D4) should extract non-concept notes from existing 390-source corpus as part of publication-ready update."
+    target_session: D4
+    effort_estimate: XL
+
+  - id: CI-GAP-033
+    category: convention
+    severity: low
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "METHODOLOGY.md last updated S16 (2026-04-05). Does not reflect S17-S21 academic rigor findings, delta register discipline, or Phase D CI improvements."
+    affected_artifacts: "METHODOLOGY.md"
+    evidence: "File timestamp and content review"
+    resolution_path: "Update METHODOLOGY.md as part of publication-ready preparation. Include: delta register summary, confidence distribution post-A-06, coverage depth by domain, single-source flagging methodology."
+    target_session: D2
+    effort_estimate: M
+
+  - id: CI-GAP-034
+    category: convention
+    severity: low
+    status: open
+    audit_finding: "D1 comprehensive sweep"
+    description: "System/dashboard-all-notes.md Dataview queries reference non-existent folders (02_Standards, 03_Technology, 04_Organizations, 05_People). Queries won't error but return empty results until folders are populated."
+    affected_artifacts: "System/dashboard-all-notes.md"
+    evidence: "Dashboard query inspection + folder listing"
+    resolution_path: "No action needed beyond CI-GAP-025 (create folders). Queries are forward-compatible."
+    target_session: D2
+    effort_estimate: S
+
+# ============================================================
+# SUMMARY METRICS
+# ============================================================
+metrics:
+  total_entries: 34
+  by_status:
+    open: 27
+    in-progress: 0
+    resolved: 4
+    deferred: 0
+    accepted: 0
+  by_severity:
+    critical: 0
+    high: 10
+    medium: 14
+    low: 10
+  by_category:
+    template: 5
+    pipeline: 3
+    validation: 4
+    session: 4
+    governance: 5
+    convention: 13
+  by_target_session:
+    D1: 4 (all resolved)
+    D2: 15
+    D3: 12
+    D4: 1

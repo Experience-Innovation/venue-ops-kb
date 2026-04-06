@@ -1,15 +1,15 @@
 ---
 type: initiative-roadmap
 domain: [venue-ops-kb, kb-v1.0, ci, post-v1.0-planning, academic-rigor]
-version: "1.4"
+version: "1.5"
 trust_tier: internal
 lifecycle: active
 created: 2026-04-05
 updated: 2026-04-06
-source_session: "S128 init; S16 v1.1; S16 v1.2; S20 v1.3; S21 v1.4"
+source_session: "S128 init; S16 v1.1; S16 v1.2; S20 v1.3; S21 v1.4; D1 v1.5"
 target_repo: venue-ops-kb
 target_location: _sessions/vep-kb-initiative-roadmap.md
-change_summary: "v1.4 — S21 close-out update. Phase B.5 COMPLETE: all 7 audit threads done (A-07 PASS). Delta register ZERO-OPEN (20/20: 16 resolved, 4 accepted). B.5 gate exit criteria 10/10 (pending Alex sign-off). Phase C gates all checked. v1.0.0 release ready."
+change_summary: "v1.5 — D1 CI Audit complete. 23 findings across 6 categories (0 CRITICAL, 8 HIGH, 9 MEDIUM, 6 LOW). Gap register + improvement register populated. D-gate exit criteria refined with must-have/should-have/nice-to-have tiers. 4 D1 items resolved inline (wikilink validation, report pattern policy, version bump). D budget revised to 1.3-1.6M (down from 2M). D4 conditional."
 ---
 
 # VEP KB Initiative Roadmap
@@ -185,25 +185,51 @@ Phase C (v1.0 Release) → Phase D (CI Initiative COMPLETE) → Phase E (Enrichm
 
 **Revised estimate:** 3-4 sessions (multi-session initiative).
 
-### D-Session Sequencing
+### D-Session Sequencing (Revised D1 — Streamlined to Publication)
 
-| Session | Focus | Budget | Deliverables |
-|---|---|:-:|---|
-| **D1: CI Audit + Gap Analysis** | Sweep existing templates, workflows, validation formats, CI registers from S4–S20. Catalog what exists, what's missing, what's inconsistent. | ~500K | CI audit report + gap register + improvement register |
-| **D2: Template Architecture + Visual Indicator System** | Design unified template architecture. Visual-indicator system (iconography, severity markers, status glyphs). | ~500K | Template catalogue (versioned) + visual-indicator design spec + migration plan |
-| **D3: Process Standardization + Governance Consolidation** | Standardize processing workflow, pipeline state tracking, progress.md format, validation report template. | ~500K | Standardized workflow docs + consolidated CI register format + process compliance checks |
-| **D4 (conditional): CI Implementation Sweep** | Apply new templates + indicators + standardized workflow across v1.0 artifacts. | ~500K | Migrated v1.0 corpus + migration validation report |
+| Session | Focus | Budget | Deliverables | Status |
+|---|---|:-:|---|:-:|
+| **D1: Comprehensive Audit** | Technical CI audit (templates, pipeline, validation, session artifacts, governance, conventions) + content/data science audit (domain coverage, confidence, source diversity, publication readiness). | ~500K | CI audit report (34 findings), gap register (34 entries), improvement register, wikilink validation codified, validation report policy codified | ✅ COMPLETE 2026-04-06 |
+| **D2: Technical Remediation + Publication Infrastructure** | SCHEMA.yaml v3.0, all templates aligned, governance artifact schema, audit report template, LICENSE file, folder structure (02-05), METHODOLOGY.md update, rule updates, session artifact backfill. All HIGH/MEDIUM CI gaps resolved. | ~500K | SCHEMA v3.0, 8 updated templates, governance schema, LICENSE, 4 empty folders, METHODOLOGY v2.0, validation-rules v2.1, ingestion-rules v3.0, backfilled session artifacts | Scheduled |
+| **D3: DR Prompt Design + Specification** | Design structured prompts for Perplexity Pro targeting: 6 priority domains to working depth, logistics confidence enrichment, cross-batch corroboration, non-concept entity extraction guidance. Alex runs prompts externally. | ~300K | Structured DR prompt specifications (R-20 through R-2X), domain-specific extraction targets, expected yield estimates | Scheduled |
+| **D4: Final Ingestion + Publication-Ready Release** | Ingest DR output from D3, domain deepening, non-concept note extraction (standards, technology, organization, person), final validation, METHODOLOGY final update, publication gate. | ~600K | Enriched KB, non-concept notes populated, final validation report, publication-ready vault | Gated on D3 DR output |
 
-**Total D-initiative budget:** ~2M tokens across 3-4 sessions
+**Total D-initiative budget:** ~1.9M tokens across 4 sessions (streamlined from original D+E arc of ~4M+ across 7-14 sessions)
 
-### D-Gate Exit Criteria
+**Key architectural change (D1 alignment):** Original Phase D (4 sessions, CI-only) + Phase E (6-10 sessions, enrichment) collapsed into a focused 4-session sequence ending at publication-ready. D3 produces prompts for Alex → Perplexity Pro; D4 ingests the output. No separate Phase E.
 
-- [ ] D1 audit complete: CI gap register populated, improvements prioritized
-- [ ] D2 template architecture + visual-indicator system ratified by Alex
-- [ ] D3 standardized workflows published
-- [ ] Migration plan produced
-- [ ] Zero unresolved CRITICAL or HIGH severity CI findings
-- [ ] Alex sign-off: "CI initiative complete, Phase E can begin"
+### D-Gate Exit Criteria (Refined from D1 audit)
+
+**D2 Gate — Technical Compliance (Blocking D3 Prompt Design):**
+- [x] D1 audit complete: CI gap register populated (34 entries), improvements prioritized
+- [ ] SCHEMA.yaml v3.0 published — governance artifact schema, field name resolution, S16-S21 refinements
+- [ ] All 8 content templates schema-aligned — no undefined fields, correct field names
+- [ ] Audit report template published in .claude/rules/
+- [x] Wikilink-filename validation codified in pipeline (ingestion-rules.md v2.1 Step 5b)
+- [ ] Field-name validation rule added to validation-rules.md
+- [x] Validation report pattern documented (batch vs audit vs consolidated)
+- [ ] governance_type vocabulary published in VOCABULARY.yaml
+- [ ] LICENSE file created
+- [ ] Folders 02-05 created (empty with .gitkeep)
+- [ ] METHODOLOGY.md updated with S17-S21 findings + coverage disclosure
+- [ ] Zero unresolved HIGH-severity CI gaps
+- [ ] All rule files at current versions (ingestion v3.0, validation v2.1)
+- [ ] S12-S19 session artifacts backfilled with frontmatter
+
+**D3 Gate — Prompt Design (Blocking D4 Ingestion):**
+- [ ] DR prompts designed for 6 priority domains
+- [ ] Logistics-and-warehouse confidence enrichment prompt specified
+- [ ] Cross-batch corroboration prompts for single-batch domains
+- [ ] Non-concept entity extraction guidance documented
+- [ ] Alex completes Perplexity Pro DR execution
+
+**D4 Gate — Publication-Ready:**
+- [ ] DR output ingested — domains enriched toward working depth
+- [ ] Non-concept notes extracted (standards, technology, organization, person)
+- [ ] Final validation pass — zero schema violations, zero broken wikilinks
+- [ ] METHODOLOGY.md final update with post-enrichment statistics
+- [ ] README.md updated with final counts and publication metadata
+- [ ] Alex sign-off: "Knowledge base complete and ready for publication"
 
 ---
 
@@ -300,6 +326,7 @@ Phase C (v1.0 Release) → Phase D (CI Initiative COMPLETE) → Phase E (Enrichm
 | 1.2 | 2026-04-05 | S16 (close-out update) | Marked S16 complete with actual scope (4/5 delta entries resolved inline). Inserted dedicated S18 CI / Enrichment Cycle session (DELTA-004 centerpiece: 260 source notes × bibliographic metadata enrichment) per Alex directive. Shifted A-04 Part 2 to S19, extending Phase B.5 from 5 sessions to 6 (S16-S21). Updated §3b B.5 sequencing and §8 recommended next sessions. |
 | 1.3 | 2026-04-06 | S20 (close-out update) | Marked S17-S20 complete in §3b session table. B1 gate cleared — all 26 domains at 3+. 6/7 audit threads complete with status/findings. Risk register: 3 risks resolved (B1 domains, academic rigor, mountability), 1 new (confidence inflation). B.5 gate exit criteria: 7/10 checked. §8 sequencing updated. Vault at 207 concepts, 390 sources. |
 | 1.4 | 2026-04-06 | S21 (close-out update) | Phase B.5 COMPLETE. S21 marked done: A-07 PASS (650 files, 31 wikilinks remediated), DELTA-013/016/018/019 accepted (zero-open gate cleared). B.5 gate exit criteria: 10/10 (pending Alex sign-off). Phase C gates: all checked. README updated to v1.0 state. RELEASE-v1.0.0.md filed. Session-operational-plan-template created (S20 retro improvement). Risk register: confidence inflation mitigated (A-06 applied). v1.0.0 tag pending PR merge. |
+| 1.5 | 2026-04-06 | D1 (CI Audit) | Phase D begun. D1 CI audit complete: 23 findings across 6 categories (template, pipeline, validation, session, governance, convention). Gap register (YAML) + improvement register (MD) populated. D-gate exit criteria refined (8 must-have, 3 should-have, 3 nice-to-have). 4 D1 items resolved inline: wikilink-filename validation (ingestion-rules v2.1 Step 5b), validation report pattern policy (batch vs audit vs consolidated), version bump. D budget revised 1.3-1.6M (down from 2M). D4 conditional on D2 decisions. |
 
 ---
 

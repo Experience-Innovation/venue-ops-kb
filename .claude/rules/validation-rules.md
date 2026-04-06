@@ -141,3 +141,27 @@ Write to `_Pipeline/Validation/batch-{id}-validation.md`:
 ## Summary
 {pass/fail with details}
 ```
+
+## Validation Report Types and Policies
+
+Two distinct report types exist in `_Pipeline/Validation/`. Each follows different conventions:
+
+### Batch Validation Reports
+- **When:** After processing an extraction batch (Stage 5 Route output)
+- **Template:** Use the Validation Report Format above (no YAML frontmatter — metadata captured in body)
+- **Naming:** `batch-{id}-{description}-validation.md`
+- **Required for:** Every extraction session that creates or enriches content notes
+- **Frontmatter:** NOT required. Batch reports capture pass/fail in the Summary section body text. The `audit_outcome:` field requirement (CLAUDE.md v2.1) applies to audit reports, not batch reports.
+
+### Audit Reports
+- **When:** Systematic quality audits (academic rigor, CI audits, final validation passes)
+- **Template:** See `.claude/rules/audit-report-template.md` (to be created D2)
+- **Naming:** `audit-{id}-{description}.md` or `ci-audit-{phase}-{description}.md`
+- **Frontmatter:** REQUIRED — must include `audit_outcome:` and `lifecycle:` fields per CLAUDE.md v2.1 governance artifact conventions
+- **Canonical frontmatter pattern:** title, audit_outcome, lifecycle, created, scope, methodology
+
+### Consolidated Reports Policy
+- **Per-batch reports** are required for extraction sessions (creating content notes from DR input)
+- **Consolidated reports** are acceptable when a session performs an audit or validation sweep across the full vault (not tied to a single extraction batch)
+- **Hybrid sessions** (e.g., S18 CI/enrichment) may use either pattern; the audit-style frontmatter pattern is preferred for sessions that combine audit + extraction work
+- **Root cause context:** S20 processed 5 DR batches but produced a consolidated A-06 audit report instead of per-batch reports (S20 OIR-6). This was acceptable because the session's primary function was confidence tier auditing, not extraction. This policy codifies that practice.

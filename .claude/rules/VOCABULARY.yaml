@@ -156,6 +156,12 @@ research_batch:
   - supp-awards-ecosystem   # Venue Awards Ecosystem (Session 9)
   # Targeted remediation research (Phase B.5)
   - dr-remediation-s18      # 5 targeted Perplexity DR prompts resolving DELTA-007 through DELTA-011 (Session 18)
+  # S20 DR ingestion (R-06 through R-10, Perplexity Pro Enterprise Max)
+  - dr-s20-r06-booking-ticketing      # Venue booking, sales & ticketing operations
+  - dr-s20-r07-data-analytics         # Venue data architecture, analytics & BI
+  - dr-s20-r08-tenant-partner         # Tenant and partner relations in multi-use venues
+  - dr-s20-r09-commercial-financial   # Venue revenue optimization and financial operations
+  - dr-s20-r10-safety-supplementary   # Safety, emergency medicine & regulatory standards (DELTA-014 remediation)
 
 vef_alignment:
   # Core Outcomes

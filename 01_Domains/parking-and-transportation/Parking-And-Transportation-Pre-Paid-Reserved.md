@@ -4,7 +4,7 @@ note_type: concept
 domain: "parking-and-transportation"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Mobile parking reservation platforms enabling pre-paid event parking that reduce search traffic, queuing, and congestion, with Mercedes-Benz Stadium achieving 70%+ pre-paid adoption and top fan arrival experience rankings."
 venue_types:
   - arena
@@ -12,7 +12,7 @@ venue_types:
 vef_alignment:
   - guest-experience
   - ai-and-digital-transformation
-confidence: high
+confidence: medium
 sources:
   - "[[Source-0133-ParkMobile-Case-Studies]]"
 research_batch: v2-prompt-11-premium-guest

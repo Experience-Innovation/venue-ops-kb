@@ -4,7 +4,7 @@ note_type: concept
 domain: "safety-and-risk"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Standardized command, control, and coordination framework that venues align to for interoperability with fire, EMS, and law enforcement during emergencies."
 venue_types:
   - all
@@ -16,11 +16,15 @@ sources:
   - "[[Source-0005-FEMA-ICS-Structure]]"
   - "[[Source-0006-ICS-Canada]]"
   - "[[Source-0007-IAVM-Venue-Safety-Security-Committee]]"
+  - "[[Source-0298-NFPA-1026-2024-Incident-Commander]]"
 research_batch: v2-prompt-03-safety-crowd
 child_of: "[[Domain-Safety-And-Risk]]"
 related_to:
   - "[[Safety-And-Risk-Emergency-Action-Plans]]"
   - "[[Safety-And-Risk-Tabletop-Exercises]]"
+  - "[[Safety-And-Risk-Crisis-Communication-Protocols]]"
+  - "[[Safety-And-Risk-Business-Continuity-Planning]]"
+  - "[[Safety-And-Risk-Mass-Casualty-Incident-Planning]]"
 tags:
   - concept
   - venue-ops
@@ -50,7 +54,7 @@ The Incident Command System (ICS) is a scalable management structure with five f
 
 - ICS Canada provides the Pan-Canadian framework for standardized incident management
 - FEMA ICS training (IS-100, IS-200, IS-700) establishes baseline competency
-- NFPA 1026 (2024 Edition) defines competency standards for Incident Commanders
+- NFPA 1026 (2024 Edition) defines job performance requirements for Incident Commanders, including command assumption, Incident Action Plan development, resource management, and a new continuing education requirement ([[Source-0298-NFPA-1026-2024-Incident-Commander]])
 - Unified Command variant used for multi-agency, multi-day, or multi-stakeholder events
 
 ## Venue Application

@@ -6,9 +6,9 @@
 # Reference: venue-ops-kb/CLAUDE.md v2.1 §1 "Delta Register Discipline"
 #            _sessions/vep-kb-initiative-roadmap.md §3b "Phase B.5"
 
-version: "1.0"
+version: "1.1"
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-06
 initialized_session: S16
 
 # ============================================================
@@ -76,7 +76,7 @@ category_definitions:
 # Sequential ID assignment: next_id = max(existing_id) + 1
 # Audit phases in S16 will populate this section.
 
-next_id: 18
+next_id: 21
 # S18/S19 session log appended below
 entries:
   - id: DELTA-001
@@ -318,7 +318,7 @@ entries:
   - id: DELTA-014
     category: traceability
     severity: high
-    status: deferred
+    status: resolved-batch
     discovered_session: S19
     discovered_date: 2026-04-06
     affected_notes:
@@ -333,17 +333,17 @@ entries:
     affected_count: 8
     finding: "8 concepts with HIGH-severity traceability gaps. 6 in safety-and-risk: Emergency Action Plans (Alberta OHS unsourced), Fire Watch (5 technical thresholds without per-claim attribution), Heat Illness (Taylor Swift concert casualty claim unsourced), Lightning (SINGLE-SOURCE — 6 claims including FEMA P-361 from 1 source), MCI (SINGLE-SOURCE — START triage origin claim, usage claim), Medical Staffing (SINGLE-SOURCE — Saunders et al. not in sources, 95.97% stat, Ryder Cup benchmark). 2 in people-and-culture: Prevailing Wage (SINGLE-SOURCE — 7+ statutory claims from 1 source), Frontline Engagement (effective single-source — 2 wikilinks to same Qualtrics report)."
     detection_method: manual_audit
-    resolution_path: "Targeted DR research or existing-corpus enrichment. Safety-and-risk concepts may require new source notes for FEMA P-361, NFPA 1026, START triage origin, Saunders et al. citation, Alberta OHS Code. People-and-culture concepts need supplementary regulatory/academic sources."
+    resolution_path: "6/8 resolved via DR-R10 remediation intake (S20). 2/8 not covered by R-10 (Prevailing Wage, Frontline Engagement) — deferred to DELTA-018."
     target_session: S20
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Full detail in _Pipeline/Validation/audit-A04-claim-traceability-p2.md §HIGH-Severity Concept Detail. Pattern: regulation-dense domains (safety, people-culture) have highest gap rates. Single-source flag validated as predictor of HIGH-severity risk."
+    resolved_session: S20
+    resolved_date: 2026-04-06
+    resolution_evidence: "Source-0291 through Source-0310 created from DR-R10. 6 concept notes enriched with 3-5 new sources each + body text inline citations. 2 critical corrections applied: Sanders/Saunders spelling, NWS 15/12/8-mile misattribution. AED Programs body expanded (DELTA-017 A-05-001). Audit report: _Pipeline/Validation/audit-A06-confidence-tier.md"
+    notes: "6/8 resolved. Remaining 2 (Prevailing Wage, Frontline Engagement) had zero coverage in R-10 output — split to DELTA-018 for targeted resolution in S21."
 
   - id: DELTA-015
     category: traceability
     severity: medium
-    status: deferred
+    status: resolved-batch
     discovered_session: S19
     discovered_date: 2026-04-06
     affected_notes:
@@ -351,12 +351,12 @@ entries:
     affected_count: 20
     finding: "20 concepts have MEDIUM-severity traceability gaps: specific claims (statistics, regulatory sections, named entities, product names) that are topically adjacent to sources[] but not directly verified as covered. Most are inline-fixable by adding supplementary wikilinks to existing source notes or adding inline citations to body text."
     detection_method: manual_audit
-    resolution_path: "Incremental resolution in S20-S21 as part of citation enrichment. Each MED gap requires 1-3 additional source wikilinks from existing 06_Sources/ corpus or inline citation clarification. Audit report contains per-domain breakdown."
+    resolution_path: "14/20 resolved from existing corpus in S20. 6/20 remain (no matching source notes) — absorbed into DELTA-019."
     target_session: S20
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Aggregate entry. Representative concepts by domain: safety-and-risk (AED, BCP, Crisis Comms, GBAC, ICS, Ride Ops), strategy-governance (MTCC, Org-Readiness-AI), people-culture (DEI-Training, Ritz-Carlton-Leadership), premium-vip (Food-Service-Compliance, Liquor-Licensing), parking (Ride-Share, Event-Traffic), quality-CI (Disney-SSDG), security (Access-Control), marketing (FTC-Endorsement), technology (EV-Charging), supply-chain (GPO-Purchasing, Pouring-Rights)."
+    resolved_session: S20
+    resolved_date: 2026-04-06
+    resolution_evidence: "14 concepts enriched with supplementary source wikilinks + inline citations from existing 06_Sources/ corpus. Safety-and-risk concepts (AED, BCP, Crisis Comms, GBAC, ICS, Ride Ops) all resolved. Strategy, people-culture, premium-vip, quality-CI, security, supply-chain resolved. 6 remain: MTCC, DEI-Training, Ride-Share, Event-Traffic, FTC-Endorsement, EV-Charging."
+    notes: "14/20 resolved. Same pattern as DELTA-012: existing corpus resolves majority, remainder requires new source creation. 6 unresolved absorbed into DELTA-019."
 
   - id: DELTA-016
     category: traceability
@@ -379,7 +379,7 @@ entries:
   - id: DELTA-017
     category: consistency
     severity: medium
-    status: deferred
+    status: resolved-batch
     discovered_session: S19
     discovered_date: 2026-04-06
     affected_notes:
@@ -387,38 +387,98 @@ entries:
     affected_count: 8
     finding: "A-05 structural consistency audit found vault average 85/100 but safety-and-risk at 72/100. Key issues: AED Programs underextracted (~20-line body), 3 orphaned safety concepts (0 relationships), body length 3.5x variance in safety domain, Security Access Control and Sustainability Carbon Tracking orphaned, description length range 18-98 words vault-wide (5.4x ratio)."
     detection_method: manual_audit
-    resolution_path: "8 remediation items (A-05-001 through A-05-008). HIGH priority: expand AED Programs, add relationships to 3 orphaned safety concepts, supplement single-source safety concepts (overlaps DELTA-014). MED priority: normalize body length, add relationships to Security/Sustainability orphans, establish description length target. LOW: parking secondary sources."
+    resolution_path: "6/8 items resolved in S20. A-05-001 (AED expansion) resolved via R-10 processing. A-05-003 (3 orphaned safety concepts) resolved via bidirectional link additions. A-05-004 (body length variance) resolved via R-10 enrichment. A-05-005/006 (Security/Sustainability orphans) resolved via relationship additions. 2 LOW-priority items skipped (A-05-007 parking sources, A-05-008 description length normalization — functional as-is)."
     target_session: S20
+    resolved_session: S20
+    resolved_date: 2026-04-06
+    resolution_evidence: "AED Programs expanded from ~20 to ~94 lines. 3 orphaned safety concepts gained 3-5 related_to links each (bidirectional). Security Access Control gained 2 related_to + 1 supplementary source. Carbon Tracking confirmed not orphaned (had 4 links), added 5th. Body length variance normalized via R-10 enrichment (Fire Watch 106 lines, Heat Illness 105 lines)."
+    notes: "6/8 resolved. 2 LOW-priority items (parking secondary sources, description length normalization) are cosmetic and do not block v1.0. Safety-and-risk consistency substantially improved from 72/100."
+
+  - id: DELTA-018
+    category: traceability
+    severity: high
+    status: deferred
+    discovered_session: S20
+    discovered_date: 2026-04-06
+    affected_notes:
+      - "01_Domains/people-and-culture/People-And-Culture-Prevailing-Wage.md"
+      - "01_Domains/people-and-culture/People-And-Culture-Frontline-Engagement-AI-Adoption.md"
+    affected_count: 2
+    finding: "2 concepts from DELTA-014 not covered by DR-R10 output. Prevailing Wage (SINGLE-SOURCE — 7+ statutory claims from 1 source) and Frontline Engagement (effective single-source — 2 wikilinks to same Qualtrics report). Both require targeted supplementary research."
+    detection_method: manual_audit
+    resolution_path: "Targeted DR research for people-and-culture regulatory/labor topics, or manual source enrichment from existing labor law references."
+    target_session: S21
     resolved_session: null
     resolved_date: null
     resolution_evidence: null
-    notes: "Full detail in _Pipeline/Validation/audit-A05-structural-consistency.md. Safety-and-risk is the highest-risk domain across both traceability (93% gap rate, A-04) and consistency (72/100, A-05). Combined remediation recommended in S20."
+    notes: "Split from DELTA-014. R-10 prompt focused on safety/emergency medicine — prevailing wage and frontline engagement were out of scope."
+
+  - id: DELTA-019
+    category: traceability
+    severity: medium
+    status: deferred
+    discovered_session: S20
+    discovered_date: 2026-04-06
+    affected_notes:
+      - "01_Domains/strategy-and-governance/Strategy-And-Governance-MTCC-Convention-Innovation.md"
+      - "01_Domains/people-and-culture/People-And-Culture-DEI-Training-Programs.md"
+      - "01_Domains/parking-and-transportation/Parking-And-Transportation-Ride-Share-Zone-Management.md"
+      - "01_Domains/parking-and-transportation/Parking-And-Transportation-Event-Traffic-Management.md"
+      - "01_Domains/marketing-and-communications/Marketing-And-Communications-FTC-Endorsement-Guidelines.md"
+      - "01_Domains/technology-and-digital/Technology-And-Digital-EV-Charging-Infrastructure.md"
+    affected_count: 6
+    finding: "6 concepts from DELTA-015 not resolvable from existing corpus. Each requires 1-2 new source notes for claims not covered by existing 06_Sources/ inventory."
+    detection_method: manual_audit
+    resolution_path: "New source creation or targeted DR research. Lower priority than DELTA-018 (MED vs HIGH severity)."
+    target_session: S21
+    resolved_session: null
+    resolved_date: null
+    resolution_evidence: null
+    notes: "Split from DELTA-015. Pattern: niche regulatory topics (Canadian Competition Act, NEVI EV program, SoFi Stadium TNC partnerships) have no matching sources in current corpus."
+
+  - id: DELTA-020
+    category: confidence
+    severity: low
+    status: resolved-batch
+    discovered_session: S20
+    discovered_date: 2026-04-06
+    affected_notes:
+      - "10 concept notes with confidence tier misalignments"
+    affected_count: 10
+    finding: "A-06 audit flagged 18 concepts for confidence tier review. 10 required adjustment: 8 downgraded high→medium (single vendor source, single non-authoritative source, or body text exceeding source scope), 2 downgraded medium→low (single-source with limited evidence). 8 confirmed as defensible despite single-source flag (regulatory/primary authority sources)."
+    detection_method: manual_audit
+    resolution_path: "Confidence field adjusted in frontmatter. No body text changes."
+    target_session: S20
+    resolved_session: S20
+    resolved_date: 2026-04-06
+    resolution_evidence: "_Pipeline/Validation/audit-A06-confidence-tier.md. Distribution shifted from 92.3%/7.7%/0% to 88.4%/10.6%/1.0% (high/medium/low)."
+    notes: "First confidence audit in initiative. Established hybrid methodology (automated scan + manual review of flagged). Pattern: high-confidence inflation from single-source extraction sessions (S14-S15)."
 
 # ============================================================
 # SUMMARY METRICS (auto-update at session close)
 # ============================================================
 metrics:
-  total_entries: 17
+  total_entries: 20
   by_status:
     open: 0
     in-progress: 0
     resolved-inline: 5
-    resolved-batch: 7
-    deferred: 5
+    resolved-batch: 11
+    deferred: 4
     accepted: 0
   by_severity:
     critical: 0
-    high: 6
-    medium: 5
-    low: 6
+    high: 7
+    medium: 6
+    low: 7
   by_category:
     provenance: 0
     vocabulary: 3
     citation: 2
     consistency: 1
     obsidian: 1
-    traceability: 10
-    confidence: 0
+    traceability: 12
+    confidence: 1
     other: 0
 
 # ============================================================
@@ -428,10 +488,10 @@ sessions:
   - session: S16
     date: 2026-04-05
     scope: "Consolidation Pass (B.5 Phase 1): MOC generation + audits A-01/02/03 + METHODOLOGY + README + Obsidian mount"
-    entries_opened: 0
-    entries_resolved: 0
-    entries_deferred: 0
-    notes: "Delta register initialized S16."
+    entries_opened: 5
+    entries_resolved: 4
+    entries_deferred: 1
+    notes: "Delta register initialized S16. DELTA-001 through DELTA-005 added. 4 resolved inline (DELTA-001/002/003/005), 1 deferred (DELTA-004 bibliographic enrichment → S18)."
   - session: S17
     date: 2026-04-05
     scope: "A-04 Part 1 claim-to-source traceability (82 concepts, domains A-L)"
@@ -451,5 +511,12 @@ sessions:
     scope: "A-04 Part 2 claim-to-source traceability (87 concepts, domains M-T) + DELTA-012 resolution"
     entries_opened: 3
     entries_resolved: 0
-    entries_deferred: 3
+    entries_deferred: 4
     notes: "DELTA-014 through DELTA-017 added (8 HIGH traceability, 20 MED traceability, 10 LOW traceability, 8 MED consistency). Single-source flag codified in ingestion-rules.md Stage 4. DELTA-012 resolved-batch (7/11 concepts enriched with 10 supplementary source wikilinks; 4 remaining absorbed into DELTA-015). A-05 consistency audit completed (DELTA-017). Total: 17 entries (12 resolved, 5 deferred)."
+  - session: S20
+    date: 2026-04-06
+    scope: "B.1 DR ingestion (R-06 through R-10) + A-06 confidence tier audit + DELTA-014/015/017 remediation"
+    entries_opened: 3
+    entries_resolved: 4
+    entries_deferred: 2
+    notes: "DELTA-014 resolved-batch (6/8 via R-10, 2 split to DELTA-018). DELTA-015 resolved-batch (14/20 from existing corpus, 6 split to DELTA-019). DELTA-017 resolved-batch (6/8, 2 LOW skipped). DELTA-020 opened and resolved (A-06 confidence audit — 10 adjustments). 3 new entries: DELTA-018 (2 HIGH people-culture, deferred), DELTA-019 (6 MED mixed, deferred), DELTA-020 (resolved same session). B1 gate cleared: all 26 domains at 3+. 100 new source notes, 38 new concepts, 7 enrichments. Total: 20 entries (16 resolved, 4 deferred)."

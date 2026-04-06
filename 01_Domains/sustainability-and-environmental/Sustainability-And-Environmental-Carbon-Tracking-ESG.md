@@ -4,7 +4,7 @@ note_type: concept
 domain: "sustainability-and-environmental"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Venue operators increasingly track greenhouse gas emissions across Scope 1 (direct), Scope 2 (electricity), and Scope 3 (value chain) per the GHG Protocol, with ESG reporting frameworks (GRI, SASB, CDP) driving disclosure requirements for publicly traded operators."
 venue_types:
   - convention-centre
@@ -26,6 +26,7 @@ related_to:
   - "[[Sustainability-And-Environmental-LEED-Green-Building]]"
   - "[[Sustainability-And-Environmental-Net-Zero-Carbon-Events]]"
   - "[[Sustainability-And-Environmental-ASM-Global-Acts]]"
+  - "[[Sustainability-And-Environmental-Venue-Benchmarking]]"
 key_metrics:
   - "Total Scope 1+2 emissions (tCO2e/year)"
   - "Scope 3 per-event estimate"

@@ -3,7 +3,7 @@ title: Organizational Readiness as AI Adoption Barrier
 note_type: concept
 status: draft
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-06
 tags:
   - concept
   - strategy-and-governance
@@ -19,6 +19,7 @@ vef_alignment:
   - knowledge-management
 sources:
   - "[[Source-0255-Unleash-Organizational-Readiness-AI]]"
+  - "[[Source-0259-Qualtrics-2026-EX-Trends-Report]]"
 research_batch: existing-dr-4
 extraction_model: claude-opus-4-6
 confidence: high
@@ -45,7 +46,7 @@ Venue leadership teams apply this finding by shifting AI program investment from
 ## Key Metrics / Outcomes
 
 - 52% of employees already use AI regularly, often without organizational sanction
-- 34,000 workers surveyed across 24 countries — one of the largest AI workforce studies to date
+- 34,000 workers surveyed across 24 countries — one of the largest AI workforce studies to date ([[Source-0259-Qualtrics-2026-EX-Trends-Report]])
 - Principal barrier identified as organizational readiness, not employee resistance
 - Four recurring failure modes: no strategy, no workflow redesign, no measurement, no governance
 - Time savings without workflow redesign are re-absorbed into meetings/email within weeks

@@ -4,7 +4,7 @@ note_type: concept
 domain: "security"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "AI-enhanced CCTV and video analytics systems for venues, providing anomaly detection, crowd density visualization, behavioral analytics, and integrated threat response."
 venue_types:
   - all
@@ -21,6 +21,7 @@ child_of: "[[Domain-Security]]"
 related_to:
   - "[[Security-Patron-Screening-Weapons-Detection]]"
   - "[[Security-Hostile-Vehicle-Mitigation]]"
+  - "[[Security-Access-Control-Credential-Management]]"
 supported_by:
   - "[[Source-0014-IntelliSee-AI-Stadium-Safety]]"
 tags:

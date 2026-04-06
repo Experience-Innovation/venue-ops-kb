@@ -4,7 +4,7 @@ note_type: concept
 domain: "safety-and-risk"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Gold standard for biosafety, cleaning, and infectious disease prevention in public facilities with 20 program elements in 5 clusters, widely adopted post-COVID by convention centres and arenas."
 venue_types:
   - convention-centre
@@ -38,7 +38,7 @@ Gold standard for biosafety, cleaning, and infectious disease prevention in publ
 
 ## Overview
 
-The Global Biorisk Advisory Council (GBAC) STAR Facility Accreditation, administered by ISSA (the worldwide cleaning industry association), is the performance-based accreditation program for cleaning, disinfection, and infectious disease prevention in facilities. Launched prior to COVID-19 but rapidly adopted during the pandemic, GBAC STAR became the de facto standard for demonstrating venue biosafety readiness to event organizers, attendees, and public health authorities.
+The Global Biorisk Advisory Council (GBAC) STAR Facility Accreditation, administered by ISSA (the worldwide cleaning industry association), is the performance-based accreditation program for cleaning, disinfection, and infectious disease prevention in facilities ([[Source-0201-GBAC-STAR-Accreditation]]). Launched prior to COVID-19 but rapidly adopted during the pandemic, GBAC STAR became the de facto standard for demonstrating venue biosafety readiness to event organizers, attendees, and public health authorities.
 
 ## Five Clusters and 20 Program Elements
 
@@ -65,7 +65,7 @@ The COVID-19 pandemic drove rapid adoption of GBAC STAR across the venue industr
 
 ## Notable Venue Accreditations
 
-- **Hawaii Convention Center** — holds dual LEED certification and GBAC STAR accreditation, demonstrating that sustainability and biosafety programs can operate in parallel
+- **Hawaii Convention Center** — holds dual LEED certification and GBAC STAR accreditation, demonstrating that sustainability and biosafety programs can operate in parallel ([[Source-0209-Hawaii-CC-LEED-GBAC]])
 - **RBC Convention Centre Winnipeg** — one of the early Canadian convention centre adopters
 - **Events DC / Walter E. Washington Convention Center** — major U.S. convention facility accreditation
 

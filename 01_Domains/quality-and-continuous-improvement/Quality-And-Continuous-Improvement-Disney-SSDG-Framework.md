@@ -3,7 +3,7 @@ title: Disney SSDG Service Framework
 note_type: concept
 status: draft
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-06
 tags:
   - concept
   - quality-and-continuous-improvement
@@ -28,6 +28,7 @@ vef_alignment:
 sources:
   - "[[Source-0231-Quarterdeck-Disney-Leadership-Program]]"
   - "[[Source-0232-Disney-Institute-Quality-Service]]"
+  - "[[Source-0238-Reliable-Plant-Disney-Excellence]]"
 research_batch: existing-dr-2
 extraction_model: claude-opus-4-6
 confidence: high
@@ -42,7 +43,7 @@ related_to:
 
 # Disney SSDG Service Framework
 
-The Disney Quality Service Framework — commonly abbreviated SSDG for Service Theme, Standards, Delivery Systems, and Guidelines/Integration — is the operational backbone that has enabled Walt Disney Parks & Resorts to deliver consistent guest experiences across 150M+ annual visits. The framework converts an abstract brand promise into concrete daily behaviors by cascading clarity from a single service theme through measurable standards, exhaustive delivery systems, and integrated back-office support. It is among the most widely studied service frameworks in hospitality and has been adapted across industries including healthcare, retail, and public venues.
+The Disney Quality Service Framework — commonly abbreviated SSDG for Service Theme, Standards, Delivery Systems, and Guidelines/Integration — is the operational backbone that has enabled Walt Disney Parks & Resorts to deliver consistent guest experiences across 150M+ annual visits. The framework converts an abstract brand promise into concrete daily behaviors by cascading clarity from a single service theme through measurable standards, exhaustive delivery systems, and integrated back-office support. It is among the most widely studied service frameworks in hospitality and has been adapted across industries including healthcare, retail, and public venues. The framework is closely connected to Disney's Chain of Excellence model (Leadership -> Cast -> Guest -> Results) which establishes the causal logic for how service culture investment produces measurable outcomes ([[Source-0238-Reliable-Plant-Disney-Excellence]]).
 
 ## Framework / Model / Program
 

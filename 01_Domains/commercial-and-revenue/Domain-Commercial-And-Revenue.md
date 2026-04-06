@@ -10,12 +10,18 @@ venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
-node_count: 2
+node_count: 6
 tags:
   - domain
   - venue-ops
   - commercial-and-revenue
-children: []
+parent_of:
+  - "[[Commercial-And-Revenue-Community-Funding]]"
+  - "[[Commercial-And-Revenue-Venue-Industry-Awards]]"
+  - "[[Commercial-And-Revenue-Venue-Revenue-Taxonomy]]"
+  - "[[Commercial-And-Revenue-Sponsorship-Naming-Rights]]"
+  - "[[Commercial-And-Revenue-Event-Settlement-Financial-Reconciliation]]"
+  - "[[Commercial-And-Revenue-Non-Event-Day-Monetization]]"
 cross_domain:
   - "[[Domain-Ticketing-And-Box-Office]]"
   - "[[Domain-Premium-And-Vip]]"

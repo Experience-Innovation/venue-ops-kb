@@ -4,7 +4,7 @@ note_type: concept
 domain: "security"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Frameworks for responding to active assailant incidents at venues, including the DHS Run-Hide-Fight model and the ALICE multi-option methodology."
 venue_types:
   - all
@@ -21,6 +21,7 @@ child_of: "[[Domain-Security]]"
 related_to:
   - "[[Security-Layered-Security-Strategy]]"
   - "[[Safety-And-Risk-Emergency-Action-Plans]]"
+  - "[[Security-Access-Control-Credential-Management]]"
 governed_by:
   - "[[Source-0023-DHS-SAFETY-Act]]"
 tags:

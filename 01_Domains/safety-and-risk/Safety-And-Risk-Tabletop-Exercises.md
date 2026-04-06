@@ -4,7 +4,7 @@ note_type: concept
 domain: "safety-and-risk"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Structured discussion-based and functional exercises that validate venue emergency response plans, test decision-making under pressure, and build coordination between internal staff and external responders."
 venue_types:
   - all
@@ -20,6 +20,7 @@ child_of: "[[Domain-Safety-And-Risk]]"
 related_to:
   - "[[Safety-And-Risk-Emergency-Action-Plans]]"
   - "[[Safety-And-Risk-Incident-Command-System]]"
+  - "[[Safety-And-Risk-Crisis-Communication-Protocols]]"
 tags:
   - concept
   - venue-ops

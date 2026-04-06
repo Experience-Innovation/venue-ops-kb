@@ -4,21 +4,24 @@ note_type: concept
 domain: "security"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Systems and protocols for managing venue access through RFID badges, mobile credentials, multi-factor authentication, anti-passback controls, and visitor/contractor management."
 venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
   - systems-processes-clarity-of-roles
-confidence: high
+confidence: medium
 sources:
   - "[[Source-0001-CISA-Venue-Security-Guide-2025]]"
+  - "[[Source-0022-ASIS-SRA-2024]]"
 research_batch: v2-prompt-04-security
 child_of: "[[Domain-Security]]"
 related_to:
   - "[[Security-Patron-Screening-Weapons-Detection]]"
   - "[[Security-AI-Video-Surveillance]]"
+  - "[[Security-Layered-Security-Strategy]]"
+  - "[[Security-Active-Assailant-Response]]"
 tags:
   - concept
   - venue-ops
@@ -34,7 +37,7 @@ Systems and protocols for managing venue access through RFID badges, mobile cred
 
 ## Overview
 
-Access control is foundational to venue security, managing who can enter which areas and when. Modern systems integrate physical credentials with digital platforms for real-time management.
+Access control is foundational to venue security, managing who can enter which areas and when ([[Source-0001-CISA-Venue-Security-Guide-2025]]). Modern systems integrate physical credentials with digital platforms for real-time management. Security risk assessments per ASIS SRA-2024 inform access control design by identifying threat vectors and vulnerability points at each access layer ([[Source-0022-ASIS-SRA-2024]]).
 
 ## Credential Types
 

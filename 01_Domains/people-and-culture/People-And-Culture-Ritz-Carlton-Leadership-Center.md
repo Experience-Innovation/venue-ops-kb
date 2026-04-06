@@ -3,7 +3,7 @@ title: Ritz-Carlton Leadership Center Immersive Training Program
 note_type: concept
 status: draft
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-06
 tags:
   - concept
   - people-and-culture
@@ -24,6 +24,7 @@ vef_alignment:
 sources:
   - "[[Source-0243-Ritz-Carlton-Immersive-Course-Press]]"
   - "[[Source-0244-Ritz-Carlton-Leadership-Center-Programs]]"
+  - "[[Source-0233-NIST-Ritz-Carlton-Service-Culture]]"
 research_batch: existing-dr-2
 extraction_model: claude-opus-4-6
 confidence: high
@@ -37,7 +38,7 @@ related_to:
 
 # Ritz-Carlton Leadership Center Immersive Training Program
 
-The Ritz-Carlton Leadership Center is the external-facing training arm of Ritz-Carlton, offering non-hotel organizations structured access to the company's two-time Baldrige-award-winning Gold Standards service culture. The Center's programs are notable for their immersive format — participants directly observe Ritz-Carlton operations in action rather than learning through classroom-only instruction. Venue workforce development leaders use the Center as an external partner to expose venue staff to a service-culture exemplar without having to build internal training from scratch.
+The Ritz-Carlton Leadership Center is the external-facing training arm of Ritz-Carlton, offering non-hotel organizations structured access to the company's two-time Baldrige-award-winning Gold Standards service culture ([[Source-0233-NIST-Ritz-Carlton-Service-Culture]]). The Center's programs are notable for their immersive format — participants directly observe Ritz-Carlton operations in action rather than learning through classroom-only instruction. Venue workforce development leaders use the Center as an external partner to expose venue staff to a service-culture exemplar without having to build internal training from scratch.
 
 ## Framework / Program Structure
 

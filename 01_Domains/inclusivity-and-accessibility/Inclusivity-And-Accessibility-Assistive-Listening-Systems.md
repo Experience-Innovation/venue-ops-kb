@@ -16,6 +16,7 @@ sources:
   - "[[Source-0116-Listen-Technologies-ALS]]"
   - "[[Source-0106-AVIXA-Standards]]"
   - "[[Source-0107-AVIXA-CTS-Certification]]"
+  - "[[Source-0137-ADA-Standards-Accessible-Design]]"
 research_batch: v2-prompt-06-av-production
 child_of: "[[Domain-Inclusivity-And-Accessibility]]"
 related_to:

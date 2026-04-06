@@ -1,9 +1,69 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00 through batch-13 complete. S18 CI/Enrichment Cycle complete (Track A: 5 DR remediation files processed, Track B: DELTA-004 bibliographic enrichment). Next: S19 A-04 Part 2 (domains M-T) + A-05 consistency.
+batch-00 through batch-13 complete. S19 complete (A-04 Part 2 + DELTA-012 resolution + A-05 consistency). Next: S20 — A-06 confidence tier audit + DELTA-014 HIGH-severity remediation + delta register sweep.
 
 ## Session History
+
+### Session 19 — 2026-04-06 (Academic Rigor Initiative Phase B.5 Session 4)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-19/a04-p2-a05 (git worktree)
+**Focus:** A-04 Part 2 (87 concepts, domains M-T) + DELTA-012 resolution + A-05 structural consistency
+
+**Track A — A-04 Part 2 Claim-to-Source Traceability completed:**
+- [x] 87 concept notes audited across 13 domains (M-T alphabetically)
+- [x] Results: 49 PASS (56%), 10 LOW (11%), 20 MED (23%), 8 HIGH (9%), 0 CRITICAL
+- [x] Gap rate: 44% (vs Part 1's 35%)
+- [x] 18 single-source concepts flagged (21% of scope)
+- [x] Zero fabrication detected across entire corpus
+- [x] Combined Part 1 + Part 2: 169 concepts, 60% PASS, 40% gap rate
+- [x] Audit report filed: _Pipeline/Validation/audit-A04-claim-traceability-p2.md
+- [x] Delta entries: DELTA-014 (8 HIGH), DELTA-015 (20 MED), DELTA-016 (10 LOW)
+
+**Track B — DELTA-012 Resolution completed (7/11):**
+- [x] 7 concept notes enriched with 10 supplementary source wikilinks from existing corpus
+- [x] Wayfinding (+Source-0137, +Source-0149)
+- [x] ADA-Title-III (+Source-0163)
+- [x] Accessible-Ticketing (+Source-0168)
+- [x] Assistive-Listening (+Source-0137)
+- [x] Community-Funding (+Source-0175)
+- [x] Crowd-Manager-Staffing (+Source-0017, +Source-0028)
+- [x] Venue-Insurance (+Source-0151)
+- [ ] 4 concepts deferred (no matching sources in corpus): Acoustic-Treatment, BIM-Digital-Twin, Sports-Field-Turf, Performance-Licensing
+
+**Track C — A-05 Structural Consistency completed:**
+- [x] 87 concepts across 12 active domains evaluated
+- [x] Vault average: 85/100 editorial consistency
+- [x] Safety-and-risk weakest domain: 72/100 (body length 3.5x variance, 50% single-source, 3 orphaned concepts)
+- [x] Heading variation confirmed as appropriate (content-driven, not drift)
+- [x] 8 remediation items identified (A-05-001 through A-05-008)
+- [x] Audit report filed: _Pipeline/Validation/audit-A05-structural-consistency.md
+- [x] Delta entry: DELTA-017 (consistency findings)
+
+**Housekeeping:**
+- [x] Single-source Ready-gate flag codified in ingestion-rules.md Stage 4
+- [x] Post-merge cleanup: S18 worktree removed, branch deleted, main pulled
+
+**Not completed:**
+- [ ] DELTA-014: 8 HIGH-severity traceability gaps (deferred to S20)
+- [ ] DELTA-015: 20 MED-severity traceability gaps (deferred to S20-S21)
+- [ ] DELTA-016: 10 LOW-severity citation-strengthening (deferred to S21+)
+- [ ] DELTA-017: 8 consistency remediation items (deferred to S20)
+- [ ] DELTA-013: 13 LOW-severity from Part 1 (deferred)
+- [ ] 4 DELTA-012 concepts (no existing source match — need new source creation)
+
+**Failed Approaches:**
+- (None this session)
+
+**Decisions Made:**
+- Single-source flag codified in ingestion-rules.md (S18 pass-forward claimed it was done but it wasn't — corrected S19)
+- DELTA-012 partially resolved (7/11) — 4 concepts need new source notes, not existing corpus
+- Safety-and-risk identified as highest-risk domain across both traceability (93%) and consistency (72/100) — prioritize for S20
+
+**Key Pattern Finding:**
+- Traceability correlates with domain regulatory density: framework/certification domains (sustainability 9%, quality-CI 30%) vs statute/regulatory domains (safety 93%, people-culture 57%)
+- Single-source flag validated: 2.8x higher gap rate than multi-source concepts
+- Vault-wide traceability: 60% of 169 concepts PASS, zero fabrication
 
 ### Session 18 — 2026-04-06 (Academic Rigor Initiative Phase B.5 Session 3)
 **Machine:** MacBook Air (bubblegumpshrimpco)

@@ -24,6 +24,7 @@
 - Assign initial confidence tier (Q3): high / medium / low
 - Create extraction manifest: list of notes to create with type, domain, sources, confidence
 - **GATE: Validate manifest against VOCABULARY.yaml before proceeding to Stage 5**
+- **FLAG: Single-source concepts** — any concept with only 1 entry in `sources[]` must be flagged for supplementary source enrichment. Single-source concepts have disproportionate traceability risk when body text makes multiple specific claims (Pattern 2, A-04 Part 1 audit). Flag does not block extraction but must be logged in the validation report.
 
 ### Stage 5: Route
 - Execute note creation per the Processing Workflow below

@@ -16,6 +16,7 @@ sources:
   - "[[Source-0160-ADA-Title-III-Statute]]"
   - "[[Source-0168-2010-ADA-Standards]]"
   - "[[Source-0162-28-CFR-36-302-Modifications]]"
+  - "[[Source-0163-DOJ-Web-Accessibility-Guidance]]"
 research_batch: v2-prompt-09-financial
 child_of: "[[Domain-Inclusivity-And-Accessibility]]"
 governed_by:

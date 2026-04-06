@@ -1,9 +1,46 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00 through batch-11 complete. Next: Phase B.5 continuation (S17 audit A-04 claim-to-source traceability).
+batch-00 through batch-11 complete. A-04 Part 1 (domains A-L) complete. Next: S18 CI/Enrichment Cycle (targeted DR integration for 5 HIGH gaps + DELTA-004 bibliographic enrichment).
 
 ## Session History
+
+### Session 17 — 2026-04-05 (Academic Rigor Initiative Phase B.5 Session 2)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-17/a04-traceability-p1 (git worktree)
+**Focus:** Audit A-04 Part 1 — claim-to-source traceability (82 concepts, domains A-L)
+
+**Audit execution completed:**
+- [x] 82 concept notes read + claim-to-source verified per factual-claim rubric
+- [x] Result: CONDITIONAL PASS — 53 PASS (65%), 13 LOW, 11 MED, 5 HIGH, 0 CRITICAL
+- [x] Zero fabrication detected across entire S17 scope
+- [x] 3 broken wikilinks found + fixed inline (legal-compliance domain, DELTA-006)
+- [x] 8 delta entries logged (DELTA-006 through DELTA-013)
+- [x] Audit report filed: _Pipeline/Validation/audit-A04-claim-traceability-p1.md
+
+**Key pattern identified:** traceability quality correlates strongly with extraction methodology — operator/vendor-sourced domains (F&B 8%, AV 23%, event-ops 17%) outperform statute/regulatory-sourced domains (legal 71%, inclusivity 86%, facilities 53%).
+
+**5 HIGH-severity structural gaps (DELTA-007 through DELTA-011):**
+1. Gender-Inclusive-Facilities — IPC/UPC + Canadian HR law unsourced (1 ADA source)
+2. Indigenous-Cultural-Programming — TRC + 94 Calls to Action unsourced (1 TicketFairy source)
+3. Liquor-Licensing — food/labor sources for liquor topic (source-topic misalignment)
+4. Responsible-Beverage-Service — 1 of 6 named programs sourced
+5. Naming-Rights — Copyright source (17 USC) for Trademark topic (15 USC Lanham Act)
+
+**DR prompt plan created (Alex directive 2026-04-05):** 5 targeted Perplexity DR prompts to fill HIGH gaps. Alex executes pre-S18; Claude processes + integrates in S18.
+
+**Not completed:**
+- [ ] A-04 Part 2 (domains M-T, 87 concepts) — S19 scope
+- [ ] DELTA-004 bibliographic enrichment — S18 scope
+- [ ] MED/LOW traceability gap resolution — S18-S20
+
+**Failed Approaches:**
+- Mental running tally for per-concept verdicts → inconsistent counts in first-draft audit report. Improvement for S19: structured tally-as-you-go note.
+
+**Decisions Made:**
+- Alphabetical A-L / M-T partition for A-04 Part 1 / Part 2
+- Aggregate DELTA entries for MED/LOW (DELTA-012/013) vs. per-concept
+- DR prompt plan for 5 HIGH gaps (Alex directive)
 
 ### Session 16 — 2026-04-05 (Academic Rigor Initiative Phase B.5 Session 1)
 **Machine:** MacBook Air (bubblegumpshrimpco)

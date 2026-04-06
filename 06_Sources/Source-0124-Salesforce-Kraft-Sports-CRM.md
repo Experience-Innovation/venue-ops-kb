@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.salesforce.com/news/stories/kraft-sports-entertainment/"
 accessed: 2026-04-04
 description: "Salesforce case study on Kraft Sports and Entertainment's implementation of CRM for premium seat holder management, including AI-driven automation for upsell opportunities and personalized fan engagement."
+author: "Salesforce, Inc."
 domains:
   - technology-and-digital
   - premium-and-vip

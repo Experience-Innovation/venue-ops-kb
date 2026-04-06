@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.se.com/us/en/work/campaign/innovation/buildings.jsp"
 accessed: 2026-04-04
 description: "Schneider Electric EcoStruxure Building Operation — IoT-enabled building management platform for energy optimization and automation."
+author: "Schneider Electric"
 domains:
   - facilities-and-building-systems
   - technology-and-digital

@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://aipc.org/quality-standards/"
 accessed: 2026-04-04
 description: "International Association of Convention Centres quality standards program establishing benchmarks for convention centre operations including client satisfaction, community relations, sustainability, and service delivery excellence."
+author: "International Association of Convention Centres (AIPC)"
 domains:
   - strategy-and-governance
   - quality-and-continuous-improvement

@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.boma.org/"
 accessed: 2026-04-04
 description: "Building Owners and Managers Association International — commercial real estate industry association setting property management standards including BOMA 360."
+author: "Building Owners and Managers Association (BOMA)"
 domains:
   - facilities-and-building-systems
 research_batch: v2-prompt-02-facilities

@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://signs.org/codes-regulations/signcodehelp/emcs/emc-brightness-level-recommendations/"
 accessed: 2026-04-04
 description: "International Sign Association recommended brightness standards for electronic message centres (EMCs), establishing the 0.3 footcandle above ambient measurement threshold and best practices for digital signage at venue properties to minimize light pollution and community impact."
+author: "International Sign Association (ISA)"
 domains:
   - marketing-and-communications
 research_batch: v2-prompt-10-commercial

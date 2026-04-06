@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://news.pollstar.com/2025/07/21/nominations-now-open-for-2025-venuesnow-all-stars/"
 accessed: 2026-04-04
 description: "VenuesNow All-Stars annual recognition program honoring venue professionals and outstanding achievements in venue management and operations."
+author: "VenuesNow"
 domains:
   - commercial-and-revenue
 research_batch: supp-awards-ecosystem

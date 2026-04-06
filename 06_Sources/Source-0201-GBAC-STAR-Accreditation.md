@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://gbac.issa.com/gbac-star-20-program-elements/"
 accessed: 2026-04-04
 description: "GBAC STAR facility accreditation program detailing 20 program elements for cleaning, disinfection, and infectious disease prevention in public assembly venues."
+author: "Global Biorisk Advisory Council (GBAC)"
 domains:
   - safety-and-risk
 research_batch: supp-awards-ecosystem

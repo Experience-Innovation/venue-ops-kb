@@ -12,6 +12,8 @@ source_type: news-article
 url: https://www.prnewswire.com/news-releases/climate-pledge-arena-achieves-record-breaking-number-for-waste-diversion-302124794.html
 accessed: 2026-04-05
 description: Press release documenting Climate Pledge Arena's record-breaking waste diversion rate for sports venues.
+author: "Climate Pledge Arena / Amazon"
+publication: "PR Newswire"
 research_batch: existing-dr-2
 domains:
   - sustainability-and-environmental

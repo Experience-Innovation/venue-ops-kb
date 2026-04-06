@@ -2,17 +2,17 @@
   "project": "venue-ops-kb",
   "version": "2.1",
   "created": "2026-04-03",
-  "updated": "2026-04-05",
+  "updated": "2026-04-06",
   "methodology": "VEP-KB-Data-Science-Methodology_v1.0.md",
   "taxonomy_version": "26-domain (Decision #30)",
   "relationship_types": 7,
-  "phase": "academic-rigor-initiative-phase-b5-a04-p1-complete",
+  "phase": "academic-rigor-initiative-phase-b5-s18-ci-enrichment-complete",
   "total_input_files": 31,
   "processable_files": 28,
   "excluded_files": 3,
   "notes_created": 206,
   "notes_enriched": 16,
-  "sources_created": 260,
+  "sources_created": 290,
   "mocs_created": 27,
   "validation_errors": 0,
 
@@ -274,6 +274,25 @@
       "session": "16",
       "completed_date": "2026-04-05",
       "notes": "26 enriched domain MOCs in 07_MOCs/. Master Map-Venue-Operations-Ecosystem.md updated with dual-entry-point navigation (Domain + Map, 52 children). All MOCs enriched pattern per Alex directive 2026-04-05. Validation report: batch-11-mocs-validation.md — PASS."
+    },
+    {
+      "id": "batch-13-dr-remediation",
+      "description": "5 targeted DR remediation files resolving HIGH-severity traceability gaps (DELTA-007 through DELTA-011)",
+      "status": "complete",
+      "input_files": [
+        "DR-Remediation-Gender-Inclusive-Facilities.md",
+        "DR-Remediation-Indigenous-Reconciliation.md",
+        "DR-Remediation-Liquor-Licensing.md",
+        "DR-Remediation-Responsible-Beverage-Service.md",
+        "DR-Remediation-Trademark-Naming-Rights.md"
+      ],
+      "primary_domains": ["inclusivity-and-accessibility", "legal-compliance-and-licensing"],
+      "notes_target": "25-35",
+      "notes_created": 30,
+      "notes_modified": 5,
+      "session": "18",
+      "completed_date": "2026-04-06",
+      "notes": "30 source notes (Source-0261 through Source-0290) + 5 concept notes enriched. DELTA-007 through DELTA-011 resolved. Plus DELTA-004 bibliographic enrichment: 290/290 author populated (100%). VOCABULARY.yaml updated with dr-remediation-s18 research_batch."
     },
     {
       "id": "batch-12-final-validation",

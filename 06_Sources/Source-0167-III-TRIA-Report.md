@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.iii.org/sites/default/files/TRIA.pdf"
 accessed: 2026-04-04
 description: "Insurance Information Institute report on terrorism and insurance including TRIA mechanics, market impact analysis, take-up rates, and the federal-private risk-sharing structure relevant to high-profile venue and event insurance programs."
+author: "Insurance Information Institute (III)"
 domains:
   - legal-compliance-and-licensing
   - financial-operations

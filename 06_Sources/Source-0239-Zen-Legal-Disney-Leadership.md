@@ -12,6 +12,7 @@ source_type: industry-publication
 url: https://www.zenlegalnetwork.com/2018/03/success-starts-with-leadership-excellence-the-disney-philosophy/
 accessed: 2026-04-05
 description: Analysis of Disney's leadership philosophy — 150M+ annual guests with 90%+ satisfaction scores attributed to Chain of Excellence.
+author: "ZenBusiness / Legal Analysis"
 research_batch: existing-dr-2
 domains:
   - strategy-and-governance

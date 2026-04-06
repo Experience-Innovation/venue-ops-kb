@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://d38trduahtodj3.cloudfront.net/files.ashx?t=fg&rid=ErieCountyFair&f=IAFE_Code_of_Showring_Ethics.pdf"
 accessed: 2026-04-04
 description: "IAFE code governing livestock exhibition ethics, requiring proof of ownership, animal health certificates from licensed veterinarians, and prohibition of drug misuse at fairs and exhibitions."
+author: "International Association of Fairs and Expositions (IAFE)"
 domains:
   - event-operations
   - legal-compliance-and-licensing

@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.weather.gov/media/safety/lightning/Lightning_Safety_Toolkit_Outdoor_Venues.pdf"
 accessed: 2026-03-15
 description: "National Weather Service Lightning Safety Toolkit for Outdoor Venues — defines the three-radius trigger system for lightning detection and venue evacuation protocols."
+author: "National Weather Service (NWS)"
 domains:
   - safety-and-risk
 research_batch: v2-prompt-03-safety-crowd

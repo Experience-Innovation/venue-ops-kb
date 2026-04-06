@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.oakviewgroup.com/hospitality"
 accessed: 2026-04-04
 description: "OVG Hospitality is the food and beverage arm of Oak View Group, a venue development and management company. Provides food service and premium hospitality operations at arenas, stadiums, and convention centres with a focus on locally sourced and chef-driven programs."
+author: "Oak View Group (OVG)"
 domains:
   - food-and-beverage
   - commercial-and-revenue

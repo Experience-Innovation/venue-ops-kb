@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://aimsintl.org/certifications/operations-certification"
 accessed: 2026-04-04
 description: "AIMS International certification program for amusement ride operations technicians (Levels I-III), testing knowledge of daily ride operation programs, safety procedures, and guest management."
+author: "Association of Amusement Parks and Attractions / AIMS International"
 domains:
   - safety-and-risk
   - people-and-culture

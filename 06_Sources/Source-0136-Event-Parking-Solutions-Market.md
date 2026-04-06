@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://marketintelo.com/report/event-parking-solutions-market"
 accessed: 2026-04-04
 description: "MarketIntelo analysis of the event parking solutions market, valued at $4.8B in 2025, covering growth drivers including mobile-first reservation platforms, dynamic pricing adoption, and smart parking technology deployment at venues."
+author: "MarketIntelo"
 domains:
   - parking-and-transportation
 research_batch: v2-prompt-10-commercial

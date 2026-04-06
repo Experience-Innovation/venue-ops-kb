@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://pos.toasttab.com/"
 accessed: 2026-04-04
 description: "Toast is a cloud-based restaurant management and POS platform serving food and beverage operations. Provides POS, online ordering, kitchen display systems, inventory management, and workforce management tools used across restaurant and food service operations."
+author: "Toast is a cloud-based restaurant management and POS"
 domains:
   - food-and-beverage
   - technology-and-digital

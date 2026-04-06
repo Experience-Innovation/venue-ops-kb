@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://photometricbureau.com/resources/ies-rp-20-parking-lighting-standards"
 accessed: 2026-04-04
 description: "Reference guide to IES RP-20 illuminance standards for parking facilities, specifying minimum lighting levels for open lots, covered structures, ramps, and pedestrian areas to ensure safety and security at event venues."
+author: "Illuminating Engineering Society (IES)"
 domains:
   - parking-and-transportation
 research_batch: v2-prompt-10-commercial

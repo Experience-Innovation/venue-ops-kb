@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.esca.org/"
 accessed: 2026-04-04
 description: "ESCA represents exhibition service contractors providing drayage, material handling, and booth installation services. Publishes guidelines for exhibitor services manuals and general service contractor operations."
+author: "Exhibition Services & Contractors Association (ESCA)"
 domains:
   - event-operations
   - logistics-and-warehouse

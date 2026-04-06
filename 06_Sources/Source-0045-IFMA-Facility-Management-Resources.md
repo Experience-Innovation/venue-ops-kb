@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.ifma.org/"
 accessed: 2026-04-04
 description: "International Facility Management Association — professional association for facility managers, setting competency standards and best practices."
+author: "International Facility Management Association (IFMA)"
 domains:
   - facilities-and-building-systems
 research_batch: v2-prompt-02-facilities

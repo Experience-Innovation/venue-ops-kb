@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://blog.qrfs.com/366-arena-fire-protection-life-safety-evaluation-guide/"
 accessed: 2026-03-15
 description: "Comprehensive guide to arena fire protection and life safety evaluation under NFPA 101, covering sprinkler requirements, smoke control, and fire command centers."
+author: "National Fire Protection Association (NFPA)"
 domains:
   - safety-and-risk
   - facilities-and-building-systems

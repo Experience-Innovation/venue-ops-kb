@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://builders.intel.com/docs/networkbuilders/enhancing-the-fan-experience-optimizing-operations-intel-1718264110.pdf"
 accessed: 2026-04-04
 description: "Intel industry solution brief on stadium crowd analytics using camera, LiDAR, and Wi-Fi analytics for end-to-end fan journey optimization, including tailgate zone management and ingress timing."
+author: "Intel industry"
 domains:
   - guest-experience
   - crowd-management

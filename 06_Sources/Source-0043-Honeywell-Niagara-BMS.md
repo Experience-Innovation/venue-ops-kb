@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://buildings.honeywell.com/us/en/brands/our-brands/bms/what-we-do/software-and-services/niagara"
 accessed: 2026-04-04
 description: "Honeywell Niagara Framework — open integration middleware for building management, connecting legacy and modern building systems."
+author: "Honeywell International"
 domains:
   - facilities-and-building-systems
   - technology-and-digital

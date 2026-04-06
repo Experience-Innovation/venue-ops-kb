@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.ticketfairy.com/blog/union-labor-at-venues-in-2026-compliance-costs-and-crew-harmony"
 accessed: 2026-04-04
 description: "TicketFairy analysis of union labor compliance at venues in 2026, covering collective bargaining agreement management, labor cost structures, crew harmony strategies, and the operational impact of union work rules on event production timelines."
+author: "TicketFairy"
 domains:
   - people-and-culture
 research_batch: v2-prompt-12-people-culture

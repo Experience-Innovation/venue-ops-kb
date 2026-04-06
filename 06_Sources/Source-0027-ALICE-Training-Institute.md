@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.alicetraining.com/blog/alice-training-vs-other-multi-option-response-programs/"
 accessed: 2026-03-15
 description: "ALICE Training Institute comparison of multi-option active assailant response programs — Alert, Lockdown, Inform, Counter, Evacuate methodology."
+author: "Alert, Lockdown, Inform, Counter, Evacuate (ALICE) Training Institute"
 domains:
   - security
 research_batch: v2-prompt-04-security

@@ -13,6 +13,7 @@ source_type: regulatory-document
 url: https://www.canadaemploymenthumanrightslaw.com/2025/04/ai-in-the-unionized-workplace-what-employers-need-to-know/
 accessed: 2026-04-05
 description: Canadian employment law analysis of AI deployment in unionized workplaces — duty-to-bargain obligations and collective agreement implications.
+author: "Government of Canada"
 research_batch: existing-dr-4
 domains:
   - legal-compliance-and-licensing

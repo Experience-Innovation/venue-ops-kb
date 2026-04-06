@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://getintotheatre.org/blog/what-does-the-head-of-wardrobe-do/"
 accessed: 2026-04-04
 description: "Career profile explaining Head of Wardrobe responsibilities including costume construction oversight, dresser management, fitting coordination, and health-and-safety compliance for theatrical costume work."
+author: "Get Into Theatre"
 domains:
   - event-operations
   - people-and-culture

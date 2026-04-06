@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://iavm.org/about/boards-committees-and-task-forces/venue-safety-security-committee/"
 accessed: 2026-03-15
 description: "IAVM Venue Safety and Security Committee (VSSC) — industry body developing emergency action plan frameworks and safety standards for venue professionals."
+author: "International Association of Venue Managers (IAVM)"
+publication: "IAVM"
 domains:
   - safety-and-risk
   - security

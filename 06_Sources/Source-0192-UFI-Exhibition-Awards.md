@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.ufi.org/media-releases/easyfairs-wins-the-2024-ufi-digital-innovation-award/"
 accessed: 2026-04-04
 description: "UFI awards program coverage highlighting six award categories recognizing excellence and innovation across the global exhibition industry."
+author: "UFI — The Global Association of the Exhibition Industry"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

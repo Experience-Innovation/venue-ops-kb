@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://training.fema.gov/emiweb/is/icsresource/assets/ics%20organizational%20structure%20and%20elements.pdf"
 accessed: 2026-03-15
 description: "FEMA resource on Incident Command System organizational structure and elements, defining the five functional areas of ICS."
+author: "Federal Emergency Management Agency (FEMA)"
+publication: "FEMA"
 domains:
   - safety-and-risk
 research_batch: v2-prompt-03-safety-crowd

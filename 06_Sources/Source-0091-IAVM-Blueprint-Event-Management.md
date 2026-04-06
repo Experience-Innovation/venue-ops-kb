@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://www.iavm.org/"
 accessed: 2026-04-04
 description: "International Association of Venue Managers (IAVM) provides the Blueprint for Event Management framework, covering scheduling, event coordination, and operational standards for public assembly venues."
+author: "International Association of Venue Managers (IAVM)"
+publication: "IAVM"
 domains:
   - event-operations
   - strategy-and-governance

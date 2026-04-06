@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://tsp.esta.org/"
 accessed: 2026-04-04
 description: "Entertainment Services and Technology Association (ESTA) Technical Standards Program develops ANSI-accredited standards for entertainment technology including DMX512-A (lighting control), ANSI E1.6 (powered hoists), and rigging safety standards used across venue production."
+author: "Entertainment Services and Technology Association (ESTA)"
 domains:
   - av-and-production
   - safety-and-risk

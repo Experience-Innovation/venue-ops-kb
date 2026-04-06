@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://www.avixa.org/certification-section/about-the-certified-technology-specialist-(cts)-credential"
 accessed: 2026-04-04
 description: "AVIXA CTS certification program validates AV professional competency across design, installation, and integration. CTS-D (Design) and CTS-I (Installation) specializations apply directly to venue AV system specification and deployment."
+author: "AVIXA"
+publication: "AVIXA"
 domains:
   - av-and-production
   - people-and-culture

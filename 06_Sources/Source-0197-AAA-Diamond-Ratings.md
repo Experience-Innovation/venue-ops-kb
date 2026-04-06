@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://newsroom.aaa.com/wp-content/uploads/2019/06/diamond_rating_guidelines_lodging.pdf"
 accessed: 2026-04-04
 description: "AAA Diamond rating guidelines for lodging, defining the 1-5 Diamond scale criteria used to evaluate hospitality properties on facility quality and service standards."
+author: "AAA (American Automobile Association)"
 domains:
   - guest-experience
 research_batch: supp-awards-ecosystem

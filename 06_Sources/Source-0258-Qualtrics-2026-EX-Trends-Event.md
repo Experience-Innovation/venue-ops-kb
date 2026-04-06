@@ -13,6 +13,7 @@ source_type: industry-publication
 url: https://www.qualtrics.com/events/2026-ex-trends/
 accessed: 2026-04-05
 description: Qualtrics 2026 Employee Experience Trends research event documenting frontline worker engagement decline and shadow AI adoption.
+author: "Qualtrics"
 research_batch: existing-dr-4
 domains:
   - people-and-culture

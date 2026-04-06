@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.winnowsolutions.com/"
 accessed: 2026-04-04
 description: "Winnow provides AI-powered food waste tracking and reduction technology for commercial kitchens. Uses computer vision and machine learning to identify, measure, and categorize food waste, enabling food service operations to reduce waste by up to 50% through data-driven production adjustments."
+author: "Winnow provides"
 domains:
   - food-and-beverage
   - sustainability-and-environmental

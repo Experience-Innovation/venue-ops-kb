@@ -4,7 +4,7 @@ note_type: concept
 domain: "legal-compliance-and-licensing"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Mandatory and voluntary responsible alcohol service training programs across North American jurisdictions, including Smart Serve (Ontario), Serving It Right (BC), ProServe (Alberta), TIPS, and California RBS, with their role in venue liability management."
 venue_types:
   - arena
@@ -21,6 +21,12 @@ sources:
   - "[[Source-0064-ServSafe-Food-Safety-Certification]]"
   - "[[Source-0083-DOL-FLSA-Tip-Regulations]]"
   - "[[Source-0084-UNITE-HERE-Union]]"
+  - "[[Source-0279-Smart-Serve-Ontario-RBS]]"
+  - "[[Source-0280-Serving-It-Right-BC-RBS]]"
+  - "[[Source-0281-AGLC-ProServe-Alberta-RBS]]"
+  - "[[Source-0282-TIPS-Alcohol-Certification-Program]]"
+  - "[[Source-0283-California-ABC-RBS-Program]]"
+  - "[[Source-0284-ServSafe-Alcohol-NRA]]"
 research_batch: v2-prompt-08-fb-supply
 child_of: "[[Domain-Legal-Compliance-And-Licensing]]"
 related_to:
@@ -50,15 +56,14 @@ Responsible beverage service (RBS) programs train alcohol servers to identify in
 ### Major Programs
 
 **Canadian Programs (provincially mandated):**
-- **Smart Serve** (Ontario) — Mandatory for all staff who serve, deliver, or sell alcohol
-- **Serving It Right** (British Columbia) — Required certification for all liquor service staff
-- **ProServe** (Alberta) — Mandatory AGLC-approved responsible service training
-- **It's Good Business / Responsible Service NL** — Programs in other provinces with varying mandatory/voluntary status
+- **Smart Serve** (Ontario) — Sole AGCO Board-approved RBS training. Mandatory for all staff involved in sale, service, delivery, or sampling of liquor, including stadium security. Online course (~4 hours), 33-question proctored exam (80% pass), 5-year renewal, $44.95 CAD ([[Source-0279-Smart-Serve-Ontario-RBS]])
+- **Serving It Right** (British Columbia) — LCRB-administered mandatory certification for all licensees, managers, and servers before first shift. SES (Special Event Server) variant for events under 500 capacity. 5-year renewal, $35-40 CAD + GST ([[Source-0280-Serving-It-Right-BC-RBS]])
+- **ProServe** (Alberta) — AGLC mandatory training for all Class A/B/D/E/F premises staff including owners, managers, bartenders, servers, hosts, security, and delivery drivers. 5-year renewal, $26.25 CAD including GST ([[Source-0281-AGLC-ProServe-Alberta-RBS]])
 
 **US Programs:**
-- **TIPS (Training for Intervention ProcedureS)** — Widely used voluntary program accepted in many states
-- **California Responsible Beverage Service (RBS)** — Mandatory statewide program effective July 2022, requiring all alcohol servers to complete training
-- **ServSafe Alcohol** — National Restaurant Association program accepted in many jurisdictions
+- **TIPS (Training for Intervention ProcedureS)** — Dominant private multi-state program. Voluntary at federal level but mandatory or accepted in approximately 17 states. Tracks include On-Premise, Off-Premise, Concessions, and Gaming. 3-year renewal, ~$35-50 USD ([[Source-0282-TIPS-Alcohol-Certification-Program]])
+- **California Responsible Beverage Service (RBS)** — Mandatory statewide program effective July 1, 2022 (AB 1221), ABC-administered. Required for all on-premises servers, managers, and ID-checkers including temporary event staff. 3-year renewal, ~$11-16 USD (employer-paid under SB 476) ([[Source-0283-California-ABC-RBS-Program]])
+- **ServSafe Alcohol** — National Restaurant Association Solutions LLC program. Voluntary nationally, accepted where state-approved (including Washington, Maryland). Primary and Advanced tracks. 3-year renewal, ~$30-40 USD ([[Source-0284-ServSafe-Alcohol-NRA]])
 
 ## Venue-Specific Requirements
 
@@ -77,3 +82,9 @@ RBS training is a key component of venue liability management. Demonstrating tha
 - [[Source-0064-ServSafe-Food-Safety-Certification]]
 - [[Source-0083-DOL-FLSA-Tip-Regulations]]
 - [[Source-0084-UNITE-HERE-Union]]
+- [[Source-0279-Smart-Serve-Ontario-RBS]]
+- [[Source-0280-Serving-It-Right-BC-RBS]]
+- [[Source-0281-AGLC-ProServe-Alberta-RBS]]
+- [[Source-0282-TIPS-Alcohol-Certification-Program]]
+- [[Source-0283-California-ABC-RBS-Program]]
+- [[Source-0284-ServSafe-Alcohol-NRA]]

@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.climate.gov/news-features/features/keeping-fans-safe-warming-world-growing-challenge-outdoor-events"
 accessed: 2026-03-15
 description: "NOAA analysis of heat safety challenges for outdoor events in a warming climate, including the Taylor Swift Rio concert incident."
+author: "National Oceanic and Atmospheric Administration (NOAA)"
 domains:
   - safety-and-risk
 research_batch: v2-prompt-03-safety-crowd

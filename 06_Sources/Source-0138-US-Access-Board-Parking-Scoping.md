@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.access-board.gov/ada/chapter/ch02/"
 accessed: 2026-04-04
 description: "US Access Board Chapter 2 scoping requirements for accessible parking under Section 208, defining minimum accessible space counts, van-accessible ratios, and proximity requirements for parking facilities serving public assembly venues."
+author: "US Access Board Chapter 2 scoping"
 domains:
   - parking-and-transportation
   - inclusivity-and-accessibility

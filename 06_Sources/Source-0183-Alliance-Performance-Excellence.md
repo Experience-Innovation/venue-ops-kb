@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://baldrigealliance.org/membership/programs/"
 accessed: 2026-04-04
 description: "Alliance for Performance Excellence overview of state-level Baldrige-based programs network, extending the national framework through regional excellence organizations."
+author: "Alliance for Performance Excellence"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

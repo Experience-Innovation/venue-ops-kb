@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.siemens.com/global/en/products/buildings/automation/desigo-cc.html"
 accessed: 2026-04-04
 description: "Siemens Desigo CC — integrated building management platform supporting BACnet, open protocols, and multi-discipline automation for large venues."
+author: "Siemens AG"
 domains:
   - facilities-and-building-systems
   - technology-and-digital

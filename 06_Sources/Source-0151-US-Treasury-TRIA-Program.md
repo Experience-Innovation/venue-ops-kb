@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/federal-insurance-office/terrorism-risk-insurance-program"
 accessed: 2026-04-04
 description: "U.S. Treasury Federal Insurance Office overview of the Terrorism Risk Insurance Program (TRIA), establishing the federal backstop for terrorism-related insurance losses affecting commercial properties including large venues."
+author: "U.S. Department of the Treasury"
 domains:
   - legal-compliance-and-licensing
   - financial-operations

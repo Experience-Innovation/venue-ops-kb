@@ -13,6 +13,7 @@ source_type: vendor-documentation
 url: https://www.zebra.com/ap/en/resource-library/success-stories/mccormick-place-achieves-98-inventory-accuracy-with-food-trak-and-zebra.html
 accessed: 2026-04-05
 description: Zebra Technologies case study on McCormick Place FOOD-TRAK deployment — 80% to 98% inventory accuracy, halved labor hours.
+author: "Zebra Technologies"
 research_batch: existing-dr-2
 domains:
   - food-and-beverage

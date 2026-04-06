@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://content.naic.org/insurance-topics/terrorism-risk-insurance-act"
 accessed: 2026-04-04
 description: "National Association of Insurance Commissioners overview of the Terrorism Risk Insurance Act, detailing insurer obligations, make-available requirements, and the federal-private risk-sharing framework relevant to venue insurance programs."
+author: "National Association of Insurance Commissioners (NAIC)"
 domains:
   - legal-compliance-and-licensing
   - financial-operations

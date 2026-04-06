@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.worldtravelawards.com/how-it-works"
 accessed: 2026-04-04
 description: "World Travel Awards three-tier recognition program (country, regional, world) for travel and tourism industry excellence across accommodation, destinations, and venue categories."
+author: "World Travel Awards"
 domains:
   - commercial-and-revenue
 research_batch: supp-awards-ecosystem

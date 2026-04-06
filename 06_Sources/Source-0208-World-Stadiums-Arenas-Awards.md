@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://awards.stadiumsandarenassummit.com"
 accessed: 2026-04-04
 description: "World Stadiums and Arenas Awards program featuring ten categories recognizing excellence in stadium and arena operations, presented at the Riyadh Summit."
+author: "World Stadiums Awards"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

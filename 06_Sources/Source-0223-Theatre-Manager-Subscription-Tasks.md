@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://help.theatremanager.com/theatre-manager-online-help/season-subscription-tasks"
 accessed: 2026-04-04
 description: "Documentation for Theatre Manager platform subscription features including auto-renewal windows, seat-priority logic, series cross-mapping, and subscription campaign management for performing arts venues."
+author: "Documentation for Theatre Manager"
 domains:
   - ticketing-and-box-office
   - technology-and-digital

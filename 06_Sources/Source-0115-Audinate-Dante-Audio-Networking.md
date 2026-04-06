@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.audinate.com/"
 accessed: 2026-04-04
 description: "Dante (Digital Audio Network Through Ethernet) is the dominant networked audio protocol in professional AV, routing hundreds of bidirectional audio channels over standard Ethernet with sub-millisecond latency. Widely deployed in venue PA systems, broadcast infrastructure, and production environments."
+author: "Audinate (Dante)"
 domains:
   - av-and-production
   - technology-and-digital

@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.ontario.ca/laws/regulation/110191"
 accessed: 2026-04-04
 description: "Ontario Integrated Accessibility Standards Regulation (O. Reg. 191/11) under the Accessibility for Ontarians with Disabilities Act, establishing mandatory accessibility standards for information and communications, employment, transportation, and design of public spaces applicable to Ontario venues."
+author: "Ontario Integrated Accessibility"
+publication: "Government of Ontario"
 domains:
   - inclusivity-and-accessibility
   - legal-compliance-and-licensing

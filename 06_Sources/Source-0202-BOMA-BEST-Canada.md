@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://resourcehub.bakermckenzie.com/en/resources/global-sustainable-buildings/north-america/canada/topics/green-certification"
 accessed: 2026-04-04
 description: "Overview of BOMA BEST Canadian building environmental certification program with five achievement levels for sustainable building operations and management."
+author: "Building Owners and Managers Association (BOMA)"
 domains:
   - sustainability-and-environmental
 research_batch: supp-awards-ecosystem

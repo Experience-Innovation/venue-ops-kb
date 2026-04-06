@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.levyrestaurants.com/"
 accessed: 2026-04-04
 description: "Levy is the food and beverage division of Compass Group focused on sports, entertainment, and convention venues. Known for chef-driven dining programs and pioneering the premium food service model in major venues across North America."
+author: "Levy Restaurants (Compass Group)"
 domains:
   - food-and-beverage
   - premium-and-vip

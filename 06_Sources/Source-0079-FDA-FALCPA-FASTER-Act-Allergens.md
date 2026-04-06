@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies"
 accessed: 2026-04-04
 description: "FDA resources on food allergen labeling requirements under the Food Allergen Labeling and Consumer Protection Act (FALCPA, 2004) and the FASTER Act (2021), which added sesame as the ninth major allergen. Covers labeling, cross-contact advisory statements, and food service allergen management."
+author: "U.S. Food and Drug Administration (FDA)"
+publication: "FDA"
 domains:
   - food-and-beverage
   - legal-compliance-and-licensing

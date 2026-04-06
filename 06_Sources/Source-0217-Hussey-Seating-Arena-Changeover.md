@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.husseyseating.com/maximizing-venue-changeover-times/"
 accessed: 2026-04-04
 description: "Technical article on arena changeover processes including ice-to-floor conversions, insulated decking, retractable seating systems, and crew choreography for rapid event turnarounds."
+author: "Hussey Seating Company"
 domains:
   - event-operations
   - facilities-and-building-systems

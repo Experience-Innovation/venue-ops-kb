@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://unitehere.org/"
 accessed: 2026-04-04
 description: "UNITE HERE is the labor union representing workers in the hotel, gaming, food service, manufacturing, textile, distribution, laundry, and airport industries across North America. Represents food and beverage workers at many major venues and convention centres through collective bargaining agreements."
+author: "UNITE HERE"
 domains:
   - people-and-culture
   - food-and-beverage

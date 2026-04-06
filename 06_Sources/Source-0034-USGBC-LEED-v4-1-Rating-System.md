@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://www.usgbc.org/leed"
 accessed: 2026-04-04
 description: "LEED v4.1 green building certification system administered by USGBC, the most widely used sustainability rating for large venues."
+author: "U.S. Green Building Council (USGBC)"
+publication: "U.S. Green Building Council"
 domains:
   - sustainability-and-environmental
   - facilities-and-building-systems

@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.calgary.ca/safety/events/indoor-fire-code-requirements.html"
 accessed: 2026-03-15
 description: "City of Calgary indoor special event fire code requirements — permit packages, fire watch, 30-day notification, and sprinkler system mandates."
+author: "City of Calgary indoor special event fire"
 domains:
   - safety-and-risk
   - legal-compliance-and-licensing

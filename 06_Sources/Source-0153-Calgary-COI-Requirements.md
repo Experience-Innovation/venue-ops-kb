@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.calgary.ca/content/dam/www/pda/pd/documents/urban-development/certificate-of-insurance-requirements-bulletin.pdf"
 accessed: 2026-04-04
 description: "City of Calgary certificate of insurance requirements bulletin specifying liability coverage thresholds, additional insured endorsements, and documentation standards for venues and event operations within municipal jurisdiction."
+author: "City of Calgary certificate of insurance"
 domains:
   - legal-compliance-and-licensing
 research_batch: v2-prompt-09-financial

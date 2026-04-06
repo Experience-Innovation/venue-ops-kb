@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.acfchefs.org/"
 accessed: 2026-04-04
 description: "The American Culinary Federation is the largest professional chefs organization in North America. Administers a 13-level certification framework from Certified Fundamental Cook through Certified Master Chef, accredits culinary programs, and promotes professional standards in the culinary industry."
+author: "American Culinary Federation (ACF)"
 domains:
   - food-and-beverage
   - people-and-culture

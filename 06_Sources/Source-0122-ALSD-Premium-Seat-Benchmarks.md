@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://alsd.com/content/premium-seat-industry-reference-points"
 accessed: 2026-04-04
 description: "Association of Luxury Suite Directors benchmark data on suite and club F&B inclusion rates, premium seat pricing, and industry reference points for luxury hospitality in sports and entertainment venues."
+author: "Association of Luxury Suite Directors (ALSD)"
 domains:
   - premium-and-vip
 research_batch: v2-prompt-11-premium-guest

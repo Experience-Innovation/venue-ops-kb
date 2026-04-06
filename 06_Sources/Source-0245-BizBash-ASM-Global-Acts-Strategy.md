@@ -13,6 +13,7 @@ source_type: industry-publication
 url: https://www.bizbash.com/corporate-events/asm-global-unveils-ambitious-strategy-to-transform-global-venue-portfolio-into-world-s-most-sustainable
 accessed: 2026-04-05
 description: Coverage of ASM Global Acts sustainability transformation platform across 350+ venue portfolio with specific environmental targets.
+author: "BizBash"
 research_batch: existing-dr-2
 domains:
   - sustainability-and-environmental

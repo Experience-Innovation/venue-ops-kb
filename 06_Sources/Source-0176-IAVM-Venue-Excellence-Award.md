@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://www.iavm.org/awards"
 accessed: 2026-04-04
 description: "International Association of Venue Managers awards program including the Venue Excellence Award, recognizing outstanding achievement in venue management with criteria spanning operations, community service, innovation, and industry leadership."
+author: "International Association of Venue Managers (IAVM)"
+publication: "IAVM"
 domains:
   - strategy-and-governance
   - quality-and-continuous-improvement

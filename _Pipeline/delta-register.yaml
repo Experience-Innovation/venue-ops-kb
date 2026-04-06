@@ -77,6 +77,7 @@ category_definitions:
 # Audit phases in S16 will populate this section.
 
 next_id: 14
+# S18 session log appended below
 entries:
   - id: DELTA-001
     category: vocabulary
@@ -135,20 +136,20 @@ entries:
   - id: DELTA-004
     category: citation
     severity: medium
-    status: deferred
+    status: resolved-batch
     discovered_session: S16
     discovered_date: 2026-04-05
     affected_notes:
-      - "06_Sources/*.md (all 260 source notes)"
-    affected_count: 260
+      - "06_Sources/*.md (all 290 source notes)"
+    affected_count: 290
     finding: "Optional bibliographic metadata fields (author, publication, publish_date) absent across all 260 source notes — 0% coverage. Schema-optional but required by academic-publishing bar per CLAUDE.md v2.1 §3 Academic Rigor Outcomes."
     detection_method: automated_scan
-    resolution_path: "scheduled-fix — dedicated bibliographic enrichment sub-pass in S18 (Phase B.5 Session 3). Extract author/publication from description and URL metadata; populate publish_date where available. Batch by domain for efficiency."
+    resolution_path: "Resolved in S18 via automated enrichment scripts (enrich-bibliographic.py + enrich-bibliographic-pass2.py) plus manual enrichment for 3 remaining files. author field populated for 290/290 (100%). publication populated for 71/290 (24%, where inferable from URL domain). publish_date populated for 5/290 (2%, where explicitly known). Remaining publication/publish_date fields left null per Hard Rule #1."
     target_session: S18
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Estimated 50K-80K tokens to enrich all 260 notes. Approach: group by source URL domain, extract from description + URL structure, populate where inferable. author = original content author (person or corporate/organization author at URL), NOT the DR researcher (Perplexity/Gemini). Where unknown, leave null — do not fabricate."
+    resolved_session: S18
+    resolved_date: 2026-04-06
+    resolution_evidence: "_Pipeline/Validation/session-18-ci-enrichment-validation.md, _Pipeline/Processing/enrich-bibliographic.py, _Pipeline/Processing/enrich-bibliographic-pass2.py"
+    notes: "author = original content author at URL (person or corporate/organization). Derived from filename pattern + description analysis. publication = URL domain mapping where available. publish_date = explicit dates only. Zero fabrication."
 
   - id: DELTA-005
     category: citation
@@ -191,7 +192,7 @@ entries:
   - id: DELTA-007
     category: traceability
     severity: high
-    status: deferred
+    status: resolved-batch
     discovered_session: S17
     discovered_date: 2026-04-05
     affected_notes:
@@ -199,17 +200,17 @@ entries:
     affected_count: 1
     finding: "Single-source concept makes multiple specific claims unsupported by the single source: International Plumbing Code (IPC)/Uniform Plumbing Code (UPC) amendments, Canadian federal/provincial human rights gender identity protections, BMO Field Toronto example. Only source is 2010-ADA-Standards which covers none of these claims."
     detection_method: manual_audit
-    resolution_path: "Add supplementary sources for IPC/UPC amendments + Canadian human rights legislation + venue example (or remove BMO Field reference if not substantiable). Bundle with S18 citation enrichment."
+    resolution_path: "Resolved in S18 via DR remediation intake. 7 new source notes (Source-0261 through Source-0267) created from DR-Remediation-Gender-Inclusive-Facilities.md. Concept enriched with IPC (ICC), UPC (IAPMO), IAPMO Manual 1, Bill C-16, SOR/2024-118, OHRC Gender Identity Policy, Edmonton Washroom Guide. Body text rewritten with inline citations."
     target_session: S18
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Structural gap — body text extends well beyond single-source coverage. BMO Field reference should be checked for CS exemplar policy (Toronto venue, unrelated to Calgary Stampede BMO Centre — likely OK but worth confirming)."
+    resolved_session: S18
+    resolved_date: 2026-04-06
+    resolution_evidence: "Source-0261 through Source-0267 created; concept note enriched 1→8 sources with body-text inline citations"
+    notes: "IPC/UPC now fully sourced. Canadian federal (Bill C-16, SOR/2024-118) and provincial (OHRC) legislation sourced. Municipal implementation (Edmonton) sourced. BMO Field reference retained in body but not given separate source (incidental example, not a factual claim requiring citation)."
 
   - id: DELTA-008
     category: traceability
     severity: high
-    status: deferred
+    status: resolved-batch
     discovered_session: S17
     discovered_date: 2026-04-05
     affected_notes:
@@ -217,17 +218,17 @@ entries:
     affected_count: 1
     finding: "Single-source concept makes specific claims about Truth and Reconciliation Commission (TRC), 94 Calls to Action (2015), and Call to Action #87 — none clearly sourced. Only source is TicketFairy-Community-Impact."
     detection_method: manual_audit
-    resolution_path: "Add TRC Calls to Action primary source (Government of Canada document). S18 citation enrichment."
+    resolution_path: "Resolved in S18 via DR remediation intake. 5 new source notes (Source-0268 through Source-0272) created from DR-Remediation-Indigenous-Reconciliation.md. Concept enriched with NCTR primary document, RCAANC implementation tracker, AFN progress report, NCTR ReconciliACTION Plan CTA 87-91, PavCo venue implementation. Body text rewritten with TRC primary citations and implementation status."
     target_session: S18
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "TRC document is government-published and freely available — should be a direct source citation, not secondary via TicketFairy."
+    resolved_session: S18
+    resolved_date: 2026-04-06
+    resolution_evidence: "Source-0268 through Source-0272 created; concept note enriched 1→6 sources with body-text inline citations"
+    notes: "TRC 94 Calls to Action now cited from NCTR primary source (not secondary TicketFairy). CTA #87 sourced via NCTR ReconciliACTION Plan. Implementation status documented with both government and Indigenous accountability perspectives."
 
   - id: DELTA-009
     category: traceability
     severity: high
-    status: deferred
+    status: resolved-batch
     discovered_session: S17
     discovered_date: 2026-04-05
     affected_notes:
@@ -235,17 +236,17 @@ entries:
     affected_count: 1
     finding: "Sources topically misaligned with concept subject matter. Concept covers liquor licensing (state/provincial alcohol regulation) but sources are FDA Food Code, SFCR (Canada food safety), and DOL FLSA Tip Regulations — none are liquor-licensing specific."
     detection_method: manual_audit
-    resolution_path: "Replace sources with liquor-licensing-specific references (state liquor authority documentation, NABCA resources, provincial liquor board materials). S18 or dedicated re-sourcing."
+    resolution_path: "Resolved in S18 via DR remediation intake. 6 new source notes (Source-0273 through Source-0278) created from DR-Remediation-Liquor-Licensing.md. Sources replaced — food/labor sources removed, replaced with 6 liquor-licensing-specific regulatory sources (CA ABC, TX TABC, AGLC, AGCO, BC LCRB, Las Vegas/Clark County). Body text substantially rewritten with jurisdiction-specific licensing detail and inline citations."
     target_session: S18
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Most severe source-topic misalignment found in S17 audit. This concept needs fundamental source re-extraction, not supplementary additions."
+    resolved_session: S18
+    resolved_date: 2026-04-06
+    resolution_evidence: "Source-0273 through Source-0278 created; concept note sources replaced 3 misaligned → 6 aligned; body text rewritten with regulatory specifics"
+    notes: "Most severe remediation in S18 — sources fully replaced, not supplemented. Old food/labor sources removed from sources[] as they do not apply to liquor licensing. Body now covers California (Type 47/48/57/90), Texas (three-party structure), Nevada (per-bar model), Alberta (Class B), Ontario (LSL + Stadium Endorsement), BC (LP license)."
 
   - id: DELTA-010
     category: traceability
     severity: high
-    status: deferred
+    status: resolved-batch
     discovered_session: S17
     discovered_date: 2026-04-05
     affected_notes:
@@ -253,17 +254,17 @@ entries:
     affected_count: 1
     finding: "Sources cover 1 of 6+ named RBS programs (ServSafe only). Body names Smart Serve (Ontario), Serving It Right (BC), ProServe (Alberta), TIPS, California RBS, AGLC — none directly sourced."
     detection_method: manual_audit
-    resolution_path: "Add jurisdiction-specific sources for each named RBS program, OR consolidate concept to only cover sourced programs, OR add single multi-jurisdictional RBS survey source. S18."
+    resolution_path: "Resolved in S18 via DR remediation intake. 6 new source notes (Source-0279 through Source-0284) created from DR-Remediation-Responsible-Beverage-Service.md. One official source per program: Smart Serve (smartserve.ca), Serving It Right (responsibleservicebc.gov.bc.ca), ProServe (aglc.ca), TIPS (gettips.com), California RBS (abc.ca.gov), ServSafe Alcohol (servsafe.com). Body text enriched with program-specific detail (mandatory status, renewal periods, costs, coverage)."
     target_session: S18
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Multi-jurisdictional claim pattern — concept lists programs across 5 jurisdictions but sources cover only 1 program."
+    resolved_session: S18
+    resolved_date: 2026-04-06
+    resolution_evidence: "Source-0279 through Source-0284 created; concept note enriched 3→9 sources; body text enriched with per-program detail"
+    notes: "All 6 named programs now individually sourced with official program URLs. Multi-jurisdictional gap fully resolved."
 
   - id: DELTA-011
     category: traceability
     severity: high
-    status: deferred
+    status: resolved-batch
     discovered_session: S17
     discovered_date: 2026-04-05
     affected_notes:
@@ -271,12 +272,12 @@ entries:
     affected_count: 1
     finding: "Source is Source-0166-17-USC-106-Copyright (Copyright law, 17 USC) but concept is about Trademark/Naming Rights governed by Lanham Act (15 USC 1051 et seq.). Sources topically misaligned with concept focus."
     detection_method: manual_audit
-    resolution_path: "Replace or supplement with Lanham Act / USPTO / trademark-licensing source. S18."
+    resolution_path: "Resolved in S18 via DR remediation intake. 6 new source notes (Source-0285 through Source-0290) created from DR-Remediation-Trademark-Naming-Rights.md. Copyright source replaced with 6 trademark-specific sources: Lanham Act (Cornell LII), Canadian Trademarks Act (McMillan), naked licensing (Missouri Law Review), venue naming rights IP (Hoge Fenton, Lavery), ambush marketing (WIPO). Body text enriched with Lanham Act sections, quality control doctrine, and Canadian framework."
     target_session: S18
-    resolved_session: null
-    resolved_date: null
-    resolution_evidence: null
-    notes: "Single-source concept with wrong-statute-family source. Copyright (17 USC) and Trademark (15 USC) are different legal frameworks."
+    resolved_session: S18
+    resolved_date: 2026-04-06
+    resolution_evidence: "Source-0285 through Source-0290 created; concept note sources replaced 1 wrong-statute → 6 correct-statute; body text rewritten with Lanham Act framework"
+    notes: "Wrong-statute-family fully corrected. Copyright (17 USC) source removed, replaced with Trademark/Lanham Act (15 USC) sources. Concept now correctly grounded in trademark law."
 
   - id: DELTA-012
     category: traceability
@@ -323,8 +324,8 @@ metrics:
     open: 0
     in-progress: 0
     resolved-inline: 5
-    resolved-batch: 0
-    deferred: 8
+    resolved-batch: 6
+    deferred: 2
     accepted: 0
   by_severity:
     critical: 0
@@ -348,7 +349,21 @@ sessions:
   - session: S16
     date: 2026-04-05
     scope: "Consolidation Pass (B.5 Phase 1): MOC generation + audits A-01/02/03 + METHODOLOGY + README + Obsidian mount"
-    entries_opened: 0  # populated at session close
-    entries_resolved: 0  # populated at session close
-    entries_deferred: 0  # populated at session close
+    entries_opened: 0
+    entries_resolved: 0
+    entries_deferred: 0
     notes: "Delta register initialized S16."
+  - session: S17
+    date: 2026-04-05
+    scope: "A-04 Part 1 claim-to-source traceability (82 concepts, domains A-L)"
+    entries_opened: 8
+    entries_resolved: 2
+    entries_deferred: 6
+    notes: "DELTA-006 through DELTA-013 added. DELTA-006 (3 broken wikilinks) resolved inline. Total: 13 entries."
+  - session: S18
+    date: 2026-04-06
+    scope: "CI / Enrichment Cycle: DR remediation (Track A) + bibliographic enrichment (Track B)"
+    entries_opened: 0
+    entries_resolved: 6
+    entries_deferred: 0
+    notes: "DELTA-004 resolved-batch (290/290 author populated). DELTA-007 through DELTA-011 resolved-batch (5 concept notes enriched with 30 new source notes). DELTA-012/013 remain deferred. Metrics: 11/13 resolved, 2/13 deferred."

@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.cip-association.org/cisa-releases-dynamic-new-guide-for-stadium-and-arena-owners-to-fortify-operations-mitigate-vulnerabilities-and-elevate-emergency-preparedness/"
 accessed: 2026-03-15
 description: "CISA guide for stadium and arena owners on mitigating dependency disruptions (January 2026), covering communications, energy, transportation, and water system failures."
+author: "Cybersecurity and Infrastructure Security Agency (CISA)"
 domains:
   - safety-and-risk
   - security

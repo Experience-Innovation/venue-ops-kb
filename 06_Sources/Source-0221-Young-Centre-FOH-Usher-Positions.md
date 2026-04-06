@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.youngcentre.ca/de/cache/modules_elements/103/2024_Usher%20USH24%20(1).pdf"
 accessed: 2026-04-04
 description: "Job posting and role description for performing arts ushers, detailing customer service, safety, ticket scanning, accessibility support, and lobby management responsibilities."
+author: "Young Centre for the Performing Arts"
 domains:
   - guest-experience
   - people-and-culture

@@ -8,6 +8,7 @@ source_type: academic-paper
 url: "https://www.waterisac.org/rand-report-improving-security-soft-targets-and-crowded-places"
 accessed: 2026-03-15
 description: "RAND Corporation 2025 report on improving security at soft targets and crowded places, validating the layered security approach."
+author: "RAND Corporation"
 domains:
   - security
 research_batch: v2-prompt-04-security

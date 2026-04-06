@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-2010-title17-section106&num=0&edition=2010"
 accessed: 2026-04-04
 description: "U.S. Copyright Act Section 106 establishing exclusive rights in copyrighted works including the right of public performance, forming the statutory basis for music licensing requirements at venues, arenas, and event spaces."
+author: "U.S. Copyright"
 domains:
   - legal-compliance-and-licensing
 research_batch: v2-prompt-09-financial

@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://xtractone.com/blog/best-practices-for-stadium-security/"
 accessed: 2026-03-15
 description: "Xtract One Technologies overview of best practices for stadium security, including frictionless AI-based weapons detection screening."
+author: "Xtract One Technologies"
 domains:
   - security
 research_batch: v2-prompt-04-security

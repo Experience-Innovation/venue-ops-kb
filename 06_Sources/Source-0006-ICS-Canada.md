@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://icscanada.ca"
 accessed: 2026-03-15
 description: "ICS Canada — the Pan-Canadian Incident Command System, providing standardized incident management framework for Canadian venues and emergency services."
+author: "Incident Command System Canada"
+publication: "Government of Canada"
 domains:
   - safety-and-risk
 research_batch: v2-prompt-03-safety-crowd

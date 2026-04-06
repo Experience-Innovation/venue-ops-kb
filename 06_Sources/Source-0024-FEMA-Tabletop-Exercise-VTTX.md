@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://training.fema.gov/emigrams/2023/1817-training%20opportunity-virtual%20tabletop%20exercise%20program%20fiscal%20year%202024.pdf"
 accessed: 2026-03-15
 description: "FEMA Virtual Tabletop Exercise (VTTX) program — no-cost, 4-hour structured tabletop exercises for emergency preparedness."
+author: "Federal Emergency Management Agency (FEMA)"
+publication: "FEMA"
 domains:
   - safety-and-risk
 research_batch: v2-prompt-03-safety-crowd

@@ -8,6 +8,7 @@ source_type: academic-paper
 url: "https://peer.asee.org/57217.pdf"
 accessed: 2026-04-04
 description: "Academic analysis of the EFQM 1000-point model and its RADAR (Results, Approaches, Deploy, Assess, Refine) diagnostic tool for organizational self-assessment and excellence measurement."
+author: "European Foundation for Quality Management (EFQM)"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

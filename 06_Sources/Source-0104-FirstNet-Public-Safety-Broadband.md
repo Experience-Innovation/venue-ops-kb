@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.firstnet.com/"
 accessed: 2026-04-04
 description: "FirstNet is the nationwide public safety broadband network (Band 14) built with AT&T. Provides dedicated LTE connectivity for first responders at venues and mass gatherings, with priority and preemption capabilities during events."
+author: "First Responder Network Authority (FirstNet)"
 domains:
   - technology-and-digital
   - safety-and-risk

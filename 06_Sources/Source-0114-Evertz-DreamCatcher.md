@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://evertz.com/products/DreamCatcher"
 accessed: 2026-04-04
 description: "Evertz DreamCatcher is a software-defined replay and highlight production system used in arena and stadium broadcast operations. Provides multi-channel ingest, clip playout, and real-time highlight packaging for in-venue displays and broadcast feeds."
+author: "Evertz DreamCatcher is a software-defined replay and highlight"
 domains:
   - av-and-production
   - technology-and-digital

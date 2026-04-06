@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.dinegreen.com/"
 accessed: 2026-04-04
 description: "The Green Restaurant Association provides a certification framework for environmentally sustainable restaurant and food service operations. Evaluates across categories including energy, water, waste, food, chemicals, disposables, and building materials."
+author: "Green Restaurant Association"
 domains:
   - food-and-beverage
   - sustainability-and-environmental

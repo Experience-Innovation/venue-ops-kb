@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.ada.gov/law-and-regs/design-standards/2010-stds/"
 accessed: 2026-04-04
 description: "2010 ADA Standards for Accessible Design establishing minimum requirements for accessible parking spaces, routes, signage, and facility features applicable to all public assembly venues including arenas, stadiums, and convention centres."
+author: "U.S. Department of Justice"
+publication: "U.S. Department of Justice"
 domains:
   - parking-and-transportation
   - inclusivity-and-accessibility

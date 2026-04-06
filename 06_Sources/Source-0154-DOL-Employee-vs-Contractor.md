@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.dol.gov/agencies/whd/fact-sheets/13-flsa-employment-relationship"
 accessed: 2026-04-04
 description: "U.S. Department of Labor Fact Sheet 13 on the FLSA economic realities test for determining employee versus independent contractor status, directly applicable to venue staffing models involving freelance technicians, event labor, and gig workers."
+author: "U.S. Department of Labor"
+publication: "U.S. Department of Labor"
 domains:
   - people-and-culture
   - legal-compliance-and-licensing

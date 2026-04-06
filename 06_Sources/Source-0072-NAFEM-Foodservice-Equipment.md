@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.nafem.org/"
 accessed: 2026-04-04
 description: "NAFEM is the trade association representing food equipment manufacturers in the United States and Canada. Publishes industry data on commercial kitchen equipment, hosts the NAFEM Show, and provides resources on equipment specifications, energy efficiency, and food service facility design."
+author: "North American Association of Food Equipment Manufacturers (NAFEM)"
 domains:
   - food-and-beverage
   - facilities-and-building-systems

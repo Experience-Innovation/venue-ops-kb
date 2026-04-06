@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.voyagecontrol.com/"
 accessed: 2026-04-04
 description: "Voyage Control provides dock scheduling and delivery management software for venues and facilities. Coordinates loading dock appointments, vehicle tracking, and material flow for event load-in/load-out operations."
+author: "Voyage Control"
 domains:
   - event-operations
   - logistics-and-warehouse

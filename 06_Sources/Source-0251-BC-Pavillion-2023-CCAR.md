@@ -12,6 +12,8 @@ source_type: regulatory-document
 url: https://www2.gov.bc.ca/assets/gov/environment/climate-change/cnar/2023/cc/bc_pavillion_co_2023_ccar.pdf
 accessed: 2026-04-05
 description: BC Pavilion Corporation 2023 Climate Change Accountability Report documenting Vancouver Convention Centre's environmental metrics.
+author: "BC Pavilion Corporation (PavCo)"
+publication: "Government of British Columbia"
 research_batch: existing-dr-2
 domains:
   - sustainability-and-environmental

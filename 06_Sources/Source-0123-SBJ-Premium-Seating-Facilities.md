@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.sportsbusinessjournal.com/Journal/Issues/2022/07/25/In-Depth/Facilities/"
 accessed: 2026-04-04
 description: "Sports Business Journal in-depth feature on premium seating facilities, covering all-inclusive F&B programs, club seat flexibility models, and the evolving design of premium hospitality spaces in modern venues."
+author: "Sports Business Journal"
 domains:
   - premium-and-vip
 research_batch: v2-prompt-11-premium-guest

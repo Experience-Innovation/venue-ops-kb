@@ -13,6 +13,7 @@ source_type: news-article
 url: https://news.pollstar.com/2025/06/10/live-nation-announces-1b-venue-investment/
 accessed: 2026-04-05
 description: Pollstar coverage of Live Nation's June 2025 $1B venue investment program for 18 new/revitalized US venues via Blueprint Studio.
+author: "Pollstar"
 research_batch: existing-dr-4
 domains:
   - facilities-and-building-systems

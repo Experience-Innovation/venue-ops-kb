@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.kulturecity.org/"
 accessed: 2026-04-04
 description: "KultureCity sensory inclusive certification program for venues, providing training, sensory bags, and operational guidelines to create welcoming environments for guests with sensory processing needs including autism, PTSD, and dementia."
+author: "KultureCity"
 domains:
   - inclusivity-and-accessibility
   - guest-experience

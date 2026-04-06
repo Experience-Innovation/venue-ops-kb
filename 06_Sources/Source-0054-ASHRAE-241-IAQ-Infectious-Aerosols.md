@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.ashrae.org/technical-resources/bookstore/ashrae-standard-241"
 accessed: 2026-04-04
 description: "ASHRAE Standard 241 — Control of Infectious Aerosols, the post-COVID standard for infection risk management in buildings including assembly occupancies."
+author: "ASHRAE"
+publication: "ASHRAE"
 domains:
   - facilities-and-building-systems
   - safety-and-risk

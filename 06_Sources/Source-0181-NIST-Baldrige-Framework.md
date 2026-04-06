@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.nist.gov/baldrige/baldrige-criteria-thirty-years-evolution-revolutionary-change"
 accessed: 2026-04-04
 description: "NIST overview of the Baldrige criteria's 30 years of evolution, including the Results category weighting at 450 of 1000 points, demonstrating the framework's emphasis on measurable outcomes."
+author: "National Institute of Standards and Technology (NIST)"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

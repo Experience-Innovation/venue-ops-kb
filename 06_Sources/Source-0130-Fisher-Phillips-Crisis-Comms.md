@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.fisherphillips.com/en/insights/insights/5-step-crisis-communications-plan-for-professional-sports-organizations"
 accessed: 2026-04-04
 description: "Fisher Phillips 5-step crisis communications plan for professional sports organizations, covering pre-crisis preparation, spokesperson designation, message development, media response protocols, and post-crisis review."
+author: "Fisher Phillips LLP"
 domains:
   - marketing-and-communications
   - safety-and-risk

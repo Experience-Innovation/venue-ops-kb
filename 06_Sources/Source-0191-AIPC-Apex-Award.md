@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://rogers-centre.ca/news/shaw-centre-named-worlds-best-convention-centre"
 accessed: 2026-04-04
 description: "Coverage of the AIPC Apex Award for World's Best Convention Centre, determined through Ipsos client satisfaction surveys measuring convention centre performance."
+author: "International Association of Convention Centres (AIPC)"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://mooncamp.com/blog/efqm-model"
 accessed: 2026-04-04
 description: "Overview of the EFQM Excellence Model 2020, structured around Direction, Execution, and Results blocks for organizational assessment and continuous improvement."
+author: "European Foundation for Quality Management (EFQM)"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

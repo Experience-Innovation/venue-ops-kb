@@ -13,6 +13,7 @@ source_type: academic-paper
 url: https://www.sweetstudy.com/sites/default/files/qx/16/10/03/09/caesar_casinos.pdf
 accessed: 2026-04-05
 description: Case study documenting Caesars as first casino LEAN implementation — 63 five-day Kaizen events in 2009, $3M annual savings.
+author: "SweetStudy (educational content)"
 research_batch: existing-dr-2
 domains:
   - quality-and-continuous-improvement

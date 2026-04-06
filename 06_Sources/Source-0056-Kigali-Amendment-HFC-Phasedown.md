@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.unep.org/ozonaction/who-we-are/about-montreal-protocol"
 accessed: 2026-04-04
 description: "Kigali Amendment to the Montreal Protocol — mandates phasedown of HFC refrigerants affecting ice arena and venue HVAC systems globally."
+author: "United Nations Environment Programme (UNEP)"
 domains:
   - sustainability-and-environmental
   - facilities-and-building-systems

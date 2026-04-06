@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.law.cornell.edu/cfr/text/28/36.302"
 accessed: 2026-04-04
 description: "Code of Federal Regulations 28 CFR 36.302 establishing ADA Title III requirements for modifications in policies, practices, and procedures including ticketing policies for accessible seating at venues and entertainment facilities."
+author: "Code of Federal"
 domains:
   - inclusivity-and-accessibility
 research_batch: v2-prompt-11-premium-guest

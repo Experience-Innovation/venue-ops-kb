@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.gcca.org/"
 accessed: 2026-04-04
 description: "The Global Cold Chain Alliance is the industry organization for companies involved in temperature-controlled logistics, including warehousing, transportation, and cold chain technology. Publishes cold chain best practices, certification programs, and compliance guidance."
+author: "Global Cold Chain Alliance (GCCA)"
 domains:
   - logistics-and-warehouse
   - supply-chain-and-procurement

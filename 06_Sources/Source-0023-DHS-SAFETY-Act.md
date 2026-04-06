@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.safetyact.gov"
 accessed: 2026-03-15
 description: "DHS SAFETY Act — Support Anti-Terrorism by Fostering Effective Technologies, providing liability protection through Designation and Certification tiers for qualified anti-terrorism technologies."
+author: "Department of Homeland Security (DHS)"
 domains:
   - security
   - legal-compliance-and-licensing

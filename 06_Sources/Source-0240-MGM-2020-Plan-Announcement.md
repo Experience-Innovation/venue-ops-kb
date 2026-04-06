@@ -13,6 +13,8 @@ source_type: news-article
 url: https://www.prnewswire.com/news-releases/mgm-resorts-international-announces-mgm-2020-plan-300772286.html
 accessed: 2026-04-05
 description: MGM Resorts International's announcement of the MGM 2020 Plan — $300M annualized EBITDA uplift via organizational efficiency and digital transformation.
+author: "MGM Resorts International"
+publication: "PR Newswire"
 research_batch: existing-dr-2
 domains:
   - strategy-and-governance

@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://umbrex.com/resources/frameworks/organization-frameworks/malcolm-baldrige-performance-excellence-framework/"
 accessed: 2026-04-04
 description: "Explanation of the Baldrige Performance Excellence Framework's ADLI (Approach, Deployment, Learning, Integration) and LeTCI (Levels, Trends, Comparisons, Integration) scoring logic for process and results evaluation."
+author: "Baldrige Foundation"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

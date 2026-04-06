@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.leanpath.com/"
 accessed: 2026-04-04
 description: "Leanpath provides food waste tracking and prevention technology for commercial food service operations. Combines hardware (scales, cameras) with analytics software to measure pre-consumer food waste, identify waste patterns, and drive behavioral change in kitchen operations."
+author: "Leanpath, Inc."
 domains:
   - food-and-beverage
   - sustainability-and-environmental

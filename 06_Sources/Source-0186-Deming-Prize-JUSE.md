@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.juse.or.jp/deming_en/challenge/03.html"
 accessed: 2026-04-04
 description: "JUSE overview of Deming Prize evaluation criteria for Total Quality Management, covering the assessment framework for organizational TQM implementation."
+author: "Japanese Union of Scientists and Engineers (JUSE)"
 domains:
   - quality-and-continuous-improvement
 research_batch: supp-awards-ecosystem

@@ -13,6 +13,7 @@ source_type: vendor-documentation
 url: https://disneyworld.disney.go.com/media/dwm/images/disneyinstitute/pdfs/StartHolding.pdf
 accessed: 2026-04-05
 description: Disney Institute documentation of their Quality Service framework with Service Theme and Standard Operating Procedures model.
+author: "Disney Institute"
 research_batch: existing-dr-2
 domains:
   - quality-and-continuous-improvement

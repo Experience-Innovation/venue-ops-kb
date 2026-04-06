@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://thorbroadcast.com/article/stadium-iptv-replay-system-case-study.html"
 accessed: 2026-04-04
 description: "Case study on ultra-low-latency IPTV and replay distribution in modern sports stadiums, covering encoding, multicast delivery, and synchronized video distribution to thousands of endpoints."
+author: "Thor Broadcast"
 domains:
   - av-and-production
   - technology-and-digital

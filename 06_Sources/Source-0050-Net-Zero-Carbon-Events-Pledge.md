@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.netzerocarbonevents.org/"
 accessed: 2026-04-04
 description: "Net Zero Carbon Events initiative — industry pledge committing event venues and organizers to halve emissions by 2030 and reach net zero by 2050."
+author: "Joint Meetings Industry Council"
 domains:
   - sustainability-and-environmental
 research_batch: v2-prompt-02-facilities

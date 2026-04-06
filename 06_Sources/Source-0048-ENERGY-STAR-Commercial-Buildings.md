@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.energystar.gov/buildings"
 accessed: 2026-04-04
 description: "ENERGY STAR Portfolio Manager — EPA benchmarking tool for commercial building energy performance, including arenas and convention centres."
+author: "U.S. Environmental Protection Agency (EPA)"
 domains:
   - sustainability-and-environmental
   - facilities-and-building-systems

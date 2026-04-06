@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.justice.gov/archives/opa/pr/justice-department-issues-web-accessibility-guidance-under-americans-disabilities-act"
 accessed: 2026-04-04
 description: "U.S. Department of Justice March 2022 guidance on website accessibility under the Americans with Disabilities Act, clarifying that ADA obligations extend to venue websites, online ticketing platforms, and digital services offered by places of public accommodation."
+author: "U.S. Department of Justice"
 domains:
   - inclusivity-and-accessibility
   - technology-and-digital

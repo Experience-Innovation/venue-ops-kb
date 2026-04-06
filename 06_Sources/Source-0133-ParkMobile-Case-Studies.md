@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://parkmobile.io/resource-center/case-studies/parkmobile-case-study-book"
 accessed: 2026-04-04
 description: "ParkMobile case study collection featuring Mercedes-Benz Stadium pre-paid parking implementation, demonstrating mobile-first parking reservation systems, dynamic pricing models, and integration with venue event management platforms."
+author: "ParkMobile"
 domains:
   - parking-and-transportation
   - technology-and-digital

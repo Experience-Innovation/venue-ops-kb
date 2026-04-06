@@ -13,6 +13,7 @@ source_type: regulatory-document
 url: https://www.nist.gov/blogs/blogridge/ritz-carlton-practices-building-world-class-service-culture
 accessed: 2026-04-05
 description: NIST Baldrige blog documenting Ritz-Carlton Gold Standards practices, twice-winner of Malcolm Baldrige National Quality Award.
+author: "NIST Baldrige blog documenting Ritz-Carlton Gold"
 research_batch: existing-dr-2
 domains:
   - quality-and-continuous-improvement

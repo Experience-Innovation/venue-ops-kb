@@ -4,7 +4,7 @@ note_type: concept
 domain: "legal-compliance-and-licensing"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Venue naming rights agreements grant sponsors trademark license rights over venue branding, requiring trademark registration, written co-branding licenses with quality control provisions, and protection against unauthorized third-party use under the Lanham Act."
 venue_types:
   - arena
@@ -17,7 +17,12 @@ vef_alignment:
   - systems-processes-clarity-of-roles
 confidence: high
 sources:
-  - "[[Source-0166-17-USC-106-Copyright]]"
+  - "[[Source-0285-Cornell-LII-Lanham-Act]]"
+  - "[[Source-0286-McMillan-Canadian-Trademarks-Act-2019]]"
+  - "[[Source-0287-Missouri-Law-Review-Naked-Licensing]]"
+  - "[[Source-0288-Hoge-Fenton-Venue-Naming-Rights-IP]]"
+  - "[[Source-0289-Lavery-Canadian-Venue-Naming-Rights]]"
+  - "[[Source-0290-WIPO-Ambush-Marketing-Venues]]"
 research_batch: v2-prompt-09-financial
 child_of: "[[Domain-Legal-Compliance-And-Licensing]]"
 related_to:
@@ -47,17 +52,19 @@ Naming rights agreements are among the largest single-source revenue contracts i
 
 ## Trademark Registration and Protection
 
-- Both the sponsor's marks and the combined venue name should be registered as trademarks with the USPTO (or CIPO in Canada) to secure federal protection
-- Registration establishes constructive notice of ownership and the legal presumption of validity — critical for enforcement actions
-- The Lanham Act (15 U.S.C. 1051 et seq.) provides the federal framework for trademark protection, including civil remedies against infringement, counterfeiting, and dilution
-- Venue operators must actively monitor for unauthorized use of the venue name by ambush marketers, counterfeit merchandise producers, and unauthorized ticket resellers
+The Lanham (Trademark) Act (15 U.S.C. §§ 1051 et seq.) — entirely distinct from the Copyright Act (17 U.S.C. § 106) — provides the US federal framework for trademark protection ([[Source-0285-Cornell-LII-Lanham-Act]]). For venue operators, three sections carry direct operational significance: Section 32 (§1114) creates civil remedies against infringement of registered marks, Section 43(a) (§1125a) extends protection to both registered and unregistered marks against false designation of origin and ambush marketing, and Section 43(c) (§1125c) protects famous marks against dilution by blurring or tarnishment.
+
+Both the sponsor's marks and the combined venue name should be registered as trademarks with the USPTO to secure federal protection. In Canada, the Trademarks Act (R.S.C. 1985, c. T-13), substantially modernized in 2019 with Madrid Protocol adoption, provides the equivalent framework through CIPO registration ([[Source-0286-McMillan-Canadian-Trademarks-Act-2019]]).
+
+Venue operators must actively monitor for unauthorized use of the venue name by ambush marketers, counterfeit merchandise producers, and unauthorized ticket resellers — enforcement primarily through Section 43(a) and anti-ambush marketing strategies ([[Source-0290-WIPO-Ambush-Marketing-Venues]]).
 
 ## Co-Branding Governance
 
-- Written co-branding licenses define the scope of permissible use for both the sponsor's marks and the venue's marks across all media: signage, digital, broadcast, merchandise, and wayfinding
-- **Quality control provisions** are mandatory in trademark licenses — without them, a licensor risks "naked licensing," which can result in abandonment of trademark rights
-- Style guides, approval workflows, and usage standards should be annexed to the naming rights agreement and updated periodically
-- Third-party sublicensing (e.g., a venue tenant using the venue name in their own marketing) requires explicit authorization in the agreement
+Written co-branding licenses define the scope of permissible use for both the sponsor's marks and the venue's marks across all media: signage, digital, broadcast, merchandise, and wayfinding ([[Source-0288-Hoge-Fenton-Venue-Naming-Rights-IP]]).
+
+**Quality control provisions** are mandatory in trademark licenses — without them, a licensor risks "naked licensing," which can result in abandonment of trademark rights. The naked licensing doctrine requires licensors to impose and enforce quality control standards on licensees; failure to do so constitutes an implied abandonment of the mark ([[Source-0287-Missouri-Law-Review-Naked-Licensing]]). Style guides, approval workflows, and usage standards should be annexed to the naming rights agreement and updated periodically. Third-party sublicensing (e.g., a venue tenant using the venue name in their own marketing) requires explicit authorization in the agreement.
+
+In Canada, venue naming rights agreements follow a parallel trademark licensing framework under the Trademarks Act, with morals clauses and IP governance provisions adapted to Canadian law ([[Source-0289-Lavery-Canadian-Venue-Naming-Rights]]).
 
 ## Transition and Rebranding
 
@@ -67,4 +74,9 @@ Naming rights agreements are among the largest single-source revenue contracts i
 
 ## Sources
 
-- [[Source-0166-17-USC-106-Copyright]]
+- [[Source-0285-Cornell-LII-Lanham-Act]]
+- [[Source-0286-McMillan-Canadian-Trademarks-Act-2019]]
+- [[Source-0287-Missouri-Law-Review-Naked-Licensing]]
+- [[Source-0288-Hoge-Fenton-Venue-Naming-Rights-IP]]
+- [[Source-0289-Lavery-Canadian-Venue-Naming-Rights]]
+- [[Source-0290-WIPO-Ambush-Marketing-Venues]]

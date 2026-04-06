@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
 accessed: 2026-04-04
 description: "NFPA 70 (National Electrical Code) governs electrical installation requirements including temporary event power distribution, Cam-Lok and Powerlock connector standards, and 400A 3-phase service provisions used in venue production environments."
+author: "National Fire Protection Association (NFPA)"
+publication: "NFPA"
 domains:
   - av-and-production
   - facilities-and-building-systems

@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://ops.fhwa.dot.gov/publications/fhwahop18072/context6.htm"
 accessed: 2026-04-04
 description: "Federal Highway Administration guidance on managing special events using parking and traffic demand management strategies, covering pre-event planning, real-time operations, and post-event traffic dispersal for large venues."
+author: "Federal Highway Administration (FHWA)"
 domains:
   - parking-and-transportation
 research_batch: v2-prompt-10-commercial

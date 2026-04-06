@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://aglc.ca/forms/special-event-licence-private-policies-and-guidelines"
 accessed: 2026-04-04
 description: "Alberta Gaming, Liquor and Cannabis Commission policies and guidelines for special event liquor licences, covering application requirements, service area restrictions, server training mandates, and compliance obligations for venue operators in Alberta."
+author: "Alberta Gaming, Liquor and Cannabis (AGLC)"
 domains:
   - premium-and-vip
   - legal-compliance-and-licensing

@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.nist.gov/baldrige/ritz-carlton-hotel-company-llc"
 accessed: 2026-04-04
 description: "NIST profile of the Ritz-Carlton Hotel Company as the only hospitality organization to win the Malcolm Baldrige National Quality Award twice, demonstrating sustained excellence in service quality."
+author: "The Ritz-Carlton Leadership Center"
 domains:
   - quality-and-continuous-improvement
   - guest-experience

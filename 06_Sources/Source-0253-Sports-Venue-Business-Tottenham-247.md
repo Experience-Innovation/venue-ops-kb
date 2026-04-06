@@ -12,6 +12,7 @@ source_type: industry-publication
 url: https://sportsvenuebusiness.com/2025/10/28/tottenham-hotspur-and-24-7-software-leaders-in-sport-and-technology-unite-for-operational-excellence/
 accessed: 2026-04-05
 description: Sports Venue Business coverage of Tottenham Hotspur Stadium's EliteOps deployment with 24/7 Software partnership.
+author: "Sports Venue Business"
 research_batch: existing-dr-2
 domains:
   - technology-and-digital

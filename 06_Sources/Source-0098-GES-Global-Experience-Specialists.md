@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://ges.com/"
 accessed: 2026-04-04
 description: "GES (now Viad Corp's Global Experience Specialists) provides exhibition services, event logistics, and experiential marketing for trade shows and conventions. Operates as a general service contractor with material handling and exhibitor services."
+author: "GES (Global Experience Specialists)"
 domains:
   - event-operations
   - logistics-and-warehouse

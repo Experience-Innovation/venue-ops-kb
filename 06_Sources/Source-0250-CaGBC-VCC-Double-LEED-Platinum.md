@@ -13,6 +13,7 @@ source_type: trade-association
 url: https://www.cagbc.org/news-resources/cagbc-news/vancouver-convention-centre-is-worlds-first-double-leed-platinum-certified-convention-centre-and-first-v4-platinum-existing-building-project-in-canada/
 accessed: 2026-04-05
 description: Canada Green Building Council announcement of Vancouver Convention Centre as world's first double LEED Platinum convention centre.
+author: "Canada Green Building Council / Vancouver Convention Centre"
 research_batch: existing-dr-2
 domains:
   - sustainability-and-environmental

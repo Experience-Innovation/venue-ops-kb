@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.servsafe.com/"
 accessed: 2026-04-04
 description: "ServSafe is the food and beverage safety training and certification program administered by the National Restaurant Association. It is the most widely recognized food safety certification in the United States, covering food handler, manager, and allergen training programs."
+author: "National Restaurant Association"
 domains:
   - food-and-beverage
   - people-and-culture

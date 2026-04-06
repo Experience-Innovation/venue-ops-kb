@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.iccsafe.org/products-and-services/i-codes/2024-i-codes/ibc/"
 accessed: 2026-04-04
 description: "International Building Code — assembly occupancy classifications, egress requirements, plumbing fixture counts, and fire protection requirements for venues."
+author: "International Building"
 domains:
   - facilities-and-building-systems
   - safety-and-risk

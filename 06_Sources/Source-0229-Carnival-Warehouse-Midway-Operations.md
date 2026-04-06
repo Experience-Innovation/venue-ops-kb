@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://carnivalwarehouse.com/newsserver/midway-millennials-greg-inman-operations-manager-amusements-of-america-1722297600"
 accessed: 2026-04-04
 description: "Profile of a midway operations manager covering responsibility for transporting, setting up, inspecting, operating, and tearing down travelling amusement rides, games, and food concessions across multiple fairgrounds."
+author: "Carnival / Exhibition Industry"
 domains:
   - event-operations
 research_batch: v2-prompt-01-event-ops

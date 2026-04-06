@@ -8,6 +8,8 @@ source_type: regulatory-document
 url: "https://www.nfpa.org/codes-and-standards/nfpa-70e-standard-development/70e"
 accessed: 2026-04-04
 description: "NFPA 70E establishes electrical safety practices for workers including arc flash risk assessment, PPE requirements, and lockout/tagout procedures applicable to venue production power distribution and temporary electrical installations."
+author: "National Fire Protection Association (NFPA)"
+publication: "NFPA"
 domains:
   - av-and-production
   - safety-and-risk

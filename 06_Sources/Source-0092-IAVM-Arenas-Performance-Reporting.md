@@ -8,6 +8,8 @@ source_type: trade-association
 url: "https://iavm.org/wp-content/uploads/2023/10/IAVMArenasPerformanceReportingHandbook_07302023.pdf"
 accessed: 2026-04-04
 description: "IAVM handbook establishing standardized performance metrics for arena operations including GBOR/NBOR calculations, event settlement methodologies, and financial benchmarking across the arena industry."
+author: "International Association of Venue Managers (IAVM)"
+publication: "IAVM"
 domains:
   - event-operations
   - financial-operations

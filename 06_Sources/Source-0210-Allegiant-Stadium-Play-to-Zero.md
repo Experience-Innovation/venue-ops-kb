@@ -8,6 +8,7 @@ source_type: industry-publication
 url: "https://www.allegiantstadium.com/news/detail/allegiant-stadium-recognized-at-the-2025-green-sports-alliance-play-to-zero-awards"
 accessed: 2026-04-04
 description: "Allegiant Stadium recognized at the 2025 Green Sports Alliance Play to Zero Awards as Energy Champion, Waste Leader, and Health & Wellness honoree for venue sustainability performance."
+author: "Allegiant Stadium"
 domains:
   - sustainability-and-environmental
 research_batch: supp-awards-ecosystem

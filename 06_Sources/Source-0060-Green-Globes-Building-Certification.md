@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://thegbi.org/green-globes-certification/"
 accessed: 2026-04-04
 description: "Green Globes — green building certification and assessment program, an alternative to LEED commonly used for existing buildings."
+author: "Green Building Initiative (GBI)"
 domains:
   - sustainability-and-environmental
 research_batch: v2-prompt-02-facilities

@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.sesac.com/why-you-need-a-public-performance-license/"
 accessed: 2026-04-04
 description: "SESAC explanation of public performance licensing requirements for venues, covering when a license is needed, what constitutes a public performance of music, and the legal obligations of venue operators under U.S. copyright law."
+author: "SESAC (Society of European Stage Authors and Composers)"
 domains:
   - legal-compliance-and-licensing
 research_batch: v2-prompt-09-financial

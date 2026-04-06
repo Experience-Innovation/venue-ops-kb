@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers"
 accessed: 2026-04-04
 description: "Federal Trade Commission guidance on disclosure requirements for social media influencers and endorsements, covering material connection disclosure rules, clear and conspicuous placement standards, and compliance obligations for venue influencer marketing partnerships."
+author: "Federal Trade Commission guidance on disclosure"
 domains:
   - marketing-and-communications
 research_batch: v2-prompt-10-commercial

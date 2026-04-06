@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://mygfsi.com/"
 accessed: 2026-04-04
 description: "GFSI is a private sector coalition managed by The Consumer Goods Forum that benchmarks food safety management schemes worldwide. GFSI-recognized schemes include SQF, BRC, FSSC 22000, and IFS, providing a common framework for supplier qualification and food safety audit standards."
+author: "Global Food Safety Initiative (GFSI)"
 domains:
   - supply-chain-and-procurement
   - food-and-beverage

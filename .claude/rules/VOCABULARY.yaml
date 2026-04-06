@@ -154,6 +154,8 @@ research_batch:
   # Supplementary research
   - supp-fb-awards          # F&B Awards & Certifications (Session 9)
   - supp-awards-ecosystem   # Venue Awards Ecosystem (Session 9)
+  # Targeted remediation research (Phase B.5)
+  - dr-remediation-s18      # 5 targeted Perplexity DR prompts resolving DELTA-007 through DELTA-011 (Session 18)
 
 vef_alignment:
   # Core Outcomes

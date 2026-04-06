@@ -13,6 +13,7 @@ source_type: news-article
 url: https://www.einpresswire.com/article/805574431/the-ritz-carlton-leadership-center-brings-a-culture-of-excellence-to-life-in-immersive-course-for-organizations
 accessed: 2026-04-05
 description: Announcement of Ritz-Carlton Leadership Center's "Culture of Excellence" immersive two-day course for external organizations, Toronto May 2025.
+author: "The Ritz-Carlton Leadership Center"
 research_batch: existing-dr-2
 domains:
   - people-and-culture

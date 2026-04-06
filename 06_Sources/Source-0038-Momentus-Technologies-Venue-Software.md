@@ -8,6 +8,7 @@ source_type: vendor-documentation
 url: "https://www.momentus.eu/"
 accessed: 2026-04-04
 description: "Momentus Technologies (formerly Ungerboeck) — venue management software for event scheduling, space management, and resource allocation."
+author: "Momentus Technologies"
 domains:
   - facilities-and-building-systems
   - technology-and-digital

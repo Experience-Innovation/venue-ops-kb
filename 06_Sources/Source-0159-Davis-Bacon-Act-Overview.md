@@ -8,6 +8,7 @@ source_type: regulatory-document
 url: "https://www.hudexchange.info/resource/2640/davis-bacon-act-40-usc-3141-et-seq/"
 accessed: 2026-04-04
 description: "HUD Exchange reference on the Davis-Bacon Act (40 USC 3141 et seq.) establishing prevailing wage requirements for federally funded or assisted public construction projects, applicable to publicly owned venue construction and major renovation contracts."
+author: "HUD Exchange reference on the Davis-Bacon"
 domains:
   - legal-compliance-and-licensing
   - people-and-culture

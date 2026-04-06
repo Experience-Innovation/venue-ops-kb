@@ -8,6 +8,7 @@ source_type: trade-association
 url: "https://www.greensportsalliance.org/playtozero"
 accessed: 2026-04-04
 description: "Green Sports Alliance Play to Zero sustainability awards program recognizing sport and entertainment venues for achievements in environmental performance and climate action."
+author: "Green Sports Alliance"
 domains:
   - sustainability-and-environmental
 research_batch: supp-awards-ecosystem

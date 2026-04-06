@@ -20,7 +20,7 @@ confidence: high
 sources:
   - "[[Source-0151-US-Treasury-TRIA-Program]]"
   - "[[Source-0152-NAIC-TRIA-Overview]]"
-  - "[[Source-0167-III-TRIA]]"
+  - "[[Source-0167-III-TRIA-Report]]"
 research_batch: v2-prompt-09-financial
 child_of: "[[Domain-Legal-Compliance-And-Licensing]]"
 governed_by:
@@ -76,4 +76,4 @@ The Terrorism Risk Insurance Act was enacted in 2002 following the September 11,
 
 - [[Source-0151-US-Treasury-TRIA-Program]]
 - [[Source-0152-NAIC-TRIA-Overview]]
-- [[Source-0167-III-TRIA]]
+- [[Source-0167-III-TRIA-Report]]

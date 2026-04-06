@@ -23,12 +23,12 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 
 | Metric | Count |
 |---|:-:|
-| Total entries | 5 |
+| Total entries | 13 |
 | Open | 0 |
 | In progress | 0 |
-| Resolved (inline) | 4 |
+| Resolved (inline) | 5 |
 | Resolved (batch) | 0 |
-| Deferred | 1 |
+| Deferred | 8 |
 | Accepted | 0 |
 
 ## By Severity
@@ -36,9 +36,9 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 | Severity | Count |
 |---|:-:|
 | Critical | 0 |
-| High | 0 |
-| Medium | 1 |
-| Low | 4 |
+| High | 5 |
+| Medium | 3 |
+| Low | 5 |
 
 ## By Category
 
@@ -48,8 +48,8 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 | Vocabulary | 3 | Controlled vocabulary drift vs VOCABULARY.yaml |
 | Citation | 2 | Source note bibliographic metadata gaps |
 | Consistency | 0 | Editorial/structural consistency within domains |
-| Obsidian | 0 | Vault mountability, broken links, graph integrity |
-| Traceability | 0 | Claim-to-source traceability in concept bodies |
+| Obsidian | 1 | Vault mountability, broken links, graph integrity |
+| Traceability | 7 | Claim-to-source traceability in concept bodies |
 | Confidence | 0 | Confidence tier defensibility |
 | Other | 0 | Uncategorized |
 
@@ -58,6 +58,7 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 | Session | Date | Scope | Opened | Resolved | Deferred |
 |---|---|---|:-:|:-:|:-:|
 | S16 | 2026-04-05 | Consolidation Pass (B.5 Phase 1) | 5 | 4 (resolved-inline) | 1 → S18 CI cycle (DELTA-004) |
+| S17 | 2026-04-05 | A-04 Part 1 traceability audit (82 concepts, A-L) | 8 | 1 (obsidian resolved-inline) | 7 → S18 (6) / S18-S20 (1) |
 
 ## Entries
 
@@ -65,11 +66,19 @@ Machine-readable backlog for the **Academic Rigor Initiative** (Phase B.5, S16-S
 |---|---|:-:|:-:|---|:-:|
 | DELTA-001 | vocabulary | low | resolved-inline | `status: active` in roadmap → renamed `lifecycle: active` | ✅ S16 |
 | DELTA-002 | vocabulary | low | resolved-inline | `status: active` in operational plan → renamed `lifecycle: active` | ✅ S16 |
-| DELTA-003 | vocabulary | low | resolved-inline | `status: PASS` in audit-A01 → renamed `audit_outcome: PASS` (other audit reports already used convention) | ✅ S16 |
-| DELTA-004 | citation | medium | deferred | 260 source notes missing author/publication/publish_date | **S18 CI cycle (centerpiece)** |
+| DELTA-003 | vocabulary | low | resolved-inline | `status: PASS` in audit-A01 → renamed `audit_outcome: PASS` | ✅ S16 |
+| DELTA-004 | citation | medium | deferred | 260 source notes missing author/publication/publish_date | **S18 CI cycle** |
 | DELTA-005 | citation | low | resolved-inline | 26 domain overviews → added 5 framework anchor sources each | ✅ S16 |
+| DELTA-006 | obsidian | medium | resolved-inline | 3 broken wikilinks in legal-compliance concepts → renamed/removed | ✅ S17 |
+| DELTA-007 | traceability | high | deferred | Gender-Inclusive-Facilities: IPC/UPC + Canadian HR + BMO Field unsourced | S18 |
+| DELTA-008 | traceability | high | deferred | Indigenous-Cultural-Programming: TRC + 94 Calls to Action unsourced | S18 |
+| DELTA-009 | traceability | high | deferred | Liquor-Licensing: sources are food/labor, not liquor-specific | S18 |
+| DELTA-010 | traceability | high | deferred | Responsible-Beverage-Service: covers 1 of 6 named programs | S18 |
+| DELTA-011 | traceability | high | deferred | Naming-Rights: Copyright source (17 USC) but Trademark topic (15 USC) | S18 |
+| DELTA-012 | traceability | medium | deferred | 11 MED-severity A-04 Part 1 traceability gaps (aggregate) | S18 |
+| DELTA-013 | traceability | low | deferred | 13 LOW-severity citation-strengthening opportunities (aggregate) | S18-S20 |
 
-*Entries 001-003 + 005 resolved in S16 per Alex directive 2026-04-05 to fix inline where scope permits. Entry 004 deferred to S18 — reframed as the Academic Rigor Initiative's first **Continuous Improvement / Enrichment Cycle** session with 260-source bibliographic enrichment as the centerpiece deliverable.*
+*S16 entries: governance-artifact field conventions + domain overview citations (4 resolved inline + 1 deferred). S17 entries (006-013): from A-04 Part 1 traceability audit of 82 concepts. DELTA-006 obsidian fixes resolved inline. DELTA-007 through DELTA-011 are structural HIGH-severity gaps in single-source or misaligned-source concepts. DELTA-012 + DELTA-013 are aggregate entries for the 24 MED/LOW gaps — see `_Pipeline/Validation/audit-A04-claim-traceability-p1.md` for per-concept breakdown.*
 
 ## How to Add an Entry
 

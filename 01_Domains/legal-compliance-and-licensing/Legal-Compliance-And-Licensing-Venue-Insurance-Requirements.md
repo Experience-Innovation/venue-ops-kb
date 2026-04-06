@@ -19,7 +19,6 @@ research_batch: v2-prompt-09-financial
 child_of: "[[Domain-Legal-Compliance-And-Licensing]]"
 related_to:
   - "[[Legal-Compliance-And-Licensing-Terrorism-Risk-Insurance]]"
-  - "[[Financial-Operations-Insurance-Coverage]]"
 varies_by:
   - jurisdiction
   - venue_type

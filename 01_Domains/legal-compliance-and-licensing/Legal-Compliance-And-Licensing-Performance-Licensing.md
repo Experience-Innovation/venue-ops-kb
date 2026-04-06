@@ -13,7 +13,7 @@ vef_alignment:
   - operational-efficiency-productivity-creativity
 confidence: high
 sources:
-  - "[[Source-0164-SESAC-Performance-License]]"
+  - "[[Source-0164-SESAC-Public-Performance-License]]"
   - "[[Source-0165-BMI-Royalty-Policy]]"
   - "[[Source-0166-17-USC-106-Copyright]]"
 research_batch: v2-prompt-09-financial
@@ -67,6 +67,6 @@ The Copyright Act (17 U.S.C. 106) grants copyright holders the exclusive right t
 
 ## Sources
 
-- [[Source-0164-SESAC-Performance-License]]
+- [[Source-0164-SESAC-Public-Performance-License]]
 - [[Source-0165-BMI-Royalty-Policy]]
 - [[Source-0166-17-USC-106-Copyright]]

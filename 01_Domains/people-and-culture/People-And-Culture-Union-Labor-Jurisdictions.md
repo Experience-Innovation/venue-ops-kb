@@ -22,7 +22,7 @@ sources:
   - "[[Source-0156-IATSE-Local-118-Agreements]]"
   - "[[Source-0157-UNITE-HERE-Stadium-Contract]]"
   - "[[Source-0158-EACA-Union-Work-Rules]]"
-  - "[[Source-0172-TicketFairy-Union-Labor]]"
+  - "[[Source-0172-TicketFairy-Union-Labor-2026]]"
 research_batch: v2-prompt-09-financial
 child_of: "[[Domain-People-And-Culture]]"
 related_to:
@@ -94,4 +94,4 @@ Major venues commonly operate under three to six or more simultaneous collective
 - [[Source-0156-IATSE-Local-118-Agreements]]
 - [[Source-0157-UNITE-HERE-Stadium-Contract]]
 - [[Source-0158-EACA-Union-Work-Rules]]
-- [[Source-0172-TicketFairy-Union-Labor]]
+- [[Source-0172-TicketFairy-Union-Labor-2026]]

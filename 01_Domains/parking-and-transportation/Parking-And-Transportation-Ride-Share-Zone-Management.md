@@ -18,8 +18,8 @@ vef_alignment:
   - systems-processes-clarity-of-roles
 confidence: high
 sources:
-  - "[[Source-0150-TicketFairy-Rideshare]]"
-  - "[[Source-0132-FHWA-Special-Events]]"
+  - "[[Source-0150-TicketFairy-Rideshare-Coordination]]"
+  - "[[Source-0132-FHWA-Special-Events-Guidance]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Parking-And-Transportation]]"
 related_to:
@@ -80,5 +80,5 @@ Arenas and stadiums face the most intense PUDO demand due to simultaneous post-e
 
 ## Sources
 
-- [[Source-0150-TicketFairy-Rideshare]]
-- [[Source-0132-FHWA-Special-Events]]
+- [[Source-0150-TicketFairy-Rideshare-Coordination]]
+- [[Source-0132-FHWA-Special-Events-Guidance]]

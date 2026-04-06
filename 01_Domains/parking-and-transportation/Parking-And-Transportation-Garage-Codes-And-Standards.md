@@ -18,7 +18,7 @@ vef_alignment:
   - systems-processes-clarity-of-roles
 confidence: high
 sources:
-  - "[[Source-0139-IES-RP20-Parking-Lighting]]"
+  - "[[Source-0139-IES-RP-20-Parking-Lighting]]"
   - "[[Source-0141-NFPA-88A-Parking-Structures]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Parking-And-Transportation]]"
@@ -75,5 +75,5 @@ Arena and stadium garages typically handle high-volume surge loading before and 
 
 ## Sources
 
-- [[Source-0139-IES-RP20-Parking-Lighting]]
+- [[Source-0139-IES-RP-20-Parking-Lighting]]
 - [[Source-0141-NFPA-88A-Parking-Structures]]

@@ -15,7 +15,7 @@ vef_alignment:
   - innovation-and-continuous-improvement
 confidence: medium
 sources:
-  - "[[Source-0132-FHWA-Special-Events]]"
+  - "[[Source-0132-FHWA-Special-Events-Guidance]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Parking-And-Transportation]]"
 related_to:
@@ -73,4 +73,4 @@ Arenas and stadiums in urban locations typically have the strongest transit inte
 
 ## Sources
 
-- [[Source-0132-FHWA-Special-Events]]
+- [[Source-0132-FHWA-Special-Events-Guidance]]

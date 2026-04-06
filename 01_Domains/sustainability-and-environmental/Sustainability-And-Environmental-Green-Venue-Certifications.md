@@ -16,8 +16,8 @@ vef_alignment:
   - innovation-and-continuous-improvement
 confidence: high
 sources:
-  - "[[Source-0199-Green-Sports-Alliance]]"
-  - "[[Source-0200-LEED-OM-Venues]]"
+  - "[[Source-0199-Green-Sports-Alliance-Play-to-Zero]]"
+  - "[[Source-0200-LEED-OM-for-Venues]]"
   - "[[Source-0202-BOMA-BEST-Canada]]"
   - "[[Source-0210-Allegiant-Stadium-Play-to-Zero]]"
 research_batch: supp-awards-ecosystem
@@ -84,7 +84,7 @@ Green certifications serve three strategic purposes for venue operators: (1) the
 
 ## Sources
 
-- [[Source-0199-Green-Sports-Alliance]]
-- [[Source-0200-LEED-OM-Venues]]
+- [[Source-0199-Green-Sports-Alliance-Play-to-Zero]]
+- [[Source-0200-LEED-OM-for-Venues]]
 - [[Source-0202-BOMA-BEST-Canada]]
 - [[Source-0210-Allegiant-Stadium-Play-to-Zero]]

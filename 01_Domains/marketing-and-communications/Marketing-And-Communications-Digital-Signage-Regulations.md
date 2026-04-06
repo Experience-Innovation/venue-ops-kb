@@ -19,7 +19,7 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0146-Calgary-Sign-Code]]"
-  - "[[Source-0147-ISA-EMC-Brightness]]"
+  - "[[Source-0147-ISA-EMC-Brightness-Recommendations]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Marketing-And-Communications]]"
 governed_by:
@@ -89,4 +89,4 @@ Stadiums and arenas typically have the most complex signage programs due to larg
 ## Sources
 
 - [[Source-0146-Calgary-Sign-Code]]
-- [[Source-0147-ISA-EMC-Brightness]]
+- [[Source-0147-ISA-EMC-Brightness-Recommendations]]

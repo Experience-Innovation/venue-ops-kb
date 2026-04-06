@@ -14,7 +14,7 @@ vef_alignment:
   - systems-processes-clarity-of-roles
 confidence: high
 sources:
-  - "[[Source-0170-IBCCES-Autism-Certification]]"
+  - "[[Source-0170-IBCCES-Certified-Autism-Center]]"
   - "[[Source-0171-KultureCity-Sensory-Inclusive]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-People-And-Culture]]"
@@ -77,5 +77,5 @@ Venue staff interact with thousands of guests per event, making front-of-house t
 
 ## Sources
 
-- [[Source-0170-IBCCES-Autism-Certification]]
+- [[Source-0170-IBCCES-Certified-Autism-Center]]
 - [[Source-0171-KultureCity-Sensory-Inclusive]]

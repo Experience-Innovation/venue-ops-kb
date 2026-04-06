@@ -14,7 +14,7 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0137-ADA-Standards-Accessible-Design]]"
-  - "[[Source-0138-US-Access-Board-Parking]]"
+  - "[[Source-0138-US-Access-Board-Parking-Scoping]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Parking-And-Transportation]]"
 governed_by:
@@ -44,7 +44,7 @@ The 2010 ADA Standards for Accessible Design establish mandatory minimum require
 ## Key Components
 
 - **Scoping formulas** — the number of required accessible spaces scales with total parking supply: lots with 1-25 total spaces require 1 accessible space; 26-50 require 2; 51-75 require 3; 76-100 require 4; 101-150 require 5; 151-200 require 6; 201-300 require 7; 301-400 require 8; 401-500 require 9; for 501-1,000 spaces, 2% of total are required; for 1,001+ spaces, 20 plus 1 for each 100 over 1,000 ([[Source-0137-ADA-Standards-Accessible-Design]])
-- **Van-accessible spaces** — at least one of every six accessible spaces (or fraction thereof) must be van-accessible, requiring a minimum 132-inch-wide space with a 60-inch-wide access aisle and 98-inch minimum vertical clearance ([[Source-0138-US-Access-Board-Parking]])
+- **Van-accessible spaces** — at least one of every six accessible spaces (or fraction thereof) must be van-accessible, requiring a minimum 132-inch-wide space with a 60-inch-wide access aisle and 98-inch minimum vertical clearance ([[Source-0138-US-Access-Board-Parking-Scoping]])
 - **Standard accessible spaces** — minimum 96-inch-wide parking space with a 60-inch-wide access aisle; access aisles must connect to an accessible route
 - **Accessible route to entrances** — ADA Section 206.2.1 requires an accessible route from accessible parking spaces to the accessible building entrance; the route must be the shortest practical distance and must not require traveling behind parked vehicles
 - **Per-facility calculation** — accessible space counts are calculated per parking facility (lot or structure), not aggregated across the entire venue campus; each lot must independently meet its scoping requirement
@@ -64,4 +64,4 @@ Large venue campuses with multiple parking facilities must calculate accessible 
 ## Sources
 
 - [[Source-0137-ADA-Standards-Accessible-Design]]
-- [[Source-0138-US-Access-Board-Parking]]
+- [[Source-0138-US-Access-Board-Parking-Scoping]]

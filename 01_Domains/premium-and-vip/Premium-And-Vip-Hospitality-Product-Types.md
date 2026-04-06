@@ -15,9 +15,9 @@ vef_alignment:
   - operational-efficiency-productivity-creativity
 confidence: high
 sources:
-  - "[[Source-0121-Sports-Hospitality-Market]]"
+  - "[[Source-0121-Sports-Hospitality-Market-Analysis]]"
   - "[[Source-0122-ALSD-Premium-Seat-Benchmarks]]"
-  - "[[Source-0123-SBJ-Premium-Seating]]"
+  - "[[Source-0123-SBJ-Premium-Seating-Facilities]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Premium-And-Vip]]"
 related_to:
@@ -52,7 +52,7 @@ The sports hospitality market was valued at approximately $17.5 billion in 2025,
 
 ## Industry Context
 
-The trend toward product diversification is driven by two factors: the need to capture demand from buyers who cannot commit to multi-year suite leases, and the recognition that experiential hospitality generates higher per-square-foot revenue than traditional fixed seating. The Miami Dolphins' stadium renovation converted approximately 2,200 traditional premium seats into roughly 900 experiential premium positions, generating approximately 10 times the previous revenue from the same footprint ([[Source-0123-SBJ-Premium-Seating]]).
+The trend toward product diversification is driven by two factors: the need to capture demand from buyers who cannot commit to multi-year suite leases, and the recognition that experiential hospitality generates higher per-square-foot revenue than traditional fixed seating. The Miami Dolphins' stadium renovation converted approximately 2,200 traditional premium seats into roughly 900 experiential premium positions, generating approximately 10 times the previous revenue from the same footprint ([[Source-0123-SBJ-Premium-Seating-Facilities]]).
 
 ## Venue Type Variations
 
@@ -60,6 +60,6 @@ Arenas and stadiums represent the primary market for premium hospitality product
 
 ## Sources
 
-- [[Source-0121-Sports-Hospitality-Market]]
+- [[Source-0121-Sports-Hospitality-Market-Analysis]]
 - [[Source-0122-ALSD-Premium-Seat-Benchmarks]]
-- [[Source-0123-SBJ-Premium-Seating]]
+- [[Source-0123-SBJ-Premium-Seating-Facilities]]

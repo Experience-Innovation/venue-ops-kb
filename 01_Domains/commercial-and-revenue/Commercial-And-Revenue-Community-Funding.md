@@ -13,7 +13,7 @@ vef_alignment:
   - innovation-and-continuous-improvement
 confidence: high
 sources:
-  - "[[Source-0148-TicketFairy-Community-Funding]]"
+  - "[[Source-0148-TicketFairy-Community-Funding-2026]]"
   - "[[Source-0175-TicketFairy-Community-Impact]]"
 research_batch: v2-prompt-11-premium-guest
 child_of: "[[Domain-Commercial-And-Revenue]]"
@@ -71,4 +71,4 @@ Community funding applicability varies by venue ownership model and community in
 
 ## Sources
 
-- [[Source-0148-TicketFairy-Community-Funding]]
+- [[Source-0148-TicketFairy-Community-Funding-2026]]

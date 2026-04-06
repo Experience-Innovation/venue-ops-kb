@@ -16,12 +16,12 @@ vef_alignment:
   - systems-processes-clarity-of-roles
 confidence: high
 sources:
-  - "[[Source-0132-FHWA-Special-Events]]"
-  - "[[Source-0150-TicketFairy-Rideshare]]"
+  - "[[Source-0132-FHWA-Special-Events-Guidance]]"
+  - "[[Source-0150-TicketFairy-Rideshare-Coordination]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Parking-And-Transportation]]"
 governed_by:
-  - "[[Source-0132-FHWA-Special-Events]]"
+  - "[[Source-0132-FHWA-Special-Events-Guidance]]"
 related_to:
   - "[[Parking-And-Transportation-Ride-Share-Zone-Management]]"
   - "[[Parking-And-Transportation-Transit-Multimodal]]"
@@ -74,5 +74,5 @@ Stadium and arena events generate the most concentrated traffic surges due to fi
 
 ## Sources
 
-- [[Source-0132-FHWA-Special-Events]]
-- [[Source-0150-TicketFairy-Rideshare]]
+- [[Source-0132-FHWA-Special-Events-Guidance]]
+- [[Source-0150-TicketFairy-Rideshare-Coordination]]

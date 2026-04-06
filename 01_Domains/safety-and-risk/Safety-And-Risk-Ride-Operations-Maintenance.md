@@ -4,7 +4,7 @@ note_type: concept
 domain: "safety-and-risk"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Theme park ride operations and maintenance governed by ASTM F24 standards (F2291, F770), encompassing daily pre-opening inspections, restraint verification, PLC-based ride control, preventive maintenance programs, and regulatory inspection compliance."
 venue_types:
   - theme-park
@@ -58,7 +58,7 @@ Theme park ride operations and maintenance governed by ASTM F24 standards (F2291
 
 ## Overview
 
-Theme parks operate complex mechanical rides and coasters governed by ASTM F24 standards for design, manufacture, operation, maintenance, and inspection. ASTM F2291 addresses design and safety of amusement rides, while ASTM F770 focuses on ownership, operation, maintenance, and inspections. Daily inspection checklists tie each step back to ASTM standards and state regulations, with ride opening contingent on supervisor sign-off and resolution of any deficiencies. This entire regulatory and operational framework has no parallel in convention centres, stadiums, or performing arts centres.
+Theme parks operate complex mechanical rides and coasters governed by ASTM F24 standards for design, manufacture, operation, maintenance, and inspection ([[Source-0224-ASTM-F2291-Amusement-Ride-Design]]). ASTM F2291 addresses design and safety of amusement rides, while ASTM F770 focuses on ownership, operation, maintenance, and inspections. Daily inspection checklists tie each step back to ASTM standards and state regulations, with ride opening contingent on supervisor sign-off and resolution of any deficiencies. This entire regulatory and operational framework has no parallel in convention centres, stadiums, or performing arts centres.
 
 ## Inspection Framework
 
@@ -70,7 +70,7 @@ Theme parks operate complex mechanical rides and coasters governed by ASTM F24 s
 
 ## Certification Programs
 
-- **AIMS International Operations Technician (Levels I-III):** Internationally recognized certification for amusement ride operations personnel
+- **AIMS International Operations Technician (Levels I-III):** Internationally recognized certification for amusement ride operations personnel ([[Source-0225-AIMS-Operations-Certification]])
 - **NAARSO:** Certification for amusement ride inspectors and operations personnel, requiring experience verification, ASTM knowledge, and continuing education
 - **ASTM F24 framework:** Core standards (F2291, F770, F1193, F2974) that ride operators and engineers must understand and comply with
 

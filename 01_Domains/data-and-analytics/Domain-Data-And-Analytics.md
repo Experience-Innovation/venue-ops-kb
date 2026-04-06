@@ -10,12 +10,19 @@ venue_types:
   - all
 vef_alignment:
   - data-management-and-architecture
-node_count: 0
+node_count: 7
 tags:
   - domain
   - venue-ops
   - data-and-analytics
-children: []
+parent_of:
+  - "[[Data-And-Analytics-Venue-Data-Architecture]]"
+  - "[[Data-And-Analytics-Guest-Identity-Resolution]]"
+  - "[[Data-And-Analytics-BI-Dashboards-KPI-Frameworks]]"
+  - "[[Data-And-Analytics-Predictive-Analytics-Venue-AI]]"
+  - "[[Data-And-Analytics-Data-Privacy-Governance]]"
+  - "[[Data-And-Analytics-Guest-Personalization-CDP]]"
+  - "[[Data-And-Analytics-Digital-Twins-Edge-Computing]]"
 cross_domain:
   - "[[Domain-Technology-And-Digital]]"
   - "[[Domain-Financial-Operations]]"
@@ -31,6 +38,9 @@ sources:
   - "[[Source-0177-Excellence-Canada-Standard]]"
   - "[[Source-0178-AIPC-Quality-Standards]]"
   - "[[Source-0230-IAVM-Public-Assembly-Venue-Management-Textbook]]"
+  - "[[Source-0331-MarketsAndMarkets-Smart-Stadiums-2024-2029]]"
+  - "[[Source-0332-IAVM-VenueConnect-2025-Data-Analytics-Survey]]"
+  - "[[Source-0339-IAVM-VenueDataSource-Benchmarking]]"
 extraction_model: claude-opus-4-6
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

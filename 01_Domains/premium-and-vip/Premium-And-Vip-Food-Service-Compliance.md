@@ -4,7 +4,7 @@ note_type: concept
 domain: "premium-and-vip"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Food safety regulatory requirements for suite catering and premium areas, covering central kitchen satellite service, third-party caterer permits, HACCP compliance, temperature control, allergen management, and health authority inspection standards."
 venue_types:
   - arena
@@ -15,9 +15,11 @@ vef_alignment:
   - guest-experience
   - operational-efficiency-productivity-creativity
   - systems-processes-clarity-of-roles
-confidence: high
+confidence: medium
 sources:
   - "[[Source-0140-AGLC-Special-Event-Licence]]"
+  - "[[Source-0065-FDA-HACCP-Principles-Guidelines]]"
+  - "[[Source-0061-FDA-Food-Code-2022]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Premium-And-Vip]]"
 related_to:
@@ -49,8 +51,8 @@ Premium food service in suites, clubs, and VIP areas operates under the same foo
 - **Central kitchen model** — most large venues prepare premium food in a central production kitchen and distribute to satellite service points in suite levels and club areas; the central kitchen holds the primary food establishment permit
 - **Satellite suite service points** — pantries and staging kitchens on suite levels where food is held, plated, and served; each satellite point must maintain temperature compliance and sanitation standards equivalent to the central kitchen
 - **Third-party caterer permits** — when external caterers provide food for premium events, they must hold valid food establishment permits and carry liability insurance; the venue retains responsibility for ensuring compliance within its facility
-- **HACCP compliance** — Hazard Analysis and Critical Control Points plans (or equivalent food safety management systems) are required for premium food operations, covering critical control points from receiving through service
-- **Temperature control protocols** — hot holding (minimum 140F/60C), cold holding (maximum 40F/4C), and time-temperature logging at satellite service points; premium operations face elevated risk due to longer holding times between preparation and suite delivery
+- **HACCP compliance** — Hazard Analysis and Critical Control Points plans (or equivalent food safety management systems) are required for premium food operations, covering the seven HACCP principles: hazard analysis, critical control point identification, critical limit establishment, monitoring procedures, corrective actions, verification procedures, and record-keeping ([[Source-0065-FDA-HACCP-Principles-Guidelines]])
+- **Temperature control protocols** — hot holding (minimum 140F/60C), cold holding (maximum 40F/4C), and time-temperature logging at satellite service points per FDA Food Code standards ([[Source-0061-FDA-Food-Code-2022]]); premium operations face elevated risk due to longer holding times between preparation and suite delivery
 - **Allergen and dietary management** — premium menus must include allergen identification, and suite attendants must be trained to communicate allergen information accurately; pre-event menu communication with suite holders reduces risk
 
 ## Regulatory Requirements

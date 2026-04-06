@@ -4,7 +4,7 @@ note_type: concept
 domain: "supply-chain-and-procurement"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Group purchasing organizations (GPOs) used by venue operators to leverage collective purchasing power, including major GPOs like Entegra (Sodexo), Foodbuy (Compass/Levy), and Premier, and their role in cost management and supplier standardization."
 venue_types:
   - convention-centre
@@ -44,10 +44,10 @@ Group purchasing organizations (GPOs) used by venue operators to leverage collec
 Group purchasing organizations aggregate the buying power of multiple operators to negotiate volume-based pricing, rebates, and favorable contract terms with food and supply manufacturers and distributors. In the venue sector, GPO membership is one of the primary financial advantages that contract food service operators offer venues.
 
 ### Major Venue-Sector GPOs
-- **Entegra Procurement Services** — The GPO affiliated with Sodexo, serving Sodexo-managed venues and available to independent operators
-- **Foodbuy** — The purchasing arm of Compass Group, serving Levy-managed venues and other Compass divisions
+- **Entegra Procurement Services** — The GPO affiliated with Sodexo, serving Sodexo-managed venues and available to independent operators ([[Source-0073-IFMA-Foodservice-Manufacturers]])
+- **Foodbuy** — The purchasing arm of Compass Group, serving Levy-managed venues and other Compass divisions ([[Source-0069-Levy-Restaurants-Compass-Group]])
 - **Premier Inc.** — A GPO serving healthcare, hospitality, and foodservice sectors, available to independent operators
-- **Aramark Supply Chain** — Aramark's integrated procurement function serving its managed venues
+- **Aramark Supply Chain** — Aramark's integrated procurement function serving its managed venues ([[Source-0066-Aramark-Sports-Entertainment]])
 
 ## Value Proposition
 

@@ -4,7 +4,7 @@ note_type: concept
 domain: "crowd-management"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "NFPA 101-mandated staffing ratios for trained crowd managers in assembly occupancies, requiring 1 crowd manager per 250 attendees with AHJ discretion for reductions."
 venue_types:
   - all
@@ -22,6 +22,7 @@ child_of: "[[Domain-Crowd-Management]]"
 related_to:
   - "[[Crowd-Management-Density-Monitoring]]"
   - "[[Crowd-Management-Flow-Management-Crush-Prevention]]"
+  - "[[Safety-And-Risk-Emergency-Action-Plans]]"
 governed_by:
   - "[[Source-0003-NFPA-101-Life-Safety-Code-2024]]"
 tags:

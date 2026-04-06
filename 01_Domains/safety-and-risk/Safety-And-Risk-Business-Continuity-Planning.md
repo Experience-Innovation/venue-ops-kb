@@ -4,7 +4,7 @@ note_type: concept
 domain: "safety-and-risk"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Frameworks for sustaining and restoring venue operations after disruption, covering Business Impact Analysis, recovery time objectives, IT disaster recovery, and infrastructure dependency planning."
 venue_types:
   - all
@@ -14,11 +14,13 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0002-CISA-Dependency-Disruptions-Guide-2026]]"
+  - "[[Source-0007-IAVM-Venue-Safety-Security-Committee]]"
 research_batch: v2-prompt-03-safety-crowd
 child_of: "[[Domain-Safety-And-Risk]]"
 related_to:
   - "[[Safety-And-Risk-Emergency-Action-Plans]]"
   - "[[Safety-And-Risk-Incident-Command-System]]"
+  - "[[Safety-And-Risk-Crisis-Communication-Protocols]]"
 tags:
   - concept
   - venue-ops
@@ -55,7 +57,7 @@ Priority systems for continuity planning:
 
 ## Infrastructure Dependencies
 
-CISA guidance emphasizes planning for external dependency failures — power grid, telecommunications, water supply, and transportation access — that venues cannot directly control but must mitigate.
+CISA guidance emphasizes planning for external dependency failures — power grid, telecommunications, water supply, and transportation access — that venues cannot directly control but must mitigate ([[Source-0002-CISA-Dependency-Disruptions-Guide-2026]]). The IAVM Venue Safety and Security Committee provides industry frameworks for integrating BCP into broader venue emergency preparedness programs ([[Source-0007-IAVM-Venue-Safety-Security-Committee]]).
 
 ## Sources
 

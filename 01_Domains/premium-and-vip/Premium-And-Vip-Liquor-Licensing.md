@@ -4,7 +4,7 @@ note_type: concept
 domain: "premium-and-vip"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Provincial and state liquor licensing frameworks governing premium suites and clubs, including Canadian special facility licences, Alberta AGLC Class A licences, and layered Special Event Licences for private functions."
 venue_types:
   - arena
@@ -18,6 +18,7 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0140-AGLC-Special-Event-Licence]]"
+  - "[[Source-0275-AGLC-Liquor-Licensee-Handbook]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Premium-And-Vip]]"
 governed_by:
@@ -48,7 +49,7 @@ Premium hospitality areas operate under liquor licensing frameworks that vary si
 ## Key Components
 
 - **Canadian special facility licences** — provincial licence category covering entertainment and sports venues; permits alcohol service in designated areas including suites, clubs, and concourses ([[Source-0140-AGLC-Special-Event-Licence]])
-- **Alberta AGLC Class A licences** — the Alberta Gaming, Liquor and Cannabis Commission issues Class A licences for permanent liquor service in venues; covers all designated premium and general service areas under a single facility licence
+- **Alberta AGLC Class A/B licences** — the Alberta Gaming, Liquor and Cannabis Commission issues Class A licences for permanent liquor service in venues and Class B licences specifically for arenas, stadiums, and convention centres ([[Source-0275-AGLC-Liquor-Licensee-Handbook]]); covers all designated premium and general service areas under a single facility licence
 - **Special Event Licence layering** — when a private function (corporate event, private reception) is hosted within a licensed venue, a separate Special Event Licence may be required to cover the specific event, layered on top of the facility licence
 - **Designated area compliance** — premium areas must be defined in the facility licence application with floor plans showing the boundaries of each licensed area; service outside designated areas is a licence violation
 - **Server certification** — all staff serving alcohol in premium areas must hold valid provincial/state server certification (e.g., ProServe in Alberta, Smart Serve in Ontario, TIPS in U.S. jurisdictions)

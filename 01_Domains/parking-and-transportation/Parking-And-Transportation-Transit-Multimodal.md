@@ -4,7 +4,7 @@ note_type: concept
 domain: "parking-and-transportation"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Integration of public transit, bicycle infrastructure, and pedestrian access into venue transportation planning, including transit agency coordination, incentive programs, free bicycle valet services, and pedestrian flow management for safe crossings."
 venue_types:
   - arena
@@ -13,7 +13,7 @@ vef_alignment:
   - guest-experience
   - operational-efficiency-productivity-creativity
   - innovation-and-continuous-improvement
-confidence: high
+confidence: medium
 sources:
   - "[[Source-0132-FHWA-Special-Events]]"
 research_batch: v2-prompt-11-premium-guest

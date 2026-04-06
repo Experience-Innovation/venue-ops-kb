@@ -4,18 +4,23 @@ note_type: domain
 domain: "booking-and-sales"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Event booking, client services, contracting, and CRM for venues that host third-party events. This domain covers the sales cycle from initial inquiry through contract execution and the ongoing client relationship management that drives event bookings."
 venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
-node_count: 0
+node_count: 5
 tags:
   - domain
   - venue-ops
   - booking-and-sales
-children: []
+parent_of:
+  - "[[Booking-And-Sales-Event-Booking-Lifecycle]]"
+  - "[[Booking-And-Sales-Venue-Booking-KPIs]]"
+  - "[[Booking-And-Sales-Event-Contracting-License-Agreements]]"
+  - "[[Booking-And-Sales-Convention-Centre-Booking-Operations]]"
+  - "[[Booking-And-Sales-Multi-Use-Venue-Scheduling]]"
 cross_domain:
   - "[[Domain-Event-Operations]]"
   - "[[Domain-Commercial-And-Revenue]]"
@@ -31,6 +36,16 @@ sources:
   - "[[Source-0177-Excellence-Canada-Standard]]"
   - "[[Source-0178-AIPC-Quality-Standards]]"
   - "[[Source-0230-IAVM-Public-Assembly-Venue-Management-Textbook]]"
+  - "[[Source-0311-IAVM-Convention-Center-Performance-Reporting-Framework]]"
+  - "[[Source-0312-Northstar-Planning-Citywide-Convention]]"
+  - "[[Source-0313-IAVM-Arenas-Performance-Reporting-Handbook]]"
+  - "[[Source-0314-Cal-Performances-What-Is-Presenting]]"
+  - "[[Source-0315-Momentus-Technologies-Venue-Management]]"
+  - "[[Source-0317-LawDepot-Event-Venue-Contract]]"
+  - "[[Source-0318-Artist-Rider-Guide]]"
+  - "[[Source-0319-WilmerHale-Force-Majeure-COVID]]"
+  - "[[Source-0320-Fordham-Force-Majeure-COVID-Analysis]]"
+  - "[[Source-0388-Destinations-International-DBA]]"
 extraction_model: claude-opus-4-6
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

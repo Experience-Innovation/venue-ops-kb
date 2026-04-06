@@ -4,19 +4,26 @@ note_type: domain
 domain: "ticketing-and-box-office"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Ticket systems, pricing strategies, access control integration, and box office operations. This domain covers the technology platforms and operational processes that manage ticket distribution, validation, and the critical link between ticket purchase and venue entry."
 venue_types:
   - all
 vef_alignment:
   - guest-experience
   - operational-efficiency-productivity-creativity
-node_count: 1
+node_count: 7
 tags:
   - domain
   - venue-ops
   - ticketing-and-box-office
-children: []
+parent_of:
+  - "[[Ticketing-And-Box-Office-Subscription-Season-Management]]"
+  - "[[Ticketing-And-Box-Office-Ticketing-Platform-Architecture]]"
+  - "[[Ticketing-And-Box-Office-Mobile-Digital-Ticketing]]"
+  - "[[Ticketing-And-Box-Office-Box-Office-Operations]]"
+  - "[[Ticketing-And-Box-Office-Dynamic-Pricing-Yield-Management]]"
+  - "[[Ticketing-And-Box-Office-Revenue-Recognition-Settlement]]"
+  - "[[Ticketing-And-Box-Office-Anti-Scalping-Regulations]]"
 cross_domain:
   - "[[Domain-Guest-Experience]]"
   - "[[Domain-Commercial-And-Revenue]]"
@@ -32,6 +39,20 @@ sources:
   - "[[Source-0177-Excellence-Canada-Standard]]"
   - "[[Source-0178-AIPC-Quality-Standards]]"
   - "[[Source-0230-IAVM-Public-Assembly-Venue-Management-Textbook]]"
+  - "[[Source-0321-SNS-Insider-Online-Event-Ticketing-Market]]"
+  - "[[Source-0322-IDDataWeb-Verified-Fan-Scalping]]"
+  - "[[Source-0323-NYT-Live-Nation-Antitrust-Settlement]]"
+  - "[[Source-0324-Globe-Mail-Live-Nation-DOJ-Settlement]]"
+  - "[[Source-0325-Ticket-Fairy-Dynamic-QR-Fraud-Prevention]]"
+  - "[[Source-0326-NFC-Wallet-Ticketing-Venue-Access]]"
+  - "[[Source-0327-Bento-Security-PCI-DSS-Venues]]"
+  - "[[Source-0328-INTIX-Well-Run-Ticket-Office]]"
+  - "[[Source-0329-ADA-Gov-Ticket-Sales-Requirements]]"
+  - "[[Source-0330-Alberta-Ticket-Sales-Regulations]]"
+  - "[[Source-0386-Kennesaw-Dynamic-Pricing-MLB]]"
+  - "[[Source-0387-Purdue-Dynamic-Pricing-NFL]]"
+  - "[[Source-0389-Ticket-Fairy-VIP-Suite-Revenue]]"
+  - "[[Source-0390-Sloan-MLB-Dynamic-Pricing-Effectiveness]]"
 extraction_model: claude-opus-4-6
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

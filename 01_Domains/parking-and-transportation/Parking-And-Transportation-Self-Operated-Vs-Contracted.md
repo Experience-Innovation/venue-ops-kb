@@ -4,7 +4,7 @@ note_type: concept
 domain: "parking-and-transportation"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Venue parking operation models ranging from in-house management to contracted third-party operators, with considerations around control, technology investment, expertise, revenue sharing, and industry bodies like NPA and CPA providing best-practice guidance."
 venue_types:
   - arena
@@ -14,7 +14,7 @@ venue_types:
 vef_alignment:
   - operational-efficiency-productivity-creativity
   - systems-processes-clarity-of-roles
-confidence: high
+confidence: medium
 sources:
   - "[[Source-0131-NPA-Parking-Rate-Study]]"
 research_batch: v2-prompt-11-premium-guest

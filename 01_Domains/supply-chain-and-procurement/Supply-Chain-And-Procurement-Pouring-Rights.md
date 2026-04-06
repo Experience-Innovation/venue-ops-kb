@@ -4,7 +4,7 @@ note_type: concept
 domain: "supply-chain-and-procurement"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Exclusive beverage contracts (pouring rights) between venues and major beverage companies such as Coca-Cola and PepsiCo, including sponsorship integration, financial structures, and the operational constraints these agreements impose on food and beverage programs."
 venue_types:
   - arena
@@ -40,7 +40,7 @@ Exclusive beverage contracts (pouring rights) between venues and major beverage 
 
 ## Pouring Rights Overview
 
-Pouring rights agreements are exclusive contracts granting a single beverage company the right to be the sole provider of certain beverage categories within a venue. These agreements are a significant revenue source for venues and a major marketing platform for beverage companies.
+Pouring rights agreements are exclusive contracts granting a single beverage company the right to be the sole provider of certain beverage categories within a venue ([[Source-0073-IFMA-Foodservice-Manufacturers]]). These agreements are a significant revenue source for venues and a major marketing platform for beverage companies ([[Source-0066-Aramark-Sports-Entertainment]], [[Source-0071-Legends-Hospitality]]).
 
 ### Contract Structure
 - **Exclusivity scope** — Typically covers carbonated soft drinks, bottled water, sports drinks, and sometimes juice and tea categories. Alcoholic beverage exclusivity may be handled separately.

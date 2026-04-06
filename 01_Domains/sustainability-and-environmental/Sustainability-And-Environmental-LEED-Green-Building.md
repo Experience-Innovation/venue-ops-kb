@@ -4,7 +4,7 @@ note_type: concept
 domain: "sustainability-and-environmental"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "LEED v4.1 is the most widely adopted green building certification for large venues, with additional options including BOMA BEST (Canadian market), Green Globes, WELL Building Standard, and ILFI Zero Carbon, each targeting different sustainability dimensions."
 venue_types:
   - convention-centre
@@ -29,6 +29,7 @@ related_to:
   - "[[Sustainability-And-Environmental-Zero-Waste-TRUE-Certification]]"
   - "[[Sustainability-And-Environmental-Venue-Benchmarking]]"
   - "[[Sustainability-And-Environmental-VCC-Double-LEED-Platinum]]"
+  - "[[Sustainability-And-Environmental-Carbon-Tracking-ESG]]"
 key_metrics:
   - "LEED certification level (Certified/Silver/Gold/Platinum)"
   - "ENERGY STAR score"

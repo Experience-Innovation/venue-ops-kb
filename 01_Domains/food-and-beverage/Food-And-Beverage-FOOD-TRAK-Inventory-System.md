@@ -3,7 +3,7 @@ title: FOOD-TRAK Inventory Management System (McCormick Place)
 note_type: concept
 status: draft
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-06
 tags:
   - concept
   - food-and-beverage
@@ -23,7 +23,7 @@ sources:
   - "[[Source-0254-Zebra-McCormick-FOOD-TRAK]]"
 research_batch: existing-dr-2
 extraction_model: claude-opus-4-6
-confidence: high
+confidence: medium
 child_of: "[[Domain-Food-And-Beverage]]"
 subdomain: inventory-management-systems
 related_to:

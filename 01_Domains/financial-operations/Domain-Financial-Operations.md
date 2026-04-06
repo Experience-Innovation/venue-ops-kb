@@ -10,12 +10,16 @@ venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
-node_count: 1
+node_count: 4
 tags:
   - domain
   - venue-ops
   - financial-operations
-children: []
+parent_of:
+  - "[[Financial-Operations-LEAN-Driven-Cost-Savings]]"
+  - "[[Financial-Operations-Venue-Budgeting-Forecasting]]"
+  - "[[Financial-Operations-Venue-Financial-KPIs]]"
+  - "[[Financial-Operations-Public-Venue-Financial-Governance]]"
 cross_domain:
   - "[[Domain-Commercial-And-Revenue]]"
   - "[[Domain-Supply-Chain-And-Procurement]]"

@@ -4,7 +4,7 @@ note_type: concept
 domain: "people-and-culture"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Davis-Bacon Act (40 U.S.C. 3141 et seq.) requires locally prevailing wages on federal and federally-assisted construction contracts over $2,000 for public venues, with recent rule changes allowing union-negotiated rates to set prevailing wages at 30% survey threshold."
 venue_types:
   - convention-centre
@@ -15,7 +15,7 @@ venue_types:
 vef_alignment:
   - systems-processes-clarity-of-roles
   - employee-experience
-confidence: high
+confidence: medium
 sources:
   - "[[Source-0159-Davis-Bacon-Act-Overview]]"
 research_batch: v2-prompt-09-financial

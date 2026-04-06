@@ -1,9 +1,65 @@
 # VEP KB Processing — Progress
 
 ## Current Phase
-batch-00 through batch-13 complete. S19 complete (A-04 Part 2 + DELTA-012 resolution + A-05 consistency). Next: S20 — A-06 confidence tier audit + DELTA-014 HIGH-severity remediation + delta register sweep.
+batch-00 through batch-18 complete. S20 complete (B.1 DR ingestion R-06–R-10 + A-06 confidence tier audit + DELTA-014/015/017 remediation). B1 GATE CLEARED — all 26 domains at minimum viable (3+). Next: S21 — A-07 final validation + DELTA-018/019 resolution + v1.0 tag.
 
 ## Session History
+
+### Session 20 — 2026-04-06 (Academic Rigor Initiative Phase B.5 Session 5)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-20/b1-a06 (git worktree)
+**Focus:** B.1 DR ingestion (R-06 through R-10) + A-06 confidence tier audit + DELTA-014/015/017 remediation
+
+**Phase 1 — DR Ingestion completed (5 files, 5 batches):**
+- [x] R-10 (Safety Supplementary): 20 source notes (Source-0291–0310), 6 concepts enriched, AED expanded, 2 critical corrections (Sanders/Saunders, NWS lightning guidance)
+- [x] R-06 (Booking/Sales/Ticketing): 25 source notes (Source-0311–0330, 0386–0390), 11 concepts (5 booking, 6 ticketing), 2 domain overviews updated
+- [x] R-07 (Data/Analytics/BI): 20 source notes (Source-0331–0350), 7 concepts (data-and-analytics), 1 domain overview updated
+- [x] R-08 (Tenant/Partner): 20 source notes (Source-0351–0370), 13 concepts (tenant-and-partner-relations), 1 domain overview updated
+- [x] R-09 (Commercial/Financial): 15 source notes (Source-0371–0385), 7 concepts (4 commercial, 3 financial), 2 domain overviews updated. CS/BMO content filtered per Hard Rule #4
+- [x] VOCABULARY.yaml updated: 5 new research_batch entries (dr-s20-r06 through dr-s20-r10)
+- [x] B1 GATE CLEARED: all 26 domains at minimum viable (3+ concepts)
+
+**Phase 2 — A-06 Confidence Tier Audit completed:**
+- [x] Hybrid methodology: automated frontmatter scan (207 concepts) + manual review of 18 flagged concepts
+- [x] 10 adjustments: 8 high→medium downgrades, 2 medium→low downgrades
+- [x] 8 concepts confirmed defensible despite single-source flag
+- [x] Distribution shift: 92.3%/7.7%/0% → 88.4%/10.6%/1.0% (high/medium/low)
+- [x] Audit report filed: _Pipeline/Validation/audit-A06-confidence-tier.md
+- [x] DELTA-020 opened and resolved (confidence tier adjustments)
+
+**Phase 3 — Delta Remediation completed:**
+- [x] DELTA-014: 6/8 resolved via R-10 (2 split to DELTA-018)
+- [x] DELTA-015: 14/20 resolved from existing corpus (6 split to DELTA-019)
+- [x] DELTA-017: 6/8 resolved (AED expanded, orphans linked, body variance normalized; 2 LOW skipped)
+- [x] Delta register updated: 20 entries (17 resolved, 3 deferred)
+
+**Not completed:**
+- [ ] DELTA-018: 2 HIGH people-culture concepts (Prevailing Wage, Frontline Engagement) — no R-10 coverage
+- [ ] DELTA-019: 6 MED concepts — no matching sources in corpus (MTCC, DEI, Ride-Share, Event-Traffic, FTC, EV-Charging)
+- [ ] DELTA-013: 13 LOW concepts (deferred from S17)
+- [ ] DELTA-016: 10 LOW concepts (deferred to S21)
+- [ ] Input directory cleanup (duplicate/stale files)
+
+**Failed Approaches:**
+- Source number collision between R-06 and R-07 parallel agents at Source-0331–0335. Resolved by R-06 agent renumbering overflow to Source-0386–0390. Future: assign non-overlapping ranges before parallel dispatch.
+
+**Decisions Made:**
+- DR processed before A-06 (Alex directive) — audit runs on enriched corpus, not pre-enrichment
+- A-06 hybrid methodology validated — automated scan + manual review of flags (18 flagged / 10 adjusted)
+- CS/BMO content excluded from R-09 per Hard Rule #4 (6 body references + 4 URLs filtered)
+- Per-file research_batch IDs (Alex aligned) for traceability
+
+**Key Pattern Findings:**
+- DR prompt template v1.0 yield: HIGH across 4/5 files, MEDIUM for R-09 (CS filtering + smaller word count)
+- Existing-corpus enrichment continues to resolve ~70% of MED-severity gaps (14/20 = 70%, matching S19's 7/11 = 64%)
+- Confidence inflation pattern: S14-S15 extraction sessions over-assigned high confidence to single-source concepts
+- Zero fabrication maintained across all 5 DR files
+
+**What Worked (per S19 Alex directive):**
+- Parallel agent dispatch with pre-assigned source number ranges — 4 agents simultaneously, no blocking
+- Recon-then-write two-phase approach — manifests reviewed before note creation
+- Hybrid A-06 methodology — ~80K tokens vs ~250K estimated for full manual audit (68% savings)
+- Single-source flag at Stage 4 Ready gate — validated again as predictor of audit findings
 
 ### Session 19 — 2026-04-06 (Academic Rigor Initiative Phase B.5 Session 4)
 **Machine:** MacBook Air (bubblegumpshrimpco)
@@ -409,19 +465,19 @@ batch-00 through batch-13 complete. S19 complete (A-04 Part 2 + DELTA-012 resolu
 | 1 | guest-experience | Minimum viable | 5 | batch-05, batch-07, batch-08 |
 | 2 | people-and-culture | Minimum viable | 7 | batch-03, batch-06, batch-09 |
 | 3 | food-and-beverage | **Working depth** | 13 | batch-03, batch-09 |
-| 4 | event-operations | **Authoritative** | 12 | batch-04, batch-08 |
+| 4 | event-operations | **Working depth** | 12 | batch-04, batch-08 |
 | 5 | facilities-and-building-systems | **Authoritative** | 15 | batch-02, batch-09 |
-| 6 | safety-and-risk | **Authoritative** | 14 | batch-01, batch-07, batch-08 |
+| 6 | safety-and-risk | **Working depth** | 14 | batch-01, batch-07, batch-08, batch-14 |
 | 7 | security | Minimum viable | 6 | batch-01 |
 | 8 | crowd-management | Minimum viable | 4 | batch-01 |
-| 9 | sustainability-and-environmental | **Authoritative** | 11 | batch-02, batch-07, batch-09 |
+| 9 | sustainability-and-environmental | **Working depth** | 11 | batch-02, batch-07, batch-09 |
 | 10 | technology-and-digital | Minimum viable | 5 | batch-04, batch-09 |
-| 11 | av-and-production | **Authoritative** | 13 | batch-04, batch-08 |
-| 12 | data-and-analytics | Scaffolded | 0 | batch-09 (0 yield) |
-| 13 | financial-operations | **Scaffolded** | 1 | batch-09 (established!) |
-| 14 | commercial-and-revenue | Scaffolded | 2 | batch-05, batch-07 |
-| 15 | ticketing-and-box-office | Scaffolded | 1 | batch-08 |
-| 16 | booking-and-sales | Scaffolded | 0 | batch-09 (0 yield) |
+| 11 | av-and-production | **Working depth** | 13 | batch-04, batch-08 |
+| 12 | data-and-analytics | **Minimum viable** | 7 | batch-16 (S20 — was 0!) |
+| 13 | financial-operations | **Minimum viable** | 4 | batch-09, batch-18 |
+| 14 | commercial-and-revenue | **Minimum viable** | 6 | batch-05, batch-07, batch-18 |
+| 15 | ticketing-and-box-office | **Minimum viable** | 7 | batch-08, batch-15 |
+| 16 | booking-and-sales | **Minimum viable** | 5 | batch-15 (S20 — was 0!) |
 | 17 | supply-chain-and-procurement | Minimum viable | 4 | batch-03 |
 | 18 | logistics-and-warehouse | Minimum viable | 3 | batch-03, batch-04 |
 | 19 | parking-and-transportation | **Working depth** | 10 | batch-05 |
@@ -431,40 +487,41 @@ batch-00 through batch-13 complete. S19 complete (A-04 Part 2 + DELTA-012 resolu
 | 23 | inclusivity-and-accessibility | Minimum viable | 7 | batch-04, batch-06 |
 | 24 | strategy-and-governance | **Working depth** | 8 | batch-06, batch-07, batch-09 |
 | 25 | quality-and-continuous-improvement | **Working depth** | 10 | batch-07, batch-09 |
-| 26 | tenant-and-partner-relations | Scaffolded | 0 | (no yield in any DR file) |
+| 26 | tenant-and-partner-relations | **Working depth** | 13 | batch-17 (S20 — was 0!) |
 
 ## Vault Statistics
 
 | Metric | Value |
 |--------|-------|
-| Total input files | 31 |
-| Processable files | 28 |
+| Total input files | 36 |
+| Processable files | 33 |
 | Excluded files | 3 |
 | Domain overview notes | 26 / 26 |
-| Concept notes | 169 |
-| Source notes | 290 |
+| Concept notes | 207 |
+| Source notes | 390 |
 | Standard notes | 0 |
 | Technology notes | 0 |
 | Organization notes | 0 |
 | Person notes | 0 |
 | MOC notes | 27 |
-| Validation reports | 12 |
-| Domains with concepts | 23 / 26 |
-| Domains at authoritative (15+) | 4 |
-| Domains at working depth (8+) | 6 |
-| Domains at minimum viable (3+) | 11 |
-| Domains scaffolded (1-2) | 2 |
-| Domains at zero | 3 (data-and-analytics, booking-and-sales, tenant-and-partner-relations) |
+| Validation reports | 21 |
+| Domains with concepts | **26 / 26** |
+| Domains at authoritative (15+) | 1 |
+| Domains at working depth (8+) | 9 |
+| Domains at minimum viable (3+) | 16 |
+| Domains scaffolded (1-2) | 0 |
+| Domains at zero | **0** |
 
 ---
 
 ## Next Session Priority
 
-1. **S19: A-04 Part 2** — claim-to-source traceability audit for domains M-T (87 concepts)
-2. **S19: A-05** — peer-review-style structural consistency pass
-3. **S19: DELTA-012** — resolve 11 MED-severity traceability gaps (deferred from S18)
-4. **Fresh DR research for 3 zero-concept domains** — data-and-analytics, booking-and-sales, tenant-and-partner-relations (Alex action, can interleave with B.5)
+1. **S21: A-07** — batch-12 final validation pass (full vault — 207 concepts, 390 sources, 26 domains)
+2. **S21: DELTA-018** — 2 HIGH people-culture traceability gaps (Prevailing Wage, Frontline Engagement)
+3. **S21: DELTA-019** — 6 MED traceability gaps (no corpus match — may need targeted DR)
+4. **S21: DELTA-013 + DELTA-016** — 23 LOW citation-strengthening items (polish, non-blocking)
+5. **S21: v1.0 tag** — if all B.5 gate exit criteria met
 
 ---
 
-*Updated: 2026-04-06 — Session 18 (CI/Enrichment Cycle complete)*
+*Updated: 2026-04-06 — Session 20 (B.1 DR ingestion + A-06 confidence audit + delta remediation complete)*

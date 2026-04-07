@@ -26,7 +26,6 @@ research_batch: dr-d2-r15-supply-chain
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Supply-Chain-And-Procurement]]"
 related_to:
-  - "[[Food-And-Beverage-Kitchen-Operations]]"
   - "[[Financial-Operations-Venue-Financial-KPIs]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

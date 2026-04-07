@@ -4,7 +4,7 @@ note_type: concept
 domain: "parking-and-transportation"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-07
 description: "Coordinated traffic management strategies for venue events covering road access control, wayfinding, transit agency coordination, rideshare integration, and temporary measures such as road closures, one-way systems, and dedicated lanes, guided by FHWA national frameworks."
 venue_types:
   - arena
@@ -18,6 +18,8 @@ confidence: high
 sources:
   - "[[Source-0132-FHWA-Special-Events-Guidance]]"
   - "[[Source-0150-TicketFairy-Rideshare-Coordination]]"
+  - "[[Source-0455-FHWA-Special-Events-Handbook]]"
+  - "[[Source-0456-MUTCD-11th-Edition]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Parking-And-Transportation]]"
 governed_by:

@@ -16,14 +16,14 @@ tags:
   - venue-ops
   - marketing-and-communications
 children:
-  - "[[Marketing-And-Communications-FTC-Endorsement]]"
-  - "[[Marketing-And-Communications-Venue-Social-Media]]"
-  - "[[Marketing-And-Communications-Email-CRM-Automation]]"
-  - "[[Marketing-And-Communications-Email-Regulatory]]"
-  - "[[Marketing-And-Communications-Digital-Signage]]"
-  - "[[Marketing-And-Communications-Venue-CRM]]"
-  - "[[Marketing-And-Communications-Brand-Partnerships]]"
   - "[[Marketing-And-Communications-Analytics-Attribution]]"
+  - "[[Marketing-And-Communications-Brand-Partnerships]]"
+  - "[[Marketing-And-Communications-Digital-Signage-Regulations]]"
+  - "[[Marketing-And-Communications-Email-Compliance]]"
+  - "[[Marketing-And-Communications-Email-Marketing]]"
+  - "[[Marketing-And-Communications-FTC-Endorsement]]"
+  - "[[Marketing-And-Communications-Social-Media]]"
+  - "[[Marketing-And-Communications-Venue-CRM]]"
 cross_domain:
   - "[[Domain-Commercial-And-Revenue]]"
   - "[[Domain-Guest-Experience]]"

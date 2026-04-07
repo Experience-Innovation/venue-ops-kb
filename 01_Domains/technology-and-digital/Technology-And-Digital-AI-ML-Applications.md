@@ -25,8 +25,7 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Technology-And-Digital]]"
 related_to:
   - "[[Technology-And-Digital-IoT-Smart-Building]]"
-  - "[[Crowd-Management-Crowd-Density-Monitoring]]"
-  - "[[Data-And-Analytics-Predictive-Analytics]]"
+  - "[[Data-And-Analytics-Predictive-Analytics-Venue-AI]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 

@@ -30,9 +30,7 @@ research_batch: dr-d2-r12-logistics-warehouse
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Logistics-And-Warehouse]]"
 related_to:
-  - "[[Event-Operations-Event-Day-Staffing]]"
   - "[[Event-Operations-Show-Management]]"
-  - "[[AV-And-Production-Rigging-Safety]]"
 venue_scale:
   - medium
   - large

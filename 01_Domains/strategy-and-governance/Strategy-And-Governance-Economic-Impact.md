@@ -26,7 +26,6 @@ research_batch: dr-d3-r25-venue-community
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Strategy-And-Governance]]"
 related_to:
-  - "[[Strategy-And-Governance-Public-Assembly-Venue-Governance]]"
   - "[[Financial-Operations-Capital-Project-Financing]]"
   - "[[Financial-Operations-Public-Venue-Financial-Governance]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"

@@ -31,7 +31,7 @@ child_of: "[[Domain-Logistics-And-Warehouse]]"
 related_to:
   - "[[Logistics-And-Warehouse-Inventory-Storage]]"
   - "[[Logistics-And-Warehouse-Loading-Dock-Operations]]"
-  - "[[Facilities-And-Building-Systems-Space-Management]]"
+  - "[[Facilities-And-Building-Systems-Space-Management-Scheduling]]"
 venue_scale:
   - medium
   - large

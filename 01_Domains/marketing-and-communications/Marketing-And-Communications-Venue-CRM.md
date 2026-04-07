@@ -26,8 +26,6 @@ research_batch: dr-d2-r17-marketing-digital
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Marketing-And-Communications]]"
 related_to:
-  - "[[Marketing-And-Communications-Email-CRM-Automation]]"
-  - "[[Data-And-Analytics-Business-Intelligence]]"
   - "[[Guest-Experience-Feedback-Satisfaction]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

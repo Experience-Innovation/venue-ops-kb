@@ -27,7 +27,6 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Supply-Chain-And-Procurement]]"
 related_to:
   - "[[Technology-And-Digital-IoT-Smart-Building]]"
-  - "[[Supply-Chain-And-Procurement-GPO-Procurement]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 

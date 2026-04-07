@@ -26,8 +26,7 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Logistics-And-Warehouse]]"
 related_to:
   - "[[Logistics-And-Warehouse-Inventory-Storage]]"
-  - "[[Facilities-And-Building-Systems-CMMS]]"
-  - "[[Facilities-And-Building-Systems-Predictive-Maintenance]]"
+  - "[[Facilities-And-Building-Systems-CMMS-Preventive-Maintenance]]"
 supported_by:
   - "[[Source-0410-Momentus-Venue-Management]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"

@@ -4,18 +4,28 @@ note_type: domain
 domain: "people-and-culture"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-07
 description: "Workforce management across permanent staff, part-time event workers, contractors, and volunteers. This domain covers recruitment, training, scheduling, retention, organizational culture, labor relations, and the development programs that build venue operational capability."
 venue_types:
   - all
 vef_alignment:
   - employee-experience
-node_count: 7
+node_count: 10
 tags:
   - domain
   - venue-ops
   - people-and-culture
-children: []
+children:
+  - "[[People-And-Culture-Culinary-Professional-Certification]]"
+  - "[[People-And-Culture-DEI-Training]]"
+  - "[[People-And-Culture-FB-Labor-Relations]]"
+  - "[[People-And-Culture-Frontline-Engagement-AI-Adoption]]"
+  - "[[People-And-Culture-Prevailing-Wage]]"
+  - "[[People-And-Culture-Ritz-Carlton-Leadership-Center]]"
+  - "[[People-And-Culture-Union-Labor-Jurisdictions]]"
+  - "[[People-And-Culture-Seasonal-Event-Workforce-Management]]"
+  - "[[People-And-Culture-Volunteer-Coordination]]"
+  - "[[People-And-Culture-Venue-Credential-Pathways]]"
 cross_domain:
   - "[[Domain-Event-Operations]]"
   - "[[Domain-Food-And-Beverage]]"

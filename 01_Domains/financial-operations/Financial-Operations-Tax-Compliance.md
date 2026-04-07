@@ -24,7 +24,6 @@ research_batch: dr-d2-r13-financial-management
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Financial-Operations]]"
 related_to:
-  - "[[Legal-Compliance-And-Licensing-Licensing-Frameworks]]"
   - "[[Financial-Operations-Public-Venue-Financial-Governance]]"
 jurisdiction:
   - us-federal

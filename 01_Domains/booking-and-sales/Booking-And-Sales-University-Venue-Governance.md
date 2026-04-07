@@ -28,9 +28,7 @@ research_batch: dr-d3-r22-university-small-venue
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Booking-And-Sales]]"
 related_to:
-  - "[[Booking-And-Sales-Event-Contracting]]"
-  - "[[Strategy-And-Governance-Public-Assembly-Venue-Governance]]"
-  - "[[People-And-Culture-Workforce-Development]]"
+  - "[[Booking-And-Sales-Event-Contracting-License-Agreements]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 

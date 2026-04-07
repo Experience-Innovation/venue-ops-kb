@@ -29,10 +29,6 @@ sources:
 research_batch: dr-d2-r12-logistics-warehouse
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Logistics-And-Warehouse]]"
-related_to:
-  - "[[Safety-And-Risk-Workplace-Safety-Programs]]"
-  - "[[Safety-And-Risk-Fire-Watch-Programs]]"
-  - "[[Legal-Compliance-And-Licensing-ADA-Compliance]]"
 governed_by:
   - "[[Source-0403-OSHA-1910-178-Forklift]]"
   - "[[Source-0405-OSHA-LOTO-1910-147]]"

@@ -10,7 +10,7 @@ venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
-node_count: 12
+node_count: 14
 tags:
   - domain
   - venue-ops

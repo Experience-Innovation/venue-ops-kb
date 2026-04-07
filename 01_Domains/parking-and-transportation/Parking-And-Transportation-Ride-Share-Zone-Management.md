@@ -4,8 +4,8 @@ note_type: concept
 domain: "parking-and-transportation"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
-description: "Designated pick-up/drop-off (PUDO) zones for rideshare services at large venues, with geofenced areas coordinated with TNCs, capacity planning, signage, traffic marshals, and neighborhood impact mitigation strategies."
+updated: 2026-04-07
+description: "Designated pick-up/drop-off (PUDO) zones for rideshare services at large venues, with geofenced areas coordinated with TNCs, capacity planning, signage, traffic marshals, and neighborhood impact mitigation strategies. NACTO-sourced geometric standards and ITE practitioner guidance."
 venue_types:
   - arena
   - stadium
@@ -19,6 +19,7 @@ vef_alignment:
 confidence: high
 sources:
   - "[[Source-0150-TicketFairy-Rideshare-Coordination]]"
+  - "[[Source-0454-NACTO-Curb-Management]]"
   - "[[Source-0132-FHWA-Special-Events-Guidance]]"
 research_batch: v2-prompt-10-commercial
 child_of: "[[Domain-Parking-And-Transportation]]"

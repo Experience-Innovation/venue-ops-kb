@@ -26,9 +26,8 @@ research_batch: dr-d3-r24-legal-liability
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Security]]"
 related_to:
-  - "[[Legal-Compliance-And-Licensing-Liquor-Licensing]]"
+  - "[[Legal-Compliance-And-Licensing-Liquor-Licensing-Venues]]"
   - "[[Legal-Compliance-And-Licensing-Premises-Liability]]"
-  - "[[Food-And-Beverage-Responsible-Beverage-Service]]"
 jurisdiction:
   - us-state
   - canada-provincial

@@ -24,7 +24,6 @@ child_of: "[[Domain-Legal-Compliance-And-Licensing]]"
 related_to:
   - "[[Safety-And-Risk-Emergency-Action-Plans]]"
   - "[[Financial-Operations-Insurance-Risk-Financing]]"
-  - "[[Legal-Compliance-And-Licensing-Risk-Management]]"
 jurisdiction:
   - us-federal
   - us-state

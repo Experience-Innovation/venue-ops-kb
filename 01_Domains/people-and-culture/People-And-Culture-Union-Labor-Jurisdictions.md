@@ -4,7 +4,7 @@ note_type: concept
 domain: "people-and-culture"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-07
 description: "Large venues operate under multiple collective bargaining agreements with unions including IATSE (stagehands/technicians), UNITE HERE (concessions/hospitality), Teamsters (freight/logistics), and building trades, each with distinct jurisdictional scope."
 venue_types:
   - convention-centre
@@ -23,6 +23,8 @@ sources:
   - "[[Source-0157-UNITE-HERE-Stadium-Contract]]"
   - "[[Source-0158-EACA-Union-Work-Rules]]"
   - "[[Source-0172-TicketFairy-Union-Labor-2026]]"
+  - "[[Source-0446-NBER-Right-To-Work-Impact]]"
+  - "[[Source-0095-IATSE-International]]"
 research_batch: v2-prompt-09-financial
 child_of: "[[Domain-People-And-Culture]]"
 related_to:
@@ -77,17 +79,25 @@ Major venues commonly operate under three to six or more simultaneous collective
 - **Grievance and arbitration procedures** provide the dispute resolution mechanism — most CBAs mandate binding arbitration as the final step
 - **Management rights clauses** reserve the employer's right to direct operations, assign work, and determine staffing levels within the constraints of the agreement
 
+## IATSE Local Structure (R-11 Enrichment)
+
+IATSE represents over 168,000 technicians across the US and Canada, organized into geographic districts and hundreds of local unions. Key Canadian locals include: Local 212 (Calgary/Alberta, collective agreement March 2024-2027), Local 58 (Toronto, major public assembly venues), Local 168 (Vancouver Island/BC), and Local 210 (Edmonton — Rogers Place, Northern Alberta Jubilee Auditorium, Edmonton Expo Centre). The 2024 IATSE Basic Agreement covers studio motion picture work; arena and live entertainment venues operate under separate local agreements ([[Source-0095-IATSE-International]]).
+
+## UNITE HERE Coverage Detail
+
+UNITE HERE represents food service workers in stadiums, event centers, airports, universities, and amusement parks. Representative CBA terms (Local 24 with Sportservice at Comerica Park, 2023-2027): tipped employee wage increases of $0.20/hr annually and health benefit contributions of $44.72/month per employee. Multi-employer agreements consolidate bargaining and grievance administration across participating employers, reducing individual venue administrative burden.
+
 ## Right-to-Work Considerations
 
-- In U.S. right-to-work states, employees cannot be required to join a union or pay dues as a condition of employment, even in a unionized workplace
-- This affects union density and bargaining dynamics but does not eliminate the CBA — the agreement still governs wages, conditions, and scope for represented positions
-- Venue operators in right-to-work jurisdictions may have more flexibility in staffing but must still comply with any applicable CBA provisions
+Twenty-seven US states currently have right-to-work laws. NBER research confirms right-to-work adoption is associated with a 4 percentage point decline in unionization over five years and a 1% wage decline, concentrated in construction, education, and public administration ([[Source-0446-NBER-Right-To-Work-Impact]]). However, right-to-work does not eliminate union presence — many large convention centers, arenas, and concert venues in right-to-work states (Florida, Texas) voluntarily maintain union contracts due to workforce expertise. Touring Broadway and concert productions frequently arrive with IATSE contractual requirements, obligating host venues to comply regardless of state status. Canada has no equivalent to right-to-work legislation at any level.
 
-## Jurisdictional Mapping in Staffing Plans
+## Hybrid Staffing Models
 
-- Pre-event staffing plans should map every anticipated task to the correct union jurisdiction
-- Advance coordination with union business agents or stewards prevents day-of disputes
-- Touring production riders frequently specify labor requirements that may conflict with local jurisdictional boundaries — resolution requires pre-advance negotiation between the tour's production manager and local union representatives
+The practical reality for most medium-to-large venues is a hybrid model: stage technicians (IATSE) in most major markets including right-to-work states; F&B/catering (UNITE HERE) in major urban venues; security varies (private firms, SEIU in some markets); event-day guest services often non-union seasonal; administrative/management non-union. In a "straight union house," all work within jurisdiction requires union labor; in a "union-friendly house," the union handles specific functions while venue crews handle others.
+
+## Grievance and Arbitration
+
+CBAs in venue settings typically specify a multi-step grievance process: informal supervisor resolution, formal written grievance, labor relations committee review, and binding arbitration. In event-driven environments, grievances related to call minimums, turnaround time, and overtime classification are most common. Minimum rest period violations (e.g., riggers finishing teardown at 2 AM and recalled at 8 AM) trigger penalty overtime in most IATSE agreements.
 
 ## Sources
 
@@ -95,3 +105,5 @@ Major venues commonly operate under three to six or more simultaneous collective
 - [[Source-0157-UNITE-HERE-Stadium-Contract]]
 - [[Source-0158-EACA-Union-Work-Rules]]
 - [[Source-0172-TicketFairy-Union-Labor-2026]]
+- [[Source-0446-NBER-Right-To-Work-Impact]]
+- [[Source-0095-IATSE-International]]

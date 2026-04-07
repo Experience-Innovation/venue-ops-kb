@@ -25,8 +25,6 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Technology-And-Digital]]"
 related_to:
   - "[[Technology-And-Digital-Venue-Cybersecurity]]"
-  - "[[Legal-Compliance-And-Licensing-Risk-Management]]"
-  - "[[Crowd-Management-Crowd-Density-Monitoring]]"
 jurisdiction:
   - us-state
   - canada-federal

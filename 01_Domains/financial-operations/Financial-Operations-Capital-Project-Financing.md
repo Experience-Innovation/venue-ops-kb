@@ -31,7 +31,6 @@ child_of: "[[Domain-Financial-Operations]]"
 related_to:
   - "[[Financial-Operations-Public-Venue-Financial-Governance]]"
   - "[[Financial-Operations-Venue-Budgeting-Forecasting]]"
-  - "[[Strategy-And-Governance-Public-Assembly-Venue-Governance]]"
 venue_scale:
   - large
   - mega

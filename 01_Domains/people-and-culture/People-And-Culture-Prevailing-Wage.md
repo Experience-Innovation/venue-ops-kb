@@ -4,29 +4,37 @@ note_type: concept
 domain: "people-and-culture"
 status: draft
 created: 2026-04-04
-updated: 2026-04-06
-description: "Davis-Bacon Act (40 U.S.C. 3141 et seq.) requires locally prevailing wages on federal and federally-assisted construction contracts over $2,000 for public venues, with recent rule changes allowing union-negotiated rates to set prevailing wages at 30% survey threshold."
+updated: 2026-04-07
+description: "Multi-jurisdictional prevailing wage compliance framework for venue construction and operations — spanning US federal (Davis-Bacon, SCA, CWHSSA), state-level 'little Davis-Bacon' laws across 28+ states, and Canadian provincial equivalents (Ontario Fair Wage, Quebec CCQ, federal Clean Economy ITCs)."
 venue_types:
   - convention-centre
   - arena
   - stadium
   - amphitheatre
+  - performing-arts-centre
   - all
 vef_alignment:
   - systems-processes-clarity-of-roles
   - employee-experience
-confidence: medium
+confidence: high
 sources:
   - "[[Source-0159-Davis-Bacon-Act-Overview]]"
+  - "[[Source-0435-DOL-SCA-Service-Contracts]]"
+  - "[[Source-0445-Canada-Building-Trades-Prevailing-Wage]]"
 research_batch: v2-prompt-09-financial
 child_of: "[[Domain-People-And-Culture]]"
 governed_by:
   - "[[Source-0159-Davis-Bacon-Act-Overview]]"
+  - "[[Source-0435-DOL-SCA-Service-Contracts]]"
 related_to:
   - "[[People-And-Culture-Union-Labor-Jurisdictions]]"
+  - "[[People-And-Culture-Seasonal-Event-Workforce-Management]]"
+  - "[[Financial-Operations-Capital-Project-Financing]]"
 jurisdiction:
   - us-federal
   - us-state
+  - canada-federal
+  - canada-provincial
 tags:
   - concept
   - venue-ops
@@ -64,19 +72,24 @@ Prevailing wage laws require contractors on public construction projects to pay 
 - Applies to federal service contracts and federally-funded construction contracts exceeding $100,000
 - Violations can result in withholding of contract payments, contractor debarment, and criminal penalties for willful violations
 
+## McNamara-O'Hara Service Contract Act (SCA)
+
+The SCA governs service contracts — applicable to venue operations labor distinct from construction. It applies to every federal contract whose principal purpose is furnishing services through service employees, covering janitorial, maintenance, security, and food service workers at federally contracted venues. The coverage threshold is $2,500 for wage and fringe benefit requirements. Convention centers, arenas, and performing arts venues entering into federal service contracts must distinguish which employee classifications fall under the SCA versus FLSA minimum wage only ([[Source-0435-DOL-SCA-Service-Contracts]]).
+
 ## State-Level Prevailing Wage Laws
 
-- Approximately 28 U.S. states maintain their own prevailing wage laws (commonly called "little Davis-Bacon" acts) that apply to state-funded construction projects
-- State thresholds, survey methodologies, and enforcement mechanisms vary widely
-- Some states have repealed their prevailing wage laws in recent years, creating a patchwork of requirements that venue developers must navigate based on project location and funding sources
+Twenty-eight states maintain "little Davis-Bacon" prevailing wage statutes with dramatic threshold variation. New York imposes prevailing wages on all public works projects with no minimum threshold; California's threshold is $1,000 with DIR registration required; Connecticut sets $1 million for new construction. Five states recently repealed their laws (Indiana 2015, Kentucky 2017, West Virginia 2016, Wisconsin 2017, Michigan 2018). Where both state and federal requirements apply, the higher standard governs. California's law is notably more stringent — covering virtually all public works with mandatory electronic certified payroll and criminal penalties for willful violations.
+
+## Canadian Provincial Equivalents
+
+Canada does not have a single federal prevailing wage statute. The 2024 Clean Economy Investment Tax Credits (Bill C-59) established what Canada's Building Trades Unions describe as "the strongest definition of prevailing wage in Canadian labour history" — workers must receive wages at least equal to the most recent multi-employer CBA negotiated with a CBTU-affiliated trade union, with a 10% ITC reduction for non-compliance ([[Source-0445-Canada-Building-Trades-Prevailing-Wage]]). Ontario's Fair Wage Policy applies to city construction contracts, tied to the full compensation package (wages plus benefits). Quebec's Act R-20 establishes industry-wide collective agreements by trade classification across the province — functionally equivalent to a prevailing wage system.
 
 ## Project Labor Agreements (PLAs)
 
-- PLAs are pre-hire collective bargaining agreements that establish the terms and conditions of employment for all contractors and subcontractors on a specific construction project
-- Common on large publicly funded venue construction projects, PLAs standardize wages, benefits, work rules, and dispute resolution across all trades
-- Executive Order 14063 (2022) encourages the use of PLAs on federal construction projects over $35 million
-- PLAs can reduce jurisdictional disputes, ensure local hiring commitments, and provide workforce development opportunities through apprenticeship utilization requirements
+PLAs are pre-hire collective bargaining agreements establishing employment terms for all contractors on a specific project. Common on large publicly funded venue construction, PLAs standardize wages, benefits, work rules, and dispute resolution. Executive Order 14063 (2022) encourages PLAs on federal projects over $35 million.
 
 ## Sources
 
 - [[Source-0159-Davis-Bacon-Act-Overview]]
+- [[Source-0435-DOL-SCA-Service-Contracts]]
+- [[Source-0445-Canada-Building-Trades-Prevailing-Wage]]

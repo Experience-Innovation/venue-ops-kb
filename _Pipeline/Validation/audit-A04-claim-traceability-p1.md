@@ -1,12 +1,10 @@
 ---
-audit_id: A-04-P1
-audit_name: Claim-to-Source Traceability (Part 1 — domains A-L)
-session: S17
-date: 2026-04-05
-phase: Audit execution + report
-category: traceability
+title: "Audit A-04 Part 1: Claim-to-Source Traceability (Domains A-L)"
 audit_outcome: CONDITIONAL PASS (52/82 concepts fully traceable; 30 with gaps, all MEDIUM/LOW severity, zero fabrication detected)
-initiative: "Academic Rigor Initiative Phase B.5"
+lifecycle: active
+created: 2026-04-05
+scope: "82 concept notes across 13 domains (A-L) — factual claim resolution to source notes"
+methodology: "Per-concept body text read with factual claim identification per rubric, verified against sources: frontmatter wikilinks"
 ---
 
 # Audit A-04 Part 1: Claim-to-Source Traceability

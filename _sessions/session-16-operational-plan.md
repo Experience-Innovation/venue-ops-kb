@@ -1,4 +1,5 @@
 ---
+type: operational-plan
 session: S16
 date: 2026-04-05
 machine: MacBook Air (bubblegumpshrimpco)

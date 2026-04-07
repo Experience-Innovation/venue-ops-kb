@@ -190,7 +190,7 @@ Phase C (v1.0 Release) → Phase D (CI Initiative COMPLETE) → Phase E (Enrichm
 | Session | Focus | Budget | Deliverables | Status |
 |---|---|:-:|---|:-:|
 | **D1: Comprehensive Audit** | Technical CI audit (templates, pipeline, validation, session artifacts, governance, conventions) + content/data science audit (domain coverage, confidence, source diversity, publication readiness). | ~500K | CI audit report (34 findings), gap register (34 entries), improvement register, wikilink validation codified, validation report policy codified | ✅ COMPLETE 2026-04-06 |
-| **D2: Technical Remediation + Publication Infrastructure** | SCHEMA.yaml v3.0, all templates aligned, governance artifact schema, audit report template, LICENSE file, folder structure (02-05), METHODOLOGY.md update, rule updates, session artifact backfill. All HIGH/MEDIUM CI gaps resolved. | ~500K | SCHEMA v3.0, 8 updated templates, governance schema, LICENSE, 4 empty folders, METHODOLOGY v2.0, validation-rules v2.1, ingestion-rules v3.0, backfilled session artifacts | Scheduled |
+| **D2: Technical Remediation + Publication Infrastructure** | SCHEMA.yaml v3.0, all templates aligned, governance artifact schema, audit report template, LICENSE file, folder structure (02-05), METHODOLOGY.md update, rule updates, session artifact backfill. All HIGH/MEDIUM CI gaps resolved. | ~520K actual | SCHEMA v3.0, 8 updated templates, governance schema, LICENSE, 4 empty folders, METHODOLOGY v2.0, validation-rules v2.1, ingestion-rules v3.0, backfilled session artifacts, 22 CI gaps resolved | COMPLETE 2026-04-06 |
 | **D3: DR Prompt Design + Specification** | Design structured prompts for Perplexity Pro targeting: 6 priority domains to working depth, logistics confidence enrichment, cross-batch corroboration, non-concept entity extraction guidance. Alex runs prompts externally. | ~300K | Structured DR prompt specifications (R-20 through R-2X), domain-specific extraction targets, expected yield estimates | Scheduled |
 | **D4: Final Ingestion + Publication-Ready Release** | Ingest DR output from D3, domain deepening, non-concept note extraction (standards, technology, organization, person), final validation, METHODOLOGY final update, publication gate. | ~600K | Enriched KB, non-concept notes populated, final validation report, publication-ready vault | Gated on D3 DR output |
 
@@ -200,21 +200,21 @@ Phase C (v1.0 Release) → Phase D (CI Initiative COMPLETE) → Phase E (Enrichm
 
 ### D-Gate Exit Criteria (Refined from D1 audit)
 
-**D2 Gate — Technical Compliance (Blocking D3 Prompt Design):**
+**D2 Gate — Technical Compliance (Blocking D3 Prompt Design):** ALL CLEARED 2026-04-06
 - [x] D1 audit complete: CI gap register populated (34 entries), improvements prioritized
-- [ ] SCHEMA.yaml v3.0 published — governance artifact schema, field name resolution, S16-S21 refinements
-- [ ] All 8 content templates schema-aligned — no undefined fields, correct field names
-- [ ] Audit report template published in .claude/rules/
+- [x] SCHEMA.yaml v3.0 published — governance artifact schema, field name resolution, S16-S21 refinements (D2)
+- [x] All 8 content templates schema-aligned — no undefined fields, correct field names (D2)
+- [x] Audit report template published in .claude/rules/ (D2)
 - [x] Wikilink-filename validation codified in pipeline (ingestion-rules.md v2.1 Step 5b)
-- [ ] Field-name validation rule added to validation-rules.md
+- [x] Field-name validation rule added to validation-rules.md v2.1 Rule #35 (D2, pulled from D3)
 - [x] Validation report pattern documented (batch vs audit vs consolidated)
-- [ ] governance_type vocabulary published in VOCABULARY.yaml
-- [ ] LICENSE file created
-- [ ] Folders 02-05 created (empty with .gitkeep)
-- [ ] METHODOLOGY.md updated with S17-S21 findings + coverage disclosure
-- [ ] Zero unresolved HIGH-severity CI gaps
-- [ ] All rule files at current versions (ingestion v3.0, validation v2.1)
-- [ ] S12-S19 session artifacts backfilled with frontmatter
+- [x] governance_type vocabulary published in VOCABULARY.yaml v3.0 (D2)
+- [x] LICENSE file created — CC BY-SA 4.0 International (D2)
+- [x] Folders 02-05 created (empty with .gitkeep) (D2)
+- [x] METHODOLOGY.md v2.0 updated with S17-S21 findings + coverage disclosure (D2)
+- [x] Zero unresolved HIGH-severity CI gaps — 10/10 HIGH resolved (D2)
+- [x] All rule files at current versions — ingestion v3.0, validation v2.1 (D2)
+- [x] S12-S19 session artifacts backfilled with frontmatter (D2, pulled from D3)
 
 **D3 Gate — Prompt Design (Blocking D4 Ingestion):**
 - [ ] DR prompts designed for 6 priority domains

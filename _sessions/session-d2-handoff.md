@@ -1,0 +1,133 @@
+---
+type: handoff
+session: D2
+lifecycle: active
+created: 2026-04-06
+successor_session: D3
+---
+
+# Session D2 Handoff — Technical Remediation + Publication Infrastructure
+
+**Session:** D2 (Phase D, Session 2)
+**Date:** 2026-04-06
+**Branch:** session-d2/remediation
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Predecessor:** D1 (PR #12 merged)
+
+---
+
+## §1. Work Product Inventory
+
+### Files Created (7)
+
+| File | Location | Purpose |
+|------|----------|---------|
+| audit-report-template.md | .claude/rules/ | Canonical audit report template with A-06/A-07 frontmatter pattern |
+| LICENSE | vault root | CC BY-SA 4.0 International full legal text (428 lines) |
+| 02_Standards/.gitkeep | vault root | Empty folder for future standard notes |
+| 03_Technology/.gitkeep | vault root | Empty folder for future technology notes |
+| 04_Organizations/.gitkeep | vault root | Empty folder for future organization notes |
+| 05_People/.gitkeep | vault root | Empty folder for future person notes |
+| session-d2-operational-plan.md | _sessions/ | 8-section gold-standard operational plan |
+
+### Files Modified (Major — content changes, not just frontmatter)
+
+| File | Change | Purpose |
+|------|--------|---------|
+| .claude/rules/SCHEMA.yaml | v2.0 → v3.0: governance artifact schema, children: for domain, session:/source_session: convention, changelog | CI-GAP-001/014/018/020/021 |
+| .claude/rules/VOCABULARY.yaml | v2.0 → v3.0: governance_type (12 values), lifecycle (4), audit_outcome (4) | CI-GAP-015 |
+| .claude/rules/validation-rules.md | v2.0 → v2.1: field-name validation Rule #35 | CI-GAP-007 |
+| .claude/rules/ingestion-rules.md | v2.1 → v3.0: optional field annotation guidance | CI-GAP-029 |
+| METHODOLOGY.md | v1.0 → v2.0: v1.0.0 statistics, audit history, confidence distribution, coverage depth, all-draft transparency, limitations refresh | CI-GAP-026/027/033 |
+| Templates/Template-Map.md | Expanded from 2 → 7 body sections, related: → related_to:, ai_disclosure aligned | CI-GAP-003 |
+| Templates/Template-Source.md | Simplified from 3 → 1 body section, ai_disclosure aligned | CI-GAP-004 |
+| Templates/Template-Organization.md | related: → related_to:, ai_disclosure aligned | CI-GAP-002/005 |
+| Templates/Template-Person.md | related: → related_to:, ai_disclosure aligned | CI-GAP-002/005 |
+| Templates/Template-Standard.md | related: → related_to:, ai_disclosure aligned | CI-GAP-002/005 |
+| Templates/Template-Technology.md | related: → related_to:, ai_disclosure aligned | CI-GAP-002/005 |
+| Templates/Template-Concept.md | ai_disclosure aligned | CI-GAP-005 |
+| Templates/Template-Domain.md | ai_disclosure aligned | CI-GAP-005 |
+| _Pipeline/ci-gap-register.yaml | 22 entries resolved with evidence, metrics updated | Phase 6 QA |
+| _Pipeline/ci-improvement-register.md | D2 items + pulled D3 items marked DONE | Phase 6 QA |
+| _sessions/vep-kb-initiative-roadmap.md | D2 gate criteria all checked, D2 session status updated | PM/GLRC delta |
+| _sessions/progress.md | D2 session entry added, current phase updated | Session accounting |
+| _Pipeline/pipeline-state.json | Phase → phase-d-ci-initiative-d2-complete | Pipeline state |
+
+### Files Modified (Frontmatter-only — backfill)
+
+| Group | Count | Change |
+|-------|:-----:|--------|
+| Session artifacts (no prior frontmatter) | 10 | Full frontmatter added (type, lifecycle, created, session) |
+| Session artifacts (partial frontmatter) | 7 | type: field added |
+| Audit reports (A-01–A-05, Phase8, S18) | 8 | Migrated to canonical A-06/A-07 pattern |
+
+### Files Deleted (0)
+
+---
+
+## §2. Decisions Made
+
+| # | Decision | Rationale |
+|---|----------|-----------|
+| 1 | `children:` accepted in SCHEMA.yaml v3.0 for domain type | D1 Decision #2 executed. Schema aligns to 10-month practice (53 notes). Zero content changes needed. |
+| 2 | Governance artifact schema: 10 types with universal + type-specific fields | Covers all observed governance file types. session: for single-session, source_session: for multi-session. |
+| 3 | Audit report template in .claude/rules/, not Templates/ | Audit reports are processing rules, not content notes. Templates/ stays for content note templates only. Alex approved. |
+| 4 | 6 items pulled forward from D3 to D2 | Dependencies resolved in Phase 1 — no reason to defer. D3 is now purely DR prompt design. |
+| 5 | VOCABULARY.yaml gets lifecycle + audit_outcome lists | Controlled vocabulary enforcement for governance artifacts mirrors content note vocabulary enforcement. |
+| 6 | progress.md and discovery-manifest.md get governance_type values (progress-log, discovery-manifest) | Added to VOCABULARY.yaml and SCHEMA.yaml to cover all observed artifact types. |
+
+---
+
+## §3. Outstanding Items Report (OIR)
+
+*No outstanding items. All D2 scope items complete.*
+
+The 8 remaining open CI gaps are D3/D4 scope:
+
+| ID | Severity | Target | Description |
+|----|:--------:|:------:|-------------|
+| CI-GAP-012 | LOW | D3 | Document S18 validation report variance |
+| CI-GAP-016 | LOW | D3 | progress.md frontmatter — DONE in D2 (pulled forward) |
+| CI-GAP-022 | MEDIUM | D3 | Document batch numbering convention |
+| CI-GAP-023 | LOW | D3 | Document DR input file naming convention |
+| CI-GAP-028 | MEDIUM | D3 | Cross-batch corroboration for single-batch domains (DR prompt design) |
+| CI-GAP-030 | LOW | D3 | logistics-and-warehouse confidence enrichment |
+| CI-GAP-031 | LOW | D3 | parking-and-transportation independent source enrichment |
+| CI-GAP-032 | LOW | D4 | Non-concept note type extraction |
+
+Note: CI-GAP-016 was resolved in D2 as part of the frontmatter backfill but may still show as D3 target in the register. The register was updated.
+
+---
+
+## §4. Next Session Priorities (D3)
+
+Per revised arc (roadmap v1.5 §5):
+
+**D3: DR Prompt Design + Specification (~300K tokens)**
+
+D3 is now a focused prompt engineering session — all process standardization pulled forward to D2.
+
+1. **Design DR prompts for 6 priority domains** to working depth (8+ concepts)
+2. **Logistics-and-warehouse confidence enrichment** — 66% medium+low, single research batch
+3. **Cross-batch corroboration prompts** for single-batch domains (crowd-management, supply-chain, financial-operations, booking-sales)
+4. **Non-concept entity extraction guidance** — standards, technology, organization, person types for D4
+5. **Document remaining conventions** — batch numbering (CI-GAP-022), DR input naming (CI-GAP-023)
+6. **Alex executes prompts** in Perplexity Pro between D3 and D4
+
+---
+
+## §5. Key Files for Next Session
+
+| File | Why |
+|------|-----|
+| `_Pipeline/ci-gap-register.yaml` | 8 remaining open items — D3 scope |
+| `_Pipeline/ci-improvement-register.md` | D3 items (IMP-D3-03/06/07 + IMP-D3-10/11/12/13) |
+| `_sessions/vep-kb-initiative-roadmap.md` v1.5 | D3 gate criteria |
+| `.claude/rules/SCHEMA.yaml` v3.0 | Reference for non-concept note types |
+| `.claude/rules/ingestion-rules.md` v3.0 | Pipeline rules for D4 ingestion |
+| `_sessions/phase-e-enrichment-backlog.md` | Domain deepening targets |
+| `METHODOLOGY.md` v2.0 | Coverage depth disclosure — identifies enrichment priorities |
+
+---
+
+*AI Disclosure: Handoff co-produced by Claude (Anthropic) and Alex Jackson, 2026-04-06.*

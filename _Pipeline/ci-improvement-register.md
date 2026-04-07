@@ -30,23 +30,21 @@ Items resolved inline during the D1 audit session.
 
 D2 is the heaviest session: schema alignment, template overhaul, governance artifact schema creation.
 
-| # | Improvement | Gap IDs | Effort | Dependencies | Priority |
-|---|------------|---------|:------:|:------------|:--------:|
-| IMP-D2-01 | Resolve `children:` vs `parent_of:` field name — update SCHEMA.yaml or migrate 26 domain notes | CI-GAP-001, CI-GAP-020 | S-M | Alex decision | HIGH |
-| IMP-D2-02 | Fix `related: []` → `related_to: []` in 5 templates | CI-GAP-002 | S | None | HIGH |
-| IMP-D2-03 | Expand Template-Map.md to 7-section MOC structure | CI-GAP-003 | M | None | MEDIUM |
-| IMP-D2-04 | Simplify Template-Source.md body structure | CI-GAP-004 | S | None | MEDIUM |
-| IMP-D2-05 | Align ai_disclosure defaults across all 8 templates | CI-GAP-005 | S | None | LOW |
-| IMP-D2-06 | Create audit report template in .claude/rules/ | CI-GAP-017 | M | IMP-D2-08 | HIGH |
-| IMP-D2-07 | Add `governance_type:` controlled vocabulary to VOCABULARY.yaml | CI-GAP-015 | S | None | MEDIUM |
-| IMP-D2-08 | Add governance artifact schema to SCHEMA.yaml | CI-GAP-014 | M | IMP-D2-01, IMP-D2-07 | HIGH |
-| IMP-D2-09 | Comprehensive SCHEMA.yaml v3.0 update | CI-GAP-018 | L | All D2 items | HIGH |
-| IMP-D2-10 | Assess governance template location (Templates/ vs _sessions/ vs .claude/rules/) | CI-GAP-019 | S | IMP-D2-08 | LOW |
-| IMP-D2-11 | Codify `session:` vs `source_session:` convention | CI-GAP-021 | S | IMP-D2-08 | HIGH |
+| # | Improvement | Gap IDs | Effort | Dependencies | Priority | Status |
+|---|------------|---------|:------:|:------------|:--------:|:------:|
+| IMP-D2-01 | Resolve `children:` vs `parent_of:` field name — update SCHEMA.yaml | CI-GAP-001, CI-GAP-020 | S | Alex decision (D1) | HIGH | DONE |
+| IMP-D2-02 | Fix `related: []` → `related_to: []` in 5 templates | CI-GAP-002 | S | None | HIGH | DONE |
+| IMP-D2-03 | Expand Template-Map.md to 7-section MOC structure | CI-GAP-003 | M | None | MEDIUM | DONE |
+| IMP-D2-04 | Simplify Template-Source.md body structure | CI-GAP-004 | S | None | MEDIUM | DONE |
+| IMP-D2-05 | Align ai_disclosure defaults across all 8 templates | CI-GAP-005 | S | None | LOW | DONE |
+| IMP-D2-06 | Create audit report template in .claude/rules/ | CI-GAP-017 | M | IMP-D2-08 | HIGH | DONE |
+| IMP-D2-07 | Add `governance_type:` controlled vocabulary to VOCABULARY.yaml | CI-GAP-015 | S | None | MEDIUM | DONE |
+| IMP-D2-08 | Add governance artifact schema to SCHEMA.yaml | CI-GAP-014 | M | IMP-D2-01, IMP-D2-07 | HIGH | DONE |
+| IMP-D2-09 | Comprehensive SCHEMA.yaml v3.0 update | CI-GAP-018 | L | All D2 items | HIGH | DONE |
+| IMP-D2-10 | Assess governance template location (Templates/ vs _sessions/ vs .claude/rules/) | CI-GAP-019 | S | IMP-D2-08 | LOW | DONE |
+| IMP-D2-11 | Codify `session:` vs `source_session:` convention | CI-GAP-021 | S | IMP-D2-08 | HIGH | DONE |
 
-**D2 estimated effort:** ~400K tokens (schema design + template overhaul + governance artifact architecture)
-
-**D2 critical path:** IMP-D2-01 (Alex decision) → IMP-D2-08 (governance schema) → IMP-D2-09 (SCHEMA v3.0) → IMP-D2-06 (audit template)
+**D2 actual effort:** ~520K tokens. All 11 items DONE.
 
 ---
 
@@ -56,15 +54,15 @@ D3 is backfill, consolidation, and documentation.
 
 | # | Improvement | Gap IDs | Effort | Dependencies | Priority |
 |---|------------|---------|:------:|:------------|:--------:|
-| IMP-D3-01 | Add field-name validation rule to validation-rules.md | CI-GAP-007 | S | IMP-D2-01 (field name resolution) | HIGH |
-| IMP-D3-02 | Backfill A-01–A-05 audit report frontmatter to canonical pattern | CI-GAP-010 | M | IMP-D2-06 (audit template) | MEDIUM |
+| IMP-D3-01 | Add field-name validation rule to validation-rules.md | CI-GAP-007 | S | IMP-D2-01 (field name resolution) | HIGH | DONE (pulled to D2) |
+| IMP-D3-02 | Backfill A-01–A-05 audit report frontmatter to canonical pattern | CI-GAP-010 | M | IMP-D2-06 (audit template) | MEDIUM | DONE (pulled to D2) |
 | IMP-D3-03 | Document S18 validation report variance as acceptable | CI-GAP-012 | S | None | LOW |
-| IMP-D3-04 | Backfill S12-S19 session artifact frontmatter | CI-GAP-013 | L | IMP-D2-08 (governance schema) | HIGH |
-| IMP-D3-05 | Add minimal frontmatter to progress.md | CI-GAP-016 | S | None | LOW |
+| IMP-D3-04 | Backfill S12-S19 session artifact frontmatter | CI-GAP-013 | L | IMP-D2-08 (governance schema) | HIGH | DONE (pulled to D2) |
+| IMP-D3-05 | Add minimal frontmatter to progress.md | CI-GAP-016 | S | None | LOW | DONE (pulled to D2, included in IMP-D3-04) |
 | IMP-D3-06 | Document batch numbering convention | CI-GAP-022 | S | None | MEDIUM |
 | IMP-D3-07 | Document DR input file naming convention | CI-GAP-023 | S | None | LOW |
-| IMP-D3-08 | Bump validation-rules.md to v2.1 | CI-GAP-007 | S | IMP-D3-01 | MEDIUM |
-| IMP-D3-09 | Bump ingestion-rules.md to v3.0 (final D-phase version) | CI-GAP-008 | S | All D3 rule updates | LOW |
+| IMP-D3-08 | Bump validation-rules.md to v2.1 | CI-GAP-007 | S | IMP-D3-01 | MEDIUM | DONE (pulled to D2) |
+| IMP-D3-09 | Bump ingestion-rules.md to v3.0 (final D-phase version) | CI-GAP-008 | S | All D3 rule updates | LOW | DONE (pulled to D2) |
 
 **D3 estimated effort:** ~350K tokens (backfill + documentation + rule updates)
 
@@ -94,14 +92,14 @@ Items identified from knowledge engineer + data science perspective during the c
 
 ### D2 — Publication Infrastructure
 
-| # | Improvement | Gap IDs | Effort | Priority |
-|---|------------|---------|:------:|:--------:|
-| IMP-D2-12 | Create LICENSE file (CC BY-SA 4.0 recommended) | CI-GAP-024 | S | HIGH |
-| IMP-D2-13 | Create empty 02_Standards/, 03_Technology/, 04_Organizations/, 05_People/ folders with .gitkeep | CI-GAP-025 | S | HIGH |
-| IMP-D2-14 | Update METHODOLOGY.md with S17-S21 findings, confidence distribution, coverage depth, single-source methodology | CI-GAP-033 | M | MEDIUM |
-| IMP-D2-15 | Update README.md / METHODOLOGY.md to disclose all-draft status and progressive deepening model | CI-GAP-026 | S | MEDIUM |
-| IMP-D2-16 | Update README.md / METHODOLOGY.md to disclose per-domain coverage depth | CI-GAP-027 | S | MEDIUM |
-| IMP-D2-17 | Add optional field annotation guidance to ingestion-rules.md (venue_scale, delivery_model, jurisdiction) | CI-GAP-029 | S | MEDIUM |
+| # | Improvement | Gap IDs | Effort | Priority | Status |
+|---|------------|---------|:------:|:--------:|:------:|
+| IMP-D2-12 | Create LICENSE file (CC BY-SA 4.0) | CI-GAP-024 | S | HIGH | DONE |
+| IMP-D2-13 | Create empty 02_Standards/, 03_Technology/, 04_Organizations/, 05_People/ folders with .gitkeep | CI-GAP-025 | S | HIGH | DONE |
+| IMP-D2-14 | Update METHODOLOGY.md with S17-S21 findings, confidence distribution, coverage depth, single-source methodology | CI-GAP-033 | M | MEDIUM | DONE |
+| IMP-D2-15 | Update METHODOLOGY.md to disclose all-draft status and progressive deepening model | CI-GAP-026 | S | MEDIUM | DONE |
+| IMP-D2-16 | Update METHODOLOGY.md to disclose per-domain coverage depth | CI-GAP-027 | S | MEDIUM | DONE |
+| IMP-D2-17 | Add optional field annotation guidance to ingestion-rules.md (venue_scale, delivery_model, jurisdiction) | CI-GAP-029 | S | MEDIUM | DONE |
 
 ### D3 — DR Prompt Design (Content Enrichment Targets)
 

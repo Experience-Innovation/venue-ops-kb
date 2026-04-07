@@ -1,4 +1,6 @@
 ---
+type: qa-qc-analysis
+lifecycle: active
 title: "Session 16 — System-Wide QA/QC Analysis + Future Improvements"
 session: S16
 date: 2026-04-05

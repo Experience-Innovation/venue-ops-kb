@@ -1,12 +1,10 @@
 ---
-audit_id: A-03
-audit_name: Citation Format Standardization
-session: S16
-date: 2026-04-05
-phase: Phase 5
-category: citation
+title: "Audit A-03: Citation Format Standardization"
 audit_outcome: PASS (required fields) / DEFERRED (optional bibliographic enrichment)
-initiative: "Academic Rigor Initiative Phase B.5"
+lifecycle: active
+created: 2026-04-05
+scope: "260 source notes — bibliographic metadata completeness (source_type, url, accessed, description, author, publication, publish_date)"
+methodology: "Automated scan of all source note frontmatter for required and optional bibliographic fields"
 ---
 
 # Audit A-03: Citation Format Standardization

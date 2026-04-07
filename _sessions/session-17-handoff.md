@@ -1,4 +1,5 @@
 ---
+type: handoff
 title: "Session 17 Handoff — A-04 Part 1 Claim-to-Source Traceability"
 session: S17
 date: 2026-04-05

@@ -1,3 +1,10 @@
+---
+type: handoff
+lifecycle: superseded
+created: 2026-04-04
+session: S14
+---
+
 # Session 14 Handoff Document
 **Date:** 2026-04-04
 **Machine:** MacBook Air (bubblegumpshrimpco)

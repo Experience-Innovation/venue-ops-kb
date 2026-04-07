@@ -1,3 +1,10 @@
+---
+type: operational-plan
+lifecycle: superseded
+created: 2026-04-05
+session: S15
+---
+
 # Session 15 — Operational Plan
 **Date:** 2026-04-05
 **Machine:** MacBook Air (bubblegumpshrimpco)

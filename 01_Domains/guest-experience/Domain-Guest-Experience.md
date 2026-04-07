@@ -4,18 +4,26 @@ note_type: domain
 domain: "guest-experience"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "The end-to-end journey of every person who attends an event or visits a venue, from pre-arrival through departure and post-event follow-up. This domain encompasses wayfinding, accessibility, comfort, service quality, feedback mechanisms, and the holistic experience that determines whether guests return."
 venue_types:
   - all
 vef_alignment:
   - guest-experience
-node_count: 5
+node_count: 8
 tags:
   - domain
   - venue-ops
   - guest-experience
-children: []
+children:
+  - "[[Guest-Experience-Wayfinding-Signage]]"
+  - "[[Guest-Experience-FOH-Usher-Programs]]"
+  - "[[Guest-Experience-Tailgating-Fan-Zones]]"
+  - "[[Guest-Experience-Hospitality-Quality-Ratings]]"
+  - "[[Guest-Experience-Queue-Management]]"
+  - "[[Guest-Experience-Journey-Mapping]]"
+  - "[[Guest-Experience-Service-Design-Frameworks]]"
+  - "[[Guest-Experience-Feedback-Satisfaction]]"
 cross_domain:
   - "[[Domain-Crowd-Management]]"
   - "[[Domain-Inclusivity-And-Accessibility]]"

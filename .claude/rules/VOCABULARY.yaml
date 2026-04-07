@@ -173,6 +173,13 @@ research_batch:
   - dr-d2-r17-marketing-digital       # CRM, social media, email compliance, brand partnerships, signage
   - dr-d2-r18-technology-refresh      # AI/ML, network infra, IoT, cybersecurity, digital twin, EV charging
   - dr-d2-r19-parking-enrichment      # Independent source enrichment for medium-confidence parking concepts
+  # D3 additional DR prompts (R-20 through R-25, Alex-authored)
+  - dr-d3-r20-innovation-future       # Innovation, future venue experience, AI/ML applications, emerging tech
+  - dr-d3-r21-iso-standards            # ISO management system standards, certification frameworks, venue compliance
+  - dr-d3-r22-university-small-venue   # University venue governance, small/mid-scale operations, student workforce
+  - dr-d3-r23-specialty-venues-pt2     # Emerging/specialty venue types — dome ops, retractable roof, esports, hybrid
+  - dr-d3-r24-legal-liability          # Venue legal liability, regulatory compliance, case law, risk exposure
+  - dr-d3-r25-venue-community          # Venue–community integration, government relations, economic impact, Indigenous
 
 vef_alignment:
   # Core Outcomes

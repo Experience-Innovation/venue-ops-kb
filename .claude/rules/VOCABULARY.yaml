@@ -163,6 +163,16 @@ research_batch:
   - dr-s20-r08-tenant-partner         # Tenant and partner relations in multi-use venues
   - dr-s20-r09-commercial-financial   # Venue revenue optimization and financial operations
   - dr-s20-r10-safety-supplementary   # Safety, emergency medicine & regulatory standards (DELTA-014 remediation)
+  # D2 DR prompts (R-11 through R-19, targeting Phase D enrichment)
+  - dr-d2-r11-workforce-labor         # Venue workforce, prevailing wage, DEI, frontline technology
+  - dr-d2-r12-logistics-warehouse     # Loading dock, changeover, equipment, warehouse, freight
+  - dr-d2-r13-financial-management    # Budgeting, settlement, public governance, insurance, KPIs
+  - dr-d2-r14-crowd-management        # Crush prevention, density monitoring, NFPA, flow engineering
+  - dr-d2-r15-supply-chain            # GPO models, vendor management, F&B supply chain, pouring rights
+  - dr-d2-r16-guest-experience        # Journey mapping, service design, wayfinding, feedback, personalization
+  - dr-d2-r17-marketing-digital       # CRM, social media, email compliance, brand partnerships, signage
+  - dr-d2-r18-technology-refresh      # AI/ML, network infra, IoT, cybersecurity, digital twin, EV charging
+  - dr-d2-r19-parking-enrichment      # Independent source enrichment for medium-confidence parking concepts
 
 vef_alignment:
   # Core Outcomes

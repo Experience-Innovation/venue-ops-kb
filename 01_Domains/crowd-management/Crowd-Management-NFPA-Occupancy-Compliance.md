@@ -24,7 +24,6 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Crowd-Management]]"
 related_to:
   - "[[Crowd-Management-Flow-Management-Crush-Prevention]]"
-  - "[[Safety-And-Risk-Fire-Watch-Programs]]"
 governed_by:
   - "[[Source-0424-SGSA-Green-Guide-6th]]"
 jurisdiction:

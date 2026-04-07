@@ -25,8 +25,7 @@ research_batch: dr-d2-r14-crowd-management
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Crowd-Management]]"
 related_to:
-  - "[[Crowd-Management-Crowd-Density-Monitoring]]"
-  - "[[Crowd-Management-Fruins-Level-Of-Service]]"
+  - "[[Crowd-Management-Fruins-Level-of-Service]]"
   - "[[Technology-And-Digital-IoT-Smart-Building]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

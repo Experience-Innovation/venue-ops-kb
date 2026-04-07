@@ -27,8 +27,7 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Commercial-And-Revenue]]"
 related_to:
   - "[[Technology-And-Digital-Venue-Cybersecurity]]"
-  - "[[Guest-Experience-Queue-Management]]"
-  - "[[Inclusivity-And-Accessibility-ADA-Compliance]]"
+  - "[[Guest-Experience-Queue-Management-Virtual-Queues]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 

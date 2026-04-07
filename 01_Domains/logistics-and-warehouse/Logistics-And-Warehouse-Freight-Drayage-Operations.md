@@ -31,8 +31,6 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Logistics-And-Warehouse]]"
 related_to:
   - "[[Logistics-And-Warehouse-Loading-Dock-Operations]]"
-  - "[[Supply-Chain-And-Procurement-Vendor-Management]]"
-  - "[[Event-Operations-Trade-Show-Operations]]"
 venue_scale:
   - large
   - mega

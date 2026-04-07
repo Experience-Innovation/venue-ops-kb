@@ -16,14 +16,14 @@ tags:
   - venue-ops
   - technology-and-digital
 children:
-  - "[[Technology-And-Digital-Venue-Cybersecurity]]"
-  - "[[Technology-And-Digital-DAS-Wireless]]"
-  - "[[Technology-And-Digital-EliteOps]]"
-  - "[[Technology-And-Digital-IoT-Smart-Building]]"
-  - "[[Technology-And-Digital-EV-Charging]]"
   - "[[Technology-And-Digital-AI-ML-Applications]]"
-  - "[[Technology-And-Digital-Digital-Twin]]"
+  - "[[Technology-And-Digital-DAS-In-Building-Wireless]]"
   - "[[Technology-And-Digital-Data-Privacy]]"
+  - "[[Technology-And-Digital-Digital-Twin]]"
+  - "[[Technology-And-Digital-EliteOps-Integrated-Platform]]"
+  - "[[Technology-And-Digital-EV-Charging-Infrastructure]]"
+  - "[[Technology-And-Digital-IoT-Smart-Building]]"
+  - "[[Technology-And-Digital-Venue-Cybersecurity]]"
 cross_domain:
   - "[[Domain-Av-And-Production]]"
   - "[[Domain-Data-And-Analytics]]"

@@ -1,7 +1,7 @@
 # Methodology — Venue Operations Knowledge Base
 
-**Version:** 2.0
-**Published:** 2026-04-05 (Session 16); updated 2026-04-06 (Session D2 — v1.0.0 statistics, complete audit history, coverage depth disclosure)
+**Version:** 2.1
+**Published:** 2026-04-05 (Session 16); updated 2026-04-06 (D2); finalized 2026-04-07 (E1 — v1.0 publication release with final statistics)
 **Authority:** `CLAUDE.md v2.1` (processing assignment prompt) · `VEP-KB-Data-Science-Methodology_v1.0.md` (Q1-Q5 framework) · `VEP-Source-of-Truth_v1.0.md` (Decisions #26-45)
 
 ---
@@ -126,41 +126,51 @@ Aligned with **EU AI Act transparency principles** for AI-generated content.
 
 ---
 
-## 5. Vault Statistics (v1.0.0, 2026-04-06)
+## 5. Vault Statistics (v1.0, 2026-04-07)
 
 | Metric | Value |
 |---|:-:|
-| **Total notes** | 650 |
+| **Total notes** | ~780 |
 | Domain overviews | 26 / 26 (100%) |
-| Concept notes | 207 |
-| Source notes | 390 |
+| Concept notes | 247 |
+| Source notes | 457 |
+| Standard notes | 15 |
+| Organization notes | 5 |
 | MOC notes (navigation layer) | 27 (26 domain + 1 master) |
 | Audit reports | 7 (A-01 through A-07) |
+| CI gap register entries | 34 (33 resolved, 1 accepted) |
 | Delta register entries | 20 (all resolved or accepted) |
-| **Processing sessions** | 21 (S4-S21, March-April 2026) |
-| **DR files processed** | 40+ |
+| **Processing sessions** | 25 (S4-S21, D1-D3, E1 — March-April 2026) |
+| **DR files processed** | 56+ |
 | **Domains at minimum viable (3+ concepts)** | 26 / 26 (100%) |
-| **Domains at working depth (8+ concepts)** | 10 / 26 (38%) |
-| **Domains at authoritative (15+ concepts)** | 1 / 26 (4%) |
-| **Fabrication incidents** | 0 across 21 sessions |
+| **Domains at working depth (8+ concepts)** | 21 / 26 (81%) |
+| **Domains at authoritative (15+ concepts)** | 3 / 26 (12%) |
+| **Fabrication incidents** | 0 across 25 sessions |
 
 ### Confidence Distribution
 
 | Tier | Count | Percentage |
 |---|:-:|:-:|
-| High | 183 | 88.4% |
-| Medium | 22 | 10.6% |
-| Low | 2 | 1.0% |
+| High | 223 | 90.3% |
+| Medium | 22 | 8.9% |
+| Low | 2 | 0.8% |
 
 ### Coverage Depth by Domain
 
-15 domains are at minimum viable depth (3-7 concepts) and are candidates for enrichment to working depth. Coverage distribution reflects the progressive deepening model (Q4) — not all domains will reach authoritative depth; depth follows strategic priority, content calendar alignment, and audience need.
+5 domains remain at minimum viable depth (7 concepts each): booking-and-sales, data-and-analytics, inclusivity-and-accessibility, security, ticketing-and-box-office. Each is one concept short of the 8+ working depth threshold. Coverage distribution reflects the progressive deepening model (Q4) — not all domains will reach authoritative depth; depth follows strategic priority and audience need.
 
-Domains with highest medium+low confidence concentrations:
-- **logistics-and-warehouse:** 3 concepts, 66% medium+low (smallest domain, single research batch)
-- **parking-and-transportation:** 10 concepts, 40% medium+low (vendor-sourced concentration, documented in A-06)
+3 domains at authoritative depth (15+ or 13+ with strong source diversity): facilities-and-building-systems (15), safety-and-risk (14), event-operations (14).
 
-These are transparent disclosures, not deficiencies — they represent the current state of source material quality for these domains.
+### Non-Concept Note Types (New in v1.0)
+
+| Type | Count | Location |
+|---|:-:|---|
+| Standard | 15 | `02_Standards/` — ISO management system family (9001, 14001, 20121, 45001, 50001, 22301, 27001, 31000, 41001, 22000, 22343), COR/SECOR, OSHA VPP, ASIS SPC.1, EarthCheck |
+| Organization | 5 | `04_Organizations/` — ISO, EarthCheck, ASIS International, SCC, SHRM |
+| Technology | 0 | `03_Technology/` — future enrichment target |
+| Person | 0 | `05_People/` — requires human verification gate |
+
+These are transparent disclosures of the current corpus composition, not deficiencies.
 
 ---
 
@@ -212,16 +222,34 @@ Confidence tier defensibility (audit A-06, S20):
 
 ---
 
-## 7. Known Limitations
+## 7. Known Limitations and Content Quality Assessment
 
-**Content-level limitations:**
+### Content Quality State: v0.6
 
-1. **All 207 concept notes at `status: draft`.** No notes have undergone formal human review. Promotion to `reviewed` → `canonical` requires human sign-off per Q4 progressive deepening model. This is the documented workflow — AI extraction produces drafts; human review produces reviewed/canonical status. The entire corpus is transparently AI-extracted pending human verification.
-2. **No non-concept notes yet.** Standards (`02_Standards/`), Technology (`03_Technology/`), Organizations (`04_Organizations/`), People (`05_People/`) — these note types exist in the schema but have zero instances. An estimated 70-120 entities are extractable from the existing 390-source corpus. Scheduled for Phase D4 ingestion.
-3. **15 domains at minimum viable depth (3-7 concepts).** These are usable references but lack the substantive coverage of working-depth domains (8+). Progressive deepening will prioritize domains based on strategic value and audience need.
-4. **5 lowest-count domains depend on a single research batch.** logistics-and-warehouse, crowd-management, supply-chain-and-procurement, financial-operations, and booking-and-sales each drew from one DR prompt with no cross-batch corroboration. DR enrichment targeting these domains is planned for Phase D3/D4.
-5. **Bibliographic metadata partially populated.** Author field at 100% (enriched S18). Publication at ~24%, publish_date at ~2% — populated where publicly identifiable from source URLs. Remaining gaps reflect sources where publisher metadata is not determinable from the URL alone.
-6. **Claim-to-source traceability at 60%.** Audit A-04 (S17 + S19) found 60% of concept body-text claims fully trace to cited sources. Zero fabrication detected. The 40% gap represents claims that are supported by cited sources in frontmatter but lack inline body-text citation — a citation density issue, not a factual accuracy issue. DR enrichment addresses this.
+The technical architecture (schema, taxonomy, pipeline, governance, provenance chain) is at publication standard. The content layer is at approximately v0.6 — structurally sound, directionally correct, and schema-compliant, but lacking the depth, citation density, and confidence calibration required for a publication-quality reference. This assessment was produced during Session E1 after a root-cause analysis of extraction depth patterns.
+
+**Root cause:** Across 25 extraction sessions, processing consistently optimized for domain coverage breadth over per-concept depth. The validation pipeline enforces structural compliance (schema, vocabulary, wikilinks) but does not gate content depth — a concept with 3 sentences and 2 sources passes every check. This produced a corpus that is architecturally rigorous and content-shallow.
+
+### Content-Level Limitations
+
+1. **Claim-to-source traceability at 60%.** Audit A-04 (S17 + S19) found 60% of concept body-text claims fully trace to cited sources. Zero fabrication detected. The 40% gap represents claims where body text outpaces the inline citations — the DR source material supports the claims, but inline references were not placed during extraction. This is the single largest quality gap.
+2. **Body text at summary depth.** Concept notes capture the topic accurately but not at the depth the DR source files support. The DR corpus contains an estimated 10x more extractable detail than what currently appears in concept body text. A practitioner reading these notes would find them correct but thin.
+3. **Confidence distribution likely over-assigned.** 90.3% high confidence is suspicious for a corpus extracted from secondary research. A meaningful portion of "high" assignments were likely default rather than source-evidence-driven. Re-calibration is expected to shift the distribution toward approximately 80/15/5.
+4. **All 247 concept notes at `status: draft`.** No notes have undergone formal human review. The entire corpus is transparently AI-extracted pending human verification.
+5. **Non-concept notes partially populated.** 15 standard notes and 5 organization notes exist. Technology at 0 (future enrichment target); Person at 0 (requires human verification gate).
+6. **5 domains at 7 concepts (one short of working depth).** booking-and-sales, data-and-analytics, inclusivity-and-accessibility, security, ticketing-and-box-office.
+7. **D3 Tier 3 concepts reference DR source files** rather than individual URL sources. Provenance chain intact; individual URL breakout is enrichment work.
+
+### Enrichment Path to v1.0
+
+A dedicated Content Enrichment Sprint (Phase F, planned April 13-25, 2026) addresses these gaps through:
+- A new **Enrichment Pipeline** (`enrichment-rules.md`) purpose-built for deepening existing concepts — distinct from the extraction pipeline used for initial ingestion
+- Systematic enrichment of all 247 concepts against their DR source files, with per-concept acceptance gates (every claim cited, 3+ sources, defensible confidence)
+- Hardened extraction pipeline (`ingestion-rules.md` v4.0) adding depth gates to prevent recurrence
+- Full A-04 re-audit targeting 95%+ traceability
+- Non-concept type completion (standards, organizations, technology)
+
+Full plan: `_sessions/phase-f-content-enrichment-plan.md`.
 
 **Methodological limitations:**
 
@@ -320,7 +348,7 @@ CI gap register: `_Pipeline/ci-gap-register.yaml`. Improvement register: `_Pipel
 
 ### Session History
 
-21 sessions (S4-S21) documented with handoffs in `_sessions/session-NN-handoff.md`. Processing log in `_sessions/progress.md`. Initiative roadmap in `_sessions/vep-kb-initiative-roadmap.md` v1.5.
+25 sessions (S4-S21, D1-D3, E1) documented with handoffs in `_sessions/`. Processing log in `_sessions/progress.md`. Initiative roadmap in `_sessions/vep-kb-initiative-roadmap.md` v1.5. Phase D (CI Initiative): D1 audit → D2 remediation → D3 bulk ingestion. Phase E (Publication): E1 final ingestion + validation + v1.0 release.
 
 ---
 
@@ -352,6 +380,7 @@ CI gap register: `_Pipeline/ci-gap-register.yaml`. Improvement register: `_Pipel
 |---|---|---|
 | 1.0 | 2026-04-05 | Initial publication during Session 16 (Academic Rigor Initiative Phase B.5 Session 1) |
 | 2.0 | 2026-04-06 | Updated to v1.0.0 state (D2): vault statistics (650 notes, 207 concepts, 390 sources), complete audit history (A-01 through A-07 + D1 CI audit), confidence distribution (88.4/10.6/1.0), per-domain coverage depth disclosure, all-draft status transparency, known limitations refreshed (stale items removed, current state reflected), GLRC compliance updated with S17-S21 audit results |
+| 2.1 | 2026-04-07 | v1.0 publication release (E1): final statistics (247 concepts, 457 sources, 15 standards, 5 organizations), 21/26 domains at working depth (81%), confidence distribution updated (90.3/8.9/0.8), Phase D+E session history, D3 Tier 3 source backfill acceptance, known limitations refreshed for v1.0 state |
 
 ---
 

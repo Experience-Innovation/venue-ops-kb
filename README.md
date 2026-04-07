@@ -90,33 +90,33 @@ Full methodology (public statement): `METHODOLOGY.md` at vault root.
 Internal methodology: `Reference/VEP-KB-Data-Science-Methodology_v1.0.md`.
 Pipeline documentation: `_Pipeline/` folder.
 
-## Current Status — v1.0.0 (2026-04-06)
+## Current Status — v1.0 (2026-04-07)
 
 | Metric | Value |
 |---|:-:|
-| Total notes | 650 |
+| Total notes | ~780 |
 | Domain overviews | 26 / 26 (100%) |
-| Concept notes | 207 |
-| Source notes | 390 |
+| Concept notes | 247 |
+| Source notes | 457 |
+| Standard notes | 15 |
+| Organization notes | 5 |
 | Domain MOCs (navigation layer) | 27 |
 | Audit reports filed | 7 (A-01 through A-07) |
-| Delta register entries | 20 (all resolved or accepted) |
+| CI gap register entries | 34 (33 resolved, 1 accepted) |
 | Domains at minimum viable (3+ concepts) | 26 / 26 (100%) |
-| Domains at working depth (8+ concepts) | 10 / 26 (38%) |
-| Domains at authoritative (15+ concepts) | 1 / 26 (4%) |
-| Confidence distribution | 88.4% high, 10.6% medium, 1.0% low |
-| Fabrication incidents | 0 across 21 sessions |
-| Processing sessions | 21 (S4-S21, March-April 2026) |
+| Domains at working depth (8+ concepts) | 21 / 26 (81%) |
+| Domains at authoritative (15+ concepts) | 3 / 26 (12%) |
+| Confidence distribution | 90.3% high, 8.9% medium, 0.8% low |
+| Fabrication incidents | 0 across 25 sessions |
+| Processing sessions | 25 (S4-S21, D1-D3, E1 — March-April 2026) |
 
-**Academic Rigor Initiative (Phase B.5) complete** — 7 audit threads (provenance, vocabulary, citation, traceability, structural consistency, confidence defensibility, final validation), 20 delta register entries resolved. Reports in `_Pipeline/Validation/`.
+**Academic Rigor Initiative (Phase B.5) + CI Initiative (Phase D) complete** — 7 audit threads, 20 delta register entries resolved, 34 CI gap register entries (33 resolved, 1 accepted). Reports in `_Pipeline/Validation/`.
 
-**Depth-of-coverage improvement areas** (documented for post-v1.0 enrichment):
-- 15 domains at minimum viable depth — candidates for deepening to working depth (8+ concepts)
-- Non-concept note types (Standards, Technology, Organizations, People) at 0 — enrichment scheduled post-v1.0
-- All notes at `status: draft` — human review passes scheduled for draft to reviewed to canonical progression
-- 31 concepts across 4 accepted delta entries identified for supplementary source enrichment
-- Parking-and-transportation has highest medium-confidence concentration (4/10 concepts)
-- Logistics-and-warehouse at minimum viable floor (3 concepts)
+**Post-v1.0 enrichment areas:**
+- 5 domains at 7 concepts (one short of working depth): booking-and-sales, data-and-analytics, inclusivity-and-accessibility, security, ticketing-and-box-office
+- Technology and Person note types at 0 — future enrichment targets
+- All notes at `status: draft` — human review passes for draft → reviewed → canonical progression
+- 31 concepts with accepted delta entries identified for supplementary source enrichment
 
 See `METHODOLOGY.md` for the full limitations disclosure and `RELEASE-v1.0.0.md` for release details.
 

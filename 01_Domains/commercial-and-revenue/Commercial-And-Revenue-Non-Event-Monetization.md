@@ -27,8 +27,7 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Commercial-And-Revenue]]"
 related_to:
   - "[[Financial-Operations-Venue-Financial-KPIs]]"
-  - "[[Booking-And-Sales-Event-Contracting]]"
-  - "[[Premium-And-VIP-Suite-Design]]"
+  - "[[Booking-And-Sales-Event-Contracting-License-Agreements]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 

@@ -513,7 +513,7 @@ entries:
   - id: CI-GAP-032
     category: convention
     severity: low
-    status: open
+    status: accepted
     audit_finding: "D1 comprehensive sweep"
     description: "Non-concept note types (standard, technology, organization, person) at 0 count. Phase E backlog estimates 70-120 extractable from existing corpus. Publication without these types leaves the KB structurally incomplete vs. SCHEMA.yaml design."
     affected_artifacts: "02_Standards/, 03_Technology/, 04_Organizations/, 05_People/"
@@ -521,6 +521,9 @@ entries:
     resolution_path: "Final ingestion session (D4) should extract non-concept notes from existing 390-source corpus as part of publication-ready update."
     target_session: D4
     effort_estimate: XL
+    resolved_session: E1
+    resolved_date: 2026-04-07
+    resolution_evidence: "Partially resolved E1: 15 standard notes in 02_Standards/ (ISO family + COR + OSHA VPP + ASIS SPC.1 + EarthCheck), 5 organization notes in 04_Organizations/ (ISO, EarthCheck, ASIS International, SCC, SHRM). Technology/Person accepted at 0 for v1.0."
 
   - id: CI-GAP-033
     category: convention
@@ -558,11 +561,11 @@ entries:
 metrics:
   total_entries: 34
   by_status:
-    open: 1
+    open: 0
     in-progress: 0
     resolved: 33
     deferred: 0
-    accepted: 0
+    accepted: 1
   by_severity:
     critical: 0
     high: 10

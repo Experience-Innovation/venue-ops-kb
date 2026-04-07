@@ -26,7 +26,6 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Technology-And-Digital]]"
 related_to:
   - "[[Technology-And-Digital-IoT-Smart-Building]]"
-  - "[[Facilities-And-Building-Systems-Building-Automation]]"
   - "[[Crowd-Management-Ingress-Egress-Modeling]]"
 venue_scale:
   - large

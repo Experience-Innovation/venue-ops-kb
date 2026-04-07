@@ -17,14 +17,14 @@ tags:
   - venue-ops
   - supply-chain-and-procurement
 children:
-  - "[[Supply-Chain-And-Procurement-GPO-Procurement]]"
+  - "[[Supply-Chain-And-Procurement-Cost-Control-Waste]]"
+  - "[[Supply-Chain-And-Procurement-FB-Resilience]]"
   - "[[Supply-Chain-And-Procurement-FSMA-Traceability]]"
+  - "[[Supply-Chain-And-Procurement-GPO-Purchasing]]"
   - "[[Supply-Chain-And-Procurement-Pouring-Rights]]"
   - "[[Supply-Chain-And-Procurement-Supplier-Qualification]]"
-  - "[[Supply-Chain-And-Procurement-FB-Resilience]]"
-  - "[[Supply-Chain-And-Procurement-Technology-Platforms]]"
   - "[[Supply-Chain-And-Procurement-Sustainable-Procurement]]"
-  - "[[Supply-Chain-And-Procurement-Cost-Control-Waste]]"
+  - "[[Supply-Chain-And-Procurement-Technology-Platforms]]"
 cross_domain:
   - "[[Domain-Logistics-And-Warehouse]]"
   - "[[Domain-Food-And-Beverage]]"

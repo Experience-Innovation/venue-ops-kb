@@ -18,12 +18,12 @@ tags:
   - crowd-management
 children:
   - "[[Crowd-Management-Crowd-Manager-Staffing]]"
-  - "[[Crowd-Management-Crowd-Density-Monitoring]]"
-  - "[[Crowd-Management-Fruins-Level-Of-Service]]"
-  - "[[Crowd-Management-Flow-Management-Crush-Prevention]]"
-  - "[[Crowd-Management-NFPA-Occupancy-Compliance]]"
-  - "[[Crowd-Management-Ingress-Egress-Modeling]]"
+  - "[[Crowd-Management-Density-Monitoring]]"
   - "[[Crowd-Management-Event-Crowd-Plans]]"
+  - "[[Crowd-Management-Flow-Management-Crush-Prevention]]"
+  - "[[Crowd-Management-Fruins-Level-of-Service]]"
+  - "[[Crowd-Management-Ingress-Egress-Modeling]]"
+  - "[[Crowd-Management-NFPA-Occupancy-Compliance]]"
   - "[[Crowd-Management-Post-Incident-Regulatory]]"
 cross_domain:
   - "[[Domain-Safety-And-Risk]]"

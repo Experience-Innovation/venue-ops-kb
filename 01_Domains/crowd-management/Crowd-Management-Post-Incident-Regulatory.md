@@ -27,8 +27,7 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Crowd-Management]]"
 related_to:
   - "[[Crowd-Management-Event-Crowd-Plans]]"
-  - "[[Safety-And-Risk-Crisis-Communication]]"
-  - "[[Legal-Compliance-And-Licensing-Risk-Management]]"
+  - "[[Safety-And-Risk-Crisis-Communication-Protocols]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 

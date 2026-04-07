@@ -25,7 +25,6 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Guest-Experience]]"
 related_to:
   - "[[Guest-Experience-Journey-Mapping]]"
-  - "[[Data-And-Analytics-Business-Intelligence]]"
   - "[[Marketing-And-Communications-Venue-CRM]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

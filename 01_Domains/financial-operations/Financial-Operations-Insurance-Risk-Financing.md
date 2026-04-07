@@ -25,7 +25,6 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Financial-Operations]]"
 related_to:
   - "[[Safety-And-Risk-Emergency-Action-Plans]]"
-  - "[[Legal-Compliance-And-Licensing-Risk-Management]]"
   - "[[Financial-Operations-Public-Venue-Financial-Governance]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

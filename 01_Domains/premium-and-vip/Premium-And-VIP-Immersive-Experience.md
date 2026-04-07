@@ -24,10 +24,9 @@ sources:
   - "[[Source-0431-R20-Innovation-Future]]"
 research_batch: dr-d3-r20-innovation-future
 extraction_model: claude-opus-4-6
-child_of: "[[Domain-Premium-And-VIP]]"
+child_of: "[[Domain-Premium-And-Vip]]"
 related_to:
   - "[[Technology-And-Digital-AI-ML-Applications]]"
-  - "[[AV-And-Production-LED-Display-Technology]]"
   - "[[Guest-Experience-Journey-Mapping]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

@@ -26,9 +26,7 @@ research_batch: dr-d2-r17-marketing-digital
 extraction_model: claude-opus-4-6
 child_of: "[[Domain-Marketing-And-Communications]]"
 related_to:
-  - "[[Commercial-And-Revenue-Naming-Rights]]"
-  - "[[Marketing-And-Communications-Digital-Signage]]"
-  - "[[Marketing-And-Communications-Venue-Social-Media]]"
+  - "[[Marketing-And-Communications-Digital-Signage-Regulations]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 

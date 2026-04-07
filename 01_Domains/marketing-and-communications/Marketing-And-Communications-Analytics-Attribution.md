@@ -27,7 +27,6 @@ extraction_model: claude-opus-4-6
 child_of: "[[Domain-Marketing-And-Communications]]"
 related_to:
   - "[[Marketing-And-Communications-Venue-CRM]]"
-  - "[[Data-And-Analytics-Business-Intelligence]]"
   - "[[Financial-Operations-Venue-Financial-KPIs]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---

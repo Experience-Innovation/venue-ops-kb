@@ -16,14 +16,14 @@ tags:
   - venue-ops
   - guest-experience
 children:
-  - "[[Guest-Experience-Wayfinding-Signage]]"
-  - "[[Guest-Experience-FOH-Usher-Programs]]"
-  - "[[Guest-Experience-Tailgating-Fan-Zones]]"
-  - "[[Guest-Experience-Hospitality-Quality-Ratings]]"
-  - "[[Guest-Experience-Queue-Management]]"
-  - "[[Guest-Experience-Journey-Mapping]]"
-  - "[[Guest-Experience-Service-Design-Frameworks]]"
   - "[[Guest-Experience-Feedback-Satisfaction]]"
+  - "[[Guest-Experience-FOH-Usher-Patron-Services]]"
+  - "[[Guest-Experience-Hospitality-Quality-Ratings]]"
+  - "[[Guest-Experience-Journey-Mapping]]"
+  - "[[Guest-Experience-Queue-Management-Virtual-Queues]]"
+  - "[[Guest-Experience-Service-Design-Frameworks]]"
+  - "[[Guest-Experience-Tailgating-Fan-Zones]]"
+  - "[[Guest-Experience-Wayfinding-Signage]]"
 cross_domain:
   - "[[Domain-Crowd-Management]]"
   - "[[Domain-Inclusivity-And-Accessibility]]"

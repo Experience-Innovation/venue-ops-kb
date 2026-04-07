@@ -31,7 +31,6 @@ child_of: "[[Domain-Booking-And-Sales]]"
 related_to:
   - "[[Booking-And-Sales-University-Venue-Governance]]"
   - "[[Financial-Operations-Venue-Budgeting-Forecasting]]"
-  - "[[People-And-Culture-Workforce-Development]]"
 ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 

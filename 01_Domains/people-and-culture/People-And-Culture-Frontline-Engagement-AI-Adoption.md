@@ -3,7 +3,7 @@ title: Frontline Worker Engagement Decline During AI Adoption
 note_type: concept
 status: draft
 created: 2026-04-05
-updated: 2026-04-05
+updated: 2026-04-07
 tags:
   - concept
   - people-and-culture
@@ -27,6 +27,8 @@ vef_alignment:
 sources:
   - "[[Source-0258-Qualtrics-2026-EX-Trends-Event]]"
   - "[[Source-0259-Qualtrics-2026-EX-Trends-Report]]"
+  - "[[Source-0438-UKG-Frontline-Workforce-2025]]"
+  - "[[Source-0439-Axonify-Deskless-Report-2024]]"
 research_batch: existing-dr-4
 extraction_model: claude-opus-4-6
 confidence: high
@@ -59,6 +61,16 @@ Venue operations are frontline-dominant — ushers, F&B attendants, housekeeping
 - AI-adoption organizations without frontline change programs show compounded declines
 - Recommended interventions: frontline voice channels, transparent role evolution narratives, co-design sessions, tier-segmented engagement dashboards
 
+## Corroborating Evidence (R-11 Enrichment)
+
+The UKG and Workplace Intelligence 2025 Frontline Workforce Study provides independent corroboration: 85% of frontline workers believe replacing humans with AI would be a "huge mistake"; 64% worry AI could take their jobs; 42% do not understand how AI could help them; and 51% report their employer has communicated nothing about AI's impact on their work. A full 47% of frontline workers perceive two distinct workplace cultures — one for desk workers, another for frontline ([[Source-0438-UKG-Frontline-Workforce-2025]]).
+
+The Axonify 2024 Deskless Report (788 respondents across retail, hospitality, grocery, foodservice, and logistics) documents a parallel perception gap: 75% of corporate leaders believe they invest in frontline technology, but only 39% of frontline workers agree. Manager burnout rates reach 40% overall and 60% in hospitality contexts. These findings corroborate the Qualtrics single-source gap and provide a multi-industry baseline applicable to venue operations ([[Source-0439-Axonify-Deskless-Report-2024]]).
+
+Compliance-driven adoption is accelerating regardless of worker preference — employer fines for non-compliance with wage and scheduling laws nearly doubled from 2018 to 2022, reaching $3.12 billion, creating strong financial incentives for WFM system adoption.
+
 ## Sources
 - [[Source-0258-Qualtrics-2026-EX-Trends-Event]] — Qualtrics 2026 Employee Experience Trends launch event coverage
 - [[Source-0259-Qualtrics-2026-EX-Trends-Report]] — Full Qualtrics 2026 EX Trends research report
+- [[Source-0438-UKG-Frontline-Workforce-2025]] — UKG/Workplace Intelligence independent frontline study
+- [[Source-0439-Axonify-Deskless-Report-2024]] — Axonify cross-industry deskless worker report

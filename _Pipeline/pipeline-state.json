@@ -6,13 +6,13 @@
   "methodology": "VEP-KB-Data-Science-Methodology_v1.0.md",
   "taxonomy_version": "26-domain (Decision #30)",
   "relationship_types": 7,
-  "phase": "phase-d-ci-initiative-d2-complete",
-  "total_input_files": 31,
-  "processable_files": 28,
+  "phase": "phase-d-ci-initiative-d3-complete",
+  "total_input_files": 47,
+  "processable_files": 44,
   "excluded_files": 3,
-  "notes_created": 207,
-  "notes_enriched": 52,
-  "sources_created": 390,
+  "notes_created": 241,
+  "notes_enriched": 53,
+  "sources_created": 434,
   "mocs_created": 27,
   "validation_errors": 0,
 
@@ -372,6 +372,39 @@
       "session": "21",
       "completed_date": "2026-04-06",
       "notes": "A-07 PASS: 650 files validated across 4 parallel scan agents (schema, terminology, wikilinks, coverage). 31 broken source wikilinks remediated (filename truncation from S14-S15 batches). Zero schema violations, zero vocabulary drift, zero orphans, 100% GLRC provenance, 26/26 domains at 3+. Delta register zero-open (4 accepted). README, release notes, roadmap v1.4 updated."
+    },
+    {
+      "id": "batch-19-d3-ingestion",
+      "description": "D3 bulk DR ingestion: R-12 through R-25 (13 DR files processed, 3 staged for future)",
+      "status": "complete",
+      "input_files": [
+        "DR-R12-Venue-Logistics-Warehouse.md",
+        "DR-R13-Venue-Financial-Management.md",
+        "DR-R14-Crowd-Management-Flow.md",
+        "DR-R15-Supply-Chain-Procurement.md",
+        "DR-R16-Guest-Experience-Design.md",
+        "DR-R17-Marketing-Digital.md",
+        "DR-R18-Technology-Digital-Refresh.md",
+        "DR-R20-Innovation-Future-Venue.md",
+        "DR-R22-University-SmallVenue-Ops.md",
+        "DR-R24-Legal-Liability-Compliance.md",
+        "DR-R25-Venue-Community-Government.md"
+      ],
+      "staged_for_future": [
+        "DR-R11-Venue-Workforce-Labor-v1.md",
+        "DR-R11-Venue-Workforce-Labor-v2.md",
+        "DR-R19-Parking-Enrichment.md",
+        "DR-R21-ISO-Standards-Certifications.md",
+        "DR-R23-Emerging-Specialty-Venues-Pt2.md"
+      ],
+      "primary_domains": "all (11 domains deepened to working depth)",
+      "notes_target": "85-160",
+      "notes_created": 34,
+      "notes_modified": 1,
+      "sources_created": 44,
+      "session": "D3",
+      "completed_date": "2026-04-06",
+      "notes": "34 concept notes + 44 source notes. 11 domains advanced to working depth (8+). All 7 D3 CI gaps resolved. 5 DR files staged for Phase E processing (R-11 people-and-culture, R-19 parking enrichment, R-21 ISO standards, R-23 specialty venues). VOCABULARY.yaml updated with R-20-R-25 research_batch entries."
     }
   ]
 }

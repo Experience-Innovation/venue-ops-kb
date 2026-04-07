@@ -4,14 +4,14 @@ note_type: domain
 domain: "security"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Physical security, access control, surveillance, and protective services for venues. This domain covers the systems, personnel, and protocols that secure facilities, protect assets, manage access, and respond to security threats including both physical and cyber dimensions."
 venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
   - systems-processes-clarity-of-roles
-node_count: 6
+node_count: 7
 tags:
   - domain
   - venue-ops

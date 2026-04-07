@@ -4,18 +4,26 @@ note_type: domain
 domain: "marketing-and-communications"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Brand management, digital marketing, social media, media relations, and crisis communications for venues. This domain covers how venues communicate with audiences, build brand identity, drive event attendance, and manage reputation."
 venue_types:
   - all
 vef_alignment:
   - strategy-and-effective-change-leadership
-node_count: 5
+node_count: 8
 tags:
   - domain
   - venue-ops
   - marketing-and-communications
-children: []
+children:
+  - "[[Marketing-And-Communications-FTC-Endorsement]]"
+  - "[[Marketing-And-Communications-Venue-Social-Media]]"
+  - "[[Marketing-And-Communications-Email-CRM-Automation]]"
+  - "[[Marketing-And-Communications-Email-Regulatory]]"
+  - "[[Marketing-And-Communications-Digital-Signage]]"
+  - "[[Marketing-And-Communications-Venue-CRM]]"
+  - "[[Marketing-And-Communications-Brand-Partnerships]]"
+  - "[[Marketing-And-Communications-Analytics-Attribution]]"
 cross_domain:
   - "[[Domain-Commercial-And-Revenue]]"
   - "[[Domain-Guest-Experience]]"

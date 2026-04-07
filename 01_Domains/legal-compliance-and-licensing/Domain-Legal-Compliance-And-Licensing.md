@@ -4,13 +4,13 @@ note_type: domain
 domain: "legal-compliance-and-licensing"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Contracts, intellectual property, permits, liquor licensing, and regulatory compliance that govern venue operations. This domain covers the legal framework within which all other operational domains must operate, including jurisdiction-specific requirements."
 venue_types:
   - all
 vef_alignment:
   - systems-processes-clarity-of-roles
-node_count: 7
+node_count: 8
 tags:
   - domain
   - venue-ops

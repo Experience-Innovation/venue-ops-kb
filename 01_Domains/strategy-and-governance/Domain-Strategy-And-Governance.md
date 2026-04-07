@@ -4,13 +4,13 @@ note_type: domain
 domain: "strategy-and-governance"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Strategic planning, board governance, performance management, and the leadership structures that set direction for venue organizations. This domain covers the top-level decision-making frameworks that guide investment, growth, and operational priorities across all other domains."
 venue_types:
   - all
 vef_alignment:
   - strategy-and-effective-change-leadership
-node_count: 8
+node_count: 9
 tags:
   - domain
   - venue-ops

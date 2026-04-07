@@ -4,22 +4,26 @@ note_type: domain
 domain: "financial-operations"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Budgeting, profit and loss management, capital planning, insurance, treasury, and the financial governance structures that sustain venue operations. This domain covers the financial backbone that enables investment decisions and operational funding across all other domains."
 venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
-node_count: 4
+node_count: 8
 tags:
   - domain
   - venue-ops
   - financial-operations
-parent_of:
+children:
   - "[[Financial-Operations-LEAN-Driven-Cost-Savings]]"
   - "[[Financial-Operations-Venue-Budgeting-Forecasting]]"
   - "[[Financial-Operations-Venue-Financial-KPIs]]"
   - "[[Financial-Operations-Public-Venue-Financial-Governance]]"
+  - "[[Financial-Operations-Event-Settlement]]"
+  - "[[Financial-Operations-Insurance-Risk-Financing]]"
+  - "[[Financial-Operations-Capital-Project-Financing]]"
+  - "[[Financial-Operations-Tax-Compliance]]"
 cross_domain:
   - "[[Domain-Commercial-And-Revenue]]"
   - "[[Domain-Supply-Chain-And-Procurement]]"

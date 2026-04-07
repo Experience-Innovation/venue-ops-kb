@@ -4,19 +4,27 @@ note_type: domain
 domain: "crowd-management"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "The science and practice of managing large gatherings safely and efficiently. This domain covers crowd dynamics, flow analysis, density monitoring, ingress and egress planning, queue management, and the predictive tools that help venues move people safely through spaces."
 venue_types:
   - all
 vef_alignment:
   - guest-experience
   - operational-efficiency-productivity-creativity
-node_count: 4
+node_count: 8
 tags:
   - domain
   - venue-ops
   - crowd-management
-children: []
+children:
+  - "[[Crowd-Management-Crowd-Manager-Staffing]]"
+  - "[[Crowd-Management-Crowd-Density-Monitoring]]"
+  - "[[Crowd-Management-Fruins-Level-Of-Service]]"
+  - "[[Crowd-Management-Flow-Management-Crush-Prevention]]"
+  - "[[Crowd-Management-NFPA-Occupancy-Compliance]]"
+  - "[[Crowd-Management-Ingress-Egress-Modeling]]"
+  - "[[Crowd-Management-Event-Crowd-Plans]]"
+  - "[[Crowd-Management-Post-Incident-Regulatory]]"
 cross_domain:
   - "[[Domain-Safety-And-Risk]]"
   - "[[Domain-Security]]"

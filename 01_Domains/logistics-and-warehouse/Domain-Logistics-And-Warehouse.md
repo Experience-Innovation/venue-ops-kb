@@ -4,19 +4,27 @@ note_type: domain
 domain: "logistics-and-warehouse"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Receiving, storage, inventory management, distribution, and equipment management within venues. This domain covers the physical movement of goods and equipment from delivery through deployment and the warehouse operations that support event execution."
 venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
   - systems-processes-clarity-of-roles
-node_count: 3
+node_count: 8
 tags:
   - domain
   - venue-ops
   - logistics-and-warehouse
-children: []
+children:
+  - "[[Logistics-And-Warehouse-Cold-Chain-Compliance]]"
+  - "[[Logistics-And-Warehouse-Inventory-Storage]]"
+  - "[[Logistics-And-Warehouse-Loading-Dock-Operations]]"
+  - "[[Logistics-And-Warehouse-Event-Changeover-Logistics]]"
+  - "[[Logistics-And-Warehouse-Freight-Drayage-Operations]]"
+  - "[[Logistics-And-Warehouse-Equipment-Lifecycle-Management]]"
+  - "[[Logistics-And-Warehouse-Safety-Compliance]]"
+  - "[[Logistics-And-Warehouse-Warehouse-Operations]]"
 cross_domain:
   - "[[Domain-Supply-Chain-And-Procurement]]"
   - "[[Domain-Event-Operations]]"

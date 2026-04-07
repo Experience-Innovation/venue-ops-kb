@@ -4,18 +4,26 @@ note_type: domain
 domain: "technology-and-digital"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "IT infrastructure, networking, guest-facing digital platforms, and cybersecurity that underpin modern venue operations. This domain covers the technology backbone that enables every other operational domain to function, from Wi-Fi and network infrastructure to digital signage and mobile apps."
 venue_types:
   - all
 vef_alignment:
   - ai-and-digital-transformation
-node_count: 5
+node_count: 8
 tags:
   - domain
   - venue-ops
   - technology-and-digital
-children: []
+children:
+  - "[[Technology-And-Digital-Venue-Cybersecurity]]"
+  - "[[Technology-And-Digital-DAS-Wireless]]"
+  - "[[Technology-And-Digital-EliteOps]]"
+  - "[[Technology-And-Digital-IoT-Smart-Building]]"
+  - "[[Technology-And-Digital-EV-Charging]]"
+  - "[[Technology-And-Digital-AI-ML-Applications]]"
+  - "[[Technology-And-Digital-Digital-Twin]]"
+  - "[[Technology-And-Digital-Data-Privacy]]"
 cross_domain:
   - "[[Domain-Av-And-Production]]"
   - "[[Domain-Data-And-Analytics]]"

@@ -4,19 +4,27 @@ note_type: domain
 domain: "supply-chain-and-procurement"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Sourcing, vendor management, contract procurement, and purchasing operations that supply venues with the goods and services required for operations. This domain covers the upstream supply relationships and procurement processes that feed every other operational function."
 venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
   - systems-processes-clarity-of-roles
-node_count: 4
+node_count: 8
 tags:
   - domain
   - venue-ops
   - supply-chain-and-procurement
-children: []
+children:
+  - "[[Supply-Chain-And-Procurement-GPO-Procurement]]"
+  - "[[Supply-Chain-And-Procurement-FSMA-Traceability]]"
+  - "[[Supply-Chain-And-Procurement-Pouring-Rights]]"
+  - "[[Supply-Chain-And-Procurement-Supplier-Qualification]]"
+  - "[[Supply-Chain-And-Procurement-FB-Resilience]]"
+  - "[[Supply-Chain-And-Procurement-Technology-Platforms]]"
+  - "[[Supply-Chain-And-Procurement-Sustainable-Procurement]]"
+  - "[[Supply-Chain-And-Procurement-Cost-Control-Waste]]"
 cross_domain:
   - "[[Domain-Logistics-And-Warehouse]]"
   - "[[Domain-Food-And-Beverage]]"

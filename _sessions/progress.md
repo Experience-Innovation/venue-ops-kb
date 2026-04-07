@@ -35,14 +35,14 @@ created: 2026-04-04
 **CI gap status post-D2:** 26 resolved, 8 open (7 D3, 1 D4). Zero HIGH remaining.
 
 **D2 scope acceleration — DR prompt engineering (originally D3 scope):**
-- 14 DR prompts authored (R-11 through R-24) covering 6 tiers of enrichment need
+- 15 DR prompts authored (R-11 through R-25) covering 7 tiers of enrichment need
 - HIGH priority (R-11/R-12/R-13): workforce, logistics, financial — domains at minimum viable
 - MEDIUM priority (R-14/R-15/R-16/R-17): crowd, supply chain, guest experience, marketing — domain deepening
 - LOW priority (R-18/R-19): technology refresh, parking source enrichment
-- NEW from D2 gap analysis (R-20/R-21/R-22/R-23/R-24): innovation/future, community/government, university/small venue, emerging venue types, legal liability
+- NEW from D2 gap analysis (R-20/R-21/R-22/R-23/R-24/R-25): innovation/future, community/government, university/small venue, emerging venue types, legal liability, ISO standards/certifications
 - All prompts follow DR prompt template v1.0 (S19), stored in _Pipeline/Processing/
-- 14 research_batch entries registered in VOCABULARY.yaml v3.0
-- Estimated total yield: 85-135 concepts, 270-390 source notes across all 14 prompts
+- 15 research_batch entries registered in VOCABULARY.yaml v3.0
+- Estimated total yield: 95-152 concepts, 285-395 source notes across all 15 prompts
 
 ---
 

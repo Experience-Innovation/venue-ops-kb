@@ -79,6 +79,7 @@ successor_session: D3
 | dr-prompt-R-22-university-small-venue-operations.md | _Pipeline/Processing/ | R-22 | MEDIUM |
 | dr-prompt-R-23-emerging-venue-types.md | _Pipeline/Processing/ | R-23 | MEDIUM |
 | dr-prompt-R-24-venue-legal-liability-compliance.md | _Pipeline/Processing/ | R-24 | HIGH |
+| dr-prompt-R-25-iso-standards-certification-frameworks.md | _Pipeline/Processing/ | R-25 | HIGH |
 
 ### Files Deleted (0)
 
@@ -118,20 +119,23 @@ Note: CI-GAP-016 was resolved in D2 as part of the frontmatter backfill but may 
 
 ---
 
-## §4. Next Session Priorities (D3)
+## §4. Next Session Priorities (D3/D4)
 
-Per revised arc (roadmap v1.5 §5):
+**D2 scope acceleration absorbed all D3 prompt design work.** 15 DR prompts (R-11 through R-25) authored and submitted to Perplexity Pro during D2. D3 as originally scoped (prompt engineering) is complete.
 
-**D3: DR Prompt Design + Specification (~300K tokens)**
+**Remaining D3-targeted CI gaps (3 items — documentation only):**
+1. CI-GAP-022 (MEDIUM) — Document batch numbering convention in ingestion-rules.md
+2. CI-GAP-023 (LOW) — Document DR input file naming convention
+3. CI-GAP-012 (LOW) — Document S18 validation report variance as acceptable
 
-D3 is now a focused prompt engineering session — all process standardization pulled forward to D2.
+**Next session should be ingestion-focused (originally D4 scope):**
+1. **Ingest DR output** as Perplexity Pro results come back from R-11 through R-25
+2. **Resolve 3 remaining D3 CI gaps** (documentation items, <30 min total)
+3. **Non-concept note extraction** from existing 390-source corpus (standards, technology, organization, person)
+4. **Final validation pass** + METHODOLOGY.md final update
+5. **Publication gate check**
 
-1. **Design DR prompts for 6 priority domains** to working depth (8+ concepts)
-2. **Logistics-and-warehouse confidence enrichment** — 66% medium+low, single research batch
-3. **Cross-batch corroboration prompts** for single-batch domains (crowd-management, supply-chain, financial-operations, booking-sales)
-4. **Non-concept entity extraction guidance** — standards, technology, organization, person types for D4
-5. **Document remaining conventions** — batch numbering (CI-GAP-022), DR input naming (CI-GAP-023)
-6. **Alex executes prompts** in Perplexity Pro between D3 and D4
+The 4-session arc (D1-D4) may collapse to 3 sessions (D1-D3) since D2 absorbed D3's prompt work. The next session is effectively D4 content — ingestion + publication-ready.
 
 ---
 

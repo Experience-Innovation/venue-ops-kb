@@ -4,13 +4,13 @@ note_type: domain
 domain: "commercial-and-revenue"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Revenue generation through naming rights, sponsorship, premium sales, yield management, and commercial partnerships. This domain covers the strategies and operations that maximize venue revenue beyond core ticket sales and event hosting fees."
 venue_types:
   - all
 vef_alignment:
   - operational-efficiency-productivity-creativity
-node_count: 6
+node_count: 8
 tags:
   - domain
   - venue-ops

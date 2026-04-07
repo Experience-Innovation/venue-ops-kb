@@ -4,13 +4,13 @@ note_type: domain
 domain: "premium-and-vip"
 status: draft
 created: 2026-04-04
-updated: 2026-04-04
+updated: 2026-04-06
 description: "Suites, clubs, hospitality spaces, premium F&B, and VIP services that deliver elevated experiences and disproportionate revenue per guest. This domain covers the design, operation, and service delivery of premium venue products."
 venue_types:
   - all
 vef_alignment:
   - guest-experience
-node_count: 6
+node_count: 8
 tags:
   - domain
   - venue-ops

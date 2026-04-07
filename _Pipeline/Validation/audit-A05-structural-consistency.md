@@ -1,12 +1,10 @@
 ---
-audit_id: A-05
-audit_name: Peer-Review-Style Structural Consistency (domains M-T)
-session: S19
-date: 2026-04-06
-phase: Audit execution + report
-category: consistency
+title: "Audit A-05: Peer-Review-Style Structural Consistency (Domains M-T)"
 audit_outcome: CONDITIONAL PASS (vault average 85/100 editorial consistency; safety-and-risk at 72/100 requires remediation)
-initiative: "Academic Rigor Initiative Phase B.5"
+lifecycle: active
+created: 2026-04-06
+scope: "87 concept notes across 12 active domains (M-T) — description length, section headings, relationship density, source count, body length"
+methodology: "Per-domain metrics collection with cross-domain comparison against flagging thresholds for structural variance"
 ---
 
 # Audit A-05: Peer-Review-Style Structural Consistency

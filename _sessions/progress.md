@@ -1,9 +1,40 @@
+---
+type: progress-log
+lifecycle: active
+created: 2026-04-04
+---
+
 # VEP KB Processing — Progress
 
 ## Current Phase
-**Phase D in progress.** D1 CI Audit complete (2026-04-06). 34 findings cataloged (0 CRITICAL, 10 HIGH, 14 MEDIUM, 10 LOW), 4 resolved inline. Next: D2 (technical remediation + publication infrastructure) → D3 (DR prompt design) → D4 (final ingestion + publication-ready).
+**Phase D in progress.** D2 Technical Remediation complete (2026-04-06). 22 of 34 CI gaps resolved. D2 gate cleared — all 14 criteria met. Next: D3 (DR prompt design) → D4 (final ingestion + publication-ready).
 
 ## Session History
+
+### Session D2 — 2026-04-06 (Phase D, Session 2 — Technical Remediation + Publication Infrastructure)
+**Machine:** MacBook Air (bubblegumpshrimpco)
+**Branch:** session-d2/remediation (git worktree)
+**Focus:** Schema v3.0, template alignment, publication infrastructure, rule updates, METHODOLOGY v2.0, frontmatter backfill
+
+**Deliverables:**
+- [x] SCHEMA.yaml v2.0 → v3.0 (governance artifact schema, children: for domain, session:/source_session: convention)
+- [x] VOCABULARY.yaml v2.0 → v3.0 (governance_type, lifecycle, audit_outcome vocabularies)
+- [x] All 8 templates schema-aligned (related: → related_to:, Map expanded, Source simplified, ai_disclosure aligned)
+- [x] Audit report template created (.claude/rules/audit-report-template.md)
+- [x] LICENSE file created (CC BY-SA 4.0 International)
+- [x] Folders 02-05 created with .gitkeep
+- [x] validation-rules.md v2.0 → v2.1 (field-name validation Rule #35)
+- [x] ingestion-rules.md v2.1 → v3.0 (optional field annotation guidance)
+- [x] METHODOLOGY.md v1.0 → v2.0 (S17-S21 findings, v1.0.0 statistics, coverage depth, all-draft transparency)
+- [x] 19 session files backfilled with frontmatter (10 new + 7 type: field added + 2 verified)
+- [x] 8 audit reports standardized to canonical A-06/A-07 frontmatter pattern
+- [x] CI gap register: 22 items resolved (10 HIGH, 7 MEDIUM, 5 LOW)
+- [x] CI improvement register: all D2 items + 6 pulled-forward D3 items marked DONE
+- [x] Roadmap v1.5 D2 gate criteria: 14/14 cleared
+
+**CI gap status post-D2:** 26 resolved, 8 open (7 D3, 1 D4). Zero HIGH remaining.
+
+---
 
 ### Session D1 — 2026-04-06 (Phase D, Session 1 — CI Audit + Gap Analysis)
 **Machine:** MacBook Air (bubblegumpshrimpco)

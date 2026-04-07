@@ -1,4 +1,5 @@
 ---
+type: handoff
 title: "Session 16 Handoff — Academic Rigor Initiative Phase B.5 Session 1"
 session: S16
 date: 2026-04-05

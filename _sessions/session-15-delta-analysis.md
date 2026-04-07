@@ -1,3 +1,10 @@
+---
+type: delta-analysis
+lifecycle: superseded
+created: 2026-04-05
+session: S15
+---
+
 # Session 15 — Delta Analysis (Full)
 **Date:** 2026-04-05
 **Machine:** MacBook Air (bubblegumpshrimpco)

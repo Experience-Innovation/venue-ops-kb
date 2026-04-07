@@ -1,4 +1,5 @@
 ---
+type: operational-plan
 title: "Session 18 Operational Plan — CI / Enrichment Cycle"
 session: S18
 date: 2026-04-05

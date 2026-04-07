@@ -16,8 +16,8 @@ tags:
 url: ""
 headquarters: ""
 key_programs: []
-related: []
-ai_disclosure: "Generated through Human/AI collaboration using Claude. Sources verified. Human accountability: Alex Jackson, Experience Innovation Inc."
+related_to: []
+ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 
 # {Organization Name}

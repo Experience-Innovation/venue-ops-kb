@@ -1,3 +1,10 @@
+---
+type: discovery-manifest
+lifecycle: active
+created: 2026-04-04
+session: S12
+---
+
 # VEP KB — Discovery Manifest
 **Date:** 2026-04-04
 **Session:** 11 (Discovery & Workspace Setup)

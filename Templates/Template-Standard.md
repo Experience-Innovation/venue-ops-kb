@@ -19,8 +19,8 @@ tags:
 compliance_type: "{mandatory|voluntary|best-practice}"
 jurisdiction:
   - "{US|Canada|international}"
-related: []
-ai_disclosure: "Generated through Human/AI collaboration using Claude. Sources verified. Human accountability: Alex Jackson, Experience Innovation Inc."
+related_to: []
+ai_disclosure: "Extracted by Claude (Anthropic) from deep research output. Human-reviewed by Alex Jackson, Experience Innovation Inc. Full methodology: VEP-KB-Data-Science-Methodology_v1.0.md"
 ---
 
 # {Standard Name} ({Standard ID})

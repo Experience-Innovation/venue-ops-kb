@@ -1,7 +1,7 @@
 # Research Ingestion Rules
-**Version:** 2.1 (Session D1 — added Step 5b wikilink integrity check; S19 single-source flag retained from S19 inline edit)
-**Previous:** 2.0 (Session 10 — aligned with 26-domain taxonomy, Q3-Q5 methodology, GLRC transparency)
-**Reference:** VEP-KB-Data-Science-Methodology_v1.0.md, VOCABULARY.yaml, SCHEMA.yaml
+**Version:** 3.0 (Session D2 — added optional field annotation guidance, updated references to SCHEMA.yaml v3.0 + VOCABULARY.yaml v3.0)
+**Previous:** 2.1 (Session D1 — added Step 5b wikilink integrity check; S19 single-source flag)
+**Reference:** VEP-KB-Data-Science-Methodology_v1.0.md, VOCABULARY.yaml v3.0, SCHEMA.yaml v3.0
 
 ## Five-Stage Intake Pipeline
 
@@ -118,6 +118,18 @@ Before creating any note, check if a note with the same concept already exists:
 - Pricing or commercial terms for specific products
 - Personal opinions from research authors (unless attributed as expert perspective)
 - Any reference to Vivid Array, EXi clients, or EXi internal operations
+
+## Optional Cross-Cutting Field Annotation Guidance (NEW v3.0, CI-GAP-029)
+
+Three optional cross-cutting dimension fields have specific population criteria. Empty is an acceptable state when the field is not applicable — do not force-populate.
+
+| Field | When to Populate | When Empty is Acceptable |
+|-------|-----------------|--------------------------|
+| `venue_scale` | When the concept's operational behavior, cost structure, or staffing model materially differs by venue size (e.g., crowd management approaches differ at 5K vs 50K capacity) | When the concept applies uniformly regardless of venue size |
+| `delivery_model` | When the staffing or operational model (in-house, outsourced, hybrid) materially affects how the concept is implemented (e.g., F&B outsourcing changes management structure) | When the concept applies regardless of who delivers the service |
+| `jurisdiction` | When regulatory requirements, licensing, or legal compliance varies by geography (e.g., liquor licensing differs US vs Canada) | When the concept is operationally consistent across jurisdictions |
+
+**Rationale:** D1 audit found these fields underutilized (venue_scale 40%, delivery_model 20%, jurisdiction 10%). Under-population is not a defect when the concept genuinely applies uniformly — but practitioners benefit when venue-scale-dependent or jurisdiction-dependent variations are explicitly surfaced. Annotate when the variation matters to the reader.
 
 ## GLRC Provenance Requirements
 

@@ -1,12 +1,10 @@
 ---
-audit_id: A-01
-audit_name: Provenance Chain Completeness
-session: S16
-date: 2026-04-05
-phase: Phase 3
-category: provenance
+title: "Audit A-01: Provenance Chain Completeness"
 audit_outcome: PASS
-initiative: "Academic Rigor Initiative Phase B.5"
+lifecycle: active
+created: 2026-04-05
+scope: "All vault notes — ai_disclosure, extraction_model, research_batch field presence across 01_Domains/ and 06_Sources/"
+methodology: "Automated Grep scans for required provenance fields across all vault notes"
 ---
 
 # Audit A-01: Provenance Chain Completeness

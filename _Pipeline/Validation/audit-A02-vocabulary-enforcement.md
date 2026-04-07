@@ -1,12 +1,10 @@
 ---
-audit_id: A-02
-audit_name: Controlled Vocabulary Strict Enforcement
-session: S16
-date: 2026-04-05
-phase: Phase 4
-category: vocabulary
+title: "Audit A-02: Controlled Vocabulary Strict Enforcement"
 audit_outcome: PASS (with 3 LOW-severity findings on governance-artifact conventions)
-initiative: "Academic Rigor Initiative Phase B.5"
+lifecycle: active
+created: 2026-04-05
+scope: "All vault notes — note_type, status, domain, extraction_model controlled fields validated against VOCABULARY.yaml v2.0"
+methodology: "Systematic field-value validation of all controlled-vocabulary frontmatter fields across 455 notes"
 ---
 
 # Audit A-02: Controlled Vocabulary Strict Enforcement

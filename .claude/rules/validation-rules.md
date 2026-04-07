@@ -1,6 +1,7 @@
 # Validation Rules
-**Version:** 2.0 (Session 10 — aligned with 26-domain taxonomy, Q3-Q5 methodology, GLRC transparency)
-**Reference:** VEP-KB-Data-Science-Methodology_v1.0.md, VOCABULARY.yaml, SCHEMA.yaml
+**Version:** 2.1 (Session D2 — added field-name validation rule #35, updated SCHEMA.yaml reference to v3.0)
+**Previous:** 2.0 (Session 10 — aligned with 26-domain taxonomy, Q3-Q5 methodology, GLRC transparency)
+**Reference:** VEP-KB-Data-Science-Methodology_v1.0.md, VOCABULARY.yaml v3.0, SCHEMA.yaml v3.0
 
 ## Pre-Write Validation (MUST pass before any note is written to vault)
 
@@ -44,6 +45,9 @@
 29. "Operational Excellence" is permitted as standard industry terminology (Decision #45, Session 14). The restriction applies ONLY in CS/BMO Centre engagement context (VEP-Client repo). No scan required in this KB.
 30. No occurrence of "Vivid Array" or Vivid-related terms
 31. No occurrence of old domain slugs (core-operations, emergency-management-and-life-safety, it-and-av-infrastructure, premium-and-vip-operations, data-systems-intelligence, supply-chain-logistics)
+
+### Field-Name Validation (NEW v2.1, CI-GAP-007)
+35. All frontmatter field keys on content notes must exist in SCHEMA.yaml for the note's declared `note_type`: either in `universal.required`, `universal.optional`, `{note_type}.required`, or `{note_type}.optional`. Any key not present in SCHEMA.yaml for that type is a validation failure. This rule mechanically enforces what Rule #3 describes semantically — preventing field-name drift (e.g., `children` appearing on a type where only `parent_of` is defined, or `related` appearing instead of `related_to`).
 
 ### Link Integrity Check
 32. Every wikilink in frontmatter points to a note that exists OR is being created in this batch

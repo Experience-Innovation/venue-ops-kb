@@ -1,16 +1,39 @@
 # Venue Operations KB — Frontmatter Schema
-# Version: 2.0 (updated Session 10 — 26 domains, relationship types, cross-cutting dimensions, GLRC transparency)
-# Defines required and optional properties per note_type.
-# Claude Code: validate every note against this schema before writing.
-# Reference: VEP-KB-Data-Science-Methodology_v1.0.md, VOCABULARY.yaml
+# Version: 3.0 (Session D2 — governance artifact schema, children: accepted for domain,
+#   session:/source_session: convention, S16-S21 refinements incorporated)
+# Previous: 2.0 (Session 10 — 26 domains, relationship types, cross-cutting dimensions, GLRC transparency)
+# Defines required and optional properties per note_type AND governance artifact type.
+# Claude Code: validate every content note against this schema before writing.
+# Reference: VEP-KB-Data-Science-Methodology_v1.0.md, VOCABULARY.yaml, CLAUDE.md v2.1
 
 # ============================================================
-# UNIVERSAL (all note types)
+# CHANGELOG
+# ============================================================
+# v3.0 (D2, 2026-04-06):
+#   - Domain type: parent_of → children (aligning schema to 10-month practice;
+#     26 domain notes + template + 27 MOCs all use children:. D1 Decision #2.)
+#   - Added governance_artifacts section with schema for 10 governance types
+#   - Codified session: vs source_session: convention for governance artifacts
+#   - Added lifecycle and audit_outcome field definitions (CLAUDE.md v2.1 §Frontmatter)
+#   - Incorporated S16-S21 refinements: single-source flag, bibliographic field
+#     significance, frontmatter field family separation (status/lifecycle/audit_outcome)
+# v2.0 (S10, 2026-04-03):
+#   - Initial schema — 26 domains, 7 relationship types, cross-cutting dimensions, GLRC
+
+# ============================================================
+# CONTENT NOTE SCHEMA
+# ============================================================
+# Applies to notes with a note_type field (domain, concept, standard,
+# technology, organization, person, source, map).
+# These notes use status: (draft/reviewed/canonical/archived).
+
+# ============================================================
+# UNIVERSAL (all content note types)
 # ============================================================
 universal:
   required:
     - title           # text
-    - note_type       # text (from VOCABULARY.yaml)
+    - note_type       # text (from VOCABULARY.yaml note_type list)
     - status          # text: draft | reviewed | canonical | archived
     - created         # date (YYYY-MM-DD)
     - updated         # date (YYYY-MM-DD)
@@ -35,7 +58,10 @@ domain:
     - vef_alignment   # list (from VOCABULARY.yaml vef_alignment list)
     - node_count      # number — how many concept notes exist under this domain
   optional:
-    - parent_of       # list of wikilinks — child concept notes (Decision #31)
+    - children        # list of wikilinks — child concept notes
+                      # v3.0: accepted as canonical field name for domain type,
+                      # aligning schema to practice (D1 Decision #2). Both domain
+                      # and map types now use children: for containment lists.
     - child_of        # wikilink — parent domain if subdomain
     - cross_domain    # list of wikilinks to related domains
     - key_standards   # list of wikilinks to relevant standards
@@ -155,7 +181,7 @@ source:
     - accessed        # date — when this was accessed/cited
     - description     # text — what this source covers
   optional:
-    - author          # text or list
+    - author          # text or list — de facto required per DELTA-004 (S18)
     - publication     # text — journal, magazine, organization
     - publish_date    # date
     - citation_count  # number — how many notes cite this source
@@ -173,3 +199,152 @@ map:
   optional:
     - domains         # list
     - visualization   # text — description of intended visual
+
+# ============================================================
+# GOVERNANCE ARTIFACT SCHEMA (NEW v3.0)
+# ============================================================
+# Applies to session governance files, audit reports, and project-level
+# documents that do NOT carry a note_type field.
+#
+# Key distinctions from content notes (CLAUDE.md v2.1 §Frontmatter):
+#   - Use lifecycle: (not status:) — values: draft | active | superseded | archived
+#   - Audit reports additionally carry audit_outcome: PASS | FAIL | CONDITIONAL | DEFERRED
+#   - Use type: (from VOCABULARY.yaml governance_type list) instead of note_type:
+#
+# Session convention (CI-GAP-021, D1 Decision):
+#   - session:        — for single-session artifacts (handoffs, retros, op-plans)
+#   - source_session: — for multi-session or cross-session artifacts (roadmaps, backlogs, templates)
+
+governance_artifacts:
+
+  # ----------------------------------------------------------
+  # UNIVERSAL GOVERNANCE FIELDS (all governance artifact types)
+  # ----------------------------------------------------------
+  universal:
+    required:
+      - type            # text (from VOCABULARY.yaml governance_type list)
+      - lifecycle       # text: draft | active | superseded | archived
+      - created         # date (YYYY-MM-DD)
+    optional:
+      - title           # text — descriptive title (required for audit reports)
+      - updated         # date (YYYY-MM-DD)
+      - purpose         # text — what this artifact is for
+
+  # ----------------------------------------------------------
+  # HANDOFF — Session close-out document
+  # ----------------------------------------------------------
+  handoff:
+    required:
+      - session         # text — session identifier (e.g., "D1", "S20")
+    optional:
+      - successor_session  # text — next session identifier
+      - machine         # text — which machine produced this
+      - branch          # text — git branch name
+
+  # ----------------------------------------------------------
+  # RETROSPECTIVE — Session retrospective
+  # ----------------------------------------------------------
+  retrospective:
+    required:
+      - session         # text
+    optional:
+      - reviewer        # text — human reviewer
+      - operator        # text — AI operator
+      - initiative      # text — parent initiative
+
+  # ----------------------------------------------------------
+  # OPERATIONAL-PLAN — Session execution plan
+  # ----------------------------------------------------------
+  operational-plan:
+    required:
+      - session         # text
+    optional:
+      - branch          # text
+      - machine         # text
+      - initiative      # text
+
+  # ----------------------------------------------------------
+  # PASS-FORWARD — Briefing for successor session
+  # ----------------------------------------------------------
+  pass-forward:
+    required:
+      - session         # text — originating session
+    optional:
+      - target_session  # text — intended successor
+
+  # ----------------------------------------------------------
+  # DELTA-ANALYSIS — Session delta/variance analysis
+  # ----------------------------------------------------------
+  delta-analysis:
+    required:
+      - session         # text
+    optional:
+      - scope           # text — what was compared
+
+  # ----------------------------------------------------------
+  # QA-QC-ANALYSIS — Quality review document
+  # ----------------------------------------------------------
+  qa-qc-analysis:
+    required:
+      - session         # text
+    optional:
+      - phase           # text
+      - initiative      # text
+
+  # ----------------------------------------------------------
+  # AUDIT-REPORT — Systematic quality audit
+  # ----------------------------------------------------------
+  audit-report:
+    required:
+      - title           # text — descriptive audit title
+      - audit_outcome   # text: PASS | FAIL | CONDITIONAL | DEFERRED
+    optional:
+      - scope           # text — what was audited
+      - methodology     # text — brief methodology description
+
+  # ----------------------------------------------------------
+  # INITIATIVE-ROADMAP — Multi-session project plan
+  # ----------------------------------------------------------
+  initiative-roadmap:
+    required:
+      - source_session  # text — originating session(s)
+    optional:
+      - version         # text — semantic version
+      - domain          # list — which domains this covers
+      - target_repo     # text — which repo this governs
+      - trust_tier      # text — internal | public
+
+  # ----------------------------------------------------------
+  # BACKLOG — Prioritized work items
+  # ----------------------------------------------------------
+  backlog:
+    required:
+      - source_session  # text
+    optional:
+      - authority       # text — governing document
+      - domain          # list
+
+  # ----------------------------------------------------------
+  # TEMPLATE — Reusable document template
+  # ----------------------------------------------------------
+  template:
+    required:
+      - source_session  # text
+    optional:
+      - purpose         # text — what this template is for
+
+  # ----------------------------------------------------------
+  # PROGRESS-LOG — Running session history
+  # ----------------------------------------------------------
+  progress-log:
+    required: []        # minimal — just universal fields
+    optional:
+      - session         # text — current session
+
+  # ----------------------------------------------------------
+  # DISCOVERY-MANIFEST — Research source inventory
+  # ----------------------------------------------------------
+  discovery-manifest:
+    required: []        # minimal — just universal fields
+    optional:
+      - session         # text — session that created it

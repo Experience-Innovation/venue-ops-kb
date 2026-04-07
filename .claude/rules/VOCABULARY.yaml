@@ -1,8 +1,9 @@
 # Venue Operations KB — Controlled Vocabulary
-# Version: 2.0 (updated Session 10 — 26-domain taxonomy, Q3-Q5 alignment, GLRC transparency)
+# Version: 3.0 (Session D2 — added governance_type controlled vocabulary, lifecycle, audit_outcome)
+# Previous: 2.0 (Session 10 — 26-domain taxonomy, Q3-Q5 alignment, GLRC transparency)
 # All notes MUST use values from these lists for controlled fields.
 # Claude Code: validate against this file before writing any note.
-# Reference: VEP-KB-Data-Science-Methodology_v1.0.md
+# Reference: VEP-KB-Data-Science-Methodology_v1.0.md, SCHEMA.yaml v3.0
 
 note_type:
   - domain          # Domain overview (26 total — Decision #30)
@@ -186,3 +187,44 @@ extraction_model:
   - perplexity-pro-dr
   - gemini-3-pro-dr
   - human-authored
+
+# ============================================================
+# GOVERNANCE ARTIFACT TYPES (NEW v3.0, CI-GAP-015)
+# Used in type: field on governance artifacts (not content notes).
+# These documents use lifecycle: instead of status:.
+# Reference: SCHEMA.yaml v3.0 governance_artifacts section
+# ============================================================
+governance_type:
+  - handoff               # Session close-out document
+  - retrospective         # Session retrospective
+  - operational-plan      # Session execution plan
+  - pass-forward          # Briefing for successor session
+  - delta-analysis        # Session delta/variance analysis
+  - qa-qc-analysis        # Quality review document
+  - audit-report          # Systematic quality audit
+  - initiative-roadmap    # Multi-session project plan
+  - backlog               # Prioritized work items
+  - template              # Reusable document template
+  - progress-log          # Running session history
+  - discovery-manifest    # Research source inventory
+
+# ============================================================
+# GOVERNANCE LIFECYCLE (NEW v3.0, CLAUDE.md v2.1 §Frontmatter)
+# Used in lifecycle: field on governance artifacts.
+# Distinct from status: which applies to content notes only.
+# ============================================================
+lifecycle:
+  - draft                 # In-progress, not yet finalized
+  - active                # Current and authoritative
+  - superseded            # Replaced by a newer version
+  - archived              # Retained for history, no longer active
+
+# ============================================================
+# AUDIT OUTCOME (NEW v3.0, CLAUDE.md v2.1 §Frontmatter)
+# Used in audit_outcome: field on audit reports only.
+# ============================================================
+audit_outcome:
+  - PASS                  # All checks passed
+  - FAIL                  # Critical issues found
+  - CONDITIONAL           # Passed with conditions or caveats
+  - DEFERRED              # Audit deferred to future session

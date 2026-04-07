@@ -1,3 +1,10 @@
+---
+type: retrospective
+lifecycle: superseded
+created: 2026-04-05
+session: S15
+---
+
 # Session 15 — Retrospective
 **Date:** 2026-04-05
 **Session:** 15 (batch-09 + batch-10 + S14 remediation)

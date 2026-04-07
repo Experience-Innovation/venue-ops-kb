@@ -1,4 +1,5 @@
 ---
+type: retrospective
 title: "Session 16 Retro — Academic Rigor Initiative Phase B.5 Session 1"
 session: S16
 date: 2026-04-05

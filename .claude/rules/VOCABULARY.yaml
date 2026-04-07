@@ -178,6 +178,7 @@ research_batch:
   - dr-d2-r22-university-small-venue  # University venue ops, small/mid-scale models, scale-dependent differences
   - dr-d2-r23-emerging-venue-types    # Sphere, eSports, experiential, heritage, temporary, retractable/convertible
   - dr-d2-r24-legal-liability         # Premises liability, contract law, dram shop, employment law, privacy, ADA litigation, IP
+  - dr-d2-r25-standards-certification # ISO management systems, COR, ANSI/ASIS, security standards, international equivalents
 
 vef_alignment:
   # Core Outcomes

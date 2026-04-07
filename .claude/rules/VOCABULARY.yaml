@@ -173,6 +173,11 @@ research_batch:
   - dr-d2-r17-marketing-digital       # CRM, social media, email compliance, brand partnerships, signage
   - dr-d2-r18-technology-refresh      # AI/ML, network infra, IoT, cybersecurity, digital twin, EV charging
   - dr-d2-r19-parking-enrichment      # Independent source enrichment for medium-confidence parking concepts
+  - dr-d2-r20-innovation-future       # Innovation, AI, immersive tech, predictive ops, fan engagement evolution
+  - dr-d2-r21-community-government    # Venue-community integration, government relations, economic impact, Indigenous consultation
+  - dr-d2-r22-university-small-venue  # University venue ops, small/mid-scale models, scale-dependent differences
+  - dr-d2-r23-emerging-venue-types    # Sphere, eSports, experiential, heritage, temporary, retractable/convertible
+  - dr-d2-r24-legal-liability         # Premises liability, contract law, dram shop, employment law, privacy, ADA litigation, IP
 
 vef_alignment:
   # Core Outcomes

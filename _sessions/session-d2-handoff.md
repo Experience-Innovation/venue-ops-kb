@@ -61,6 +61,25 @@ successor_session: D3
 | Session artifacts (partial frontmatter) | 7 | type: field added |
 | Audit reports (A-01–A-05, Phase8, S18) | 8 | Migrated to canonical A-06/A-07 pattern |
 
+### Files Created — DR Prompts (14, scope acceleration from D3)
+
+| File | Location | Prompt ID | Priority |
+|------|----------|:---------:|:--------:|
+| dr-prompt-R-11-venue-workforce-labor.md | _Pipeline/Processing/ | R-11 | HIGH |
+| dr-prompt-R-12-venue-logistics-warehouse.md | _Pipeline/Processing/ | R-12 | HIGH |
+| dr-prompt-R-13-venue-financial-management.md | _Pipeline/Processing/ | R-13 | HIGH |
+| dr-prompt-R-14-crowd-management-flow.md | _Pipeline/Processing/ | R-14 | MEDIUM |
+| dr-prompt-R-15-supply-chain-procurement.md | _Pipeline/Processing/ | R-15 | MEDIUM |
+| dr-prompt-R-16-guest-experience-design.md | _Pipeline/Processing/ | R-16 | MEDIUM |
+| dr-prompt-R-17-venue-marketing-digital.md | _Pipeline/Processing/ | R-17 | MEDIUM |
+| dr-prompt-R-18-technology-digital-refresh.md | _Pipeline/Processing/ | R-18 | LOW |
+| dr-prompt-R-19-parking-transportation-enrichment.md | _Pipeline/Processing/ | R-19 | LOW |
+| dr-prompt-R-20-innovation-future-venue-experience.md | _Pipeline/Processing/ | R-20 | HIGH |
+| dr-prompt-R-21-venue-community-government-relations.md | _Pipeline/Processing/ | R-21 | HIGH |
+| dr-prompt-R-22-university-small-venue-operations.md | _Pipeline/Processing/ | R-22 | MEDIUM |
+| dr-prompt-R-23-emerging-venue-types.md | _Pipeline/Processing/ | R-23 | MEDIUM |
+| dr-prompt-R-24-venue-legal-liability-compliance.md | _Pipeline/Processing/ | R-24 | HIGH |
+
 ### Files Deleted (0)
 
 ---

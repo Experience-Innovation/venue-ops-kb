@@ -177,6 +177,18 @@ These are topics where the existing corpus has clear gaps that cannot be filled 
 | R-18 | **Venue technology and digital transformation (2026 refresh)** — AI/ML applications, IoT sensor networks, cybersecurity convergence, digital twin implementations, EV charging infrastructure, 5G/WiFi 6E | technology-and-digital | Domain likely stale by v1.1; fastest-evolving content |
 | R-19 | **Venue parking and transportation innovation** — TNC/ride-share zone management, autonomous vehicle staging, dynamic parking pricing, multimodal transit integration, curb management | parking-and-transportation | Highest medium-confidence concentration; 4/10 vendor-sourced |
 
+### 4.4 D2 Gap Analysis — Ecosystem Coverage Expansion (NEW, added D2)
+
+Identified through comprehensive knowledge engineer gap analysis during D2. These prompts address structural blind spots in the KB's coverage of the venue operations ecosystem.
+
+| # | DR Prompt Topic | Target Domains | Gap Addressed |
+|---|----------------|----------------|---------------|
+| R-20 | **Innovation and the future of venue experience** — generative AI, immersive technology (Sphere), predictive operations, venue design innovation, fan engagement evolution, cashless/frictionless, autonomous operations | technology-and-digital, strategy-and-governance, guest-experience, av-and-production | Zero dedicated concepts on technology as strategic transformation force (vs. infrastructure) |
+| R-21 | **Venue-community integration and government relations** — economic impact measurement, municipal/provincial/state/federal engagement, venue as community asset, venue district planning, Indigenous consultation (UNDRIP/TRC) | strategy-and-governance, financial-operations, legal-compliance-and-licensing | 1 concept (Community-Benefit-Agreements) for a domain-spanning topic affecting every public venue |
+| R-22 | **University venue operations and small/mid-scale venue management** — dual governance, NCAA compliance, student workforce, small venue staffing/budget models, multi-venue campus, community PACs, scale-dependent regulatory differences | strategy-and-governance, people-and-culture, facilities-and-building-systems, event-operations | 1 university-venue mention across 207 concepts; venue_scale at 19% population; implicit large/mega bias |
+| R-23 | **Emerging and specialty venue types** — MSG Sphere operational model, eSports arenas, experiential entertainment (Meow Wolf/teamLab), heritage/historic venues, temporary/pop-up infrastructure, dome/retractable roof operations, multi-format venues | technology-and-digital, guest-experience, event-operations, facilities-and-building-systems | Zero coverage of next-generation venue formats reshaping the industry |
+| R-24 | **Venue legal liability and regulatory compliance** — premises liability/duty of care, event contract liability, dram shop/alcohol liability, employment law, privacy law (CCPA/BIPA/PIPEDA), ADA litigation, intellectual property, environmental/cybersecurity compliance | legal-compliance-and-licensing, safety-and-risk, strategy-and-governance | No concept covers foundational venue operator liability; KB has licensing mechanics but not legal risk framework |
+
 ### 4.4 DR Prompt Specifications
 
 All prompts should follow the DR prompt template v1.0 (created S19, validated S20):
@@ -212,9 +224,12 @@ Domains where medium/low concentration is highest — priority for source enrich
 | HIGH-priority DR prompts recommended | 3 (R-11, R-12, R-13) |
 | MEDIUM-priority DR prompts recommended | 4 (R-14 through R-17) |
 | LOW-priority DR prompts recommended | 2 (R-18, R-19) |
+| Ecosystem expansion prompts (D2 gap analysis) | 5 (R-20 through R-24) |
+| **Total DR prompts authored** | **14 (R-11 through R-24)** |
 | Non-concept notes extractable from existing corpus | 70-120 |
-| Estimated total new notes from Phase E (all tracks) | 200-350 |
-| Estimated sessions for Phase E (all tracks) | 6-10 |
+| Estimated total new notes from all DR prompts | 85-135 concepts, 270-390 sources |
+| Estimated total new notes from Phase E (all tracks) | 350-550 |
+| Estimated sessions for Phase E (all tracks) | 8-14 |
 
 ---
 
